@@ -16,6 +16,18 @@
     "minecraft:rose_bush",
     "minecraft:wither_rose",
     "minecraft:sunflower",
-    "minecraft:peony"
+    "minecraft:peony",
+	"#tfc:makes_white_dye",
+    "#tfc:makes_light_gray_dye",
+    "#tfc:makes_red_dye",
+    "#tfc:makes_orange_dye",
+    "#tfc:makes_yellow_dye",
+    "#tfc:makes_lime_dye",
+    "#tfc:makes_green_dye",
+    "#tfc:makes_blue_dye",
+    "#tfc:makes_light_blue_dye",
+    "#tfc:makes_purple_dye",
+    "#tfc:makes_magenta_dye",
+    "#tfc:makes_pink_dye"
   ]
 }
