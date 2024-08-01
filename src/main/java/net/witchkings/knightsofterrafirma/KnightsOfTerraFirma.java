@@ -15,7 +15,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.witchkings.knightsofterrafirma.misc.CreativeTab;
-import net.witchkings.knightsofterrafirma.mixin.ModItemTierMixin;
+
 import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Mixins;
 
@@ -30,9 +30,6 @@ public class KnightsOfTerraFirma {
 
     public KnightsOfTerraFirma() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        Mixins.addConfiguration("knightsofterrafirma.mixins.json");
-        ModItemTier copper = ModItemTier.COPPER;
-        System.out.println("Copper uses: " + copper.getUses());
         CreativeTab.register(modEventBus);
         ModdedItems.register(modEventBus);
         // Register the commonSetup method for modloading
