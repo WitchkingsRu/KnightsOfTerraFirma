@@ -1,0 +1,13 @@
+{
+    "ingredient": [
+        {
+          "item": "magistuarmory:gambeson_boots"
+        },
+        {
+          "item": "magistuarmory:chainmail_boots"
+        }
+    ],
+    "piercing": 1,
+    "slashing": 4,
+    "crushing": 0
+}

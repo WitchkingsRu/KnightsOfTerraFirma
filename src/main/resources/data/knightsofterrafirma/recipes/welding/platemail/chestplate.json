@@ -1,0 +1,14 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "magistuarmory:chainmail_chestplate"
+    },
+    "second_input": {
+        "item": "tfc:metal/sheet/steel"
+    },
+    "tier": 3,
+    "result": {
+        "item": "magistuarmory:platemail_chestplate"
+    },
+    "combine_forging_bonus": false
+}

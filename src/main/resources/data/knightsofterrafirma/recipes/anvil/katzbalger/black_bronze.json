@@ -1,0 +1,19 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword/black_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_katzbalger",
+        "nbt": {
+
+        },
+    },
+    "tier": 2,
+    "rules": [
+        "bend_any",
+        "hit_second_last",
+        "upset_any"
+    ],
+    "apply_forging_bonus": true
+}

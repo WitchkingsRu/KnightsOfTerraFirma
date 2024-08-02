@@ -1,0 +1,38 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "  S",
+        " T ",
+        "P  "
+    ],
+    "key": {
+        "S": {
+            "item": "magistuarmory:bronze_stylet"
+        },
+        "T": {
+            "item": "tfc:metal/rod/bronze"
+        }, 
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:bronze_ahlspiess",
+            "nbt": {
+                "Enchantments": [
+                    {
+                        "id": "unbreaking",
+                        "lvl": 6
+                    }
+                ],
+                "HideFlags": 1
+            }
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 2
+}

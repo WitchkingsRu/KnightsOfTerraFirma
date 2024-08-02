@@ -1,0 +1,37 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "KJ ",
+        "P  "
+    ],
+    "key": {
+        "K": {
+            "item": "tfc:metal/knife_blade/wrought_iron"
+        },
+        "J": {
+            "item": "tfc:metal/javelin_head/wrought_iron"
+        }, 
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:iron_guisarme",
+            "nbt": {
+                "Enchantments": [
+                    {
+                        "id": "unbreaking",
+                        "lvl": 8
+                    }
+                ],
+                "HideFlags": 1
+            }
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 0
+}

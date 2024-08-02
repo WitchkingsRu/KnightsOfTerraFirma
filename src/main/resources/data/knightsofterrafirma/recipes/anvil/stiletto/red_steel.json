@@ -1,0 +1,19 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/knife/red_steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:red_steel_stiletto",
+        "nbt": {
+
+        }
+    },
+    "tier": 5,
+    "rules": [
+        "draw_third_last",
+        "hit_second_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": true
+}

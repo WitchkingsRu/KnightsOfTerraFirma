@@ -1,0 +1,12 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "magistuarmory:bronze_chivalrylance"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/bronze",
+    "amount": 500
+  },
+  "temperature": 950,
+  "use_durability": true
+}

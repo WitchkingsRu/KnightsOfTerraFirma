@@ -1,0 +1,23 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/sword/wrought_iron"
+    },
+    "second_input": {
+        "item": "tfc:metal/sword_blade/wrought_iron"
+    },
+    "tier": 2,
+    "result": {
+        "item": "magistuarmory:iron_claymore",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "unbreaking",
+                    "lvl": 8
+                }
+            ],
+            "HideFlags": 1
+        }
+    },
+    "combine_forging_bonus": true
+}

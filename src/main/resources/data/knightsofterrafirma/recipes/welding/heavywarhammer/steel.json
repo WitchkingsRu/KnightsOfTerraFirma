@@ -1,0 +1,23 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/hammer/steel"
+    },
+    "second_input": {
+        "item": "tfc:metal/mace_head/steel"
+    },
+    "tier": 3,
+    "result": {
+        "item": "magistuarmory:steel_heavywarhammer",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "unbreaking",
+                    "lvl": 7
+                }
+            ],
+            "HideFlags": 1
+        }
+    },
+    "combine_forging_bonus": true
+}

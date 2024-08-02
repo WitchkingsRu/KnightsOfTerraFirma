@@ -1,0 +1,19 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword/steel"
+    },
+    "result": {
+        "item": "magistuarmory:steel_katzbalger",
+        "nbt": {
+
+        },
+    },
+    "tier": 4,
+    "rules": [
+        "bend_any",
+        "hit_second_last",
+        "upset_any"
+    ],
+    "apply_forging_bonus": true
+}

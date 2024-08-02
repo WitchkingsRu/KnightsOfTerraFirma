@@ -1,0 +1,15 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "magistuarmory:silver_heavymace"
+  },
+  "result_item": {
+    "item": "magistuarmory:iron_heavymace"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/silver",
+    "amount": 200
+  },
+  "temperature": 961,
+  "use_durability": true
+}

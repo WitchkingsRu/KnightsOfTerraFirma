@@ -1,0 +1,23 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/hammer/copper"
+    },
+    "second_input": {
+        "item": "tfc:metal/mace_head/copper"
+    },
+    "tier": 0,
+    "result": {
+        "item": "magistuarmory:copper_heavywarhammer",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "unbreaking",
+                    "lvl": 3
+                }
+            ],
+            "HideFlags": 1
+        }
+    },
+    "combine_forging_bonus": true
+}

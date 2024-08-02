@@ -1,0 +1,13 @@
+{
+    "ingredient": [
+        {
+          "item": "magistuarmory:gambeson_chestplate"
+        },
+        {
+            "item": "magistuarmory:pantyhose"
+        }
+    ],
+    "piercing": 0,
+    "slashing": 2,
+    "crushing": 0
+  }

@@ -1,0 +1,18 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "knightsofterrafirma:black_bronze_short_sword"
+    },
+    "second_input": {
+        "item": "tfc:metal/sword_blade/black_bronze"
+    },
+    "tier": 1,
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_bastard_sword",
+        "nbt": {
+
+        }
+    },
+    "combine_forging_bonus": true
+
+}

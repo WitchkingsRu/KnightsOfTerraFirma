@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+      "item": "tfc:metal/unfinished_chestplate/steel"
+    },
+    "second_input": {
+      "item": "tfc:metal/sheet/steel"
+    },
+    "tier": 1,
+    "result": {
+      "item": "magistuarmory:halfarmor_chestplate"
+    }
+  }

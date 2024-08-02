@@ -1,0 +1,24 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/mace/bronze"
+    },
+    "second_input": {
+        "item": "tfc:metal/mace_head/bronze"
+    },
+    "tier": 1,
+    "result": {
+        "item": "magistuarmory:bronze_heavymace",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "unbreaking",
+                    "lvl": 6
+                }
+            ],
+            "HideFlags": 1
+        }
+    },
+    "combine_forging_bonus": true
+
+}

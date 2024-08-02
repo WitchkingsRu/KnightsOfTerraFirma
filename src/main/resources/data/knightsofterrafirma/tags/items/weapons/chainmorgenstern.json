@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_chainmorgenstern",
+    "magistuarmory:bronze_chainmorgenstern",
+    "magistuarmory:iron_chainmorgenstern",
+    "magistuarmory:steel_chainmorgenstern",
+    "magistuarmory:netherite_chainmorgenstern",
+    "magistuarmory:wood_chainmorgenstern",
+    "magistuarmory:stone_chainmorgenstern",
+    "magistuarmory:gold_chainmorgenstern",
+    "magistuarmory:diamond_chainmorgenstern",
+    "magistuarmory:silver_chainmorgenstern"
+  ]
+}

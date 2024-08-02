@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_lochaberaxe",
+    "magistuarmory:bronze_lochaberaxe",
+    "magistuarmory:iron_lochaberaxe",
+    "magistuarmory:steel_lochaberaxe",
+    "magistuarmory:netherite_lochaberaxe",
+    "magistuarmory:wood_lochaberaxe",
+    "magistuarmory:stone_lochaberaxe",
+    "magistuarmory:gold_lochaberaxe",
+    "magistuarmory:diamond_lochaberaxe",
+    "magistuarmory:silver_lochaberaxe"
+  ]
+}

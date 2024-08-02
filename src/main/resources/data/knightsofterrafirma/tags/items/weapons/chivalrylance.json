@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_chivalrylance",
+    "magistuarmory:bronze_chivalrylance",
+    "magistuarmory:iron_chivalrylance",
+    "magistuarmory:steel_chivalrylance",
+    "magistuarmory:netherite_chivalrylance",
+    "magistuarmory:wood_chivalrylance",
+    "magistuarmory:stone_chivalrylance",
+    "magistuarmory:gold_chivalrylance",
+    "magistuarmory:diamond_chivalrylance",
+    "magistuarmory:silver_chivalrylance"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "magistuarmory:steel_nugget"
+    },
+    "result": {
+        "item": "magistuarmory:steel_ring"
+    },
+    "tier": 4,
+    "rules": [
+        "bend_last"
+    ],
+    "apply_forging_bonus": false
+}

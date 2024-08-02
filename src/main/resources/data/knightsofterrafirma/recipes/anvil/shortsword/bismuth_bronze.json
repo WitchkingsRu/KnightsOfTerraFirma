@@ -1,0 +1,19 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword/bismuth_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronze_short_sword",
+        "nbt": {
+
+        }
+    },
+    "tier": 2,
+    "rules": [
+        "shrink_any",
+        "punch_last",
+        "punch_not_last"
+    ],
+    "apply_forging_bonus": true
+}

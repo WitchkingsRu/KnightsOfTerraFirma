@@ -1,0 +1,19 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword/bronze"
+    },
+    "result": {
+        "item": "magistuarmory:bronze_shortsword",
+        "nbt": {
+
+        }
+    },
+    "tier": 2,
+    "rules": [
+        "shrink_any",
+        "punch_last",
+        "punch_not_last"
+    ],
+    "apply_forging_bonus": true
+}

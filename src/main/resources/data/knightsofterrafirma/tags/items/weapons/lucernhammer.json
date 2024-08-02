@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_lucernhammer",
+    "magistuarmory:bronze_lucernhammer",
+    "magistuarmory:iron_lucernhammer",
+    "magistuarmory:steel_lucernhammer",
+    "magistuarmory:netherite_lucernhammer",
+    "magistuarmory:wood_lucernhammer",
+    "magistuarmory:stone_lucernhammer",
+    "magistuarmory:gold_lucernhammer",
+    "magistuarmory:diamond_lucernhammer",
+    "magistuarmory:silver_lucernhammer"
+  ]
+}

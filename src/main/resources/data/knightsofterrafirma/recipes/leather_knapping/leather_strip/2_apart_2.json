@@ -1,0 +1,16 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "type": "tfc:knapping",
+    "knapping_type": "tfc:leather",
+    "pattern": [
+      "XXXXX",
+      "     ",
+      "     ",
+      "XXXXX"
+    ],
+    "outside_slot_required": false,
+    "result": {
+      "item": "magistuarmory:leather_strip",
+      "count": 2
+    }
+}

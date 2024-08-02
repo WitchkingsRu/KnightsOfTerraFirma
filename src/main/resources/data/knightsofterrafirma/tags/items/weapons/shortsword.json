@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_shortsword",
+    "magistuarmory:bronze_shortsword",
+    "magistuarmory:iron_shortsword",
+    "magistuarmory:steel_shortsword",
+    "magistuarmory:netherite_shortsword",
+    "magistuarmory:wood_shortsword",
+    "magistuarmory:stone_shortsword",
+    "magistuarmory:gold_shortsword",
+    "magistuarmory:diamond_shortsword",
+    "magistuarmory:silver_shortsword"
+  ]
+}

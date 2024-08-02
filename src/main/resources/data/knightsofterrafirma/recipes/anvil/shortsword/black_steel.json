@@ -1,0 +1,19 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword/black_steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_steel_short_sword",
+        "nbt": {
+
+        }
+    },
+    "tier": 5,
+    "rules": [
+        "shrink_any",
+        "punch_last",
+        "punch_not_last"
+    ],
+    "apply_forging_bonus": true
+}

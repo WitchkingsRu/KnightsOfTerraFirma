@@ -1,0 +1,18 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "magistuarmory:iron_shortsword"
+    },
+    "second_input": {
+        "item": "tfc:metal/sword_blade/wrought_iron"
+    },
+    "tier": 2,
+    "result": {
+        "item": "magistuarmory:iron_bastardsword",
+        "nbt": {
+
+        }
+    },
+    "combine_forging_bonus": true
+
+}

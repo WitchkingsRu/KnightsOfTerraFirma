@@ -1,0 +1,37 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "KJ ",
+        "P  "
+    ],
+    "key": {
+        "K": {
+            "item": "tfc:metal/knife_blade/bronze"
+        },
+        "J": {
+            "item": "tfc:metal/javelin_head/bronze"
+        }, 
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:bronze_guisarme",
+            "nbt": {
+                "Enchantments": [
+                    {
+                        "id": "unbreaking",
+                        "lvl": 6
+                    }
+                ],
+                "HideFlags": 1
+            }
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 0
+}

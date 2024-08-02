@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/blue_steel_flame_bladed_sword_blade"
+    }
+}

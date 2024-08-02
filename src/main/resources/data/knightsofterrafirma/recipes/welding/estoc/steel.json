@@ -1,0 +1,22 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "magistuarmory:steel_shortsword"
+    },
+    "second_input": {
+        "item": "tfc:metal/knife_blade/steel"
+    },
+    "tier": 3,
+    "result": {
+        "item": "magistuarmory:steel_estoc",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "unbreaking",
+                    "lvl": 7
+                }
+            ],
+            "HideFlags": 1
+        }
+    }
+}

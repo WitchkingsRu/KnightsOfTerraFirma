@@ -1,0 +1,18 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword/wrought_iron"
+    },
+    "result": {
+        "item": "magistuarmory:iron_shortsword",
+        "nbt": {
+        }
+    },
+    "tier": 3,
+    "rules": [
+        "shrink_any",
+        "punch_last",
+        "punch_not_last"
+    ],
+    "apply_forging_bonus": true
+}

@@ -1,0 +1,1 @@
+execute as @a[tag=!joined] run tfk:add_player_scoreboards

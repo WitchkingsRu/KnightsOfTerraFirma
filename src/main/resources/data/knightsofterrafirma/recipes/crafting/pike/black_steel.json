@@ -1,0 +1,38 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "  B",
+        " R ",
+        "P  "
+    ],
+    "key": {
+        "B": {
+            "item": "tfc:metal/javelin_head/black_steel"
+        },
+        "R": {
+            "tag": "forge:rods/wooden"
+        }, 
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:netherite_pike",
+            "nbt": {
+                "Enchantments": [
+                    {
+                        "id": "unbreaking",
+                        "lvl": 1
+                    }
+                ],
+                "HideFlags": 1
+            }
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 2
+}

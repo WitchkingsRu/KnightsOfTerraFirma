@@ -1,0 +1,18 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "magistuarmory:bronze_shortsword"
+    },
+    "second_input": {
+        "item": "tfc:metal/sword_blade/bronze"
+    },
+    "tier": 1,
+    "result": {
+        "item": "magistuarmory:bronze_bastardsword",
+        "nbt": {
+
+        }
+    },
+    "combine_forging_bonus": true
+
+}
