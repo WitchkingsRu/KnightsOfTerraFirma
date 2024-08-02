@@ -13,11 +13,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 import com.magistuarmory.forge.item.MedievalWeaponItemForge;
 
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Map;
 import java.util.TreeMap;
 
+import static com.magistuarmory.item.ModItemTier.*;
 import static com.magistuarmory.item.WeaponTypes.*;
 
 
@@ -30,25 +30,10 @@ public class ModdedItems {
     public static ModItemTier BLUE_STEEL = new ModItemTier("blue_steel", 4, 6500, 9.0F, 4.0F, 15, Platform.isForge() ? "forge:ingots/blue_steel" : "c:blue_steel_ingots", 5);
     public static ModItemTier RED_STEEL = new ModItemTier("red_steel", 4, 6500, 9.0F, 4.0F, 15, Platform.isForge() ? "forge:ingots/red_steel" : "c:red_steel_ingots", 5);
 
-    public class Overriding {
-        static {
-            try {
-                // Access the "uses" field in the ModItemTier enum
-                Field usesField = ModItemTier.class.getDeclaredField("uses");
-                usesField.setAccessible(true);
-
-                // Modify the "uses" value for a specific tier, e.g., ModItemTier.EXAMPLE
-                usesField.setInt(ModItemTier.COPPER, 600); // Set your desired value here
-            } catch (NoSuchFieldException | IllegalAccessException e) {
-                e.printStackTrace();
-            }
-        }
-
-    }
-
     public static RegistryObject<MedievalWeaponItemForge> BISMUTH_BRONZE_BASTARDSWORD;
-
-    public static final ArrayList<RegistryObject<MedievalWeaponItemForge>> list = new ArrayList<>();
+    public static RegistryObject<Item> BISMUTH_BRONZE_CONCAVE_HEAD = ITEMS.register("bismuth_bronze_concave_halberd_head", () -> new Item(new Item.Properties()));
+    public static final ArrayList<RegistryObject<MedievalWeaponItemForge>> listWeapons = new ArrayList<>();
+    public static final ArrayList<RegistryObject<Item>> listParts = new ArrayList<>();
 
     public static ArrayList<ModItemTier> Materials = new ArrayList<>(){{
         add(BISMUTH_BRONZE);
@@ -58,6 +43,34 @@ public class ModdedItems {
         add(RED_STEEL);
     }};
 
+    public static ArrayList<String> PartsMaterials = new ArrayList<>(){{
+        add("bismuth_bronze");
+        add("black_bronze");
+        add("bronze");
+        add("copper");
+        add("iron");
+        add("steel");
+        add("red_steel");
+        add("blue_steel");
+        add("black_steel");
+    }};
+    public static ArrayList<String> WeaponParts = new ArrayList<>() {{
+        add("stiletto_blade");
+        add("short_sword_blade");
+        add("katzbalger_blade");
+        add("ranseur_head");
+        add("ahlspiess_blade");
+        add("bastard_sword_blade");
+        add("estoc_blade");
+        add("claymore_blade");
+        add("zweihander_blade");
+        add("flame_bladed_sword_blade");
+        add("lochaber_axe_blade");
+        add("concave_halberd_head");
+        add("heavy_war_hammer_head");
+        add("lucerne_hammer_head");
+        add("guisarme_head");
+    }};
     public static TreeMap<String,WeaponType> Weapons = new TreeMap<>(){{
         put("stiletto", STILETTO);
         put("short_sword", SHORT_SWORD);
@@ -89,7 +102,16 @@ public class ModdedItems {
 
                 }
                 else {
-                    list.add(ITEMS.register(Material.getMaterialName()+"_"+Weapon.getKey(), () -> new MedievalWeaponItemForge(new Properties(), Material, Weapon.getValue())));
+                    listWeapons.add(ITEMS.register(Material.getMaterialName()+"_"+Weapon.getKey(), () -> new MedievalWeaponItemForge(new Properties(), Material, Weapon.getValue())));
+                }
+            }
+        }
+        for (String WeaponPart:WeaponParts) {
+            for (String Material:PartsMaterials) {
+                if (WeaponPart == "concave_halberd_head" && Material == "bismuth_bronze") {
+                }
+                else {
+                    listParts.add(ITEMS.register(Material+"_"+WeaponPart, ()-> new Item(new Item.Properties())));
                 }
             }
         }
