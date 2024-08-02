@@ -1,0 +1,7 @@
+{
+    "parent": "magistuarmory:item/iron_morgenstern",
+    "textures": {
+        "0": "knightsofterrafirma:item/black_bronze_morgenstern",
+        "particle": "knightsofterrafirma:item/black_bronze_morgenstern"
+    }
+}

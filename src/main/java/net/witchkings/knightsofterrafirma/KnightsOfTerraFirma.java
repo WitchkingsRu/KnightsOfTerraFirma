@@ -1,7 +1,6 @@
 package net.witchkings.knightsofterrafirma;
 
 import com.mojang.logging.LogUtils;
-import com.magistuarmory.item.ModItemTier;
 import dev.architectury.platform.Platform;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
@@ -32,6 +31,7 @@ public class KnightsOfTerraFirma {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         CreativeTab.register(modEventBus);
         ModdedItems.register(modEventBus);
+        Mixins.addConfiguration("mixins.knightsofterrafirma.json");
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 

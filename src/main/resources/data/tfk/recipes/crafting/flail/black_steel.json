@@ -1,0 +1,38 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "  M",
+        " C ",
+        "R  "
+    ],
+    "key": {
+        "C": {
+            "item": "tfc:metal/chain/black_steel"
+        },
+        "R": {
+            "tag": "forge:rods/wooden"
+        }, 
+        "M": {
+            "item": "tfc:metal/mace_head/black_steel"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:netherite_chainmorgenstern",
+            "nbt": {
+                "Enchantments": [
+                    {
+                        "id": "unbreaking",
+                        "lvl": 1
+                    }
+                ],
+                "HideFlags": 1
+            }
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 2
+}

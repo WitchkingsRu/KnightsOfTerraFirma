@@ -1,0 +1,25 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/knife/wrought_iron"
+    },
+    "result": {
+        "item": "magistuarmory:iron_stylet",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "unbreaking",
+                    "lvl": 8
+                }
+            ],
+            "HideFlags": 1
+        }
+    },
+    "tier": 3,
+    "rules": [
+        "draw_third_last",
+        "hit_second_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": true
+}

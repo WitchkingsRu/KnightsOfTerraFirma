@@ -1,0 +1,7 @@
+{
+    "parent": "magistuarmory:item/iron_chivalrylance_raised",
+    "textures": {
+        "0": "knightsofterrafirma:item/black_bronze_chivalrylance",
+        "particle": "knightsofterrafirma:item/black_bronze_chivalrylance"
+    }
+}

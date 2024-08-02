@@ -1,0 +1,14 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "magistuarmory:iron_zweihander"
+    },
+    "second_input": {
+        "item": "tfc:metal/sheet/silver"
+    },
+    "tier": 3,
+    "result": {
+        "item": "magistuarmory:silver_zweihander"
+    },
+    "combine_forging_bonus": true
+}

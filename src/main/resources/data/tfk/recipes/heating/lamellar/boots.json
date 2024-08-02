@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "magistuarmory:lamellar_boots"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/steel",
+      "amount": 168
+    },
+    "temperature": 1540
+}

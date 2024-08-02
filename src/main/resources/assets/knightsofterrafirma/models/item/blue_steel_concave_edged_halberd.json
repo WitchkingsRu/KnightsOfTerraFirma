@@ -1,0 +1,14 @@
+{
+    "parent": "magistuarmory:item/iron_concavehalberd",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/blue_steel_concavehalberd"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/blue_steel_concavehalberd_blocking"
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_heavywarhammer",
+    "magistuarmory:bronze_heavywarhammer",
+    "magistuarmory:iron_heavywarhammer",
+    "magistuarmory:steel_heavywarhammer",
+    "magistuarmory:netherite_heavywarhammer",
+    "magistuarmory:wood_heavywarhammer",
+    "magistuarmory:stone_heavywarhammer",
+    "magistuarmory:gold_heavywarhammer",
+    "magistuarmory:diamond_heavywarhammer",
+    "magistuarmory:silver_heavywarhammer"
+  ]
+}

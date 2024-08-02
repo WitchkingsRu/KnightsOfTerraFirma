@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "RRR",
+        "STS",
+        "LPL"
+    ],
+    "key": {
+        "R": {
+            "item": "tfc:metal/rod/steel"
+        },
+        "S": {
+            "tag": "forge:string"
+        },
+        "T": {
+            "item": "minecraft:tripwire_hook"
+        },
+        "L": {
+            "tag": "tfc:lumber"
+        },
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "item": "magistuarmory:heavy_crossbow"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " T ",
+        " W ",
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "tfc:wool_cloth"
+        },
+        "T": {
+            "item": "magistuarmory:torse_decoration"
+        }
+    },
+    "result": {
+        "item": "magistuarmory:torse_and_mantle_decoration"
+    }
+}

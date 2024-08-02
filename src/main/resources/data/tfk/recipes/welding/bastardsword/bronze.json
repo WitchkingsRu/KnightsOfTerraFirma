@@ -1,0 +1,24 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "magistuarmory:bronze_shortsword"
+    },
+    "second_input": {
+        "item": "tfc:metal/sword_blade/bronze"
+    },
+    "tier": 1,
+    "result": {
+        "item": "magistuarmory:bronze_bastardsword",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "unbreaking",
+                    "lvl": 6
+                }
+            ],
+            "HideFlags": 1
+        }
+    },
+    "combine_forging_bonus": true
+
+}

@@ -1,0 +1,14 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "magistuarmory:chainmail_leggings"
+    },
+    "second_input": {
+        "item": "tfc:metal/ingot/steel"
+    },
+    "tier": 3,
+    "result": {
+        "item": "magistuarmory:platemail_leggings"
+    },
+    "combine_forging_bonus": false
+}

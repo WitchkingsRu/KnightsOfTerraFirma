@@ -1,0 +1,11 @@
+{
+    "parent": "magistuarmory:item/tartsche",
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/black_steel_tartsche_blocking"
+        }
+    ]
+}

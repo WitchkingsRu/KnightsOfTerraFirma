@@ -1,0 +1,1 @@
+execute as @a if score @s tfk.broken.silver_lucernhammer matches 1 run function tfk:give_new_iron/lucernhammer

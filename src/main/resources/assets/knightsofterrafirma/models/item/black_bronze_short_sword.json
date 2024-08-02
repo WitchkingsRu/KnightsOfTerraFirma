@@ -1,0 +1,6 @@
+{
+    "parent": "magistuarmory:item/iron_shortsword",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/black_bronze_shortsword"
+    }
+}

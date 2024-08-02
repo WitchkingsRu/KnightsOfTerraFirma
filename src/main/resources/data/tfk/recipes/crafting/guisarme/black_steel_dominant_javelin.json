@@ -1,0 +1,37 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        " J ",
+        "PK "
+    ],
+    "key": {
+        "K": {
+            "item": "tfc:metal/knife_blade/black_steel"
+        },
+        "J": {
+            "item": "tfc:metal/javelin_head/black_steel"
+        }, 
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:netherite_guisarme",
+            "nbt": {
+                "Enchantments": [
+                    {
+                        "id": "unbreaking",
+                        "lvl": 1
+                    }
+                ],
+                "HideFlags": 1
+            }
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 1
+}

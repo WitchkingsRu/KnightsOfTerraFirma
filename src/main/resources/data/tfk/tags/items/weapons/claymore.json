@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_claymore",
+    "magistuarmory:bronze_claymore",
+    "magistuarmory:iron_claymore",
+    "magistuarmory:steel_claymore",
+    "magistuarmory:netherite_claymore",
+    "magistuarmory:wood_claymore",
+    "magistuarmory:stone_claymore",
+    "magistuarmory:gold_claymore",
+    "magistuarmory:diamond_claymore",
+    "magistuarmory:silver_claymore"
+  ]
+}

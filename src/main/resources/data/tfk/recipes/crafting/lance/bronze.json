@@ -1,0 +1,38 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "  B",
+        " T ",
+        "P  "
+    ],
+    "key": {
+        "B": {
+            "item": "tfc:metal/javelin_head/bronze"
+        },
+        "T": {
+            "item": "tfc:metal/tuyere/bronze"
+        }, 
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:bronze_chivalrylance",
+            "nbt": {
+                "Enchantments": [
+                    {
+                        "id": "unbreaking",
+                        "lvl": 6
+                    }
+                ],
+                "HideFlags": 1
+            }
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 2
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "magistuarmory:item/iron_guisarme",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/black_steel_guisarme"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/black_steel_guisarme_blocking"
+        }
+    ]
+}

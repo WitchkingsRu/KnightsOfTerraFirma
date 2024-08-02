@@ -1,0 +1,14 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/unfinished_greaves/steel"
+    },
+    "second_input": {
+        "item": "tfc:metal/sheet/steel"
+    },
+    "tier": 3,
+    "result": {
+        "item": "magistuarmory:knight_leggings"
+    },
+    "combine_forging_bonus": true
+}

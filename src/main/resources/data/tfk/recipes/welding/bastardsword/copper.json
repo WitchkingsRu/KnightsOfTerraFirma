@@ -1,0 +1,24 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "magistuarmory:copper_shortsword"
+    },
+    "second_input": {
+        "item": "tfc:metal/sword_blade/copper"
+    },
+    "tier": 0,
+    "result": {
+        "item": "magistuarmory:copper_bastardsword",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "unbreaking",
+                    "lvl": 3
+                }
+            ],
+            "HideFlags": 1
+        }
+    },
+    "combine_forging_bonus": true
+
+}

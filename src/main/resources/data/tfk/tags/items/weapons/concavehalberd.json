@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_concavehalberd",
+    "magistuarmory:bronze_concavehalberd",
+    "magistuarmory:iron_concavehalberd",
+    "magistuarmory:steel_concavehalberd",
+    "magistuarmory:netherite_concavehalberd",
+    "magistuarmory:wood_concavehalberd",
+    "magistuarmory:stone_concavehalberd",
+    "magistuarmory:gold_concavehalberd",
+    "magistuarmory:diamond_concavehalberd",
+    "magistuarmory:silver_concavehalberd"
+  ]
+}

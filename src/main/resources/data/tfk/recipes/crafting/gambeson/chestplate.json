@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "W W",
+        "FWF",
+        "WWW"
+    ],
+    "key": {
+        "W": {
+            "item": "tfc:wool_cloth"
+        },
+        "F": {
+            "item": "magistuarmory:feathers_decoration"
+        }
+    },
+    "result": {
+        "item": "magistuarmory:gambeson_chestplate"
+    }
+}

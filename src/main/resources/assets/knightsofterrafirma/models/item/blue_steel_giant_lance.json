@@ -1,0 +1,15 @@
+{
+    "parent": "magistuarmory:item/iron_chivalrylance",
+    "textures": {
+        "0": "knightsofterrafirma:item/blue_steel_chivalrylance",
+        "particle": "knightsofterrafirma:item/blue_steel_chivalrylance"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "magistuarmory:raised": 1
+            },
+            "model": "knightsofterrafirma:item/blue_steel_chivalrylance_raised"
+        }
+    ]
+}

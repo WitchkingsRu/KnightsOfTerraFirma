@@ -1,0 +1,14 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": [
+      {
+        "item": "magistuarmory:lamellar_chestplate"
+      },
+      {
+        "item": "magistuarmory:lamellar_boots"
+      }
+    ],
+    "piercing": 2,
+    "slashing": 8,
+    "crushing": 8
+  }

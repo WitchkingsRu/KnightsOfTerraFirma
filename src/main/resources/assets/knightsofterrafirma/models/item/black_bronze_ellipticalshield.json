@@ -1,0 +1,11 @@
+{
+    "parent": "magistuarmory:item/ellipticalshield",
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/black_bronze_ellipticalshield_blocking"
+        }
+    ]
+}

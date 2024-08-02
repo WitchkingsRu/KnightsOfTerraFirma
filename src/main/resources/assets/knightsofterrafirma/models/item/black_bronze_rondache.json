@@ -1,0 +1,11 @@
+{
+    "parent": "magistuarmory:item/rondache",
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/black_bronze_rondache_blocking"
+        }
+    ]
+}

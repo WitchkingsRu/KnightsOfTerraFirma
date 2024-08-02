@@ -1,0 +1,14 @@
+{
+    "parent": "magistuarmory:item/iron_ranseur",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/blue_steel_ranseur"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/blue_steel_ranseur_blocking"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "magistuarmory:item/iron_flamebladedsword",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/black_bronze_flamebladedsword"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/black_bronze_flamebladedsword_blocking"
+        }
+    ]
+}

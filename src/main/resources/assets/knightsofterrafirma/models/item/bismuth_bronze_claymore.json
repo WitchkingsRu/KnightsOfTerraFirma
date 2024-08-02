@@ -1,0 +1,14 @@
+{
+    "parent": "magistuarmory:item/iron_claymore",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/bismuth_bronze_claymore"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/bismuth_bronze_claymore_blocking"
+        }
+    ]
+}

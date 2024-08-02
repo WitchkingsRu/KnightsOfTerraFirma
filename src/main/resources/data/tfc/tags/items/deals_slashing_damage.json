@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "#tfk:weapons/bastardsword",
+        "#tfk:weapons/claymore",
+        "#tfk:weapons/concavehalberd",
+        "#tfk:weapons/estoc",
+        "#tfk:weapons/katzbalger",
+        "#tfk:weapons/lochaberaxe",
+        "#tfk:weapons/ranseur",
+        "#tfk:weapons/zweihander"
+    ]
+}

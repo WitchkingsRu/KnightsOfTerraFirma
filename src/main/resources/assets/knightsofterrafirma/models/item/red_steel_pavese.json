@@ -1,0 +1,11 @@
+{
+    "parent": "magistuarmory:item/pavese",
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/red_steel_pavese_blocking"
+        }
+    ]
+}

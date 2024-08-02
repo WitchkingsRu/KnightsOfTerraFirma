@@ -1,0 +1,25 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword/steel"
+    },
+    "result": {
+        "item": "magistuarmory:steel_shortsword",
+        "nbt": {
+            "Enchantments": [
+                {
+                    "id": "unbreaking",
+                    "lvl": 7
+                }
+            ],
+            "HideFlags": 1
+        }
+    },
+    "tier": 4,
+    "rules": [
+        "shrink_any",
+        "punch_last",
+        "punch_not_last"
+    ],
+    "apply_forging_bonus": true
+}

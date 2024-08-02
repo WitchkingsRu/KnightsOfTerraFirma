@@ -1,0 +1,34 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        " A ",
+        "P  "
+    ],
+    "key": {
+        "A": {
+            "item": "tfc:metal/axe_head/copper"
+        },
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:copper_lochaberaxe",
+            "nbt": {
+                "Enchantments": [
+                    {
+                        "id": "unbreaking",
+                        "lvl": 3
+                    }
+                ],
+                "HideFlags": 1
+            }
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 1
+}

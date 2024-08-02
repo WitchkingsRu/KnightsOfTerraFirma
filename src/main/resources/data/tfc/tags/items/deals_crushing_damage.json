@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "#tfk:weapons/chainmorgenstern",
+        "#tfk:weapons/heavymace",
+        "#tfk:weapons/heavywarhammer",
+        "#tfk:weapons/lucernhammer"
+    ]
+}

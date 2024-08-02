@@ -1,0 +1,7 @@
+{
+    "parent": "magistuarmory:item/iron_heavymace",
+    "textures": {
+        "0": "knightsofterrafirma:item/black_bronze_heavymace",
+        "particle": "knightsofterrafirma:item/black_bronze_heavymace"
+    }
+}

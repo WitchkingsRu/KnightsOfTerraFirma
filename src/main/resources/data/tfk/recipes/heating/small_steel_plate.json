@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "magistuarmory:small_steel_plate"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/steel",
+      "amount": 14
+    },
+    "temperature": 1540
+  }

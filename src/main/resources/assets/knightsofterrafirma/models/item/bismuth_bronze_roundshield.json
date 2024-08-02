@@ -1,0 +1,11 @@
+{
+    "parent": "magistuarmory:item/roundshield",
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/bismuth_bronze_roundshield_blocking"
+        }
+    ]
+}

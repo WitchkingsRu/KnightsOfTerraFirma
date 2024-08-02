@@ -1,0 +1,15 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "magistuarmory:silver_lucernhammer"
+  },
+  "result_item": {
+    "item": "magistuarmory:iron_lucernhammer"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/silver",
+    "amount": 200
+  },
+  "temperature": 961,
+  "use_durability": true
+}

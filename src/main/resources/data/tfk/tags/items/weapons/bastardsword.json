@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_bastardsword",
+    "magistuarmory:bronze_bastardsword",
+    "magistuarmory:iron_bastardsword",
+    "magistuarmory:steel_bastardsword",
+    "magistuarmory:netherite_bastardsword",
+    "magistuarmory:wood_bastardsword",
+    "magistuarmory:stone_bastardsword",
+    "magistuarmory:gold_bastardsword",
+    "magistuarmory:diamond_bastardsword",
+    "magistuarmory:silver_bastardsword"
+  ]
+}

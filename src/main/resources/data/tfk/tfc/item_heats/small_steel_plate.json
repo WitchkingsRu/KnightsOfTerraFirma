@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+      "item": "magistuarmory:small_steel_plate"
+    },
+    "heat_capacity": 0.4081,
+    "forging_temperature": 924,
+    "welding_temperature": 1232
+}

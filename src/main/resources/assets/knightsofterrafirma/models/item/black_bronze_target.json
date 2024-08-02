@@ -1,0 +1,11 @@
+{
+    "parent": "magistuarmory:item/target",
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/black_bronze_target_blocking"
+        }
+    ]
+}

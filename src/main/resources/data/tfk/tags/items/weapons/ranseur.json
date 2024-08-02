@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_ranseur",
+    "magistuarmory:bronze_ranseur",
+    "magistuarmory:iron_ranseur",
+    "magistuarmory:steel_ranseur",
+    "magistuarmory:netherite_ranseur",
+    "magistuarmory:wood_ranseur",
+    "magistuarmory:stone_ranseur",
+    "magistuarmory:gold_ranseur",
+    "magistuarmory:diamond_ranseur",
+    "magistuarmory:silver_ranseur"
+  ]
+}

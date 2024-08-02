@@ -1,0 +1,11 @@
+{
+    "parent": "magistuarmory:item/heatershield",
+    "overrides": [
+        {
+            "predicate": {
+                "blocking": 1
+            },
+            "model": "knightsofterrafirma:item/black_bronze_heatershield_blocking"
+        }
+    ]
+}
