@@ -13,6 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
+import net.witchkings.knightsofterrafirma.item.Shields;
 import net.witchkings.knightsofterrafirma.misc.CreativeTab;
 
 import org.slf4j.Logger;
@@ -31,6 +32,7 @@ public class KnightsOfTerraFirma {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         CreativeTab.register(modEventBus);
         ModdedItems.register(modEventBus);
+        Shields.ITEMS.register(modEventBus);
         Mixins.addConfiguration("mixins.knightsofterrafirma.json");
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
