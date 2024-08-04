@@ -1,9 +1,13 @@
 package net.witchkings.knightsofterrafirma;
 
+import com.magistuarmory.api.client.render.model.ModModelsProvider;
+import com.magistuarmory.api.item.ModItemsProvider;
 import com.mojang.logging.LogUtils;
 import dev.architectury.platform.Platform;
+import dev.architectury.platform.forge.EventBuses;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -15,6 +19,10 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.witchkings.knightsofterrafirma.item.Shields;
 import net.witchkings.knightsofterrafirma.misc.CreativeTab;
+import com.magistuarmory.client.render.forge.ModRenderImpl;
+import com.magistuarmory.client.render.model.ModModels;
+
+
 
 import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Mixins;
@@ -30,16 +38,21 @@ public class KnightsOfTerraFirma {
 
     public KnightsOfTerraFirma() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        EventBuses.registerModEventBus(MODID, FMLJavaModLoadingContext.get().getModEventBus());
         CreativeTab.register(modEventBus);
         ModdedItems.register(modEventBus);
-        Shields.ITEMS.register(modEventBus);
         Mixins.addConfiguration("mixins.knightsofterrafirma.json");
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
+        System.out.println("xyu");
+        System.out.println(Platform.getEnv());
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+        Shields.INSTANCE.init();
+        if (Platform.getEnv() == Dist.CLIENT)
+            ModModels.INSTANCE.init(Shields.INSTANCE);
+
 
     }
 
@@ -62,6 +75,7 @@ public class KnightsOfTerraFirma {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
             // Some client setup code
+
 
             LOGGER.info("HELLO FROM CLIENT SETUP");
             LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());

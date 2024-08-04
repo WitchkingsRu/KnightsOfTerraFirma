@@ -30,7 +30,7 @@ public class CreativeTab {
             .title(Component.translatable("creativetab.kotf_weapon_parts")).
             displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get());
-                output.accept(Shields.BB_ELLIPTICAL_SHIELD.get());
+                output.accept(Shields.ELLIPTICAL_SHIELD.get());
                 for (RegistryObject<Item> item:ModdedItems.listParts) {
                     output.accept(item.get());
                 }})

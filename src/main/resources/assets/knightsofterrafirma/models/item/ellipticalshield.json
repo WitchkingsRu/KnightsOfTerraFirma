@@ -1,8 +1,5 @@
 {
     "parent": "magistuarmory:item/ellipticalshield",
-    "textures": {
-        "layer0": "knightsofterrafirma:item/bismuth_bronze_elliptical_shield"
-    },
     "overrides": [
         {
             "predicate": {

@@ -102,6 +102,7 @@ public class ModdedItems {
     }};
 
     public static void register(IEventBus eventBus){
+
         BISMUTH_BRONZE_BASTARDSWORD = ITEMS.register("bismuth_bronze_bastard_sword", () -> new MedievalWeaponItemForge(new Properties(), BISMUTH_BRONZE, BASTARD_SWORD));
         for (Map.Entry<String, WeaponType> Weapon:Weapons.entrySet()) {
             for (ModItemTier Material:Materials) {
