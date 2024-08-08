@@ -1,0 +1,13 @@
+{
+  "sources": [
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_ellipticalshield_pattern"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_ellipticalshield_nopattern"
+    },
+    {
+      "type": "directory", "source": "entity/ellipticalshield", "prefix": "entity/ellipticalshield/"
+    }
+  ]
+}
