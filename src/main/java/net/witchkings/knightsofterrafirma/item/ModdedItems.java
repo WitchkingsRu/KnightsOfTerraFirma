@@ -1,11 +1,7 @@
 package net.witchkings.knightsofterrafirma.item;
 
-import com.magistuarmory.forge.item.MedievalShieldItemForge;
 import com.magistuarmory.item.*;
 import dev.architectury.platform.Platform;
-import dev.architectury.registry.registries.RegistrySupplier;
-import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.annotation.Nullable;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item.Properties;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
@@ -14,16 +10,12 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import com.magistuarmory.forge.item.MedievalWeaponItemForge;
-import com.magistuarmory.client.render.model.ModModels;
 
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Map;
-import java.util.TreeMap;
-import java.util.function.BiFunction;
+import java.util.TreeMap;;
 
-import static com.magistuarmory.item.ModItemTier.*;
 import static com.magistuarmory.item.WeaponTypes.*;
 
 

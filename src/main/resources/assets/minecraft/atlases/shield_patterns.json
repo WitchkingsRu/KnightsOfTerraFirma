@@ -1,13 +1,456 @@
 {
   "sources": [
     {
-      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_ellipticalshield_pattern"
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_ellipticalshield_pattern"
     },
     {
-      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_ellipticalshield_nopattern"
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_ellipticalshield_nopattern"
     },
     {
-      "type": "directory", "source": "entity/ellipticalshield", "prefix": "entity/ellipticalshield/"
+      "type": "directory",
+      "source": "entity/ellipticalshield",
+      "prefix": "entity/ellipticalshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_ellipticalshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_ellipticalshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/ellipticalshield",
+      "prefix": "entity/ellipticalshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_ellipticalshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_ellipticalshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/ellipticalshield",
+      "prefix": "entity/ellipticalshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_ellipticalshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_ellipticalshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/ellipticalshield",
+      "prefix": "entity/ellipticalshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_ellipticalshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_ellipticalshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/ellipticalshield",
+      "prefix": "entity/ellipticalshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_heatershield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_heatershield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/heatershield",
+      "prefix": "entity/heatershield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_heatershield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_heatershield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/heatershield",
+      "prefix": "entity/heatershield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_heatershield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_heatershield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/heatershield",
+      "prefix": "entity/heatershield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_heatershield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_heatershield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/heatershield",
+      "prefix": "entity/heatershield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_heatershield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_heatershield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/heatershield",
+      "prefix": "entity/heatershield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_kiteshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_kiteshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/kiteshield",
+      "prefix": "entity/kiteshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_kiteshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_kiteshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/kiteshield",
+      "prefix": "entity/kiteshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_kiteshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_kiteshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/kiteshield",
+      "prefix": "entity/kiteshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_kiteshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_kiteshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/kiteshield",
+      "prefix": "entity/kiteshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_kiteshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_kiteshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/kiteshield",
+      "prefix": "entity/kiteshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_pavese_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_pavese_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/pavese",
+      "prefix": "entity/pavese/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_pavese_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_pavese_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/pavese",
+      "prefix": "entity/pavese/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_pavese_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_pavese_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/pavese",
+      "prefix": "entity/pavese/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_pavese_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_pavese_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/pavese",
+      "prefix": "entity/pavese/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_pavese_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_pavese_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/pavese",
+      "prefix": "entity/pavese/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_roundshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_roundshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/roundshield",
+      "prefix": "entity/roundshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_roundshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_roundshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/roundshield",
+      "prefix": "entity/roundshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_roundshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_roundshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/roundshield",
+      "prefix": "entity/roundshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_roundshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_roundshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/roundshield",
+      "prefix": "entity/roundshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_roundshield_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_roundshield_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/roundshield",
+      "prefix": "entity/roundshield/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_tartsche_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_tartsche_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/tartsche",
+      "prefix": "entity/tartsche/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_tartsche_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_tartsche_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/tartsche",
+      "prefix": "entity/tartsche/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_tartsche_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_tartsche_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/tartsche",
+      "prefix": "entity/tartsche/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_tartsche_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_tartsche_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/tartsche",
+      "prefix": "entity/tartsche/"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_tartsche_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_tartsche_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/tartsche",
+      "prefix": "entity/tartsche/"
+    },
+
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_target_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_target_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_target_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_target_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_target_nopattern"
+    },
+
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_rondache_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_rondache_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_rondache_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_rondache_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_rondache_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/bismuth_bronze_buckler_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_bronze_buckler_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/black_steel_buckler_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/blue_steel_buckler_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/red_steel_buckler_nopattern"
     }
-  ]
+    ]
 }

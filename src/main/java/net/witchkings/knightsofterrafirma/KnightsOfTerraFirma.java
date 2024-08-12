@@ -20,8 +20,6 @@ import net.witchkings.knightsofterrafirma.client.ModModel;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.witchkings.knightsofterrafirma.item.Shields;
 import net.witchkings.knightsofterrafirma.misc.CreativeTab;
-import com.magistuarmory.client.render.forge.ModRenderImpl;
-import com.magistuarmory.client.render.model.ModModels;
 
 
 
@@ -45,16 +43,12 @@ public class KnightsOfTerraFirma {
         Mixins.addConfiguration("mixins.knightsofterrafirma.json");
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
         Shields.INSTANCE.init();
+        Shields.shieldRegistry();
         if (Platform.getEnv() == Dist.CLIENT)
             ModModel.INSTANCE.init(Shields.INSTANCE);
-
-
-
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

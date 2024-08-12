@@ -2,8 +2,8 @@ package net.witchkings.knightsofterrafirma.misc;
 
 
 import com.magistuarmory.forge.item.MedievalWeaponItemForge;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import com.magistuarmory.item.MedievalShieldItem;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.minecraft.world.item.*;
@@ -26,16 +26,24 @@ public class CreativeTab {
                 output.accept(item.get());
             }})
             .build());
+    public static final RegistryObject<CreativeModeTab> KOTF_SHIELDS = CREATIVE_MODE_TABS.register("kotf_shields", () -> CreativeModeTab.builder().icon(() -> new ItemStack(Shields.ELLIPTICAL_SHIELD.get()))
+            .title(Component.translatable("creativetab.kotf_shields")).
+            displayItems((itemDisplayParameters, output) -> {
+                output.accept(Shields.ELLIPTICAL_SHIELD.get());
+                for (RegistrySupplier<MedievalShieldItem> shield: Shields.listShields) {
+                    output.accept(shield.get());
+                }
+            })
+            .build());
     public static final RegistryObject<CreativeModeTab> KOTF_PARTS = CREATIVE_MODE_TABS.register("kotf_parts", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get()))
             .title(Component.translatable("creativetab.kotf_weapon_parts")).
             displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get());
-                output.accept(Shields.ELLIPTICAL_SHIELD.get());
                 for (RegistryObject<Item> item:ModdedItems.listParts) {
                     output.accept(item.get());
-                }})
+                }
+            })
             .build());
-//    public static final ResourceKey<CreativeModeTab> PARTICULAR_WEAPONS_RESOURCE_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(KnightsOfTerraFirma.MODID, "particular_weapons"));
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

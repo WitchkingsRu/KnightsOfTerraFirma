@@ -20,6 +20,7 @@ public class ShieldSupply extends ItemsSupply<MedievalShieldItem> {
         this.shieldName = shieldName;
         String var10001 = ModdedItems.BISMUTH_BRONZE.getMaterialName();
         this.bismuth_bronzeTexture = "entity/" + var10001 + "_" + shieldName;
+
     }
 
 }
