@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:blue_steel_heavy_mace"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/blue_steel",
+        "amount": 300
+    },
+    "temperature": 1540,
+    "use_durability": true
+}

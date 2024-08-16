@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:bronze_concave_halberd_head"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/bronze",
+        "amount": 200
+    },
+    "temperature": 950,
+    "use_durability": true
+}

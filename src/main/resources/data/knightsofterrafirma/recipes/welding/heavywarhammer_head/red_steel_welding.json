@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/hammer_head/red_steel"
+    },
+    "second_input": {
+        "item": "tfc:metal/double_ingot/red_steel"
+    },
+    "tier": 6,
+    "result": {
+        "item": "knightsofterrafirma:red_steel_heavy_war_hammer_head",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

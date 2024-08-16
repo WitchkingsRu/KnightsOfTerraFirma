@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "knightsofterrafirma:bismuth_bronze_morningstar_head"
+    },
+    "second_input": {
+        "item": "tfc:metal/chain/bismuth_bronze"
+    },
+    "tier": 2,
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronze_flail_head",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

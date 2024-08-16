@@ -10,6 +10,11 @@
     "magistuarmory:stone_claymore",
     "magistuarmory:gold_claymore",
     "magistuarmory:diamond_claymore",
-    "magistuarmory:silver_claymore"
+    "magistuarmory:silver_claymore",
+	"knightsofterrafirma:bismuth_bronze_claymore",
+	"knightsofterrafirma:black_bronze_claymore",
+	"knightsofterrafirma:black_steel_claymore",
+	"knightsofterrafirma:blue_steel_claymore",
+	"knightsofterrafirma:red_steel_claymore"
   ]
 }

@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/blue_steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:blue_steel_guisarme_head",
+        "nbt": {}
+    },
+    "tier": 6,
+    "rules": [
+        "hit_any",
+        "bend_second_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

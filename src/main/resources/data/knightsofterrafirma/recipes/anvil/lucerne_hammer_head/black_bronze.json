@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/black_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_lucerne_hammer_head",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "draw_any",
+        "shrink_not_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

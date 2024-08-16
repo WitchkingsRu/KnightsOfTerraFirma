@@ -1,9 +1,10 @@
 {
     "replace": false,
     "values": [
-        "#tfk:weapons/chainmorgenstern",
-        "#tfk:weapons/heavymace",
-        "#tfk:weapons/heavywarhammer",
-        "#tfk:weapons/lucernhammer"
+        "#knightsofterrafirma:weapons/chainmorgenstern",
+        "#knightsofterrafirma:weapons/heavymace",
+        "#knightsofterrafirma:weapons/heavywarhammer",
+        "#knightsofterrafirma:weapons/lucernhammer",
+		"#knightsofterrafirma:weapons/morgenstern"
     ]
 }

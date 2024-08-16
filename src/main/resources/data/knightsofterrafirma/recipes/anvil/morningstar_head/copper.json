@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/mace_head/copper"
+    },
+    "result": {
+        "item": "knightsofterrafirma:copper_morningstar_head",
+        "nbt": {}
+    },
+    "tier": 1,
+    "rules": [
+        "hit_any",
+        "upset_second_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

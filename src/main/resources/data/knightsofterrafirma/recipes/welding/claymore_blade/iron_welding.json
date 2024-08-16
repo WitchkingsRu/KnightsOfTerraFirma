@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/sword_blade/wrought_iron"
+    },
+    "second_input": {
+        "item": "tfc:metal/double_ingot/wrought_iron"
+    },
+    "tier": 3,
+    "result": {
+        "item": "knightsofterrafirma:iron_claymore_blade",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

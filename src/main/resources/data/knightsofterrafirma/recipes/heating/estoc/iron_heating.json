@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "magistuarmory:iron_estoc"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/wrought_iron",
+        "amount": 300
+    },
+    "temperature": 1585,
+    "use_durability": true
+}

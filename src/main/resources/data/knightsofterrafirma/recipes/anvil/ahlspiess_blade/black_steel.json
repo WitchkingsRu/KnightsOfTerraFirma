@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword_blade/black_steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_steel_ahlspiess_blade",
+        "nbt": {}
+    },
+    "tier": 5,
+    "rules": [
+        "hit_any",
+        "shrink_second_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

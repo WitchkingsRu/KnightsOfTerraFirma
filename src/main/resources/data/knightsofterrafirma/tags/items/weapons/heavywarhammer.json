@@ -10,6 +10,11 @@
     "magistuarmory:stone_heavywarhammer",
     "magistuarmory:gold_heavywarhammer",
     "magistuarmory:diamond_heavywarhammer",
-    "magistuarmory:silver_heavywarhammer"
+    "magistuarmory:silver_heavywarhammer",
+	"knightsofterrafirma:bismuth_bronze_heavy_war_hammer",
+	"knightsofterrafirma:black_bronze_heavy_war_hammer",
+	"knightsofterrafirma:black_steel_heavy_war_hammer",
+	"knightsofterrafirma:blue_steel_heavy_war_hammer",
+	"knightsofterrafirma:red_steel_heavy_war_hammer"
   ]
 }

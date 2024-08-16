@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:blue_steel_shield_brace"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/blue_steel",
+        "amount": 200
+    },
+    "temperature": 1540,
+    "use_durability": true
+}

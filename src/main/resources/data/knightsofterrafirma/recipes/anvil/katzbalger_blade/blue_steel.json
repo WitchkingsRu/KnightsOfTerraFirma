@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword_blade/blue_steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:blue_steel_katzbalger_blade",
+        "nbt": {}
+    },
+    "tier": 6,
+    "rules": [
+        "bend_any",
+        "hit_second_last",
+        "upset_any"
+    ],
+    "apply_forging_bonus": true
+}

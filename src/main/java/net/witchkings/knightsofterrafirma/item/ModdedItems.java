@@ -24,9 +24,9 @@ public class ModdedItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, KnightsOfTerraFirma.MODID);
     public static ModItemTier BISMUTH_BRONZE = new ModItemTier("bismuth_bronze", 2, 1200, 6.0F, 2.0F, 15, Platform.isForge() ? "forge:ingots/bismuth_bronze" : "c:bismuth_bronze_ingots", 2);
     public static ModItemTier BLACK_BRONZE = new ModItemTier("black_bronze", 2, 1460, 6.0F, 2.0F, 15, Platform.isForge() ? "forge:ingots/black_bronze" : "c:black_bronze_ingots", 2);
-    public static ModItemTier BLACK_STEEL = new ModItemTier("black_steel", 3, 4200, 8.0F, 3.0F, 15, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots", 3);
-    public static ModItemTier BLUE_STEEL = new ModItemTier("blue_steel", 4, 6500, 9.0F, 4.0F, 15, Platform.isForge() ? "forge:ingots/blue_steel" : "c:blue_steel_ingots", 5);
-    public static ModItemTier RED_STEEL = new ModItemTier("red_steel", 4, 6500, 9.0F, 4.0F, 15, Platform.isForge() ? "forge:ingots/red_steel" : "c:red_steel_ingots", 5);
+    public static ModItemTier BLACK_STEEL = new ModItemTier("black_steel", 4, 4200, 8.0F, 4.0F, 15, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots", 4);
+    public static ModItemTier BLUE_STEEL = new ModItemTier("blue_steel", 5, 6500, 9.0F, 5.0F, 15, Platform.isForge() ? "forge:ingots/blue_steel" : "c:blue_steel_ingots", 5);
+    public static ModItemTier RED_STEEL = new ModItemTier("red_steel", 5, 6500, 9.0F, 5.0F, 15, Platform.isForge() ? "forge:ingots/red_steel" : "c:red_steel_ingots", 5);
 
     public static RegistryObject<MedievalWeaponItemForge> BISMUTH_BRONZE_BASTARDSWORD;
     public static RegistryObject<Item> BISMUTH_BRONZE_CONCAVE_HEAD = ITEMS.register("bismuth_bronze_concave_halberd_head", () -> new Item(new Item.Properties()));
@@ -69,6 +69,10 @@ public class ModdedItems {
         add("heavy_war_hammer_head");
         add("lucerne_hammer_head");
         add("guisarme_head");
+        add("flail_head");
+        add("morningstar_head");
+        add("heavy_mace_head");
+        add("shield_brace");
     }};
     public static TreeMap<String,WeaponType> Weapons = new TreeMap<>(){{
         put("stiletto", STILETTO);

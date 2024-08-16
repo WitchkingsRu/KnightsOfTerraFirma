@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/hammer_head/copper"
+    },
+    "second_input": {
+        "item": "tfc:metal/double_ingot/copper"
+    },
+    "tier": 1,
+    "result": {
+        "item": "knightsofterrafirma:copper_heavy_war_hammer_head",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

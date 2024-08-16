@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_flamebladedsword",
+    "magistuarmory:bronze_flamebladedsword",
+    "magistuarmory:iron_flamebladedsword",
+    "magistuarmory:steel_flamebladedsword",
+    "magistuarmory:netherite_flamebladedsword",
+    "magistuarmory:wood_flamebladedsword",
+    "magistuarmory:stone_flamebladedsword",
+    "magistuarmory:gold_flamebladedsword",
+    "magistuarmory:diamond_flamebladedsword",
+    "magistuarmory:silver_flamebladedsword",
+	"knightsofterrafirma:bismuth_bronze_flame_bladed_sword",
+	"knightsofterrafirma:black_bronze_flame_bladed_sword",
+	"knightsofterrafirma:black_steel_flame_bladed_sword",
+	"knightsofterrafirma:blue_steel_flame_bladed_sword",
+	"knightsofterrafirma:red_steel_flame_bladed_sword"
+  ]
+}

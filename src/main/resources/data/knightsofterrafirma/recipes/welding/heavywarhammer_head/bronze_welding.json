@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/hammer_head/bronze"
+    },
+    "second_input": {
+        "item": "tfc:metal/double_ingot/bronze"
+    },
+    "tier": 2,
+    "result": {
+        "item": "knightsofterrafirma:bronze_heavy_war_hammer_head",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

@@ -10,6 +10,11 @@
     "magistuarmory:stone_guisarme",
     "magistuarmory:gold_guisarme",
     "magistuarmory:diamond_guisarme",
-    "magistuarmory:silver_guisarme"
+    "magistuarmory:silver_guisarme",
+	"knightsofterrafirma:bismuth_bronze_guisarme",
+	"knightsofterrafirma:black_bronze_guisarme",
+	"knightsofterrafirma:black_steel_guisarme",
+	"knightsofterrafirma:blue_steel_guisarme",
+	"knightsofterrafirma:red_steel_guisarme"
   ]
 }

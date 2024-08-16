@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword_blade/blue_steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:blue_steel_short_sword_blade",
+        "nbt": {}
+    },
+    "tier": 6,
+    "rules": [
+        "shrink_any",
+        "punch_last",
+        "punch_not_last"
+    ],
+    "apply_forging_bonus": true
+}

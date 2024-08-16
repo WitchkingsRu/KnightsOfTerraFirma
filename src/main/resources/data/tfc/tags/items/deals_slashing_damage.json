@@ -1,13 +1,14 @@
 {
     "replace": false,
     "values": [
-        "#tfk:weapons/bastardsword",
-        "#tfk:weapons/claymore",
-        "#tfk:weapons/concavehalberd",
-        "#tfk:weapons/estoc",
-        "#tfk:weapons/katzbalger",
-        "#tfk:weapons/lochaberaxe",
-        "#tfk:weapons/ranseur",
-        "#tfk:weapons/zweihander"
+        "#knightsofterrafirma:weapons/bastardsword",
+        "#knightsofterrafirma:weapons/claymore",
+        "#knightsofterrafirma:weapons/concavehalberd",
+        "#knightsofterrafirma:weapons/estoc",
+        "#knightsofterrafirma:weapons/katzbalger",
+        "#knightsofterrafirma:weapons/lochaberaxe",
+        "#knightsofterrafirma:weapons/ranseur",
+        "#knightsofterrafirma:weapons/zweihander",
+		"#knightsofterrafirma:weapons/flamebladedsword"
     ]
 }

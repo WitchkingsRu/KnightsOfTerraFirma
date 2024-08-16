@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:red_steel_flail_head"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/red_steel",
+        "amount": 206
+    },
+    "temperature": 1540,
+    "use_durability": true
+}

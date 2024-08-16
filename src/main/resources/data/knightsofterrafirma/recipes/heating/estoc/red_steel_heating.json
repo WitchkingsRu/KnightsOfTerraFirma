@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:red_steel_estoc"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/red_steel",
+        "amount": 300
+    },
+    "temperature": 1540,
+    "use_durability": true
+}

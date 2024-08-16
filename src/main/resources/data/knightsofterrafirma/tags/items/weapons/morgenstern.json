@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "magistuarmory:copper_morgenstern",
+    "magistuarmory:bronze_morgenstern",
+    "magistuarmory:iron_morgenstern",
+    "magistuarmory:steel_morgenstern",
+    "magistuarmory:netherite_morgenstern",
+    "magistuarmory:wood_morgenstern",
+    "magistuarmory:stone_morgenstern",
+    "magistuarmory:gold_morgenstern",
+    "magistuarmory:diamond_morgenstern",
+    "magistuarmory:silver_morgenstern",
+	"knightsofterrafirma:bismuth_bronze_morningstar",
+	"knightsofterrafirma:black_bronze_morningstar",
+	"knightsofterrafirma:black_steel_morningstar",
+	"knightsofterrafirma:blue_steel_morningstar",
+	"knightsofterrafirma:red_steel_morningstar"
+  ]
+}

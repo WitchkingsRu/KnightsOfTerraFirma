@@ -10,6 +10,11 @@
     "magistuarmory:stone_chainmorgenstern",
     "magistuarmory:gold_chainmorgenstern",
     "magistuarmory:diamond_chainmorgenstern",
-    "magistuarmory:silver_chainmorgenstern"
+    "magistuarmory:silver_chainmorgenstern",
+	"knightsofterrafirma:bismuth_bronze_flail",
+	"knightsofterrafirma:black_bronze_flail",
+	"knightsofterrafirma:black_steel_flail",
+	"knightsofterrafirma:blue_steel_flail",
+	"knightsofterrafirma:red_steel_flail"
   ]
 }

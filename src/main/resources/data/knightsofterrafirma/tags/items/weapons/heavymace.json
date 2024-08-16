@@ -10,6 +10,11 @@
     "magistuarmory:stone_heavymace",
     "magistuarmory:gold_heavymace",
     "magistuarmory:diamond_heavymace",
-    "magistuarmory:silver_heavymace"
+    "magistuarmory:silver_heavymace",
+	"knightsofterrafirma:bismuth_bronze_heavy_mace",
+	"knightsofterrafirma:black_bronze_heavy_mace",
+	"knightsofterrafirma:black_steel_heavy_mace",
+	"knightsofterrafirma:blue_steel_heavy_mace",
+	"knightsofterrafirma:red_steel_heavy_mace"
   ]
 }

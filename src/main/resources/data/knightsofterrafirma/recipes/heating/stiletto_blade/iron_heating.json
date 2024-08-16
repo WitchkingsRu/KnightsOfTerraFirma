@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:iron_stiletto_blade"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/wrought_iron",
+        "amount": 100
+    },
+    "temperature": 1585,
+    "use_durability": true
+}

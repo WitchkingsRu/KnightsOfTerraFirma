@@ -10,6 +10,11 @@
     "magistuarmory:stone_ahlspiess",
     "magistuarmory:gold_ahlspiess",
     "magistuarmory:diamond_ahlspiess",
-    "magistuarmory:silver_ahlspiess"
+    "magistuarmory:silver_ahlspiess",
+	"knightsofterrafirma:bismuth_bronze_ahlspiess",
+	"knightsofterrafirma:black_bronze_ahlspiess",
+	"knightsofterrafirma:black_steel_ahlspiess",
+	"knightsofterrafirma:blue_steel_ahlspiess",
+	"knightsofterrafirma:red_steel_ahlspiess"
   ]
 }

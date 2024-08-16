@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:black_bronze_concave_edged_halberd"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/black_bronze",
+        "amount": 200
+    },
+    "temperature": 1070,
+    "use_durability": true
+}

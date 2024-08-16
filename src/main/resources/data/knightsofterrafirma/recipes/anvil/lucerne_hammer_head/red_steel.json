@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/red_steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:red_steel_lucerne_hammer_head",
+        "nbt": {}
+    },
+    "tier": 6,
+    "rules": [
+        "draw_any",
+        "shrink_not_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

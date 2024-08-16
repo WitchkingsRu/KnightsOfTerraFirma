@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:steel_katzbalger_blade"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/steel",
+        "amount": 200
+    },
+    "temperature": 1540,
+    "use_durability": true
+}

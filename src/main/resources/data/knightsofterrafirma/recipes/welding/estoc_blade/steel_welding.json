@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/sword_blade/steel"
+    },
+    "second_input": {
+        "item": "tfc:metal/knife_blade/steel"
+    },
+    "tier": 4,
+    "result": {
+        "item": "knightsofterrafirma:steel_estoc_blade",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

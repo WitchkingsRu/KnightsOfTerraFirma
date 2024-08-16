@@ -10,6 +10,11 @@
     "magistuarmory:stone_katzbalger",
     "magistuarmory:gold_katzbalger",
     "magistuarmory:diamond_katzbalger",
-    "magistuarmory:silver_katzbalger"
+    "magistuarmory:silver_katzbalger",
+	"knightsofterrafirma:bismuth_bronze_katzbalger",
+	"knightsofterrafirma:black_bronze_katzbalger",
+	"knightsofterrafirma:black_steel_katzbalger",
+	"knightsofterrafirma:blue_steel_katzbalger",
+	"knightsofterrafirma:red_steel_katzbalger"
   ]
 }

@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword_blade/bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bronze_short_sword_blade",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "shrink_any",
+        "punch_last",
+        "punch_not_last"
+    ],
+    "apply_forging_bonus": true
+}

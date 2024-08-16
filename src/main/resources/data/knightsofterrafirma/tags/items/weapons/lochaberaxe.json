@@ -10,6 +10,11 @@
     "magistuarmory:stone_lochaberaxe",
     "magistuarmory:gold_lochaberaxe",
     "magistuarmory:diamond_lochaberaxe",
-    "magistuarmory:silver_lochaberaxe"
+    "magistuarmory:silver_lochaberaxe",
+	"knightsofterrafirma:bismuth_bronze_lochaber_axe",
+	"knightsofterrafirma:black_bronze_lochaber_axe",
+	"knightsofterrafirma:black_steel_lochaber_axe",
+	"knightsofterrafirma:blue_steel_lochaber_axe",
+	"knightsofterrafirma:red_steel_lochaber_axe"
   ]
 }

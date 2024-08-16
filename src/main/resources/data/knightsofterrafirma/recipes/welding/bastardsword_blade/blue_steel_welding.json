@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/sword_blade/blue_steel"
+    },
+    "second_input": {
+        "item": "tfc:metal/ingot/blue_steel"
+    },
+    "tier": 6,
+    "result": {
+        "item": "knightsofterrafirma:blue_steel_bastard_sword_blade",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

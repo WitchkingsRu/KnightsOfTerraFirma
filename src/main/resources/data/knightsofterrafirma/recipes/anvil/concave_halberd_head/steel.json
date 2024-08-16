@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:steel_concave_halberd_head",
+        "nbt": {}
+    },
+    "tier": 4,
+    "rules": [
+        "bend_any",
+        "draw_not_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

@@ -10,6 +10,11 @@
     "magistuarmory:stone_bastardsword",
     "magistuarmory:gold_bastardsword",
     "magistuarmory:diamond_bastardsword",
-    "magistuarmory:silver_bastardsword"
+    "magistuarmory:silver_bastardsword",
+	"knightsofterrafirma:bismuth_bronze_bastard_sword",
+	"knightsofterrafirma:black_bronze_bastard_sword",
+	"knightsofterrafirma:black_steel_bastard_sword",
+	"knightsofterrafirma:blue_steel_bastard_sword",
+	"knightsofterrafirma:red_steel_bastard_sword"
   ]
 }

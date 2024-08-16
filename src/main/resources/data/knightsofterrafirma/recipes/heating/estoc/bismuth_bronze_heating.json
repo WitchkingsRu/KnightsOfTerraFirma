@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:bismuth_bronze_estoc"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/bismuth_bronze",
+        "amount": 300
+    },
+    "temperature": 985,
+    "use_durability": true
+}

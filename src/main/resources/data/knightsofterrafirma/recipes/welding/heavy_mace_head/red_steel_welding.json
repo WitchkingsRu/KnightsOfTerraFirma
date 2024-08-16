@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/mace_head/red_steel"
+    },
+    "second_input": {
+        "item": "tfc:metal/ingot/red_steel"
+    },
+    "tier": 6,
+    "result": {
+        "item": "knightsofterrafirma:red_steel_heavy_mace_head",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

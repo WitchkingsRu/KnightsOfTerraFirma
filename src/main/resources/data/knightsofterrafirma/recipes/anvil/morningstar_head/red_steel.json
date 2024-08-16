@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/mace_head/red_steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:red_steel_morningstar_head",
+        "nbt": {}
+    },
+    "tier": 6,
+    "rules": [
+        "hit_any",
+        "upset_second_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bronze_lochaber_axe_blade",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "bend_any",
+        "hit_not_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

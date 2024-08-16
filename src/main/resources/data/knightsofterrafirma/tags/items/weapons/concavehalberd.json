@@ -10,6 +10,11 @@
     "magistuarmory:stone_concavehalberd",
     "magistuarmory:gold_concavehalberd",
     "magistuarmory:diamond_concavehalberd",
-    "magistuarmory:silver_concavehalberd"
+    "magistuarmory:silver_concavehalberd",
+	"knightsofterrafirma:bismuth_bronze_concave_edged_halberd",
+	"knightsofterrafirma:black_bronze_concave_edged_halberd",
+	"knightsofterrafirma:black_steel_concave_edged_halberd",
+	"knightsofterrafirma:blue_steel_concave_edged_halberd",
+	"knightsofterrafirma:red_steel_concave_edged_halberd"
   ]
 }

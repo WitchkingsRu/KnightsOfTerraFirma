@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:iron_heavy_war_hammer_head"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/wrought_iron",
+        "amount": 300
+    },
+    "temperature": 1585,
+    "use_durability": true
+}

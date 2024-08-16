@@ -10,6 +10,11 @@
     "magistuarmory:stone_lucernhammer",
     "magistuarmory:gold_lucernhammer",
     "magistuarmory:diamond_lucernhammer",
-    "magistuarmory:silver_lucernhammer"
+    "magistuarmory:silver_lucernhammer",
+	"knightsofterrafirma:bismuth_bronze_lucerne_hammer",
+	"knightsofterrafirma:black_bronze_lucerne_hammer",
+	"knightsofterrafirma:black_steel_lucerne_hammer",
+	"knightsofterrafirma:blue_steel_lucerne_hammer",
+	"knightsofterrafirma:red_steel_lucerne_hammer"
   ]
 }

@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:bronze_zweihander_blade"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/bronze",
+        "amount": 400
+    },
+    "temperature": 950,
+    "use_durability": true
+}

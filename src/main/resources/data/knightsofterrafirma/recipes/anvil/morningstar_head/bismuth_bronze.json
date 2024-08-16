@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/mace_head/bismuth_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronze_morningstar_head",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "hit_any",
+        "upset_second_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

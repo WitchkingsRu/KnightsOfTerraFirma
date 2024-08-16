@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "knightsofterrafirma:bronze_morningstar_head"
+    },
+    "second_input": {
+        "item": "tfc:metal/chain/bronze"
+    },
+    "tier": 2,
+    "result": {
+        "item": "knightsofterrafirma:bronze_flail_head",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

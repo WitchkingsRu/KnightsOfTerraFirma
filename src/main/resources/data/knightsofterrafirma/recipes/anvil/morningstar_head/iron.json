@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/mace_head/wrought_iron"
+    },
+    "result": {
+        "item": "knightsofterrafirma:iron_morningstar_head",
+        "nbt": {}
+    },
+    "tier": 3,
+    "rules": [
+        "hit_any",
+        "upset_second_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

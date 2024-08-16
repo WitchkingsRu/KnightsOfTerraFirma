@@ -10,6 +10,11 @@
     "magistuarmory:stone_estoc",
     "magistuarmory:gold_estoc",
     "magistuarmory:diamond_estoc",
-    "magistuarmory:silver_estoc"
+    "magistuarmory:silver_estoc",
+	"knightsofterrafirma:bismuth_bronze_estoc",
+	"knightsofterrafirma:black_bronze_estoc",
+	"knightsofterrafirma:black_steel_estoc",
+	"knightsofterrafirma:blue_steel_estoc",
+	"knightsofterrafirma:red_steel_estoc"
   ]
 }

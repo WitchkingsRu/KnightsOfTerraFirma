@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/black_steel"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_steel_lochaber_axe_blade",
+        "nbt": {}
+    },
+    "tier": 5,
+    "rules": [
+        "bend_any",
+        "hit_not_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

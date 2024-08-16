@@ -10,6 +10,11 @@
     "magistuarmory:stone_zweihander",
     "magistuarmory:gold_zweihander",
     "magistuarmory:diamond_zweihander",
-    "magistuarmory:silver_zweihander"
+    "magistuarmory:silver_zweihander",
+	"knightsofterrafirma:bismuth_bronze_zweihander",
+	"knightsofterrafirma:black_bronze_zweihander",
+	"knightsofterrafirma:black_steel_zweihander",
+	"knightsofterrafirma:blue_steel_zweihander",
+	"knightsofterrafirma:red_steel_zweihander"
   ]
 }

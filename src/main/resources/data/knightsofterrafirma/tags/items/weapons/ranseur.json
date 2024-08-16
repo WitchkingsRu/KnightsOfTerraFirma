@@ -10,6 +10,11 @@
     "magistuarmory:stone_ranseur",
     "magistuarmory:gold_ranseur",
     "magistuarmory:diamond_ranseur",
-    "magistuarmory:silver_ranseur"
+    "magistuarmory:silver_ranseur",
+	"knightsofterrafirma:bismuth_bronze_ranseur",
+	"knightsofterrafirma:black_bronze_ranseur",
+	"knightsofterrafirma:black_steel_ranseur",
+	"knightsofterrafirma:blue_steel_ranseur",
+	"knightsofterrafirma:red_steel_ranseur"
   ]
 }

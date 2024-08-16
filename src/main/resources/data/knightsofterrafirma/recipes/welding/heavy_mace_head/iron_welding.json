@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/mace_head/wrought_iron"
+    },
+    "second_input": {
+        "item": "tfc:metal/ingot/wrought_iron"
+    },
+    "tier": 3,
+    "result": {
+        "item": "knightsofterrafirma:iron_heavy_mace_head",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

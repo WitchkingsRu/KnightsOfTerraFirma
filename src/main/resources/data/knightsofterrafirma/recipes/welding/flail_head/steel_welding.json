@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "knightsofterrafirma:steel_morningstar_head"
+    },
+    "second_input": {
+        "item": "tfc:metal/chain/steel"
+    },
+    "tier": 4,
+    "result": {
+        "item": "knightsofterrafirma:steel_flail_head",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

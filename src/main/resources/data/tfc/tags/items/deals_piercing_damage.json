@@ -1,11 +1,11 @@
 {
     "replace": false,
     "values": [
-        "#tfk:weapons/ahlspiess",
-        "#tfk:weapons/chivalrylance",
-        "#tfk:weapons/guisarme",
-        "#tfk:weapons/pike",
-        "#tfk:weapons/shortsword",
-        "#tfk:weapons/stylet"
+        "#knightsofterrafirma:weapons/ahlspiess",
+        "#knightsofterrafirma:weapons/chivalrylance",
+        "#knightsofterrafirma:weapons/guisarme",
+        "#knightsofterrafirma:weapons/pike",
+        "#knightsofterrafirma:weapons/shortsword",
+        "#knightsofterrafirma:weapons/stylet"
     ]
 }

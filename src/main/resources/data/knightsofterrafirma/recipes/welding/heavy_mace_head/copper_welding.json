@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/mace_head/copper"
+    },
+    "second_input": {
+        "item": "tfc:metal/ingot/copper"
+    },
+    "tier": 1,
+    "result": {
+        "item": "knightsofterrafirma:copper_heavy_mace_head",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

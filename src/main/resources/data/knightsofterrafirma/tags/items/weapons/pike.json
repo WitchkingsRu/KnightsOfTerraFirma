@@ -10,6 +10,11 @@
     "magistuarmory:stone_pike",
     "magistuarmory:gold_pike",
     "magistuarmory:diamond_pike",
-    "magistuarmory:silver_pike"
+    "magistuarmory:silver_pike",
+	"knightsofterrafirma:bismuth_bronze_pike",
+	"knightsofterrafirma:black_bronze_pike",
+	"knightsofterrafirma:black_steel_pike",
+	"knightsofterrafirma:blue_steel_pike",
+	"knightsofterrafirma:red_steel_pike"
   ]
 }
