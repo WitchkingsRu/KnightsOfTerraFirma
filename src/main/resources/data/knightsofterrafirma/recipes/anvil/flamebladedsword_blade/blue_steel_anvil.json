@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "knightsofterrafirma:blue_steel_zweihander_blade"
+    },
+    "result": {
+        "item": "knightsofterrafirma:blue_steel_flame_bladed_sword_blade",
+        "nbt": {}
+    },
+    "tier": 6,
+    "rules": [
+        "draw_any",
+        "bend_not_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": true
+}
