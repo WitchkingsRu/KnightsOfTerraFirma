@@ -1,0 +1,27 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        " T ",
+        " P ",
+        " T "
+    ],
+    "key": {
+        "T": {
+            "item": "tfc:metal/sheet/bronze"
+        },
+        "P": {
+            "item": "magistuarmory:wood_roundshield"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:bronze_rondache",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 0
+}

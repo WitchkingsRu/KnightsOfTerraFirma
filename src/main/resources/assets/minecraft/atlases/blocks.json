@@ -1,0 +1,17 @@
+{"sources":
+[
+  {
+    "type": "single",
+    "resource": "knightsofterrafirma:entity/red_steel_pavese_pattern"
+  },
+  {
+    "type": "single",
+    "resource": "knightsofterrafirma:entity/red_steel_pavese_nopattern"
+  },
+  {
+    "type": "directory",
+    "source": "entity/pavese",
+    "prefix": "entity/pavese/"
+  }
+]
+}

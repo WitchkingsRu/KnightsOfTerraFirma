@@ -1,0 +1,27 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        " T ",
+        "TPT",
+        " T "
+    ],
+    "key": {
+        "T": {
+            "item": "tfc:metal/ingot/bismuth_bronze"
+        },
+        "P": {
+            "item": "magistuarmory:wood_pavese"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:bismuth_bronze_pavese",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 0
+}

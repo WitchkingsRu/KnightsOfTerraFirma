@@ -1,0 +1,27 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "PPP",
+        "PTP",
+        " P "
+    ],
+    "key": {
+        "T": {
+            "tag": "knightsofterrafirma:shields/shield_brace"
+        },
+        "P": {
+            "tag": "tfc:lumber"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:wood_kiteshield",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 1,
+    "input_column": 1
+}

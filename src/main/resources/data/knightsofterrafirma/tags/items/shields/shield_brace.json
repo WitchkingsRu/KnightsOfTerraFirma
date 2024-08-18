@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "knightsofterrafirma:copper_shield_brace",
+    "knightsofterrafirma:bronze_shield_brace",
+    "knightsofterrafirma:iron_shield_brace",
+    "knightsofterrafirma:steel_shield_brace",
+	"knightsofterrafirma:bismuth_bronze_shield_brace",
+	"knightsofterrafirma:black_bronze_shield_brace",
+	"knightsofterrafirma:black_steel_shield_brace",
+	"knightsofterrafirma:blue_steel_shield_brace",
+	"knightsofterrafirma:red_steel_shield_brace"
+  ]
+}
