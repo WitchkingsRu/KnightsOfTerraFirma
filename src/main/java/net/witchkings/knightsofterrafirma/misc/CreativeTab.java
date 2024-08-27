@@ -3,6 +3,7 @@ package net.witchkings.knightsofterrafirma.misc;
 
 import com.magistuarmory.forge.item.MedievalWeaponItemForge;
 import com.magistuarmory.item.MedievalShieldItem;
+import com.magistuarmory.item.MedievalWeaponItem;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
@@ -22,7 +23,7 @@ public class CreativeTab {
             .title(Component.translatable("creativetab.kotf_weapons")).
             displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModdedItems.BISMUTH_BRONZE_BASTARDSWORD.get());
-            for (RegistryObject<MedievalWeaponItemForge> item:ModdedItems.listWeapons) {
+            for (RegistrySupplier<MedievalWeaponItem> item:ModdedItems.listWeapons) {
                 output.accept(item.get());
             }})
             .build());
@@ -39,7 +40,7 @@ public class CreativeTab {
             .title(Component.translatable("creativetab.kotf_weapon_parts")).
             displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get());
-                for (RegistryObject<Item> item:ModdedItems.listParts) {
+                for (RegistrySupplier<Item> item:ModdedItems.listParts) {
                     output.accept(item.get());
                 }
             })

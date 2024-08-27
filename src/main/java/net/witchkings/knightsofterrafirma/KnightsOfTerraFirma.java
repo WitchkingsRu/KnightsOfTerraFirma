@@ -39,7 +39,8 @@ public class KnightsOfTerraFirma {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         EventBuses.registerModEventBus(MODID, FMLJavaModLoadingContext.get().getModEventBus());
         CreativeTab.register(modEventBus);
-        ModdedItems.register(modEventBus);
+        ModdedItems.INSTANCE.init();
+        ModdedItems.weaponRegistry();
         Mixins.addConfiguration("mixins.knightsofterrafirma.json");
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

@@ -1,7 +1,0 @@
-{
-    "replace": false,
-    "values": [
-        "tfk:add_player_scoreboards",
-        "#tfk:check_for_broken_silver"
-    ]
-}

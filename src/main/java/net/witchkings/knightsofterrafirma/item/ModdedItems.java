@@ -2,37 +2,33 @@ package net.witchkings.knightsofterrafirma.item;
 
 import com.magistuarmory.item.*;
 import dev.architectury.platform.Platform;
+import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.world.item.Item.Properties;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.RegistryObject;
-import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import net.minecraft.world.item.Item;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import com.magistuarmory.forge.item.MedievalWeaponItemForge;
+import com.magistuarmory.api.item.ModItemsProvider;
 
 
 import java.util.ArrayList;
 import java.util.Map;
-import java.util.TreeMap;;
+import java.util.TreeMap;
 
 import static com.magistuarmory.item.WeaponTypes.*;
 
 
-public class ModdedItems {
-    public static final DeferredRegister<Item> ITEMS =
-            DeferredRegister.create(ForgeRegistries.ITEMS, KnightsOfTerraFirma.MODID);
+public class ModdedItems extends ModItemsProvider{
+    public static ModdedItems INSTANCE = new ModdedItems();
     public static ModItemTier BISMUTH_BRONZE = new ModItemTier("bismuth_bronze", 2, 1200, 6.0F, 2.0F, 15, Platform.isForge() ? "forge:ingots/bismuth_bronze" : "c:bismuth_bronze_ingots", 2);
     public static ModItemTier BLACK_BRONZE = new ModItemTier("black_bronze", 2, 1460, 6.0F, 2.0F, 15, Platform.isForge() ? "forge:ingots/black_bronze" : "c:black_bronze_ingots", 2);
     public static ModItemTier BLACK_STEEL = new ModItemTier("black_steel", 4, 4200, 8.0F, 4.0F, 15, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots", 4);
     public static ModItemTier BLUE_STEEL = new ModItemTier("blue_steel", 5, 6500, 9.0F, 5.0F, 15, Platform.isForge() ? "forge:ingots/blue_steel" : "c:blue_steel_ingots", 5);
     public static ModItemTier RED_STEEL = new ModItemTier("red_steel", 5, 6500, 9.0F, 5.0F, 15, Platform.isForge() ? "forge:ingots/red_steel" : "c:red_steel_ingots", 5);
 
-    public static RegistryObject<MedievalWeaponItemForge> BISMUTH_BRONZE_BASTARDSWORD;
-    public static RegistryObject<Item> BISMUTH_BRONZE_CONCAVE_HEAD = ITEMS.register("bismuth_bronze_concave_halberd_head", () -> new Item(new Item.Properties()));
-
-    public static final ArrayList<RegistryObject<MedievalWeaponItemForge>> listWeapons = new ArrayList<>();
-    public static final ArrayList<RegistryObject<Item>> listParts = new ArrayList<>();
+    public static RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_BASTARDSWORD = INSTANCE.addMedievalWeaponItem("bismuth_bronze_bastard_sword", new Properties(), BISMUTH_BRONZE, WeaponTypes.BASTARD_SWORD);
+    public static RegistrySupplier<Item> BISMUTH_BRONZE_CONCAVE_HEAD = INSTANCE.addIngredientItem("bismuth_bronze_concave_halberd_head", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static final ArrayList<RegistrySupplier<MedievalWeaponItem>> listWeapons = new ArrayList<>();
+    public static final ArrayList<RegistrySupplier<Item>> listParts = new ArrayList<>();
 
     public static ArrayList<ModItemTier> Materials = new ArrayList<>(){{
         add(BISMUTH_BRONZE);
@@ -96,17 +92,14 @@ public class ModdedItems {
         put("flail", FLAIL);
         put("guisarme", GUISARME);
     }};
-
-    public static void register(IEventBus eventBus){
-
-        BISMUTH_BRONZE_BASTARDSWORD = ITEMS.register("bismuth_bronze_bastard_sword", () -> new MedievalWeaponItemForge(new Properties(), BISMUTH_BRONZE, BASTARD_SWORD));
+    public static void weaponRegistry() {
         for (Map.Entry<String, WeaponType> Weapon:Weapons.entrySet()) {
             for (ModItemTier Material:Materials) {
                 if (Weapon.getValue() == BASTARD_SWORD && Material.getMaterialName() == "bismuth_bronze") {
 
                 }
                 else {
-                    listWeapons.add(ITEMS.register(Material.getMaterialName()+"_"+Weapon.getKey(), () -> new MedievalWeaponItemForge(new Properties(), Material, Weapon.getValue())));
+                    listWeapons.add(INSTANCE.addMedievalWeaponItem(Material.getMaterialName() + "_" + Weapon.getKey(), new Properties(), Material, Weapon.getValue()));
                 }
             }
         }
@@ -115,11 +108,17 @@ public class ModdedItems {
                 if (WeaponPart == "concave_halberd_head" && Material == "bismuth_bronze") {
                 }
                 else {
-                    listParts.add(ITEMS.register(Material+"_"+WeaponPart, ()-> new Item(new Item.Properties())));
+                    listParts.add(INSTANCE.addIngredientItem(Material+"_"+WeaponPart, () -> {
+                        return new Item(new Item.Properties());
+                    }));
                 }
             }
         }
-        ITEMS.register(eventBus);
+
+    }
+
+    public ModdedItems() {
+        super("knightsofterrafirma");
     }
 
 ;}

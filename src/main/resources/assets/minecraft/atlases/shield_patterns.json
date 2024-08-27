@@ -451,6 +451,19 @@
     {
       "type": "single",
       "resource": "knightsofterrafirma:entity/red_steel_buckler_nopattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/wood_pavese_pattern"
+    },
+    {
+      "type": "single",
+      "resource": "knightsofterrafirma:entity/wood_pavese_nopattern"
+    },
+    {
+      "type": "directory",
+      "source": "entity/pavese",
+      "prefix": "entity/pavese/"
     }
-    ]
+  ]
 }

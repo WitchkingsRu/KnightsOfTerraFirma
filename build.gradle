@@ -112,11 +112,8 @@ dependencies {
 //    implementation 'org.spongepowered:mixin:0.8.5'
     // Example mod dependency with JEI - using fg.deobf() ensures the dependency is remapped to your development mappings
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
-    compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:15.8.2.25")
-    compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:15.8.2.25")
-    runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:15.8.2.25")
-    runtimeOnly fg.deobf("curse.maven:better-combat-by-daedelus-639842:5266134")
-    runtimeOnly fg.deobf("curse.maven:playeranimator-658587:4587214")
+//    runtimeOnly fg.deobf("curse.maven:better-combat-by-daedelus-639842:5266134")
+//    runtimeOnly fg.deobf("curse.maven:playeranimator-658587:4587214")
 
     implementation fg.deobf("curse.maven:epic-knights-armor-and-weapons-509041:5254836")
     implementation fg.deobf("curse.maven:architectury-api-419699:5137938")

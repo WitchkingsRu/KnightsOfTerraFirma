@@ -7,7 +7,7 @@
     ],
     "key": {
         "T": {
-            "item": "tfc:metal/ingot/iron"
+            "item": "tfc:metal/ingot/wrought_iron"
         },
         "P": {
             "item": "magistuarmory:wood_roundshield"
