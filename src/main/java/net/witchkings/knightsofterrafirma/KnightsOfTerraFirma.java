@@ -20,7 +20,7 @@ import net.witchkings.knightsofterrafirma.client.ModModel;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.witchkings.knightsofterrafirma.item.Shields;
 import net.witchkings.knightsofterrafirma.misc.CreativeTab;
-
+import net.witchkings.knightsofterrafirma.misc.RPLoader;
 
 
 import org.slf4j.Logger;
@@ -50,6 +50,7 @@ public class KnightsOfTerraFirma {
         Shields.shieldRegistry();
         if (Platform.getEnv() == Dist.CLIENT)
             ModModel.INSTANCE.init(Shields.INSTANCE);
+        RPLoader.init();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
