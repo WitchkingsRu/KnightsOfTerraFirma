@@ -1,13 +1,9 @@
 package net.witchkings.knightsofterrafirma;
 
-import com.magistuarmory.api.client.render.model.ModModelsProvider;
-import com.magistuarmory.api.item.ModItemsProvider;
 import com.mojang.logging.LogUtils;
 import dev.architectury.platform.Platform;
 import dev.architectury.platform.forge.EventBuses;
-import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -17,6 +13,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.witchkings.knightsofterrafirma.client.ModModel;
+import net.witchkings.knightsofterrafirma.item.ArmorModifier;
+import net.witchkings.knightsofterrafirma.item.EKArmor;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.witchkings.knightsofterrafirma.item.Shields;
 import net.witchkings.knightsofterrafirma.misc.CreativeTab;
@@ -51,6 +49,7 @@ public class KnightsOfTerraFirma {
         if (Platform.getEnv() == Dist.CLIENT)
             ModModel.INSTANCE.init(Shields.INSTANCE);
         RPLoader.init();
+        EKArmor.init();
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
