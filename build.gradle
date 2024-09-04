@@ -115,6 +115,7 @@ dependencies {
 //    runtimeOnly fg.deobf("curse.maven:better-combat-by-daedelus-639842:5266134")
 //    runtimeOnly fg.deobf("curse.maven:playeranimator-658587:4587214")
 
+
     implementation fg.deobf("curse.maven:epic-knights-armor-and-weapons-509041:5254836")
     implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
     implementation fg.deobf("curse.maven:cloth-config-348521:4973441") //EK dependencies

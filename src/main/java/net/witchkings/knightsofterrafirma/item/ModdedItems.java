@@ -63,7 +63,7 @@ public class ModdedItems extends ModItemsProvider{
     public static RegistrySupplier<Item> KNIGHT_VISOR = INSTANCE.addIngredientItem("knight_visor", () -> {
         return new Item(new Item.Properties());
     });
-    public static RegistrySupplier<Item> MAXIMILIAN_VISOR = INSTANCE.addIngredientItem("maximilian_visor", () -> {
+    public static RegistrySupplier<Item> MAXIMILIAN_VISOR = INSTANCE.addIngredientItem("maximillian_visor", () -> {
         return new Item(new Item.Properties());
     });
     public static RegistrySupplier<Item> HELMET_NOSE = INSTANCE.addIngredientItem("norman_helmet_nose", () -> {
@@ -168,8 +168,6 @@ public class ModdedItems extends ModItemsProvider{
         add("maximilian");
         add("chainmail");
         add("jousting");
-        add("kastenbrust");
-        add("kastenbrust");
         add("kastenbrust");
     }};
 
