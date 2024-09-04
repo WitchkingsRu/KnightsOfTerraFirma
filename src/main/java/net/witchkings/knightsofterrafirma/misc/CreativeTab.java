@@ -45,6 +45,35 @@ public class CreativeTab {
                 }
             })
             .build());
+    public static final RegistryObject<CreativeModeTab> KOTF_ARMOR_PARTS = CREATIVE_MODE_TABS.register("kotf_armor_parts", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BASCINET_VISOR.get()))
+            .title(Component.translatable("creativetab.kotf_armor_parts")).
+            displayItems((itemDisplayParameters, output) -> {
+                output.accept(ModdedItems.BASCINET_VISOR.get());
+                output.accept(ModdedItems.CHAINMAIL_HELMET.get());
+                output.accept(ModdedItems.CHAINMAIL_TORSO.get());
+                output.accept(ModdedItems.CRUSADER_KNEES.get());
+                output.accept(ModdedItems.CRUSADER_VISOR.get());
+                output.accept(ModdedItems.GOTHIC_VISOR.get());
+                output.accept(ModdedItems.GRAND_BASCINET_VISOR.get());
+                output.accept(ModdedItems.JOUSTING_VISOR.get());
+                output.accept(ModdedItems.HALFARMOR_HELMET.get());
+                output.accept(ModdedItems.HALFARMOR_BODY.get());
+                output.accept(ModdedItems.HALFARMOR_SHOULDER.get());
+                output.accept(ModdedItems.KNIGHT_VISOR.get());
+                output.accept(ModdedItems.MAXIMILIAN_VISOR.get());
+                output.accept(ModdedItems.HELMET_NOSE.get());
+                output.accept(ModdedItems.PLATEMAIL_ARMS.get());
+                output.accept(ModdedItems.PLATEMAIL_HAT.get());
+                output.accept(ModdedItems.PLATEMAIL_KNEES.get());
+                output.accept(ModdedItems.SHISHAK.get());
+                output.accept(ModdedItems.XIV_ARMS.get());
+                output.accept(ModdedItems.XIV_KNEES.get());
+
+                for (RegistrySupplier<Item> item:ModdedItems.listArmorParts) {
+                    output.accept(item.get());
+                }
+            })
+            .build());
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

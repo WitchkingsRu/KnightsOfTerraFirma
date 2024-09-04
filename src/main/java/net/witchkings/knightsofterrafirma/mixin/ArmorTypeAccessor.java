@@ -15,6 +15,7 @@ public interface ArmorTypeAccessor {
     @Accessor("toughness")
     float getToughness();
 
+    @Mutable
     @Accessor("toughness")
     void setToughness(float toughness);
 
@@ -22,6 +23,7 @@ public interface ArmorTypeAccessor {
     @Accessor("knockbackResistance")
     float getKnockbackResistance();
 
+    @Mutable
     @Accessor("knockbackResistance")
     void setKnockbackResistance(float knockbackResistance);
 

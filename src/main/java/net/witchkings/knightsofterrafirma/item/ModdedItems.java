@@ -27,8 +27,71 @@ public class ModdedItems extends ModItemsProvider{
     public static RegistrySupplier<Item> BISMUTH_BRONZE_CONCAVE_HEAD = INSTANCE.addIngredientItem("bismuth_bronze_concave_halberd_head", () -> {
         return new Item(new Item.Properties());
     });
+    public static RegistrySupplier<Item> BASCINET_VISOR = INSTANCE.addIngredientItem("bascinet_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> CHAINMAIL_HELMET = INSTANCE.addIngredientItem("chainmail_helmet_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> CHAINMAIL_TORSO = INSTANCE.addIngredientItem("chainmail_torso", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> CRUSADER_KNEES = INSTANCE.addIngredientItem("crusader_knees", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> CRUSADER_VISOR = INSTANCE.addIngredientItem("crusader_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> GOTHIC_VISOR = INSTANCE.addIngredientItem("gothic_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> GRAND_BASCINET_VISOR = INSTANCE.addIngredientItem("grand_bascinet_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> JOUSTING_VISOR = INSTANCE.addIngredientItem("jousting_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> HALFARMOR_HELMET = INSTANCE.addIngredientItem("halfarmor_helmet_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> HALFARMOR_BODY = INSTANCE.addIngredientItem("halfarmor_chestplate_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> HALFARMOR_SHOULDER = INSTANCE.addIngredientItem("halfarmor_shoulder_pads", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> KNIGHT_VISOR = INSTANCE.addIngredientItem("knight_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> MAXIMILIAN_VISOR = INSTANCE.addIngredientItem("maximilian_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> HELMET_NOSE = INSTANCE.addIngredientItem("norman_helmet_nose", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> PLATEMAIL_ARMS = INSTANCE.addIngredientItem("platemail_arms", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> PLATEMAIL_HAT = INSTANCE.addIngredientItem("platemail_helmet_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> PLATEMAIL_KNEES = INSTANCE.addIngredientItem("platemail_knees", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> SHISHAK = INSTANCE.addIngredientItem("shishak_helmet_mask", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> XIV_ARMS = INSTANCE.addIngredientItem("xivcenturyknight_arms", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> XIV_KNEES = INSTANCE.addIngredientItem("xivcenturyknight_knees", () -> {
+        return new Item(new Item.Properties());
+    });
+
     public static final ArrayList<RegistrySupplier<MedievalWeaponItem>> listWeapons = new ArrayList<>();
+
     public static final ArrayList<RegistrySupplier<Item>> listParts = new ArrayList<>();
+    public static final ArrayList<RegistrySupplier<Item>> listArmorParts = new ArrayList<>();
 
     public static ArrayList<ModItemTier> Materials = new ArrayList<>(){{
         add(BISMUTH_BRONZE);
@@ -92,6 +155,24 @@ public class ModdedItems extends ModItemsProvider{
         put("flail", FLAIL);
         put("guisarme", GUISARME);
     }};
+
+    public static ArrayList<String> ArmorParts = new ArrayList<>(){{
+        add("arms");
+        add("pants");
+        add("knees");
+    }};
+
+    public static ArrayList<String> ArmorTypes = new ArrayList<>(){{
+        add("knight");
+        add("gothic");
+        add("maximilian");
+        add("chainmail");
+        add("jousting");
+        add("kastenbrust");
+        add("kastenbrust");
+        add("kastenbrust");
+    }};
+
     public static void weaponRegistry() {
         for (Map.Entry<String, WeaponType> Weapon:Weapons.entrySet()) {
             for (ModItemTier Material:Materials) {
@@ -114,6 +195,14 @@ public class ModdedItems extends ModItemsProvider{
                 }
             }
         }
+        for (String ArmorPart:ArmorParts) {
+            for (String ArmorType:ArmorTypes) {
+                listArmorParts.add(INSTANCE.addIngredientItem(ArmorType+"_"+ArmorPart, () -> {
+                    return new Item(new Item.Properties());
+                }));
+            }
+        }
+
 
     }
 
