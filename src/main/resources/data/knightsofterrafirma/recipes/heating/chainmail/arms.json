@@ -1,12 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:chainmail_helmet"
+      "item": "knightsofterrafirma:chainmail_arms"
     },
     "result_fluid": {
       "fluid": "tfc:metal/steel",
       "amount": 216
     },
-    "temperature": 1540,
-    "use_durability": true
+    "temperature": 1540
 }
