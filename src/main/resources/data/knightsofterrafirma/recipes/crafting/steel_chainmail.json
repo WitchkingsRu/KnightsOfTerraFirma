@@ -1,0 +1,24 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "TTT",
+        "TTT",
+        "TTT"
+    ],
+    "key": {
+        "T": {
+            "item": "tfc:metal/chain/steel"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:steel_chainmail",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 0
+}

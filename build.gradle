@@ -114,7 +114,7 @@ dependencies {
     // The JEI API is declared for compile time use, while the full JEI artifact is used at runtime
 //    runtimeOnly fg.deobf("curse.maven:better-combat-by-daedelus-639842:5266134")
 //    runtimeOnly fg.deobf("curse.maven:playeranimator-658587:4587214")
-
+    runtimeOnly(fg.deobf("mezz.jei:jei-1.20.1-forge:15.17.0.76"))
 
     implementation fg.deobf("curse.maven:epic-knights-armor-and-weapons-509041:5254836")
     implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
