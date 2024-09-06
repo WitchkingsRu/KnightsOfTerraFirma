@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:halfarmor_helmet_unfinished"
+  },
+  "second_input": {
+    "item": "tfc:metal/sheet/steel"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:barbute",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

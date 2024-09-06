@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:knight_arms",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "bend_any",
+    "shrink_second_last",
+    "hit_last"
+  ],
+  "apply_forging_bonus": true
+}

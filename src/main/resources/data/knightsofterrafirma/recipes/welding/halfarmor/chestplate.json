@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:halfarmor_chestplate_unfinished"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:halfarmor_shoulder_pads"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:halfarmor_chestplate",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:halfarmor_chestplate_unfinished",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "bend_any",
+    "upset_not_last",
+    "draw_last"
+  ],
+  "apply_forging_bonus": true
+}

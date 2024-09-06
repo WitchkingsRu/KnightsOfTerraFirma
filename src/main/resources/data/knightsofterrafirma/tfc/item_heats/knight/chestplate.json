@@ -1,8 +1,8 @@
 {
     "ingredient": {
-      "item": "magistuarmory:armet"
+      "item": "magistuarmory:knight_chestplate"
     },
-    "heat_capacity": 28.57,
+    "heat_capacity": 20.57,
     "forging_temperature": 924,
     "welding_temperature": 1232
 }
