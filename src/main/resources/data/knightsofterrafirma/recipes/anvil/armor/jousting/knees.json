@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:jousting_knees",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "shrink_any",
+    "bend_second_last",
+    "hit_last"
+  ],
+  "apply_forging_bonus": true
+}

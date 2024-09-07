@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/steel"
+  },
+  "result": {
+    "item": "magistuarmory:gothic_boots",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "shrink_any",
+    "draw_not_last",
+    "bend_last"
+  ],
+  "apply_forging_bonus": true
+}

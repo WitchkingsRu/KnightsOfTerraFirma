@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:gothic_visor",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "shrink_any",
+    "upset_not_last",
+    "bend_last"
+  ],
+  "apply_forging_bonus": true
+}
