@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/sheet/steel"
+    },
+    "second_input": {
+        "item": "knightsofterrafirma:steel_shield_brace"
+    },
+    "tier": 4,
+    "result": {
+        "item": "magistuarmory:steel_target",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

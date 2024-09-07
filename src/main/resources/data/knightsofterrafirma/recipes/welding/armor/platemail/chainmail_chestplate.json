@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "knightsofterrafirma:chainmail_torso"
+    },
+    "second_input": {
+        "item": "knightsofterrafirma:platemail_arms"
+    },
+    "tier": 4,
+    "result": {
+        "item": "magistuarmory:platemail_chestplate",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

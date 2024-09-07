@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:kastenbrust_pants"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:kastenbrust_knees"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:kastenbrust_leggings",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

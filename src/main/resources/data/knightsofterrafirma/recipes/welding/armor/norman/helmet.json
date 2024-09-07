@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:barbute"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:norman_helmet_nose"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:norman_helmet",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

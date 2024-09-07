@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:halfarmor_chestplate"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:maximilian_arms"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:maximilian_chestplate",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

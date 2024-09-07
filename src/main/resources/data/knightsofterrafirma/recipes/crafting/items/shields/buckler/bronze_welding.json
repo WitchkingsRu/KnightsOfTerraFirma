@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "tfc:metal/double_ingot/bronze"
+    },
+    "second_input": {
+        "item": "knightsofterrafirma:bronze_shield_brace"
+    },
+    "tier": 2,
+    "result": {
+        "item": "magistuarmory:bronze_buckler",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

@@ -1,0 +1,15 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+        "item": "magistuarmory:chainmail_helmet"
+    },
+    "second_input": {
+        "item": "knightsofterrafirma:platemail_helmet_unfinished"
+    },
+    "tier": 4,
+    "result": {
+        "item": "magistuarmory:kettlehat",
+        "nbt": {}
+    },
+    "combine_forging_bonus": true
+}

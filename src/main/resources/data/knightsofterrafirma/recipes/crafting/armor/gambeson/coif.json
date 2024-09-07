@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "WWW",
+        "W W",
+        " W "
+    ],
+    "key": {
+        "W": {
+            "item": "tfc:wool_cloth"
+        }
+    },
+    "result": {
+        "item": "magistuarmory:coif"
+    }
+}

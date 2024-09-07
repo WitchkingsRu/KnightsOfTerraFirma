@@ -1,0 +1,30 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "  T",
+        " S ",
+        "P  "
+    ],
+    "key": {
+        "T": {
+            "item": "knightsofterrafirma:copper_heavy_war_hammer_head"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "magistuarmory:hilt"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "magistuarmory:copper_heavywarhammer",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 1,
+    "input_column": 1
+}

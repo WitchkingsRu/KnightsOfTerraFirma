@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:barbute"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:maximilian_visor"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:maximilian_helmet",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}
