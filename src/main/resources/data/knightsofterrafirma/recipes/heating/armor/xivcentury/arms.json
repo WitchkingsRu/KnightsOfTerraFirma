@@ -1,7 +1,7 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "knightsofterrafirma:knight_arms"
+    "item": "knightsofterrafirma:xivcenturyknight_arms"
   },
   "result_fluid": {
     "fluid": "tfc:metal/steel",

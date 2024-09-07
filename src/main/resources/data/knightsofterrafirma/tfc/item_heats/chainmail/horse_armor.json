@@ -1,9 +1,0 @@
-{
-    "__comment__": "This file was automatically created by mcresources",
-    "ingredient": {
-      "item": "magistuarmory:chainmail_horse_armor"
-    },
-    "heat_capacity": 7.7139,
-    "forging_temperature": 924,
-    "welding_temperature": 1232
-}

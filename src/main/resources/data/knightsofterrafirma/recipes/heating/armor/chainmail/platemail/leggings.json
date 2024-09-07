@@ -5,7 +5,7 @@
     },
     "result_fluid": {
       "fluid": "tfc:metal/steel",
-      "amount": 415
+      "amount": 562
     },
     "temperature": 1540,
     "use_durability": true
