@@ -177,6 +177,9 @@ public class ModdedItems extends ModItemsProvider{
                 if (Weapon.getValue() == BASTARD_SWORD && Material.getMaterialName() == "bismuth_bronze") {
 
                 }
+                if (Weapon.getValue() == GIANT_LANCE) {
+                    listWeapons.add(INSTANCE.addLanceItem(Material.getMaterialName() + "_" + Weapon.getKey(), new Properties(), Material, Weapon.getValue()));
+                }
                 else {
                     listWeapons.add(INSTANCE.addMedievalWeaponItem(Material.getMaterialName() + "_" + Weapon.getKey(), new Properties(), Material, Weapon.getValue()));
                 }
