@@ -11,10 +11,19 @@
             "item": "magistuarmory:knight_leggings"
         },
         {
+            "item": "magistuarmory:ceremonial_armet"
+        },
+        {
+            "item": "magistuarmory:ceremonial_chestplate"
+        },
+        {
+            "item": "magistuarmory:ceremonial_boots"
+        },
+        {
             "item": "magistuarmory:knight_boots"
         }
     ],
-    "piercing": 8.5,
-    "slashing": 11.5,
-    "crushing": 10.5
+    "piercing": 6.5,
+    "slashing": 9.5,
+    "crushing": 8.5
 }

@@ -1,9 +1,8 @@
 {
     "type": "tfc:advanced_shaped_crafting",
     "pattern": [
-        "   ",
-        " T ",
-        "P  "
+        " T",
+        "P "
     ],
     "key": {
         "T": {
@@ -15,13 +14,12 @@
     },
     "result": {
         "stack": {
-            "item": "knightsofterrafirma:bismuth_bronze_ahlspiess",
-            "nbt": {}
+            "item": "knightsofterrafirma:bismuth_bronze_ahlspiess"
         },
         "modifiers": [
             "tfc:copy_forging_bonus"
         ]
     },
-    "input_row": 1,
+    "input_row": 0,
     "input_column": 1
 }
