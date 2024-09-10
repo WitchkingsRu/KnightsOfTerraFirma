@@ -7,7 +7,7 @@
     ],
     "key": {
         "B": {
-            "item": "tfc:metal/javelin_head/copper"
+            "item": "tfc:metal/ingot/copper"
         },
         "T": {
             "item": "tfc:metal/tuyere/copper"
@@ -18,16 +18,7 @@
     },
     "result": {
         "stack": {
-            "item": "magistuarmory:copper_chivalrylance",
-            "nbt": {
-                "Enchantments": [
-                    {
-                        "id": "unbreaking",
-                        "lvl": 3
-                    }
-                ],
-                "HideFlags": 1
-            }
+            "item": "magistuarmory:copper_chivalrylance"
         },
         "modifiers": [
             "tfc:copy_forging_bonus"

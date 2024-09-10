@@ -7,7 +7,7 @@
     ],
     "key": {
         "B": {
-            "item": "tfc:metal/javelin_head/wrought_iron"
+            "item": "tfc:metal/ingot/wrought_iron"
         },
         "T": {
             "item": "tfc:metal/tuyere/wrought_iron"
@@ -18,16 +18,7 @@
     },
     "result": {
         "stack": {
-            "item": "magistuarmory:iron_chivalrylance",
-            "nbt": {
-                "Enchantments": [
-                    {
-                        "id": "unbreaking",
-                        "lvl": 8
-                    }
-                ],
-                "HideFlags": 1
-            }
+            "item": "magistuarmory:iron_chivalrylance"
         },
         "modifiers": [
             "tfc:copy_forging_bonus"

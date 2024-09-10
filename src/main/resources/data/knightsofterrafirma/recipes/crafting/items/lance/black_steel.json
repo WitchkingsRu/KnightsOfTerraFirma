@@ -7,7 +7,7 @@
     ],
     "key": {
         "B": {
-            "item": "tfc:metal/javelin_head/black_steel"
+            "item": "tfc:metal/ingot/black_steel"
         },
         "T": {
             "item": "tfc:metal/tuyere/black_steel"
@@ -18,16 +18,7 @@
     },
     "result": {
         "stack": {
-            "item": "magistuarmory:netherite_chivalrylance",
-            "nbt": {
-                "Enchantments": [
-                    {
-                        "id": "unbreaking",
-                        "lvl": 1
-                    }
-                ],
-                "HideFlags": 1
-            }
+            "item": "knightsofterrafirma:black_steel_giant_lance"
         },
         "modifiers": [
             "tfc:copy_forging_bonus"
