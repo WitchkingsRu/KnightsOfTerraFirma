@@ -1,0 +1,29 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "  B",
+        " T ",
+        "P  "
+    ],
+    "key": {
+        "B": {
+            "item": "tfc:metal/ingot/red_steel"
+        },
+        "T": {
+            "item": "tfc:metal/tuyere/red_steel"
+        }, 
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:red_steel_giant_lance"
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 2
+}
