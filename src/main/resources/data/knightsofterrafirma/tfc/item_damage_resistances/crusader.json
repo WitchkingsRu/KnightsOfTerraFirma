@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    {
+      "item": "magistuarmory:greathelm"
+    },
+    {
+      "item": "magistuarmory:crusader_chestplate"
+    },
+    {
+      "item": "magistuarmory:crusader_leggings"
+    }
+  ],
+  "piercing": 10,
+  "slashing": 13,
+  "crushing": 5
+}

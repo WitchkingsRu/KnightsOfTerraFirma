@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    {
+      "item": "magistuarmory:norman_helmet"
+    },
+    {
+      "item": "magistuarmory:shishak"
+    },
+    {
+      "item": "magistuarmory:brigandine_chestplate"
+    }
+  ],
+  "piercing": 2,
+  "slashing": 8,
+  "crushing": 8
+}

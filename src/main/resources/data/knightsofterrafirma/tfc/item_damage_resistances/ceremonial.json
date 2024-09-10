@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    {
+      "item": "magistuarmory:ceremonialarmet"
+    },
+    {
+      "item": "magistuarmory:ceremonial_chestplate"
+    },
+    {
+      "item": "magistuarmory:ceremonial_boots"
+    }
+  ],
+  "piercing": 6.5,
+  "slashing": 9.5,
+  "crushing": 8.5
+}

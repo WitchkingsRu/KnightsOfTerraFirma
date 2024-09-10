@@ -2,6 +2,9 @@
     "__comment__": "This file was automatically created by mcresources",
     "ingredient": [
       {
+        "item": "magistuarmory:face_helmet"
+      },
+      {
         "item": "magistuarmory:lamellar_chestplate"
       },
       {

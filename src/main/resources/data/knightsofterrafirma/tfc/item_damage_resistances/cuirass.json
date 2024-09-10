@@ -1,0 +1,17 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    {
+      "item": "magistuarmory:cuirassier_helmet"
+    },
+    {
+      "item": "magistuarmory:cuirassier_chestplate"
+    },
+    {
+      "item": "magistuarmory:wingedhussar_chestplate"
+    }
+  ],
+  "piercing": 6,
+  "slashing": 3.5,
+  "crushing": 5
+}
