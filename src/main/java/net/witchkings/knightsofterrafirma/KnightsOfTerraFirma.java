@@ -3,6 +3,7 @@ package net.witchkings.knightsofterrafirma;
 import com.mojang.logging.LogUtils;
 import dev.architectury.platform.Platform;
 import dev.architectury.platform.forge.EventBuses;
+import net.dries007.tfc.common.recipes.TFCRecipeSerializers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -21,6 +22,7 @@ import net.witchkings.knightsofterrafirma.misc.CreativeTab;
 import net.witchkings.knightsofterrafirma.misc.RPLoader;
 
 
+import net.witchkings.knightsofterrafirma.recipe.WeldingSerializer;
 import org.slf4j.Logger;
 import org.spongepowered.asm.mixin.Mixins;
 
@@ -50,6 +52,7 @@ public class KnightsOfTerraFirma {
             ModModel.INSTANCE.init(Shields.INSTANCE);
         RPLoader.init();
         EKArmor.init();
+        WeldingSerializer.RECIPE_SERIALIZERS.register(modEventBus);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

@@ -17,7 +17,7 @@ import net.dries007.tfc.common.recipes.inventory.EmptyInventory;
 import net.dries007.tfc.common.recipes.outputs.ItemStackProvider;
 import net.dries007.tfc.util.JsonHelpers;
 
-public class OverwritedWelding implements ISimpleRecipe<WeldingRecipe.Inventory> {
+public class OverwritedWelding extends WeldingRecipe {
     private final ResourceLocation id;
     private final Ingredient firstInput, secondInput;
     private final int tier;
@@ -26,6 +26,7 @@ public class OverwritedWelding implements ISimpleRecipe<WeldingRecipe.Inventory>
 
     public OverwritedWelding(ResourceLocation id, Ingredient firstInput, Ingredient secondInput, int tier, ItemStackProvider output, boolean combineForgingBonus)
     {
+        super(id, firstInput, secondInput, tier, output, combineForgingBonus);
         this.id = id;
         this.firstInput = firstInput;
         this.secondInput = secondInput;
@@ -52,29 +53,25 @@ public class OverwritedWelding implements ISimpleRecipe<WeldingRecipe.Inventory>
      * As such it doesn't check if the recipe is complete, but only if the recipe could be completed.
      */
     @Override
-    public boolean matches(Inventory inventory, Level level)
-    {
-        final ItemStack left = inventory.getLeft(), right = inventory.getRight();
-        return (firstInput.test(left) && secondInput.test(right)) || (firstInput.test(right) && secondInput.test(left));
+    public boolean matches(WeldingRecipe.Inventory inventory, Level level) {
+        ItemStack left = inventory.getLeft();
+        ItemStack right = inventory.getRight();
+        return this.firstInput.test(left) && this.secondInput.test(right) || this.firstInput.test(right) && this.secondInput.test(left);
     }
 
     @Override
-    public ItemStack assemble(Inventory inventory, RegistryAccess registryAccess)
-    {
-        final ItemStack stack = output.getSingleStack(inventory.getLeft());
-        if (combineForgingBonus)
-        {
-            final ForgingBonus left = ForgingBonus.get(inventory.getLeft());
-            final ForgingBonus right = ForgingBonus.get(inventory.getRight());
-            if (left.ordinal() < right.ordinal())
-            {
+    public ItemStack assemble(WeldingRecipe.Inventory inventory, RegistryAccess registryAccess) {
+        ItemStack stack = this.output.getSingleStack(inventory.getLeft());
+        if (this.combineForgingBonus) {
+            ForgingBonus left = ForgingBonus.get(inventory.getLeft());
+            ForgingBonus right = ForgingBonus.get(inventory.getRight());
+            if (left.ordinal() > right.ordinal()) {
                 ForgingBonus.set(stack, left);
-            }
-            else
-            {
+            } else {
                 ForgingBonus.set(stack, right);
             }
         }
+
         return stack;
     }
 
@@ -126,34 +123,29 @@ public class OverwritedWelding implements ISimpleRecipe<WeldingRecipe.Inventory>
         int getTier();
     }
 
-    public static class Serializer extends RecipeSerializerImpl<WeldingRecipe>
-    {
-        @Override
-        public WeldingRecipe fromJson(ResourceLocation recipeId, JsonObject json)
-        {
-            final Ingredient firstInput = Ingredient.fromJson(JsonHelpers.get(json, "first_input"));
-            final Ingredient secondInput = Ingredient.fromJson(JsonHelpers.get(json, "second_input"));
-            final int tier = JsonHelpers.getAsInt(json, "tier", -1);
-            final ItemStackProvider output = ItemStackProvider.fromJson(JsonHelpers.getAsJsonObject(json, "result"));
-            final boolean combineForging = JsonHelpers.getAsBoolean(json, "combine_forging_bonus", false);
-            return new WeldingRecipe(recipeId, firstInput, secondInput, tier, output, combineForging);
+    public static class Serializer extends RecipeSerializerImpl<OverwritedWelding> {
+        public Serializer() {
         }
 
-        @Nullable
-        @Override
-        public WeldingRecipe fromNetwork(ResourceLocation recipeId, FriendlyByteBuf buffer)
-        {
-            final Ingredient firstInput = Ingredient.fromNetwork(buffer);
-            final Ingredient secondInput = Ingredient.fromNetwork(buffer);
-            final int tier = buffer.readVarInt();
-            final ItemStackProvider output = ItemStackProvider.fromNetwork(buffer);
-            final boolean combineForging = buffer.readBoolean();
-            return new WeldingRecipe(recipeId, firstInput, secondInput, tier, output, combineForging);
+        public OverwritedWelding fromJson(ResourceLocation recipeId, JsonObject json) {
+            Ingredient firstInput = Ingredient.fromJson(JsonHelpers.get(json, "first_input"));
+            Ingredient secondInput = Ingredient.fromJson(JsonHelpers.get(json, "second_input"));
+            int tier = JsonHelpers.getAsInt(json, "tier", -1);
+            ItemStackProvider output = ItemStackProvider.fromJson(JsonHelpers.getAsJsonObject(json, "result"));
+            boolean combineForging = JsonHelpers.getAsBoolean(json, "combine_forging_bonus", false);
+            return new OverwritedWelding(recipeId, firstInput, secondInput, tier, output, combineForging);
         }
 
-        @Override
-        public void toNetwork(FriendlyByteBuf buffer, OverwritedWelding recipe)
-        {
+        public @Nullable OverwritedWelding fromNetwork(ResourceLocation recipeId, FriendlyByteBuf buffer) {
+            Ingredient firstInput = Ingredient.fromNetwork(buffer);
+            Ingredient secondInput = Ingredient.fromNetwork(buffer);
+            int tier = buffer.readVarInt();
+            ItemStackProvider output = ItemStackProvider.fromNetwork(buffer);
+            boolean combineForging = buffer.readBoolean();
+            return new OverwritedWelding(recipeId, firstInput, secondInput, tier, output, combineForging);
+        }
+
+        public void toNetwork(FriendlyByteBuf buffer, OverwritedWelding recipe) {
             recipe.firstInput.toNetwork(buffer);
             recipe.secondInput.toNetwork(buffer);
             buffer.writeVarInt(recipe.tier);
