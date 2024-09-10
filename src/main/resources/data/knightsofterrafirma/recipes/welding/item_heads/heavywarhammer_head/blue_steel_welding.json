@@ -1,5 +1,5 @@
 {
-    "type": "tfc:welding",
+    "type": "knightsofterrafirma:welding",
     "first_input": {
         "item": "tfc:metal/hammer_head/blue_steel"
     },
