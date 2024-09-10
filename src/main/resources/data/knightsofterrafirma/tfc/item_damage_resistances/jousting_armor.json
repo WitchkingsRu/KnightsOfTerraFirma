@@ -2,19 +2,19 @@
   "__comment__": "This file was automatically created by mcresources",
   "ingredient": [
     {
-      "item": "magistuarmory:armet"
+      "item": "magistuarmory:stechhelm"
     },
     {
-      "item": "magistuarmory:knight_chestplate"
+      "item": "magistuarmory:jousting_chestplate"
     },
     {
-      "item": "magistuarmory:knight_leggings"
+      "item": "magistuarmory:jousting_leggings"
     },
     {
-      "item": "magistuarmory:knight_boots"
+      "item": "magistuarmory:jousting_boots"
     }
   ],
-  "piercing": 6.5,
+  "piercing": 10.5,
   "slashing": 9.5,
   "crushing": 8.5
 }

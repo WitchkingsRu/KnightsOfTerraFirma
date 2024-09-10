@@ -2,19 +2,19 @@
   "__comment__": "This file was automatically created by mcresources",
   "ingredient": [
     {
-      "item": "magistuarmory:armet"
+      "item": "magistuarmory:maximilian_helmet"
     },
     {
-      "item": "magistuarmory:knight_chestplate"
+      "item": "magistuarmory:maximilian_chestplate"
     },
     {
-      "item": "magistuarmory:knight_leggings"
+      "item": "magistuarmory:maximilian_leggings"
     },
     {
-      "item": "magistuarmory:knight_boots"
+      "item": "magistuarmory:maximilian_boots"
     }
   ],
-  "piercing": 6.5,
-  "slashing": 9.5,
-  "crushing": 8.5
+  "piercing": 8.5,
+  "slashing": 11.5,
+  "crushing": 10.5
 }

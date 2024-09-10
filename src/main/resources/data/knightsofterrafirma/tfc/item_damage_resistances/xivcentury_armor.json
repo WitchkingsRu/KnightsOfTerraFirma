@@ -2,16 +2,16 @@
   "__comment__": "This file was automatically created by mcresources",
   "ingredient": [
     {
-      "item": "magistuarmory:armet"
+      "item": "magistuarmory:bascinet"
     },
     {
-      "item": "magistuarmory:knight_chestplate"
+      "item": "magistuarmory:xivcenturyknight_chestplate"
     },
     {
-      "item": "magistuarmory:knight_leggings"
+      "item": "magistuarmory:xivcenturyleggings"
     },
     {
-      "item": "magistuarmory:knight_boots"
+      "item": "magistuarmory:xivcenturyboots"
     }
   ],
   "piercing": 6.5,
