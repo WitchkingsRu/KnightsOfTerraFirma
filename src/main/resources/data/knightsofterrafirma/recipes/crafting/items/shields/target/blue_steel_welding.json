@@ -1,5 +1,5 @@
 {
-    "type": "tfc:welding",
+    "type": "knightsofterrafirmac:welding",
     "first_input": {
         "item": "tfc:metal/sheet/blue_steel"
     },
