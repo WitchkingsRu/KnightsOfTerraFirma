@@ -1,8 +1,8 @@
 {
     "type": "tfc:advanced_shaped_crafting",
     "pattern": [
-        "   ",
-        " T ",
+        "  T",
+        " S ",
         "P  "
     ],
     "key": {
@@ -11,6 +11,9 @@
         },
         "P": {
             "item": "magistuarmory:pole"
+        },
+        "S": {
+            "item": "minecraft:stick"
         }
     },
     "result": {
@@ -22,6 +25,6 @@
             "tfc:copy_forging_bonus"
         ]
     },
-    "input_row": 1,
-    "input_column": 1
+    "input_row": 0,
+    "input_column": 2
 }
