@@ -38,7 +38,7 @@ public class ModelledItems extends ModItemsProvider {
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_ARMET = INSTANCE.addKnightItem("black_steel_armet", ModArmor.BLACKSTEEL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
     @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("blacksteel_knight_chestplate", ModArmor.BLACKSTEEL_KNIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
+    public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("blacksteel_knight_chestplate", ModArmor.BLACKSTEEL_KNIGHT_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_KNIGHT_LEGGINGS = INSTANCE.addMedievalArmorItem("blacksteel_knight_leggings", ModArmor.BLACKSTEEL_KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties());;
     @Nullable

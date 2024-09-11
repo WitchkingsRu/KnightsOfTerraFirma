@@ -11,6 +11,7 @@ import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
+import net.witchkings.knightsofterrafirma.client.armor.BlackSteelKnightArmor;
 
 @OnlyIn(Dist.CLIENT)
 public class ModModel extends ModModelsProvider {
@@ -28,6 +29,7 @@ public class ModModel extends ModModelsProvider {
     public static final ModelLayerLocation PAVISE_BLOCK_LOCATION = INSTANCE.addModel("pavise_block", PaviseBlockModel::createLayer);
 
     public static final ModelLayerLocation ARMET_LOCATION = INSTANCE.addArmorModel("armet", ArmetModel::createLayer);
+    public static final ModelLayerLocation BLACKSTEEL_KNIGHT = INSTANCE.addArmorModel("black_steel_knight_armor", BlackSteelKnightArmor::createLayer);
     public ModModel(String modId) {
         super(modId);
     }
