@@ -2,8 +2,10 @@ package net.witchkings.knightsofterrafirma.client;
 
 import com.magistuarmory.api.client.render.model.ModModelsProvider;
 import com.magistuarmory.client.render.model.ModModels;
+import com.magistuarmory.client.render.model.armor.ArmetModel;
 import com.magistuarmory.client.render.model.block.PaviseBlockModel;
 import com.magistuarmory.client.render.model.item.*;
+import dev.architectury.platform.Mod;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraftforge.api.distmarker.Dist;
@@ -24,6 +26,8 @@ public class ModModel extends ModModelsProvider {
     public static final ModelLayerLocation BUCKLER = INSTANCE.addModel("buckler", BucklerModel::createLayer);
     public static final ModelLayerLocation TARGET = INSTANCE.addModel("target", TargeModel::createLayer);
     public static final ModelLayerLocation PAVISE_BLOCK_LOCATION = INSTANCE.addModel("pavise_block", PaviseBlockModel::createLayer);
+
+    public static final ModelLayerLocation ARMET_LOCATION = INSTANCE.addArmorModel("armet", ArmetModel::createLayer);
     public ModModel(String modId) {
         super(modId);
     }

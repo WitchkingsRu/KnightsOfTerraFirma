@@ -3,7 +3,6 @@ package net.witchkings.knightsofterrafirma;
 import com.mojang.logging.LogUtils;
 import dev.architectury.platform.Platform;
 import dev.architectury.platform.forge.EventBuses;
-import net.dries007.tfc.common.recipes.TFCRecipeSerializers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -14,10 +13,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.witchkings.knightsofterrafirma.client.ModModel;
-import net.witchkings.knightsofterrafirma.item.ArmorModifier;
-import net.witchkings.knightsofterrafirma.item.EKArmor;
-import net.witchkings.knightsofterrafirma.item.ModdedItems;
-import net.witchkings.knightsofterrafirma.item.Shields;
+import net.witchkings.knightsofterrafirma.item.*;
 import net.witchkings.knightsofterrafirma.misc.CreativeTab;
 import net.witchkings.knightsofterrafirma.misc.RPLoader;
 
@@ -46,10 +42,10 @@ public class KnightsOfTerraFirma {
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
-        Shields.INSTANCE.init();
-        Shields.shieldRegistry();
+        ModelledItems.INSTANCE.init();
+        ModelledItems.shieldRegistry();
         if (Platform.getEnv() == Dist.CLIENT)
-            ModModel.INSTANCE.init(Shields.INSTANCE);
+            ModModel.INSTANCE.init(ModelledItems.INSTANCE);
         RPLoader.init();
         EKArmor.init();
         WeldingSerializer.RECIPE_SERIALIZERS.register(modEventBus);
