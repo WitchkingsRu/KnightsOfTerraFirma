@@ -44,14 +44,28 @@ public class ModelledItems extends ModItemsProvider {
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_KNIGHT_LEGGINGS = INSTANCE.addMedievalArmorItem("black_steel_knight_leggings", ModArmor.BLACKSTEEL_KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties());;
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("black_steel_knight_boots", ModArmor.BLACKSTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
+
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_BARBUTE = INSTANCE.addMedievalArmorItem("black_steel_halfarmor_helmet", ModArmor.BLACKSTEEL_BARBUTE, ArmorItem.Type.HELMET, new Item.Properties());
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_HALFARMOR_CHESTPLATE = INSTANCE.addMedievalArmorItem("black_steel_halfarmor_chestplate", ModArmor.BLACKSTEEL_HALFARMOR, ArmorItem.Type.CHESTPLATE, new Item.Properties());
+
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_SALLET = INSTANCE.addKnightItem("black_steel_sallet", ModArmor.BLACKSTEEL_SALLET, ArmorItem.Type.HELMET, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_GOTHIC_CHESTPLATE = INSTANCE.addMedievalArmorItem("black_steel_gothic_chestplate", ModArmor.BLACKSTEEL_GOTHIC_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_GOTHIC_LEGGINGS = INSTANCE.addMedievalArmorItem("black_steel_gothic_leggings", ModArmor.BLACKSTEEL_GOTHIC, ArmorItem.Type.LEGGINGS, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_GOTHIC_BOOTS = INSTANCE.addMedievalArmorItem("black_steel_gothic_boots", ModArmor.BLACKSTEEL_GOTHIC, ArmorItem.Type.BOOTS, new Item.Properties());;
 
     public static final ArrayList<RegistrySupplier<MedievalArmorItem>> listArmor = new ArrayList<>() {{
         add(BLACKSTEEL_ARMET);
         add(BLACKSTEEL_KNIGHT_CHESTPLATE);
         add(BLACKSTEEL_KNIGHT_LEGGINGS);
         add(BLACKSTEEL_KNIGHT_BOOTS);
+        add(BLACKSTEEL_SALLET);
+        add(BLACKSTEEL_GOTHIC_CHESTPLATE);
+        add(BLACKSTEEL_GOTHIC_LEGGINGS);
+        add(BLACKSTEEL_GOTHIC_BOOTS);
         add(BLACKSTEEL_BARBUTE);
         add(BLACKSTEEL_HALFARMOR_CHESTPLATE);
     }};

@@ -3,6 +3,7 @@ package net.witchkings.knightsofterrafirma.client;
 import com.magistuarmory.api.client.render.model.ModModelsProvider;
 import com.magistuarmory.client.render.model.ModModels;
 import com.magistuarmory.client.render.model.armor.ArmetModel;
+import com.magistuarmory.client.render.model.armor.SalletModel;
 import com.magistuarmory.client.render.model.block.PaviseBlockModel;
 import com.magistuarmory.client.render.model.item.*;
 import dev.architectury.platform.Mod;
@@ -29,6 +30,7 @@ public class ModModel extends ModModelsProvider {
     public static final ModelLayerLocation PAVISE_BLOCK_LOCATION = INSTANCE.addModel("pavise_block", PaviseBlockModel::createLayer);
 
     public static final ModelLayerLocation ARMET_LOCATION = INSTANCE.addArmorModel("armet", ArmetModel::createLayer);
+    public static final ModelLayerLocation SALLET_LOCATION = INSTANCE.addArmorModel("sallet", SalletModel::createLayer);
     public static final ModelLayerLocation BLACKSTEEL_KNIGHT = INSTANCE.addArmorModel("black_steel_knight_armor", BlackSteelKnightArmor::createLayer);
     public ModModel(String modId) {
         super(modId);
