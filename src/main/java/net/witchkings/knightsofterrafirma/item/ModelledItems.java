@@ -3,6 +3,7 @@ package net.witchkings.knightsofterrafirma.item;
 import com.magistuarmory.api.item.ModItemsProvider;
 import com.magistuarmory.item.MedievalShieldItem;
 import com.magistuarmory.item.ModItemTier;
+import com.magistuarmory.item.ModItems;
 import com.magistuarmory.item.ShieldTypes;
 import com.magistuarmory.item.armor.ArmorTypes;
 import com.magistuarmory.item.armor.MedievalArmorItem;
@@ -10,10 +11,12 @@ import dev.architectury.registry.registries.RegistrySupplier;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.annotation.Nullable;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import net.witchkings.knightsofterrafirma.item.armor.ModArmor;
 
 import java.util.ArrayList;
+import java.util.function.Supplier;
 
 import static net.witchkings.knightsofterrafirma.item.ModdedItems.BISMUTH_BRONZE;
 import static net.witchkings.knightsofterrafirma.item.ModdedItems.Materials;
@@ -57,8 +60,10 @@ public class ModelledItems extends ModItemsProvider {
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_GOTHIC_BOOTS = INSTANCE.addMedievalArmorItem("black_steel_gothic_boots", ModArmor.BLACKSTEEL_GOTHIC, ArmorItem.Type.BOOTS, new Item.Properties());;
 
+    public static Supplier<ItemStack> ARMET_WITH_PLUME_SUPPLIER = () -> {
+        return ModItems.getDecoratedStack(BLACKSTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
+    };
     public static final ArrayList<RegistrySupplier<MedievalArmorItem>> listArmor = new ArrayList<>() {{
-        add(BLACKSTEEL_ARMET);
         add(BLACKSTEEL_KNIGHT_CHESTPLATE);
         add(BLACKSTEEL_KNIGHT_LEGGINGS);
         add(BLACKSTEEL_KNIGHT_BOOTS);
