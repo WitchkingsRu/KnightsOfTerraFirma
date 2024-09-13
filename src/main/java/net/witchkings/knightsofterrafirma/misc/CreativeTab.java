@@ -3,6 +3,7 @@ package net.witchkings.knightsofterrafirma.misc;
 
 import com.magistuarmory.item.MedievalShieldItem;
 import com.magistuarmory.item.MedievalWeaponItem;
+import com.magistuarmory.item.ModItems;
 import com.magistuarmory.item.armor.MedievalArmorItem;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
@@ -14,6 +15,8 @@ import net.minecraft.core.registries.Registries;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.network.chat.Component;
 import net.witchkings.knightsofterrafirma.item.ModelledItems;
+
+import java.util.function.Supplier;
 
 
 public class CreativeTab {
