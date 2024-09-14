@@ -48,7 +48,9 @@ public class ModelledItems extends ModItemsProvider {
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("black_steel_knight_boots", ModArmor.BLACKSTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
 
+    @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_BARBUTE = INSTANCE.addMedievalArmorItem("black_steel_halfarmor_helmet", ModArmor.BLACKSTEEL_BARBUTE, ArmorItem.Type.HELMET, new Item.Properties());
+    @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLACKSTEEL_HALFARMOR_CHESTPLATE = INSTANCE.addMedievalArmorItem("black_steel_halfarmor_chestplate", ModArmor.BLACKSTEEL_HALFARMOR, ArmorItem.Type.CHESTPLATE, new Item.Properties());
 
     @Nullable
@@ -63,6 +65,7 @@ public class ModelledItems extends ModItemsProvider {
     public static Supplier<ItemStack> ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(BLACKSTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
     };
+
     public static final ArrayList<RegistrySupplier<MedievalArmorItem>> listArmor = new ArrayList<>() {{
         add(BLACKSTEEL_KNIGHT_CHESTPLATE);
         add(BLACKSTEEL_KNIGHT_LEGGINGS);

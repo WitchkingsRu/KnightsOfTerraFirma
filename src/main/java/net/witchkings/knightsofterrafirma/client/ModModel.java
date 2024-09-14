@@ -31,7 +31,7 @@ public class ModModel extends ModModelsProvider {
 
     public static final ModelLayerLocation ARMET_LOCATION = INSTANCE.addArmorModel("armet", ArmetModel::createLayer);
     public static final ModelLayerLocation SALLET_LOCATION = INSTANCE.addArmorModel("sallet", SalletModel::createLayer);
-    public static final ModelLayerLocation BLACKSTEEL_KNIGHT = INSTANCE.addArmorModel("black_steel_knight_armor", BlackSteelKnightArmor::createLayer);
+    public static final ModelLayerLocation BLACKSTEEL_KNIGHT = INSTANCE.addArmorModel("black_steel_armor", BlackSteelKnightArmor::createLayer);
     public ModModel(String modId) {
         super(modId);
     }
