@@ -81,7 +81,14 @@ public class CreativeTab {
     public static final RegistryObject<CreativeModeTab> KOTF_ARMOR = CREATIVE_MODE_TABS.register("kotf_armor", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModelledItems.BLACKSTEEL_ARMET.get()))
             .title(Component.translatable("creativetab.kotf_armor")).
             displayItems((itemDisplayParameters, output) -> {
-                output.accept(ModelledItems.ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+
+                output.accept(ModelledItems.SILVER_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.ST_SILVER_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.BRASS_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.PLATINUM_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.ROSE_GOLD_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+
                 for (RegistrySupplier<MedievalArmorItem> item:ModelledItems.listArmor) {
                     output.accept(item.get());
                 }

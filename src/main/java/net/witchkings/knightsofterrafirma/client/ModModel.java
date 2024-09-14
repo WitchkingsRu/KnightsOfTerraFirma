@@ -32,6 +32,7 @@ public class ModModel extends ModModelsProvider {
     public static final ModelLayerLocation SALLET_LOCATION = INSTANCE.addArmorModel("sallet", SalletModel::createLayer);
     public static final ModelLayerLocation GRAND_BASCINET_LOCATION = INSTANCE.addArmorModel("grand_bascinet", GrandBascinetModel::createLayer);
     public static final ModelLayerLocation MAXIMILIAN_HELMET_LOCATION = INSTANCE.addArmorModel("maximilian_helmet", MaximilianHelmetModel::createLayer);
+    public static final ModelLayerLocation STECHHELM_LOCATION = INSTANCE.addArmorModel("stechhelm", StechhelmModel::createLayer);
     public static final ModelLayerLocation KETTLEHAT_LOCATION = INSTANCE.addArmorModel("kettlehat", KettlehatModel::createLayer);
     public static final ModelLayerLocation BLACKSTEEL_KNIGHT = INSTANCE.addArmorModel("black_steel_armor", BlackSteelKnightArmor::createLayer);
     public ModModel(String modId) {
