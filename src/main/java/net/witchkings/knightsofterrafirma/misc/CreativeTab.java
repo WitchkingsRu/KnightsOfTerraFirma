@@ -82,6 +82,7 @@ public class CreativeTab {
             .title(Component.translatable("creativetab.kotf_armor")).
             displayItems((itemDisplayParameters, output) -> {
                 output.accept(ModelledItems.BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.GOLD_BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
 
                 output.accept(ModelledItems.SILVER_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.ST_SILVER_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
