@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import net.witchkings.knightsofterrafirma.client.armor.BlackSteelKnightArmor;
+import net.witchkings.knightsofterrafirma.client.armor.BlueSteelChestplate;
 
 @OnlyIn(Dist.CLIENT)
 public class ModModel extends ModModelsProvider {
@@ -35,7 +36,7 @@ public class ModModel extends ModModelsProvider {
     public static final ModelLayerLocation STECHHELM_LOCATION = INSTANCE.addArmorModel("stechhelm", StechhelmModel::createLayer);
     public static final ModelLayerLocation KETTLEHAT_LOCATION = INSTANCE.addArmorModel("kettlehat", KettlehatModel::createLayer);
     public static final ModelLayerLocation BLACKSTEEL_KNIGHT = INSTANCE.addArmorModel("black_steel_armor", BlackSteelKnightArmor::createLayer);
-
+    public static final ModelLayerLocation BLUESTEEL_KNIGHT = INSTANCE.addArmorModel("blue_steel_armor", BlueSteelChestplate::createLayer);
     public ModModel(String modId) {
         super(modId);
     }

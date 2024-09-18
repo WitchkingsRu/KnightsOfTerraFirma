@@ -136,6 +136,8 @@ public class CreativeTab {
                 output.accept(ModelledItems.ROSE_GOLD_BLACKSTEEL_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.ROSE_GOLD_BLACKSTEEL_KNIGHT_BOOTS.get());
 
+                output.accept(ModelledItems.BLUESTEEL_ARMET.get());
+                output.accept(ModelledItems.BLUESTEEL_KNIGHT_CHESTPLATE.get());
                 for (RegistrySupplier<MedievalArmorItem> item:ModelledItems.listArmor) {
                     output.accept(item.get());
                 }

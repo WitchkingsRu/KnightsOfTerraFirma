@@ -80,6 +80,11 @@ public final class ModArmor {
     public static final ArmorType ROSE_GOLD_STEEL_CEREMONIAL_ARMET = new ArmorType(new ResourceLocation("knightsofterrafirma", "rose_gold_steel_ceremonial_armet"), new ResourceLocation("knightsofterrafirma", "armet"), 1.25F, 2.5F, new Integer[]{230, 315, 335, 275}, new Integer[]{2,5,7,2}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
     public static final ArmorType ROSE_GOLD_STEEL_CEREMONIAL = new ArmorType(new ResourceLocation("knightsofterrafirma", "rose_gold_steel_ceremonial_knight"), new ResourceLocation("default"), 1.25F, 2.5F, new Integer[]{230, 315, 335, 275}, new Integer[]{2,5,7,2}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
 
+
+    public static final ArmorType BLUESTEEL_KNIGHT_CHESTPLATE = new ArmorType(new ResourceLocation("knightsofterrafirma", "bluesteel_knight_chestplate"), new ResourceLocation("knightsofterrafirma", "blue_steel_armor"), 1.25F, 0.5F, new Integer[]{230, 315, 335, 275}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/blue_steel" : "c:blue_steel_ingots");
+    //public static final ArmorType BLACKSTEEL_KNIGHT = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_knight"), new ResourceLocation("default"), 1.25F, 0.5F, new Integer[]{230, 315, 335, 275}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
+    public static final ArmorType BLUESTEEL_ARMET = new ArmorType(new ResourceLocation("knightsofterrafirma", "bluesteel_armet"), new ResourceLocation("knightsofterrafirma", "armet"), 1.25F, 0.5F, new Integer[]{230, 315, 335, 275}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/blue_steel" : "c:blue_steel_ingots");
+
     public ModArmor() { }
 
 }
