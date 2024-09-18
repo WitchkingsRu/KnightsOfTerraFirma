@@ -103,6 +103,7 @@
   "creativetab.kotf_weapon_parts": "Knights of TerraFirma - Weapon Parts",
   "creativetab.kotf_shields": "Knights of TerraFirma - Shields",
   "creativetab.kotf_armor_parts": "Knights of TerraFirma - Armor Parts",
+  "creativetab.kotf_armor": "Knights of TerraFirma - Armor",
   "item.knightsofterrafirma.bismuth_bronze_stiletto_blade": "Bismuth Bronze Stiletto Blade",
   "item.knightsofterrafirma.bismuth_bronze_short_sword_blade": "Bismuth Bronze Short Sword Blade",
   "item.knightsofterrafirma.bismuth_bronze_katzbalger_blade": "Bismuth Bronze Katzbalger Blade",
@@ -370,6 +371,84 @@
   "item.knightsofterrafirma.chainmail_torso": "§eChainmail Torso",
   "item.knightsofterrafirma.halfarmor_chestplate_unfinished": "§eHalf-armor Unfinished Chestplate",
 
+  "item.knightsofterrafirma.black_steel_armet": "§bBlack Steel Armet",
+  "item.knightsofterrafirma.black_steel_knight_chestplate": "§bBlack Steel Knight Chestplate",
+  "item.knightsofterrafirma.black_steel_knight_leggings": "§bBlack Steel Knight Leggings",
+  "item.knightsofterrafirma.black_steel_knight_boots": "§bBlack Steel Knight Boots",
+
+  "item.knightsofterrafirma.gold_black_steel_armet": "§bBlack Steel Armet inlaid with Gold",
+  "item.knightsofterrafirma.gold_black_steel_knight_chestplate": "§bBlack Steel Knight Chestplate inlaid with Gold",
+  "item.knightsofterrafirma.gold_black_steel_knight_leggings": "§bBlack Steel Knight Leggings inlaid with Gold",
+  "item.knightsofterrafirma.gold_black_steel_knight_boots": "§bBlack Steel Knight Boots inlaid with Gold",
+
+  "item.knightsofterrafirma.silver_black_steel_armet": "§bBlack Steel Armet inlaid with Silver",
+  "item.knightsofterrafirma.silver_black_steel_knight_chestplate": "§bBlack Steel Knight Chestplate inlaid with Silver",
+  "item.knightsofterrafirma.silver_black_steel_knight_leggings": "§bBlack Steel Knight Leggings inlaid with Silver",
+  "item.knightsofterrafirma.silver_black_steel_knight_boots": "§bBlack Steel Knight Boots inlaid with Silver",
+
+  "item.knightsofterrafirma.sterling_silver_black_steel_armet": "§bBlack Steel Armet inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_black_steel_knight_chestplate": "§bBlack Steel Knight Chestplate inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_black_steel_knight_leggings": "§bBlack Steel Knight Leggings inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_black_steel_knight_boots": "§bBlack Steel Knight Boots inlaid with Sterling Silver",
+
+  "item.knightsofterrafirma.platinum_black_steel_armet": "§bBlack Steel Armet inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_black_steel_knight_chestplate": "§bBlack Steel Knight Chestplate inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_black_steel_knight_leggings": "§bBlack Steel Knight Leggings inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_black_steel_knight_boots": "§bBlack Steel Knight Boots inlaid with Platinum",
+
+  "item.knightsofterrafirma.brass_black_steel_armet": "§bBlack Steel Armet inlaid with Brass",
+  "item.knightsofterrafirma.brass_black_steel_knight_chestplate": "§bBlack Steel Knight Chestplate inlaid with Brass",
+  "item.knightsofterrafirma.brass_black_steel_knight_leggings": "§bBlack Steel Knight Leggings inlaid with Brass",
+  "item.knightsofterrafirma.brass_black_steel_knight_boots": "§bBlack Steel Knight Boots inlaid with Brass",
+
+  "item.knightsofterrafirma.black_steel_stechhelm": "§bBlack Steel Frog-Mouth Helm",
+  "item.knightsofterrafirma.black_steel_jousting_chestplate": "§bBlack Steel Jousting Chestplate",
+  "item.knightsofterrafirma.black_steel_jousting_leggings": "§bBlack Steel Jousting Leggings",
+  "item.knightsofterrafirma.black_steel_jousting_boots": "§bBlack Steel Jousting Boots",
+
+  "item.knightsofterrafirma.black_steel_sallet": "§bBlack Steel Sallet",
+  "item.knightsofterrafirma.black_steel_gothic_chestplate": "§bBlack Steel Gothic Chestplate",
+  "item.knightsofterrafirma.black_steel_gothic_leggings": "§bBlack Steel Gothic Leggings",
+  "item.knightsofterrafirma.black_steel_gothic_boots": "§bBlack Steel Gothic Boots",
+
+  "item.knightsofterrafirma.black_steel_maximilian_helmet": "§bBlack Steel Maximilian Helmet",
+  "item.knightsofterrafirma.black_steel_maximilian_chestplate": "§bBlack Steel Maximilian Chestplate",
+  "item.knightsofterrafirma.black_steel_maximilian_leggings": "§bBlack Steel Maximilian Leggings",
+  "item.knightsofterrafirma.black_steel_maximilian_boots": "§bBlack Steel Maximilian Boots",
+
+  "item.knightsofterrafirma.black_steel_kettlehat": "§bBlack Steel Kettle Hat",
+  "item.knightsofterrafirma.black_steel_platemail_chestplate": "§bBlack Steel Reinforced Chainmail Armor",
+  "item.knightsofterrafirma.black_steel_platemail_leggings": "§bBlack Steel Reinforced Chainmail Armor Leggings",
+  "item.knightsofterrafirma.black_steel_platemail_boots": "§bBlack Steel Reinforced Chainmail Boots",
+
+  "item.knightsofterrafirma.black_steel_grand_bascinet": "§bBlack Steel Grand Bascinet",
+  "item.knightsofterrafirma.black_steel_kastenbrust_chestplate": "§bBlack Steel Kasten-brust Chestplate",
+  "item.knightsofterrafirma.black_steel_kastenbrust_leggings": "§bBlack Steel Kasten-brust Leggings",
+  "item.knightsofterrafirma.black_steel_kastenbrust_boots": "§bBlack Steel Kasten-brust Boots",
+
+  "item.knightsofterrafirma.black_steel_halfarmor_helmet": "§bBlack Steel Barbute",
+  "item.knightsofterrafirma.black_steel_halfarmor_chestplate": "§bBlack Steel Half-armor Chestplate",
+
+  "item.knightsofterrafirma.silver_steel_ceremonialarmet": "§eCeremonial Armet inlaid with Silver",
+  "item.knightsofterrafirma.silver_steel_ceremonial_chestplate": "§eCeremonial Knight Armor inlaid with Silver",
+  "item.knightsofterrafirma.silver_steel_ceremonial_boots": "§eCeremonial Knight Boots inlaid with Silver",
+
+  "item.knightsofterrafirma.sterling_silver_steel_ceremonialarmet": "§eCeremonial Armet inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_steel_ceremonial_chestplate": "§eCeremonial Knight Armor inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_steel_ceremonial_boots": "§eCeremonial Knight Boots inlaid with Sterling Silver",
+
+  "item.knightsofterrafirma.brass_steel_ceremonialarmet": "§eCeremonial Armet inlaid with Brass",
+  "item.knightsofterrafirma.brass_steel_ceremonial_chestplate": "§eCeremonial Knight Armor inlaid with Brass",
+  "item.knightsofterrafirma.brass_steel_ceremonial_boots": "§eCeremonial Knight Boots inlaid with Brass",
+
+  "item.knightsofterrafirma.platinum_steel_ceremonialarmet": "§eCeremonial Armet inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_steel_ceremonial_chestplate": "§eCeremonial Knight Armor inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_steel_ceremonial_boots": "§eCeremonial Knight Boots inlaid with Platinum",
+
+  "item.knightsofterrafirma.rose_gold_steel_ceremonialarmet": "§eCeremonial Armet inlaid with Rose Gold",
+  "item.knightsofterrafirma.rose_gold_steel_ceremonial_chestplate": "§eCeremonial Knight Armor inlaid with Rose Gold",
+  "item.knightsofterrafirma.rose_gold_steel_ceremonial_boots": "§eCeremonial Knight Boots inlaid with Rose Gold",
+
   "item.magistuarmory.armet": "§eArmet",
   "item.magistuarmory.knight_chestplate": "§eKnight Armor",
   "item.magistuarmory.knight_leggings": "§eKnight Leggings",
@@ -399,9 +478,9 @@
   "item.magistuarmory.crusader_chestplate": "§eCrusader Armor",
   "item.magistuarmory.crusader_leggings": "§eCrusader Leggings",
   "item.magistuarmory.crusader_boots": "§eCrusader Boots",
-  "item.magistuarmory.ceremonialarmet": "§eCeremonial Armet",
-  "item.magistuarmory.ceremonial_chestplate": "§eCeremonial Knight Armor",
-  "item.magistuarmory.ceremonial_boots": "§eCeremonial Knight Boots",
+  "item.magistuarmory.ceremonialarmet": "§eCeremonial Armet inlaid with Gold",
+  "item.magistuarmory.ceremonial_chestplate": "§eCeremonial Knight Armor inlaid with Gold",
+  "item.magistuarmory.ceremonial_boots": "§eCeremonial Knight Boots inlaid with Gold",
   "item.magistuarmory.shishak": "§eShishak",
   "item.magistuarmory.norman_helmet": "§eNorman Helmet",
   "item.magistuarmory.bascinet": "§eBascinet",
