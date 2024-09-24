@@ -181,6 +181,15 @@ public class ModelledItems extends ModItemsProvider {
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("blue_steel_knight_boots", ModArmor.BLUESTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
 
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_GOLD_ARMET = INSTANCE.addKnightItem("gold_blue_steel_armet", ModArmor.BLUESTEEL_GOLD_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_GOLD_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("gold_blue_steel_knight_chestplate", ModArmor.BLUESTEEL_GOLD_KNIGHT_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_GOLD_KNIGHT_LEGGINGS = INSTANCE.addMedievalArmorItem("gold_blue_steel_knight_leggings", ModArmor.BLUESTEEL_GOLD_KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_GOLD_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("gold_blue_steel_knight_boots", ModArmor.BLUESTEEL_GOLD_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
+
 
     public static Supplier<ItemStack> BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(BLACKSTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
