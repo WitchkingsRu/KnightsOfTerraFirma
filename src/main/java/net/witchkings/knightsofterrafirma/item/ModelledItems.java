@@ -190,6 +190,23 @@ public class ModelledItems extends ModItemsProvider {
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_GOLD_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("gold_blue_steel_knight_boots", ModArmor.BLUESTEEL_GOLD_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
 
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_ARMET = INSTANCE.addKnightItem("red_steel_armet", ModArmor.REDSTEEL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("red_steel_knight_chestplate", ModArmor.REDSTEEL_KNIGHT_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_KNIGHT_LEGGINGS = INSTANCE.addMedievalArmorItem("red_steel_knight_leggings", ModArmor.REDSTEEL_KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("red_steel_knight_boots", ModArmor.REDSTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
+
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_GOLD_ARMET = INSTANCE.addKnightItem("gold_red_steel_armet", ModArmor.GOLD_REDSTEEL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_GOLD_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("gold_red_steel_knight_chestplate", ModArmor.GOLD_REDSTEEL_KNIGHT_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_GOLD_KNIGHT_LEGGINGS = INSTANCE.addMedievalArmorItem("gold_red_steel_knight_leggings", ModArmor.GOLD_REDSTEEL_KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties());;
+    @Nullable
+    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_GOLD_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("gold_red_steel_knight_boots", ModArmor.GOLD_REDSTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
 
     public static Supplier<ItemStack> BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(BLACKSTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
