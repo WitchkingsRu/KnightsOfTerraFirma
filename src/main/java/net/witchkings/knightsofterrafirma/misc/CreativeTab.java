@@ -136,22 +136,22 @@ public class CreativeTab {
                 output.accept(ModelledItems.ROSE_GOLD_BLACKSTEEL_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.ROSE_GOLD_BLACKSTEEL_KNIGHT_BOOTS.get());
 
-                output.accept(ModelledItems.BLUESTEEL_ARMET.get());
+                output.accept(ModelledItems.BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.BLUESTEEL_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.BLUESTEEL_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.BLUESTEEL_KNIGHT_BOOTS.get());
 
-                output.accept(ModelledItems.BLUESTEEL_GOLD_ARMET.get());
+                output.accept(ModelledItems.GOLD_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.BLUESTEEL_GOLD_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.BLUESTEEL_GOLD_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.BLUESTEEL_GOLD_KNIGHT_BOOTS.get());
 
-                output.accept(ModelledItems.REDSTEEL_ARMET.get());
+                output.accept(ModelledItems.RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.REDSTEEL_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.REDSTEEL_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.REDSTEEL_KNIGHT_BOOTS.get());
 
-                output.accept(ModelledItems.REDSTEEL_GOLD_ARMET.get());
+                output.accept(ModelledItems.GOLD_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.REDSTEEL_GOLD_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.REDSTEEL_GOLD_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.REDSTEEL_GOLD_KNIGHT_BOOTS.get());

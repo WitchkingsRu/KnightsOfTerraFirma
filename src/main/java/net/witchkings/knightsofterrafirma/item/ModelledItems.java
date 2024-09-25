@@ -208,6 +208,18 @@ public class ModelledItems extends ModItemsProvider {
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_GOLD_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("gold_red_steel_knight_boots", ModArmor.GOLD_REDSTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
 
+    public static Supplier<ItemStack> BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
+        return ModItems.getDecoratedStack(BLUESTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
+    };
+    public static Supplier<ItemStack> RED_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
+        return ModItems.getDecoratedStack(REDSTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
+    };
+    public static Supplier<ItemStack> GOLD_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
+        return ModItems.getDecoratedStack(BLUESTEEL_GOLD_ARMET, ModItems.BIG_PLUME_DECORATION);
+    };
+    public static Supplier<ItemStack> GOLD_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
+        return ModItems.getDecoratedStack(REDSTEEL_GOLD_ARMET, ModItems.BIG_PLUME_DECORATION);
+    };
     public static Supplier<ItemStack> BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(BLACKSTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
     };
