@@ -136,6 +136,10 @@ public class CreativeTab {
                 output.accept(ModelledItems.ROSE_GOLD_BLACKSTEEL_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.ROSE_GOLD_BLACKSTEEL_KNIGHT_BOOTS.get());
 
+                for (RegistrySupplier<MedievalArmorItem> item:ModelledItems.listBlackArmor) {
+                    output.accept(item.get());
+                }
+
                 output.accept(ModelledItems.BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.BLUESTEEL_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.BLUESTEEL_KNIGHT_LEGGINGS.get());
@@ -146,6 +150,31 @@ public class CreativeTab {
                 output.accept(ModelledItems.BLUESTEEL_GOLD_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.BLUESTEEL_GOLD_KNIGHT_BOOTS.get());
 
+                output.accept(ModelledItems.SILVER_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.BLUESTEEL_SILVER_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.BLUESTEEL_SILVER_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.BLUESTEEL_SILVER_KNIGHT_BOOTS.get());
+
+                output.accept(ModelledItems.ST_SILVER_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.BLUESTEEL_ST_SILVER_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.BLUESTEEL_ST_SILVER_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.BLUESTEEL_ST_SILVER_KNIGHT_BOOTS.get());
+
+                output.accept(ModelledItems.PLATINUM_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.BLUESTEEL_PLATINUM_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.BLUESTEEL_PLATINUM_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.BLUESTEEL_PLATINUM_KNIGHT_BOOTS.get());
+
+                output.accept(ModelledItems.BRASS_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.BLUESTEEL_BRASS_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.BLUESTEEL_BRASS_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.BLUESTEEL_BRASS_KNIGHT_BOOTS.get());
+
+                output.accept(ModelledItems.ROSE_GOLD_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.BLUESTEEL_ROSE_GOLD_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.BLUESTEEL_ROSE_GOLD_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.BLUESTEEL_ROSE_GOLD_KNIGHT_BOOTS.get());
+
                 output.accept(ModelledItems.RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.REDSTEEL_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.REDSTEEL_KNIGHT_LEGGINGS.get());
@@ -155,9 +184,36 @@ public class CreativeTab {
                 output.accept(ModelledItems.REDSTEEL_GOLD_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.REDSTEEL_GOLD_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.REDSTEEL_GOLD_KNIGHT_BOOTS.get());
-                for (RegistrySupplier<MedievalArmorItem> item:ModelledItems.listArmor) {
+
+                output.accept(ModelledItems.SILVER_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.REDSTEEL_SILVER_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.REDSTEEL_SILVER_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.REDSTEEL_SILVER_KNIGHT_BOOTS.get());
+
+                output.accept(ModelledItems.ST_SILVER_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.REDSTEEL_ST_SILVER_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.REDSTEEL_ST_SILVER_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.REDSTEEL_ST_SILVER_KNIGHT_BOOTS.get());
+
+                output.accept(ModelledItems.PLATINUM_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.REDSTEEL_PLATINUM_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.REDSTEEL_PLATINUM_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.REDSTEEL_PLATINUM_KNIGHT_BOOTS.get());
+
+                output.accept(ModelledItems.BRASS_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.REDSTEEL_BRASS_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.REDSTEEL_BRASS_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.REDSTEEL_BRASS_KNIGHT_BOOTS.get());
+
+                output.accept(ModelledItems.ROSE_GOLD_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
+                output.accept(ModelledItems.REDSTEEL_ROSE_GOLD_KNIGHT_CHESTPLATE.get());
+                output.accept(ModelledItems.REDSTEEL_ROSE_GOLD_KNIGHT_LEGGINGS.get());
+                output.accept(ModelledItems.REDSTEEL_ROSE_GOLD_KNIGHT_BOOTS.get());
+
+                for (RegistrySupplier<MedievalArmorItem> item:ModelledItems.listRedArmor) {
                     output.accept(item.get());
                 }
+
             })
             .build());
 
