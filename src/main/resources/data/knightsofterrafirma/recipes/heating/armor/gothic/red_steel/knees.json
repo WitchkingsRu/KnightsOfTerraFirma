@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:red_steel_gothic_knees"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/red_steel",
+    "amount": 400
+  },
+  "temperature": 1540
+}

@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "magistuarmory:maximilian_helmet"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/steel",
+      "amount": 800
+    },
+    "temperature": 1540
+  }

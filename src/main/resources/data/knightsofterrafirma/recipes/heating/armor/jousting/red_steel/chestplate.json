@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+      "item": "magistuarmory:jousting_chestplate"
+    },
+    "result_fluid": {
+      "fluid": "tfc:metal/steel",
+      "amount": 1000
+    },
+    "temperature": 1540
+  }
