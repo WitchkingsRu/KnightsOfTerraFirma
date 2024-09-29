@@ -434,6 +434,123 @@
   "item.knightsofterrafirma.black_steel_halfarmor_helmet": "§bБарбют из чёрной стали",
   "item.knightsofterrafirma.black_steel_halfarmor_chestplate": "§bНеполный доспех из чёрной стали",
 
+  "item.knightsofterrafirma.blue_steel_armet": "§dАрмет из синей стали",
+  "item.knightsofterrafirma.blue_steel_knight_chestplate": "§dРыцарский доспех из синей стали",
+  "item.knightsofterrafirma.blue_steel_knight_leggings": "§dиз синей стали Рыцарские поножи",
+  "item.knightsofterrafirma.blue_steel_knight_boots": "§dРыцарские сабатоны из синей стали",
+
+  "item.knightsofterrafirma.gold_blue_steel_armet": "§dАрмет из синей стали, инкрустированный золотом",
+  "item.knightsofterrafirma.gold_blue_steel_knight_chestplate": "§dРыцарский доспех из синей стали, инкрустированный золотом",
+  "item.knightsofterrafirma.gold_blue_steel_knight_leggings": "§dиз синей стали Рыцарские поножи, инкрустированные золотом",
+  "item.knightsofterrafirma.gold_blue_steel_knight_boots": "§dРыцарские сабатоны из синей стали, инкрустированные золотом",
+
+  "item.knightsofterrafirma.silver_blue_steel_armet": "§dАрмет из синей стали, инкрустированный серебром",
+  "item.knightsofterrafirma.silver_blue_steel_knight_chestplate": "§dРыцарский доспех из синей стали, инкрустированный серебром",
+  "item.knightsofterrafirma.silver_blue_steel_knight_leggings": "§dРыцарские поножи из синей стали, инкрустированные серебром",
+  "item.knightsofterrafirma.silver_blue_steel_knight_boots": "§dРыцарские сабатоны из синей стали, инкрустированные серебром",
+
+  "item.knightsofterrafirma.sterling_silver_blue_steel_armet": "§dАрмет из синей стали, инкрустированный стерлинговым серебром",
+  "item.knightsofterrafirma.sterling_silver_blue_steel_knight_chestplate": "§dРыцарский доспех из синей стали, инкрустированный стерлинговым серебром",
+  "item.knightsofterrafirma.sterling_silver_blue_steel_knight_leggings": "§dРыцарские поножи из синей стали, инкрустированные стерлинговым серебром",
+  "item.knightsofterrafirma.sterling_silver_blue_steel_knight_boots": "§dРыцарские сабатоны из синей стали, инкрустированные стерлинговым серебром",
+
+  "item.knightsofterrafirma.platinum_blue_steel_armet": "§dАрмет из синей стали, инкрустированный платиной",
+  "item.knightsofterrafirma.platinum_blue_steel_knight_chestplate": "§dРыцарский доспех из синей стали, инкрустированный платиной",
+  "item.knightsofterrafirma.platinum_blue_steel_knight_leggings": "§dРыцарские поножи из синей стали, инкрустированные платиной",
+  "item.knightsofterrafirma.platinum_blue_steel_knight_boots": "§dРыцарские сабатоны из синей стали, инкрустированные платиной",
+
+  "item.knightsofterrafirma.brass_blue_steel_armet": "§dАрмет из синей стали, инкрустированный латунью",
+  "item.knightsofterrafirma.brass_blue_steel_knight_chestplate": "§dРыцарский доспех из синей стали, инкрустированный латунью",
+  "item.knightsofterrafirma.brass_blue_steel_knight_leggings": "§dРыцарские поножи из синей стали, инкрустированные латунью",
+  "item.knightsofterrafirma.brass_blue_steel_knight_boots": "§dРыцарские сабатоны из синей стали, инкрустированные латунью",
+
+  "item.knightsofterrafirma.rose_gold_blue_steel_armet": "§dАрмет из синей стали, инкрустированный розовым золотом",
+  "item.knightsofterrafirma.rose_gold_blue_steel_knight_chestplate": "§dРыцарский доспех из синей стали, инкрустированный розовым золотом",
+  "item.knightsofterrafirma.rose_gold_blue_steel_knight_leggings": "§dРыцарские поножи из синей стали , инкрустированные розовым золотом",
+  "item.knightsofterrafirma.rose_gold_blue_steel_knight_boots": "§dРыцарские сабатоны из синей стали, инкрустированные розовым золотом",
+
+  "item.knightsofterrafirma.blue_steel_stechhelm": "§dШтеххельм из синей стали",
+  "item.knightsofterrafirma.blue_steel_jousting_chestplate": "§dТурнирный доспех из синей стали",
+  "item.knightsofterrafirma.blue_steel_jousting_leggings": "§dТурнирные поножи из синей стали",
+  "item.knightsofterrafirma.blue_steel_jousting_boots": "§dТурнирные сабатоны из синей стали",
+
+  "item.knightsofterrafirma.blue_steel_sallet": "§dСалад из синей стали",
+  "item.knightsofterrafirma.blue_steel_gothic_chestplate": "§dГотический доспех из синей стали",
+  "item.knightsofterrafirma.blue_steel_gothic_leggings": "§dГотические поножи из синей стали",
+  "item.knightsofterrafirma.blue_steel_gothic_boots": "§dГотические ботинки из синей стали",
+
+  "item.knightsofterrafirma.blue_steel_maximilian_helmet": "§dМаксимилиановский шлем из синей стали",
+  "item.knightsofterrafirma.blue_steel_maximilian_chestplate": "§dМаксимилиановский доспех из синей стали",
+  "item.knightsofterrafirma.blue_steel_maximilian_leggings": "§dМаксимилиановские поножи из синей стали",
+  "item.knightsofterrafirma.blue_steel_maximilian_boots": "§dМаксимилиановские сабатоны из синей стали",
+
+  "item.knightsofterrafirma.blue_steel_grand_bascinet": "§dГранд бацинет из синей стали",
+  "item.knightsofterrafirma.blue_steel_kastenbrust_chestplate": "§dНагрудник доспеха кастенбруст из синей стали",
+  "item.knightsofterrafirma.blue_steel_kastenbrust_leggings": "§dПоножи доспеха кастенбруст из синей стали",
+  "item.knightsofterrafirma.blue_steel_kastenbrust_boots": "§dСабатоны доспеха кастенбруст из синей стали",
+
+  "item.knightsofterrafirma.blue_steel_halfarmor_helmet": "§dБарбют из синей стали",
+  "item.knightsofterrafirma.blue_steel_halfarmor_chestplate": "§dНеполный доспех из синей стали",
+
+  
+  "item.knightsofterrafirma.red_steel_armet": "§bАрмет из красной стали",
+  "item.knightsofterrafirma.red_steel_knight_chestplate": "§bРыцарский доспех из красной стали",
+  "item.knightsofterrafirma.red_steel_knight_leggings": "§bиз красной стали Рыцарские поножи",
+  "item.knightsofterrafirma.red_steel_knight_boots": "§bРыцарские сабатоны из красной стали",
+
+  "item.knightsofterrafirma.gold_red_steel_armet": "§bАрмет из красной стали, инкрустированный золотом",
+  "item.knightsofterrafirma.gold_red_steel_knight_chestplate": "§bРыцарский доспех из красной стали, инкрустированный золотом",
+  "item.knightsofterrafirma.gold_red_steel_knight_leggings": "§bиз красной стали Рыцарские поножи, инкрустированные золотом",
+  "item.knightsofterrafirma.gold_red_steel_knight_boots": "§bРыцарские сабатоны из красной стали, инкрустированные золотом",
+
+  "item.knightsofterrafirma.silver_red_steel_armet": "§bАрмет из красной стали, инкрустированный серебром",
+  "item.knightsofterrafirma.silver_red_steel_knight_chestplate": "§bРыцарский доспех из красной стали, инкрустированный серебром",
+  "item.knightsofterrafirma.silver_red_steel_knight_leggings": "§bРыцарские поножи из красной стали, инкрустированные серебром",
+  "item.knightsofterrafirma.silver_red_steel_knight_boots": "§bРыцарские сабатоны из красной стали, инкрустированные серебром",
+
+  "item.knightsofterrafirma.sterling_silver_red_steel_armet": "§bАрмет из красной стали, инкрустированный стерлинговым серебром",
+  "item.knightsofterrafirma.sterling_silver_red_steel_knight_chestplate": "§bРыцарский доспех из красной стали, инкрустированный стерлинговым серебром",
+  "item.knightsofterrafirma.sterling_silver_red_steel_knight_leggings": "§bРыцарские поножи из красной стали, инкрустированные стерлинговым серебром",
+  "item.knightsofterrafirma.sterling_silver_red_steel_knight_boots": "§bРыцарские сабатоны из красной стали, инкрустированные стерлинговым серебром",
+
+  "item.knightsofterrafirma.platinum_red_steel_armet": "§bАрмет из красной стали, инкрустированный платиной",
+  "item.knightsofterrafirma.platinum_red_steel_knight_chestplate": "§bРыцарский доспех из красной стали, инкрустированный платиной",
+  "item.knightsofterrafirma.platinum_red_steel_knight_leggings": "§bРыцарские поножи из красной стали, инкрустированные платиной",
+  "item.knightsofterrafirma.platinum_red_steel_knight_boots": "§bРыцарские сабатоны из красной стали, инкрустированные платиной",
+
+  "item.knightsofterrafirma.brass_red_steel_armet": "§bАрмет из красной стали, инкрустированный латунью",
+  "item.knightsofterrafirma.brass_red_steel_knight_chestplate": "§bРыцарский доспех из красной стали, инкрустированный латунью",
+  "item.knightsofterrafirma.brass_red_steel_knight_leggings": "§bРыцарские поножи из красной стали, инкрустированные латунью",
+  "item.knightsofterrafirma.brass_red_steel_knight_boots": "§bРыцарские сабатоны из красной стали, инкрустированные латунью",
+
+  "item.knightsofterrafirma.rose_gold_red_steel_armet": "§bАрмет из красной стали, инкрустированный розовым золотом",
+  "item.knightsofterrafirma.rose_gold_red_steel_knight_chestplate": "§bРыцарский доспех из красной стали, инкрустированный розовым золотом",
+  "item.knightsofterrafirma.rose_gold_red_steel_knight_leggings": "§bРыцарские поножи из красной стали, инкрустированные розовым золотом",
+  "item.knightsofterrafirma.rose_gold_red_steel_knight_boots": "§bРыцарские сабатоны из красной стали, инкрустированные розовым золотом",
+
+  "item.knightsofterrafirma.red_steel_stechhelm": "§bШтеххельм из красной стали",
+  "item.knightsofterrafirma.red_steel_jousting_chestplate": "§bТурнирный доспех из красной стали",
+  "item.knightsofterrafirma.red_steel_jousting_leggings": "§bТурнирные поножи из красной стали",
+  "item.knightsofterrafirma.red_steel_jousting_boots": "§bТурнирные сабатоны из красной стали",
+
+  "item.knightsofterrafirma.red_steel_sallet": "§bСалад из красной стали",
+  "item.knightsofterrafirma.red_steel_gothic_chestplate": "§bГотический доспех из красной стали",
+  "item.knightsofterrafirma.red_steel_gothic_leggings": "§bГотические поножи из красной стали",
+  "item.knightsofterrafirma.red_steel_gothic_boots": "§bГотические ботинки из красной стали",
+
+  "item.knightsofterrafirma.red_steel_maximilian_helmet": "§bМаксимилиановский шлем из красной стали",
+  "item.knightsofterrafirma.red_steel_maximilian_chestplate": "§bМаксимилиановский доспех из красной стали",
+  "item.knightsofterrafirma.red_steel_maximilian_leggings": "§bМаксимилиановские поножи из красной стали",
+  "item.knightsofterrafirma.red_steel_maximilian_boots": "§bМаксимилиановские сабатоны из красной стали",
+
+  "item.knightsofterrafirma.red_steel_grand_bascinet": "§bГранд бацинет из красной стали",
+  "item.knightsofterrafirma.red_steel_kastenbrust_chestplate": "§bНагрудник доспеха кастенбруст из красной стали",
+  "item.knightsofterrafirma.red_steel_kastenbrust_leggings": "§bПоножи доспеха кастенбруст из красной стали",
+  "item.knightsofterrafirma.red_steel_kastenbrust_boots": "§bСабатоны доспеха кастенбруст из красной стали",
+
+  "item.knightsofterrafirma.red_steel_halfarmor_helmet": "§bБарбют из красной стали",
+  "item.knightsofterrafirma.red_steel_halfarmor_chestplate": "§bНеполный доспех из красной стали",
+  
   "item.knightsofterrafirma.silver_steel_ceremonialarmet": "§eПарадный армет, инкрустированный серебром",
   "item.knightsofterrafirma.silver_steel_ceremonial_chestplate": "§eПарадный рыцарский доспех, инкрустированный серебром",
   "item.knightsofterrafirma.silver_steel_ceremonial_boots": "§eПарадные рыцарские саботины, инкрустированные серебром",

@@ -434,6 +434,123 @@
   "item.knightsofterrafirma.black_steel_halfarmor_helmet": "§bBlack Steel Barbute",
   "item.knightsofterrafirma.black_steel_halfarmor_chestplate": "§bBlack Steel Half-armor Chestplate",
 
+  "item.knightsofterrafirma.blue_steel_armet": "§dBlue Steel Armet",
+  "item.knightsofterrafirma.blue_steel_knight_chestplate": "§dBlue Steel Knight Chestplate",
+  "item.knightsofterrafirma.blue_steel_knight_leggings": "§dBlue Steel Knight Leggings",
+  "item.knightsofterrafirma.blue_steel_knight_boots": "§dBlue Steel Knight Boots",
+
+  "item.knightsofterrafirma.gold_blue_steel_armet": "§dBlue Steel Armet inlaid with Gold",
+  "item.knightsofterrafirma.gold_blue_steel_knight_chestplate": "§dBlue Steel Knight Chestplate inlaid with Gold",
+  "item.knightsofterrafirma.gold_blue_steel_knight_leggings": "§dBlue Steel Knight Leggings inlaid with Gold",
+  "item.knightsofterrafirma.gold_blue_steel_knight_boots": "§dBlue Steel Knight Boots inlaid with Gold",
+
+  "item.knightsofterrafirma.silver_blue_steel_armet": "§dBlue Steel Armet inlaid with Silver",
+  "item.knightsofterrafirma.silver_blue_steel_knight_chestplate": "§dBlue Steel Knight Chestplate inlaid with Silver",
+  "item.knightsofterrafirma.silver_blue_steel_knight_leggings": "§dBlue Steel Knight Leggings inlaid with Silver",
+  "item.knightsofterrafirma.silver_blue_steel_knight_boots": "§dBlue Steel Knight Boots inlaid with Silver",
+
+  "item.knightsofterrafirma.sterling_silver_blue_steel_armet": "§dBlue Steel Armet inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_blue_steel_knight_chestplate": "§dBlue Steel Knight Chestplate inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_blue_steel_knight_leggings": "§dBlue Steel Knight Leggings inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_blue_steel_knight_boots": "§dBlue Steel Knight Boots inlaid with Sterling Silver",
+
+  "item.knightsofterrafirma.platinum_blue_steel_armet": "§dBlue Steel Armet inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_blue_steel_knight_chestplate": "§dBlue Steel Knight Chestplate inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_blue_steel_knight_leggings": "§dBlue Steel Knight Leggings inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_blue_steel_knight_boots": "§dBlue Steel Knight Boots inlaid with Platinum",
+
+  "item.knightsofterrafirma.brass_blue_steel_armet": "§dBlue Steel Armet inlaid with Brass",
+  "item.knightsofterrafirma.brass_blue_steel_knight_chestplate": "§dBlue Steel Knight Chestplate inlaid with Brass",
+  "item.knightsofterrafirma.brass_blue_steel_knight_leggings": "§dBlue Steel Knight Leggings inlaid with Brass",
+  "item.knightsofterrafirma.brass_blue_steel_knight_boots": "§dBlue Steel Knight Boots inlaid with Brass",
+
+  "item.knightsofterrafirma.rose_gold_blue_steel_armet": "§dBlue Steel Armet inlaid with Rose Gold",
+  "item.knightsofterrafirma.rose_gold_blue_steel_knight_chestplate": "§dBlue Steel Knight Chestplate inlaid with Rose Gold",
+  "item.knightsofterrafirma.rose_gold_blue_steel_knight_leggings": "§dBlue Steel Knight Leggings inlaid with Rose Gold",
+  "item.knightsofterrafirma.rose_gold_blue_steel_knight_boots": "§dBlue Steel Knight Boots inlaid with Rose Gold",
+
+  "item.knightsofterrafirma.blue_steel_stechhelm": "§dBlue Steel Frog-Mouth Helm",
+  "item.knightsofterrafirma.blue_steel_jousting_chestplate": "§dBlue Steel Jousting Chestplate",
+  "item.knightsofterrafirma.blue_steel_jousting_leggings": "§dBlue Steel Jousting Leggings",
+  "item.knightsofterrafirma.blue_steel_jousting_boots": "§dBlue Steel Jousting Boots",
+
+  "item.knightsofterrafirma.blue_steel_sallet": "§dBlue Steel Sallet",
+  "item.knightsofterrafirma.blue_steel_gothic_chestplate": "§dBlue Steel Gothic Chestplate",
+  "item.knightsofterrafirma.blue_steel_gothic_leggings": "§dBlue Steel Gothic Leggings",
+  "item.knightsofterrafirma.blue_steel_gothic_boots": "§dBlue Steel Gothic Boots",
+
+  "item.knightsofterrafirma.blue_steel_maximilian_helmet": "§dBlue Steel Maximilian Helmet",
+  "item.knightsofterrafirma.blue_steel_maximilian_chestplate": "§dBlue Steel Maximilian Chestplate",
+  "item.knightsofterrafirma.blue_steel_maximilian_leggings": "§dBlue Steel Maximilian Leggings",
+  "item.knightsofterrafirma.blue_steel_maximilian_boots": "§dBlue Steel Maximilian Boots",
+
+  "item.knightsofterrafirma.blue_steel_grand_bascinet": "§dBlue Steel Grand Bascinet",
+  "item.knightsofterrafirma.blue_steel_kastenbrust_chestplate": "§dBlue Steel Kasten-brust Chestplate",
+  "item.knightsofterrafirma.blue_steel_kastenbrust_leggings": "§dBlue Steel Kasten-brust Leggings",
+  "item.knightsofterrafirma.blue_steel_kastenbrust_boots": "§dBlue Steel Kasten-brust Boots",
+
+  "item.knightsofterrafirma.blue_steel_halfarmor_helmet": "§dBlue Steel Barbute",
+  "item.knightsofterrafirma.blue_steel_halfarmor_chestplate": "§dBlue Steel Half-armor Chestplate",
+
+  
+  "item.knightsofterrafirma.red_steel_armet": "§dRed Steel Armet",
+  "item.knightsofterrafirma.red_steel_knight_chestplate": "§dRed Steel Knight Chestplate",
+  "item.knightsofterrafirma.red_steel_knight_leggings": "§dRed Steel Knight Leggings",
+  "item.knightsofterrafirma.red_steel_knight_boots": "§dRed Steel Knight Boots",
+
+  "item.knightsofterrafirma.gold_red_steel_armet": "§dRed Steel Armet inlaid with Gold",
+  "item.knightsofterrafirma.gold_red_steel_knight_chestplate": "§dRed Steel Knight Chestplate inlaid with Gold",
+  "item.knightsofterrafirma.gold_red_steel_knight_leggings": "§dRed Steel Knight Leggings inlaid with Gold",
+  "item.knightsofterrafirma.gold_red_steel_knight_boots": "§dRed Steel Knight Boots inlaid with Gold",
+
+  "item.knightsofterrafirma.silver_red_steel_armet": "§dRed Steel Armet inlaid with Silver",
+  "item.knightsofterrafirma.silver_red_steel_knight_chestplate": "§dRed Steel Knight Chestplate inlaid with Silver",
+  "item.knightsofterrafirma.silver_red_steel_knight_leggings": "§dRed Steel Knight Leggings inlaid with Silver",
+  "item.knightsofterrafirma.silver_red_steel_knight_boots": "§dRed Steel Knight Boots inlaid with Silver",
+
+  "item.knightsofterrafirma.sterling_silver_red_steel_armet": "§dRed Steel Armet inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_red_steel_knight_chestplate": "§dRed Steel Knight Chestplate inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_red_steel_knight_leggings": "§dRed Steel Knight Leggings inlaid with Sterling Silver",
+  "item.knightsofterrafirma.sterling_silver_red_steel_knight_boots": "§dRed Steel Knight Boots inlaid with Sterling Silver",
+
+  "item.knightsofterrafirma.platinum_red_steel_armet": "§dRed Steel Armet inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_red_steel_knight_chestplate": "§dRed Steel Knight Chestplate inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_red_steel_knight_leggings": "§dRed Steel Knight Leggings inlaid with Platinum",
+  "item.knightsofterrafirma.platinum_red_steel_knight_boots": "§dRed Steel Knight Boots inlaid with Platinum",
+
+  "item.knightsofterrafirma.brass_red_steel_armet": "§dRed Steel Armet inlaid with Brass",
+  "item.knightsofterrafirma.brass_red_steel_knight_chestplate": "§dRed Steel Knight Chestplate inlaid with Brass",
+  "item.knightsofterrafirma.brass_red_steel_knight_leggings": "§dRed Steel Knight Leggings inlaid with Brass",
+  "item.knightsofterrafirma.brass_red_steel_knight_boots": "§dRed Steel Knight Boots inlaid with Brass",
+
+  "item.knightsofterrafirma.rose_gold_red_steel_armet": "§dRed Steel Armet inlaid with Rose Gold",
+  "item.knightsofterrafirma.rose_gold_red_steel_knight_chestplate": "§dRed Steel Knight Chestplate inlaid with Rose Gold",
+  "item.knightsofterrafirma.rose_gold_red_steel_knight_leggings": "§dRed Steel Knight Leggings inlaid with Rose Gold",
+  "item.knightsofterrafirma.rose_gold_red_steel_knight_boots": "§dRed Steel Knight Boots inlaid with Rose Gold",
+
+  "item.knightsofterrafirma.red_steel_stechhelm": "§dRed Steel Frog-Mouth Helm",
+  "item.knightsofterrafirma.red_steel_jousting_chestplate": "§dRed Steel Jousting Chestplate",
+  "item.knightsofterrafirma.red_steel_jousting_leggings": "§dRed Steel Jousting Leggings",
+  "item.knightsofterrafirma.red_steel_jousting_boots": "§dRed Steel Jousting Boots",
+
+  "item.knightsofterrafirma.red_steel_sallet": "§dRed Steel Sallet",
+  "item.knightsofterrafirma.red_steel_gothic_chestplate": "§dRed Steel Gothic Chestplate",
+  "item.knightsofterrafirma.red_steel_gothic_leggings": "§dRed Steel Gothic Leggings",
+  "item.knightsofterrafirma.red_steel_gothic_boots": "§dRed Steel Gothic Boots",
+
+  "item.knightsofterrafirma.red_steel_maximilian_helmet": "§dRed Steel Maximilian Helmet",
+  "item.knightsofterrafirma.red_steel_maximilian_chestplate": "§dRed Steel Maximilian Chestplate",
+  "item.knightsofterrafirma.red_steel_maximilian_leggings": "§dRed Steel Maximilian Leggings",
+  "item.knightsofterrafirma.red_steel_maximilian_boots": "§dRed Steel Maximilian Boots",
+
+  "item.knightsofterrafirma.red_steel_grand_bascinet": "§dRed Steel Grand Bascinet",
+  "item.knightsofterrafirma.red_steel_kastenbrust_chestplate": "§dRed Steel Kasten-brust Chestplate",
+  "item.knightsofterrafirma.red_steel_kastenbrust_leggings": "§dRed Steel Kasten-brust Leggings",
+  "item.knightsofterrafirma.red_steel_kastenbrust_boots": "§dRed Steel Kasten-brust Boots",
+
+  "item.knightsofterrafirma.red_steel_halfarmor_helmet": "§dRed Steel Barbute",
+  "item.knightsofterrafirma.red_steel_halfarmor_chestplate": "§dRed Steel Half-armor Chestplate",
+
   "item.knightsofterrafirma.silver_steel_ceremonialarmet": "§eCeremonial Armet inlaid with Silver",
   "item.knightsofterrafirma.silver_steel_ceremonial_chestplate": "§eCeremonial Knight Armor inlaid with Silver",
   "item.knightsofterrafirma.silver_steel_ceremonial_boots": "§eCeremonial Knight Boots inlaid with Silver",
