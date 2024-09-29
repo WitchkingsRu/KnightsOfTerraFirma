@@ -88,6 +88,7 @@ public class ModdedItems extends ModItemsProvider{
         return new Item(new Item.Properties());
     });
 
+
     public static final ArrayList<RegistrySupplier<MedievalWeaponItem>> listWeapons = new ArrayList<>();
 
     public static final ArrayList<RegistrySupplier<Item>> listParts = new ArrayList<>();
