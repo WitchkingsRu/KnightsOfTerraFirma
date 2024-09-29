@@ -1,0 +1,11 @@
+{
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:halfarmor_chestplate_unfinished"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/steel",
+    "amount": 400
+  },
+  "temperature": 1540
+}
