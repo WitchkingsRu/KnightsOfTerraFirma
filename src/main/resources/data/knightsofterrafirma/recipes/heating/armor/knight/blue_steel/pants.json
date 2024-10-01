@@ -1,10 +1,10 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "knightsofterrafirma:knight_pants"
+    "item": "knightsofterrafirma:blue_steel_knight_pants"
   },
   "result_fluid": {
-    "fluid": "tfc:metal/steel",
+    "fluid": "tfc:metal/blue_steel",
     "amount": 200
   },
   "temperature": 1540

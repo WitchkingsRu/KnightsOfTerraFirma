@@ -1,11 +1,11 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "knightsofterrafirma:kastenbrust_arms"
+    "item": "knightsofterrafirma:black_steel_kastenbrust_arms"
   },
   "result_fluid": {
-    "fluid": "tfc:metal/steel",
+    "fluid": "tfc:metal/black_steel",
     "amount": 200
   },
-  "temperature": 1540
+  "temperature": 1485
 }

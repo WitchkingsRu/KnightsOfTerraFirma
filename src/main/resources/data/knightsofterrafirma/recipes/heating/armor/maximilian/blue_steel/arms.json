@@ -1,10 +1,10 @@
 {
   "type": "tfc:heating",
   "ingredient": {
-    "item": "knightsofterrafirma:maximilian_arms"
+    "item": "knightsofterrafirma:blue_steel_maximilian_arms"
   },
   "result_fluid": {
-    "fluid": "tfc:metal/steel",
+    "fluid": "tfc:metal/blue_steel",
     "amount": 400
   },
   "temperature": 1540

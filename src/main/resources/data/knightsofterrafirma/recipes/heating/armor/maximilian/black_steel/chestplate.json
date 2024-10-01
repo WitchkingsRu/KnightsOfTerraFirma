@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:maximilian_chestplate"
+      "item": "knightsofterrafirma:black_steel_maximilian_chestplate"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
+      "fluid": "tfc:metal/black_steel",
       "amount": 1000
     },
-    "temperature": 1540
+    "temperature": 1485
   }

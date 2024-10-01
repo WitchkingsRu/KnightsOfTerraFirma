@@ -1,11 +1,11 @@
 {
-    "type": "tfc:heating",
-    "ingredient": {
-      "item": "magistuarmory:barbute"
-    },
-    "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 400
-    },
+  "type": "tfc:heating",
+  "ingredient": {
+    "item": "knightsofterrafirma:red_steel_halfarmor_helmet"
+  },
+  "result_fluid": {
+    "fluid": "tfc:metal/red_steel",
+    "amount": 400
+  },
     "temperature": 1540
   }

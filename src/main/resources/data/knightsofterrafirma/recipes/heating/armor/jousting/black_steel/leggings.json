@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:jousting_leggings"
+      "item": "knightsofterrafirma:black_steel_jousting_leggings"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
+      "fluid": "tfc:metal/black_steel",
       "amount": 800
     },
-    "temperature": 1540
+    "temperature": 1485
   }

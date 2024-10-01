@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:stechhelm"
+      "item": "knightsofterrafirma:black_steel_stechhelm"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
+      "fluid": "tfc:metal/black_steel",
       "amount": 800
     },
-    "temperature": 1540
+    "temperature": 1485
   }
