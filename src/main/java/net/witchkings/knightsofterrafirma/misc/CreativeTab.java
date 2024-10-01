@@ -73,6 +73,39 @@ public class CreativeTab {
                 output.accept(ModdedItems.XIV_ARMS.get());
                 output.accept(ModdedItems.XIV_KNEES.get());
 
+                output.accept(ModdedItems.BLACK_STEEL_CHAINMAIL_HELMET.get());
+                output.accept(ModdedItems.BLACK_STEEL_CHAINMAIL_TORSO.get());
+                output.accept(ModdedItems.BLACK_STEEL_PLATEMAIL_ARMS.get());
+                output.accept(ModdedItems.BLACK_STEEL_PLATEMAIL_HAT.get());
+                output.accept(ModdedItems.BLACK_STEEL_PLATEMAIL_KNEES.get());
+
+                output.accept(ModdedItems.BLACK_STEEL_GOTHIC_VISOR.get());
+                output.accept(ModdedItems.BLACK_STEEL_GRAND_BASCINET_VISOR.get());
+                output.accept(ModdedItems.BLACK_STEEL_JOUSTING_VISOR.get());
+                output.accept(ModdedItems.BLACK_STEEL_HALFARMOR_HELMET.get());
+                output.accept(ModdedItems.BLACK_STEEL_HALFARMOR_BODY.get());
+                output.accept(ModdedItems.BLACK_STEEL_HALFARMOR_SHOULDER.get());
+                output.accept(ModdedItems.BLACK_STEEL_KNIGHT_VISOR.get());
+                output.accept(ModdedItems.BLACK_STEEL_MAXIMILIAN_VISOR.get());
+
+                output.accept(ModdedItems.BLUE_STEEL_GOTHIC_VISOR.get());
+                output.accept(ModdedItems.BLUE_STEEL_GRAND_BASCINET_VISOR.get());
+                output.accept(ModdedItems.BLUE_STEEL_JOUSTING_VISOR.get());
+                output.accept(ModdedItems.BLUE_STEEL_HALFARMOR_HELMET.get());
+                output.accept(ModdedItems.BLUE_STEEL_HALFARMOR_BODY.get());
+                output.accept(ModdedItems.BLUE_STEEL_HALFARMOR_SHOULDER.get());
+                output.accept(ModdedItems.BLUE_STEEL_KNIGHT_VISOR.get());
+                output.accept(ModdedItems.BLUE_STEEL_MAXIMILIAN_VISOR.get());
+
+                output.accept(ModdedItems.RED_STEEL_GOTHIC_VISOR.get());
+                output.accept(ModdedItems.RED_STEEL_GRAND_BASCINET_VISOR.get());
+                output.accept(ModdedItems.RED_STEEL_JOUSTING_VISOR.get());
+                output.accept(ModdedItems.RED_STEEL_HALFARMOR_HELMET.get());
+                output.accept(ModdedItems.RED_STEEL_HALFARMOR_BODY.get());
+                output.accept(ModdedItems.RED_STEEL_HALFARMOR_SHOULDER.get());
+                output.accept(ModdedItems.RED_STEEL_KNIGHT_VISOR.get());
+                output.accept(ModdedItems.RED_STEEL_MAXIMILIAN_VISOR.get());
+
                 for (RegistrySupplier<Item> item:ModdedItems.listArmorParts) {
                     output.accept(item.get());
                 }

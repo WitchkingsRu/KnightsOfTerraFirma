@@ -88,6 +88,100 @@ public class ModdedItems extends ModItemsProvider{
         return new Item(new Item.Properties());
     });
 
+    public static RegistrySupplier<Item> BLACK_STEEL_PLATEMAIL_ARMS = INSTANCE.addIngredientItem("black_steel_platemail_arms", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_PLATEMAIL_HAT = INSTANCE.addIngredientItem("black_steel_platemail_helmet_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_PLATEMAIL_KNEES = INSTANCE.addIngredientItem("black_steel_platemail_knees", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_CHAINMAIL_HELMET = INSTANCE.addIngredientItem("black_steel_chainmail_helmet_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_CHAINMAIL_TORSO = INSTANCE.addIngredientItem("black_steel_chainmail_torso", () -> {
+        return new Item(new Item.Properties());
+    });
+
+    public static RegistrySupplier<Item> BLACK_STEEL_GOTHIC_VISOR = INSTANCE.addIngredientItem("black_steel_gothic_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_GRAND_BASCINET_VISOR = INSTANCE.addIngredientItem("black_steel_grand_bascinet_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_JOUSTING_VISOR = INSTANCE.addIngredientItem("black_steel_jousting_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_HALFARMOR_HELMET = INSTANCE.addIngredientItem("black_steel_halfarmor_helmet_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_HALFARMOR_BODY = INSTANCE.addIngredientItem("black_steel_halfarmor_chestplate_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_HALFARMOR_SHOULDER = INSTANCE.addIngredientItem("black_steel_halfarmor_shoulder_pads", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_KNIGHT_VISOR = INSTANCE.addIngredientItem("black_steel_knight_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLACK_STEEL_MAXIMILIAN_VISOR = INSTANCE.addIngredientItem("black_steel_maximilian_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+
+
+    public static RegistrySupplier<Item> BLUE_STEEL_GOTHIC_VISOR = INSTANCE.addIngredientItem("blue_steel_gothic_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLUE_STEEL_GRAND_BASCINET_VISOR = INSTANCE.addIngredientItem("blue_steel_grand_bascinet_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLUE_STEEL_JOUSTING_VISOR = INSTANCE.addIngredientItem("blue_steel_jousting_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLUE_STEEL_HALFARMOR_HELMET = INSTANCE.addIngredientItem("blue_steel_halfarmor_helmet_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLUE_STEEL_HALFARMOR_BODY = INSTANCE.addIngredientItem("blue_steel_halfarmor_chestplate_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLUE_STEEL_HALFARMOR_SHOULDER = INSTANCE.addIngredientItem("blue_steel_halfarmor_shoulder_pads", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLUE_STEEL_KNIGHT_VISOR = INSTANCE.addIngredientItem("blue_steel_knight_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> BLUE_STEEL_MAXIMILIAN_VISOR = INSTANCE.addIngredientItem("blue_steel_maximilian_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+
+
+    public static RegistrySupplier<Item> RED_STEEL_GOTHIC_VISOR = INSTANCE.addIngredientItem("red_steel_gothic_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> RED_STEEL_GRAND_BASCINET_VISOR = INSTANCE.addIngredientItem("red_steel_grand_bascinet_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> RED_STEEL_JOUSTING_VISOR = INSTANCE.addIngredientItem("red_steel_jousting_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> RED_STEEL_HALFARMOR_HELMET = INSTANCE.addIngredientItem("red_steel_halfarmor_helmet_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> RED_STEEL_HALFARMOR_BODY = INSTANCE.addIngredientItem("red_steel_halfarmor_chestplate_unfinished", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> RED_STEEL_HALFARMOR_SHOULDER = INSTANCE.addIngredientItem("red_steel_halfarmor_shoulder_pads", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> RED_STEEL_KNIGHT_VISOR = INSTANCE.addIngredientItem("red_steel_knight_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static RegistrySupplier<Item> RED_STEEL_MAXIMILIAN_VISOR = INSTANCE.addIngredientItem("red_steel_maximilian_visor", () -> {
+        return new Item(new Item.Properties());
+    });
+
+
 
     public static final ArrayList<RegistrySupplier<MedievalWeaponItem>> listWeapons = new ArrayList<>();
 
@@ -202,9 +296,25 @@ public class ModdedItems extends ModItemsProvider{
         }
         for (String ArmorPart:ArmorParts) {
             for (String ArmorType:ArmorTypes) {
-                listArmorParts.add(INSTANCE.addIngredientItem(ArmorType+"_"+ArmorPart, () -> {
-                    return new Item(new Item.Properties());
-                }));
+                if (ArmorType == "chainmail") {
+                    listArmorParts.add(INSTANCE.addIngredientItem(ArmorType+"_"+ArmorPart, () -> {
+                        return new Item(new Item.Properties());
+                    }));
+                }
+                else {
+                    listArmorParts.add(INSTANCE.addIngredientItem(ArmorType+"_"+ArmorPart, () -> {
+                        return new Item(new Item.Properties());
+                    }));
+                    listArmorParts.add(INSTANCE.addIngredientItem("black_steel_"+ArmorType+"_"+ArmorPart, () -> {
+                        return new Item(new Item.Properties());
+                    }));
+                    listArmorParts.add(INSTANCE.addIngredientItem("blue_steel_"+ArmorType+"_"+ArmorPart, () -> {
+                        return new Item(new Item.Properties());
+                    }));
+                    listArmorParts.add(INSTANCE.addIngredientItem("red_steel_"+ArmorType+"_"+ArmorPart, () -> {
+                        return new Item(new Item.Properties());
+                    }));
+                }
             }
         }
 
