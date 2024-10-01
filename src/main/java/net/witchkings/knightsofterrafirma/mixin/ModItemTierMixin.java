@@ -15,12 +15,14 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ModItemTierMixin {
 
     @Shadow @Mutable private int uses;
+    @Shadow @Mutable private float attackDamageBonus;
 
     @Inject(method = "<init>(Ljava/lang/String;Lnet/minecraft/world/item/Tier;F)V", at = @At("TAIL"))
     private void onInit(String name, Tier tier, float density, CallbackInfo ci) {
         System.out.println("ModItemTier constructor with Tier called. Original uses: " + this.uses);
         if (name == "iron"){
             this.uses = 2200;
+            this.attackDamageBonus = 2.5F;
         }
         System.out.println("Modified uses: " + this.uses);
     }
@@ -38,6 +40,7 @@ public class ModItemTierMixin {
                 break;
             case "steel":
                 this.uses = 3300;
+                this.attackDamageBonus = 3.5F;
                 break;
             case "tin":
                 this.uses = 50;
