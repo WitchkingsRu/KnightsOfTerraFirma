@@ -77,6 +77,7 @@ public class CreativeTab {
                 output.accept(ModdedItems.BLACK_STEEL_CHAINMAIL_TORSO.get());
                 output.accept(ModdedItems.BLACK_STEEL_PLATEMAIL_ARMS.get());
                 output.accept(ModdedItems.BLACK_STEEL_PLATEMAIL_HAT.get());
+                output.accept(ModdedItems.BLACK_STEEL_CHAINMAIL_PANTS.get());
                 output.accept(ModdedItems.BLACK_STEEL_PLATEMAIL_KNEES.get());
 
                 output.accept(ModdedItems.BLACK_STEEL_GOTHIC_VISOR.get());

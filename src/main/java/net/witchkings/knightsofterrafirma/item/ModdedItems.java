@@ -100,6 +100,9 @@ public class ModdedItems extends ModItemsProvider{
     public static RegistrySupplier<Item> BLACK_STEEL_CHAINMAIL_HELMET = INSTANCE.addIngredientItem("black_steel_chainmail_helmet_unfinished", () -> {
         return new Item(new Item.Properties());
     });
+    public static RegistrySupplier<Item> BLACK_STEEL_CHAINMAIL_PANTS = INSTANCE.addIngredientItem("black_steel_chainmail_pants", () -> {
+        return new Item(new Item.Properties());
+    });
     public static RegistrySupplier<Item> BLACK_STEEL_CHAINMAIL_TORSO = INSTANCE.addIngredientItem("black_steel_chainmail_torso", () -> {
         return new Item(new Item.Properties());
     });
