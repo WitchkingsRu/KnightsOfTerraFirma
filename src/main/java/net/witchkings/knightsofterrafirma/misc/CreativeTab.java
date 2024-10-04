@@ -6,6 +6,9 @@ import com.magistuarmory.item.MedievalWeaponItem;
 import com.magistuarmory.item.ModItems;
 import com.magistuarmory.item.armor.MedievalArmorItem;
 import dev.architectury.registry.registries.RegistrySupplier;
+import net.minecraft.resources.ResourceKey;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.minecraft.world.item.*;
@@ -52,6 +55,7 @@ public class CreativeTab {
     public static final RegistryObject<CreativeModeTab> KOTF_ARMOR_PARTS = CREATIVE_MODE_TABS.register("kotf_armor_parts", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BASCINET_VISOR.get()))
             .title(Component.translatable("creativetab.kotf_armor_parts")).
             displayItems((itemDisplayParameters, output) -> {
+                output.accept(ModdedItems.BLACK_STEEL_CHAINMAIL.get());
                 output.accept(ModdedItems.BASCINET_VISOR.get());
                 output.accept(ModdedItems.CHAINMAIL_HELMET.get());
                 output.accept(ModdedItems.CHAINMAIL_TORSO.get());
@@ -110,6 +114,7 @@ public class CreativeTab {
                 for (RegistrySupplier<Item> item:ModdedItems.listArmorParts) {
                     output.accept(item.get());
                 }
+
             })
             .build());
     public static final RegistryObject<CreativeModeTab> KOTF_ARMOR = CREATIVE_MODE_TABS.register("kotf_armor", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModelledItems.BLACKSTEEL_ARMET.get()))
@@ -254,6 +259,19 @@ public class CreativeTab {
 
             })
             .build());
+
+    @SubscribeEvent
+    public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+        if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            tabData.accept(ModItems.GILDING_TEMPLATE.get());
+            tabData.accept(ModdedItems.SILVER_TEMPLATE.get());
+            tabData.accept(ModdedItems.STERLING_SILVER_TEMPLATE.get());
+            tabData.accept(ModdedItems.PLATINUM_TEMPLATE.get());
+            tabData.accept(ModdedItems.BRASS_TEMPLATE.get());
+            tabData.accept(ModdedItems.ROSE_GOLD_TEMPLATE.get());
+        }
+    }
+
 
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);

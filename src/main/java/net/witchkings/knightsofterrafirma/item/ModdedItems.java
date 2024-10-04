@@ -3,12 +3,15 @@ package net.witchkings.knightsofterrafirma.item;
 import com.magistuarmory.item.*;
 import dev.architectury.platform.Platform;
 import dev.architectury.registry.registries.RegistrySupplier;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.Item.Properties;
 import net.minecraft.world.item.Item;
 import com.magistuarmory.api.item.ModItemsProvider;
+import net.minecraft.world.item.SmithingTemplateItem;
 
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -184,7 +187,25 @@ public class ModdedItems extends ModItemsProvider{
         return new Item(new Item.Properties());
     });
 
+    public static final RegistrySupplier<SmithingTemplateItem> SILVER_TEMPLATE = INSTANCE.items.register("silver_gilding_template", () -> {
+        return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.silver_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
+    });
+    public static final RegistrySupplier<SmithingTemplateItem> STERLING_SILVER_TEMPLATE = INSTANCE.items.register("sterling_silver_gilding_template", () -> {
+        return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.sterling_silver_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
+    });
+    public static final RegistrySupplier<SmithingTemplateItem> PLATINUM_TEMPLATE = INSTANCE.items.register("platinum_gilding_template", () -> {
+        return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.platinum_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
+    });
+    public static final RegistrySupplier<SmithingTemplateItem> BRASS_TEMPLATE = INSTANCE.items.register("brass_gilding_template", () -> {
+        return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.brass_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
+    });
+    public static final RegistrySupplier<SmithingTemplateItem> ROSE_GOLD_TEMPLATE = INSTANCE.items.register("rose_gold_gilding_template", () -> {
+        return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.rose_gold_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
+    });
 
+    public static final RegistrySupplier<Item> BLACK_STEEL_CHAINMAIL = INSTANCE.addIngredientItem("black_steel_chainmail", () -> {
+        return new Item(new Item.Properties());
+    });
 
     public static final ArrayList<RegistrySupplier<MedievalWeaponItem>> listWeapons = new ArrayList<>();
 

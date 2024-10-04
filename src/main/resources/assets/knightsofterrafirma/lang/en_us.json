@@ -650,5 +650,12 @@
   "item.magistuarmory.steel_rondache": "§eSteel Rondache",
   "item.magistuarmory.steel_target": "§eSteel Target",
   "item.magistuarmory.steel_tartsche": "§eSteel Tartsche",
-  "item.magistuarmory.steel_roundshield": "§eSteel Round Shield"
+  "item.magistuarmory.steel_roundshield": "§eSteel Round Shield",
+
+  "magistuarmory.gilding_template.ingredients": "Golden ingots",
+  "knightsofterrafirma.silver_gilding_template.ingredients": "Silver ingots",
+  "knightsofterrafirma.sterling_silver_gilding_template.ingredients": "Sterling silver ingots",
+  "knightsofterrafirma.platinum_gilding_template.ingredients": "Platinum ingots",
+  "knightsofterrafirma.brass_gilding_template.ingredients": "Brass ingots",
+  "knightsofterrafirma.rose_gold_gilding_template.ingredients": "Rose Golden ingots"
 }
