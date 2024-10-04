@@ -193,6 +193,7 @@ public class ModdedItems extends ModItemsProvider{
     public static final RegistrySupplier<SmithingTemplateItem> STERLING_SILVER_TEMPLATE = INSTANCE.items.register("sterling_silver_gilding_template", () -> {
         return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.sterling_silver_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
     });
+
     public static final RegistrySupplier<SmithingTemplateItem> PLATINUM_TEMPLATE = INSTANCE.items.register("platinum_gilding_template", () -> {
         return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.platinum_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
     });

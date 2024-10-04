@@ -14,7 +14,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.witchkings.knightsofterrafirma.client.ModModel;
 import net.witchkings.knightsofterrafirma.item.*;
+import net.witchkings.knightsofterrafirma.misc.Additions;
 import net.witchkings.knightsofterrafirma.misc.CreativeTab;
+import net.witchkings.knightsofterrafirma.misc.ExtendedCreativeTabs;
 import net.witchkings.knightsofterrafirma.misc.RPLoader;
 
 
@@ -48,7 +50,19 @@ public class KnightsOfTerraFirma {
             ModModel.INSTANCE.init(ModelledItems.INSTANCE);
         RPLoader.init();
         EKArmor.init();
+        ExtendedCreativeTabs.register(modEventBus);
         WeldingSerializer.RECIPE_SERIALIZERS.register(modEventBus);
+
+        if (Platform.isModLoaded("dfc")) {
+            AdditionalItems.INSTANCE.init();
+            if (Platform.getEnv() == Dist.CLIENT)
+                ModModel.INSTANCE.init(AdditionalItems.INSTANCE);
+
+        }
+        if (Platform.isModLoaded("dfc")) {
+            Additions.register(modEventBus);
+        }
+
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
+import net.witchkings.knightsofterrafirma.item.AdditionalItems;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
@@ -55,7 +56,6 @@ public class CreativeTab {
     public static final RegistryObject<CreativeModeTab> KOTF_ARMOR_PARTS = CREATIVE_MODE_TABS.register("kotf_armor_parts", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BASCINET_VISOR.get()))
             .title(Component.translatable("creativetab.kotf_armor_parts")).
             displayItems((itemDisplayParameters, output) -> {
-                output.accept(ModdedItems.BLACK_STEEL_CHAINMAIL.get());
                 output.accept(ModdedItems.BASCINET_VISOR.get());
                 output.accept(ModdedItems.CHAINMAIL_HELMET.get());
                 output.accept(ModdedItems.CHAINMAIL_TORSO.get());
@@ -132,10 +132,6 @@ public class CreativeTab {
                 output.accept(ModelledItems.BRASS_STEEL_CEREMONIAL_CHESTPLATE.get());
                 output.accept(ModelledItems.BRASS_STEEL_CEREMONIAL_BOOTS.get());
 
-                output.accept(ModelledItems.PLATINUM_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
-                output.accept(ModelledItems.PLATINUM_STEEL_CEREMONIAL_CHESTPLATE.get());
-                output.accept(ModelledItems.PLATINUM_STEEL_CEREMONIAL_BOOTS.get());
-
                 output.accept(ModelledItems.ROSE_GOLD_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.ROSE_GOLD_STEEL_CEREMONIAL_CHESTPLATE.get());
                 output.accept(ModelledItems.ROSE_GOLD_STEEL_CEREMONIAL_BOOTS.get());
@@ -159,11 +155,6 @@ public class CreativeTab {
                 output.accept(ModelledItems.ST_SILVER_BLACKSTEEL_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.ST_SILVER_BLACKSTEEL_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.ST_SILVER_BLACKSTEEL_KNIGHT_BOOTS.get());
-
-                output.accept(ModelledItems.PLATINUM_BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
-                output.accept(ModelledItems.PLATINUM_BLACKSTEEL_KNIGHT_CHESTPLATE.get());
-                output.accept(ModelledItems.PLATINUM_BLACKSTEEL_KNIGHT_LEGGINGS.get());
-                output.accept(ModelledItems.PLATINUM_BLACKSTEEL_KNIGHT_BOOTS.get());
 
                 output.accept(ModelledItems.BRASS_BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.BRASS_BLACKSTEEL_KNIGHT_CHESTPLATE.get());
@@ -199,11 +190,6 @@ public class CreativeTab {
                 output.accept(ModelledItems.BLUESTEEL_ST_SILVER_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.BLUESTEEL_ST_SILVER_KNIGHT_BOOTS.get());
 
-                output.accept(ModelledItems.PLATINUM_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
-                output.accept(ModelledItems.BLUESTEEL_PLATINUM_KNIGHT_CHESTPLATE.get());
-                output.accept(ModelledItems.BLUESTEEL_PLATINUM_KNIGHT_LEGGINGS.get());
-                output.accept(ModelledItems.BLUESTEEL_PLATINUM_KNIGHT_BOOTS.get());
-
                 output.accept(ModelledItems.BRASS_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.BLUESTEEL_BRASS_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.BLUESTEEL_BRASS_KNIGHT_LEGGINGS.get());
@@ -238,11 +224,6 @@ public class CreativeTab {
                 output.accept(ModelledItems.REDSTEEL_ST_SILVER_KNIGHT_LEGGINGS.get());
                 output.accept(ModelledItems.REDSTEEL_ST_SILVER_KNIGHT_BOOTS.get());
 
-                output.accept(ModelledItems.PLATINUM_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
-                output.accept(ModelledItems.REDSTEEL_PLATINUM_KNIGHT_CHESTPLATE.get());
-                output.accept(ModelledItems.REDSTEEL_PLATINUM_KNIGHT_LEGGINGS.get());
-                output.accept(ModelledItems.REDSTEEL_PLATINUM_KNIGHT_BOOTS.get());
-
                 output.accept(ModelledItems.BRASS_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER.get());
                 output.accept(ModelledItems.REDSTEEL_BRASS_KNIGHT_CHESTPLATE.get());
                 output.accept(ModelledItems.REDSTEEL_BRASS_KNIGHT_LEGGINGS.get());
@@ -260,17 +241,7 @@ public class CreativeTab {
             })
             .build());
 
-    @SubscribeEvent
-    public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-        if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            tabData.accept(ModItems.GILDING_TEMPLATE.get());
-            tabData.accept(ModdedItems.SILVER_TEMPLATE.get());
-            tabData.accept(ModdedItems.STERLING_SILVER_TEMPLATE.get());
-            tabData.accept(ModdedItems.PLATINUM_TEMPLATE.get());
-            tabData.accept(ModdedItems.BRASS_TEMPLATE.get());
-            tabData.accept(ModdedItems.ROSE_GOLD_TEMPLATE.get());
-        }
-    }
+
 
 
     public static void register(IEventBus eventBus) {

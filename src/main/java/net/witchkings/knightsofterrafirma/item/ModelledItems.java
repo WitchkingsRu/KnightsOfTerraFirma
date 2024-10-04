@@ -126,15 +126,6 @@ public class ModelledItems extends ModItemsProvider {
     public static final RegistrySupplier<MedievalArmorItem> ST_SILVER_BLACKSTEEL_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("sterling_silver_black_steel_knight_boots", ModArmor.ST_SILVER_BLACKSTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
 
     @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> PLATINUM_BLACKSTEEL_ARMET = INSTANCE.addKnightItem("platinum_black_steel_armet", ModArmor.PLATINUM_BLACKSTEEL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> PLATINUM_BLACKSTEEL_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("platinum_black_steel_knight_chestplate", ModArmor.PLATINUM_BLACKSTEEL_KNIGHT_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> PLATINUM_BLACKSTEEL_KNIGHT_LEGGINGS = INSTANCE.addMedievalArmorItem("platinum_black_steel_knight_leggings", ModArmor.PLATINUM_BLACKSTEEL_KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties());;
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> PLATINUM_BLACKSTEEL_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("platinum_black_steel_knight_boots", ModArmor.PLATINUM_BLACKSTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
-
-    @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BRASS_BLACKSTEEL_ARMET = INSTANCE.addKnightItem("brass_black_steel_armet", ModArmor.BRASS_BLACKSTEEL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BRASS_BLACKSTEEL_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("brass_black_steel_knight_chestplate", ModArmor.BRASS_BLACKSTEEL_KNIGHT_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
@@ -163,10 +154,6 @@ public class ModelledItems extends ModItemsProvider {
     public static final RegistrySupplier<MedievalArmorItem> BRASS_STEEl_CEREMONIAL_ARMET = INSTANCE.addKnightItem("brass_steel_ceremonialarmet", ModArmor.BRASS_STEEL_CEREMONIAL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());
     public static final RegistrySupplier<MedievalArmorItem> BRASS_STEEL_CEREMONIAL_CHESTPLATE = INSTANCE.addMedievalArmorItem("brass_steel_ceremonial_chestplate", ModArmor.BRASS_STEEL_CEREMONIAL, ArmorItem.Type.CHESTPLATE, new Item.Properties());
     public static final RegistrySupplier<MedievalArmorItem> BRASS_STEEL_CEREMONIAL_BOOTS = INSTANCE.addMedievalArmorItem("brass_steel_ceremonial_boots", ModArmor.BRASS_STEEL_CEREMONIAL, ArmorItem.Type.BOOTS, new Item.Properties());
-
-    public static final RegistrySupplier<MedievalArmorItem> PLATINUM_STEEl_CEREMONIAL_ARMET = INSTANCE.addKnightItem("platinum_steel_ceremonialarmet", ModArmor.PLATINUM_STEEL_CEREMONIAL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());
-    public static final RegistrySupplier<MedievalArmorItem> PLATINUM_STEEL_CEREMONIAL_CHESTPLATE = INSTANCE.addMedievalArmorItem("platinum_steel_ceremonial_chestplate", ModArmor.PLATINUM_STEEL_CEREMONIAL, ArmorItem.Type.CHESTPLATE, new Item.Properties());
-    public static final RegistrySupplier<MedievalArmorItem> PLATINUM_STEEL_CEREMONIAL_BOOTS = INSTANCE.addMedievalArmorItem("platinum_steel_ceremonial_boots", ModArmor.PLATINUM_STEEL_CEREMONIAL, ArmorItem.Type.BOOTS, new Item.Properties());
 
     public static final RegistrySupplier<MedievalArmorItem> ROSE_GOLD_STEEl_CEREMONIAL_ARMET = INSTANCE.addKnightItem("rose_gold_steel_ceremonialarmet", ModArmor.ROSE_GOLD_STEEL_CEREMONIAL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());
     public static final RegistrySupplier<MedievalArmorItem> ROSE_GOLD_STEEL_CEREMONIAL_CHESTPLATE = INSTANCE.addMedievalArmorItem("rose_gold_steel_ceremonial_chestplate", ModArmor.ROSE_GOLD_STEEL_CEREMONIAL, ArmorItem.Type.CHESTPLATE, new Item.Properties());
@@ -207,15 +194,6 @@ public class ModelledItems extends ModItemsProvider {
     public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_ST_SILVER_KNIGHT_LEGGINGS = INSTANCE.addMedievalArmorItem("sterling_silver_blue_steel_knight_leggings", ModArmor.BLUESTEEL_ST_SILVER_KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties());;
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_ST_SILVER_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("sterling_silver_blue_steel_knight_boots", ModArmor.BLUESTEEL_ST_SILVER_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
-
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_PLATINUM_ARMET = INSTANCE.addKnightItem("platinum_blue_steel_armet", ModArmor.BLUESTEEL_PLATINUM_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_PLATINUM_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("platinum_blue_steel_knight_chestplate", ModArmor.BLUESTEEL_PLATINUM_KNIGHT_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_PLATINUM_KNIGHT_LEGGINGS = INSTANCE.addMedievalArmorItem("platinum_blue_steel_knight_leggings", ModArmor.BLUESTEEL_PLATINUM_KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties());;
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_PLATINUM_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("platinum_blue_steel_knight_boots", ModArmor.BLUESTEEL_PLATINUM_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
 
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> BLUESTEEL_BRASS_ARMET = INSTANCE.addKnightItem("brass_blue_steel_armet", ModArmor.BLUESTEEL_BRASS_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
@@ -314,15 +292,6 @@ public class ModelledItems extends ModItemsProvider {
     public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_ST_SILVER_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("sterling_silver_red_steel_knight_boots", ModArmor.ST_SILVER_REDSTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
 
     @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_PLATINUM_ARMET = INSTANCE.addKnightItem("platinum_red_steel_armet", ModArmor.PLATINUM_REDSTEEL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_PLATINUM_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("platinum_red_steel_knight_chestplate", ModArmor.PLATINUM_REDSTEEL_KNIGHT_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_PLATINUM_KNIGHT_LEGGINGS = INSTANCE.addMedievalArmorItem("platinum_red_steel_knight_leggings", ModArmor.PLATINUM_REDSTEEL_KNIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties());;
-    @Nullable
-    public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_PLATINUM_KNIGHT_BOOTS = INSTANCE.addMedievalArmorItem("platinum_red_steel_knight_boots", ModArmor.PLATINUM_REDSTEEL_KNIGHT, ArmorItem.Type.BOOTS, new Item.Properties());;
-
-    @Nullable
     public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_BRASS_ARMET = INSTANCE.addKnightItem("brass_red_steel_armet", ModArmor.BRASS_REDSTEEL_ARMET, ArmorItem.Type.HELMET, new Item.Properties());;
     @Nullable
     public static final RegistrySupplier<MedievalArmorItem> REDSTEEL_BRASS_KNIGHT_CHESTPLATE = INSTANCE.addMedievalArmorItem("brass_red_steel_knight_chestplate", ModArmor.BRASS_REDSTEEL_KNIGHT_CHESTPLATE, ArmorItem.Type.CHESTPLATE, new Item.Properties());;
@@ -406,12 +375,6 @@ public class ModelledItems extends ModItemsProvider {
     public static Supplier<ItemStack> ST_SILVER_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(REDSTEEL_ST_SILVER_ARMET, ModItems.BIG_PLUME_DECORATION);
     };
-    public static Supplier<ItemStack> PLATINUM_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
-        return ModItems.getDecoratedStack(BLUESTEEL_PLATINUM_ARMET, ModItems.BIG_PLUME_DECORATION);
-    };
-    public static Supplier<ItemStack> PLATINUM_RED_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
-        return ModItems.getDecoratedStack(REDSTEEL_PLATINUM_ARMET, ModItems.BIG_PLUME_DECORATION);
-    };
     public static Supplier<ItemStack> BRASS_BLUE_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(BLUESTEEL_BRASS_ARMET, ModItems.BIG_PLUME_DECORATION);
     };
@@ -436,9 +399,7 @@ public class ModelledItems extends ModItemsProvider {
     public static Supplier<ItemStack> ST_SILVER_BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(ST_SILVER_BLACKSTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
     };
-    public static Supplier<ItemStack> PLATINUM_BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
-        return ModItems.getDecoratedStack(PLATINUM_BLACKSTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
-    };
+
     public static Supplier<ItemStack> BRASS_BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(BRASS_BLACKSTEEL_ARMET, ModItems.BIG_PLUME_DECORATION);
     };
@@ -455,9 +416,7 @@ public class ModelledItems extends ModItemsProvider {
     public static Supplier<ItemStack> BRASS_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(BRASS_STEEl_CEREMONIAL_ARMET, ModItems.BIG_PLUME_DECORATION);
     };
-    public static Supplier<ItemStack> PLATINUM_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
-        return ModItems.getDecoratedStack(PLATINUM_STEEl_CEREMONIAL_ARMET, ModItems.BIG_PLUME_DECORATION);
-    };
+
     public static Supplier<ItemStack> ROSE_GOLD_STEEL_ARMET_WITH_PLUME_SUPPLIER = () -> {
         return ModItems.getDecoratedStack(ROSE_GOLD_STEEl_CEREMONIAL_ARMET, ModItems.BIG_PLUME_DECORATION);
     };
