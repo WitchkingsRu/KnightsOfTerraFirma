@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:red_steel_maximilian_pants"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:red_steel_maximilian_knees"
+  },
+  "tier": 6,
+  "result": {
+    "item": "knightsofterrafirma:red_steel_maximilian_leggings",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

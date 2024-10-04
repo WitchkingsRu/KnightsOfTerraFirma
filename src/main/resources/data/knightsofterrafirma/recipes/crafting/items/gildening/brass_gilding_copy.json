@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " t ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/brass"
+    },
+    "t": {
+      "item": "knightsofterrafirma:brass_gilding_template"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:brass_gilding_template",
+    "count": 2
+  }
+}

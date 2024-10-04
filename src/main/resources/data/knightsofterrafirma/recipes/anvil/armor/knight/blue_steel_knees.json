@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/blue_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:blue_steel_knight_knees",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "hit_last",
+    "bend_second_last",
+    "shrink_any"
+  ]
+}

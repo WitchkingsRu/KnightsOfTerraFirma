@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/black_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_steel_maximilian_boots",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last",
+    "draw_not_last",
+    "shrink_any"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "knightsofterrafirma:red_steel_knight_boots"
+  },
+  "addition": {
+    "tag": "forge:ingots/sterling_silver"
+  },
+  "result": {
+    "item": "knightsofterrafirma:sterling_silver_red_steel_knight_boots",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:sterling_silver_gilding_template"
+  }
+}

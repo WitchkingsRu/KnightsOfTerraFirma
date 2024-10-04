@@ -1,17 +1,17 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_ingot/wrought_iron"
-    },
-    "result": {
-        "item": "knightsofterrafirma:iron_guisarme_head",
-        "nbt": {}
-    },
-    "tier": 3,
-    "rules": [
-        "hit_any",
-        "bend_second_last",
-        "punch_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_ingot/wrought_iron"
+  },
+  "result": {
+    "item": "knightsofterrafirma:iron_guisarme_head",
+    "nbt": {}
+  },
+  "tier": 3,
+  "rules": [
+    "punch_last",
+    "bend_second_last",
+    "hit_any"
+  ],
+  "apply_forging_bonus": true
 }

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmory:knight_boots"
+  },
+  "addition": {
+    "tag": "forge:ingots/rose_gold"
+  },
+  "result": {
+    "item": "knightsofterrafirma:rose_gold_steel_ceremonial_boots",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:rose_gold_gilding_template"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/blue_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:blue_steel_maximilian_arms",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "hit_last",
+    "shrink_second_last",
+    "bend_any"
+  ]
+}

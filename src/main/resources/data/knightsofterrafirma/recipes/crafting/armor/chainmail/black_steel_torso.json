@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S S",
+        " S ",
+		" S "
+    ],
+    "key": {
+        "S": {
+            "item": "knightsofterrafirma:black_steel_chainmail"
+        }
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_steel_chainmail_torso"
+    }
+}

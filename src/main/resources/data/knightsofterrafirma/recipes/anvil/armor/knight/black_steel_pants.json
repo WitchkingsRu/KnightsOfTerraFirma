@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/black_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_steel_knight_pants",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last",
+    "upset_not_last",
+    "draw_any"
+  ]
+}

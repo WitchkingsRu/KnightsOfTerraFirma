@@ -1,17 +1,17 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/sword_blade/red_steel"
-    },
-    "result": {
-        "item": "knightsofterrafirma:red_steel_ahlspiess_blade",
-        "nbt": {}
-    },
-    "tier": 6,
-    "rules": [
-        "hit_any",
-        "shrink_second_last",
-        "punch_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sword_blade/red_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:red_steel_ahlspiess_blade",
+    "nbt": {}
+  },
+  "tier": 6,
+  "rules": [
+    "punch_last",
+    "shrink_second_last",
+    "hit_any"
+  ],
+  "apply_forging_bonus": true
 }

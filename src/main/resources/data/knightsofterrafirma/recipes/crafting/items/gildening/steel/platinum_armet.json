@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmory:armet"
+  },
+  "addition": {
+    "tag": "forge:ingots/platinum"
+  },
+  "result": {
+    "item": "knightsofterrafirma:platinum_steel_ceremonialarmet",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:platinum_gilding_template"
+  }
+}

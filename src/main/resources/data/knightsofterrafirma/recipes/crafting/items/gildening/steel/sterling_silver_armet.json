@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmory:armet"
+  },
+  "addition": {
+    "tag": "forge:ingots/sterling_silver"
+  },
+  "result": {
+    "item": "knightsofterrafirma:sterling_silver_steel_ceremonialarmet",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:sterling_silver_gilding_template"
+  }
+}

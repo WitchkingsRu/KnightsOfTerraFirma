@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:red_steel_halfarmor_helmet"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:red_steel_grand_bascinet_visor"
+  },
+  "tier": 6,
+  "result": {
+    "item": "knightsofterrafirma:red_steel_grand_bascinet",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

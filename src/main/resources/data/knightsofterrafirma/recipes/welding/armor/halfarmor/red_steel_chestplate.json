@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:red_steel_halfarmor_chestplate_unfinished"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:red_steel_halfarmor_shoulder_pads"
+  },
+  "tier": 6,
+  "result": {
+    "item": "knightsofterrafirma:red_steel_halfarmor_chestplate",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

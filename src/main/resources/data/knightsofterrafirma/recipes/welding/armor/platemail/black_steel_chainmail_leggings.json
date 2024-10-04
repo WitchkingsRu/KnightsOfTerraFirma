@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:black_steel_chainmail_pants"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:black_steel_platemail_knees"
+  },
+  "tier": 5,
+  "result": {
+    "item": "knightsofterrafirma:black_steel_platemail_leggings",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

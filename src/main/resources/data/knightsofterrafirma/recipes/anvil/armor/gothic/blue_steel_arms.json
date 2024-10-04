@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/blue_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:blue_steel_gothic_arms",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "hit_last",
+    "shrink_second_last",
+    "bend_any"
+  ]
+}

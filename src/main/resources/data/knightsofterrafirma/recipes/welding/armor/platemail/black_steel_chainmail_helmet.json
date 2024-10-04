@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:black_steel_chainmail_helmet_unfinished"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:black_steel_platemail_helmet_unfinished"
+  },
+  "tier": 5,
+  "result": {
+    "item": "knightsofterrafirma:black_steel_kettlehat",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

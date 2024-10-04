@@ -1,17 +1,17 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "knightsofterrafirma:iron_zweihander_blade"
-    },
-    "result": {
-        "item": "knightsofterrafirma:iron_flame_bladed_sword_blade",
-        "nbt": {}
-    },
-    "tier": 3,
-    "rules": [
-        "draw_any",
-        "bend_not_last",
-        "hit_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "knightsofterrafirma:iron_zweihander_blade"
+  },
+  "result": {
+    "item": "knightsofterrafirma:iron_flame_bladed_sword_blade",
+    "nbt": {}
+  },
+  "tier": 3,
+  "rules": [
+    "hit_last",
+    "bend_not_last",
+    "draw_any"
+  ],
+  "apply_forging_bonus": true
 }

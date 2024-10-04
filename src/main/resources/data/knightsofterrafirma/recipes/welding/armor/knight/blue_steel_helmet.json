@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:blue_steel_halfarmor_helmet"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:blue_steel_knight_visor"
+  },
+  "tier": 6,
+  "result": {
+    "item": "knightsofterrafirma:blue_steel_armet",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

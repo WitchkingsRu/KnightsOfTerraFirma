@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:blue_steel_halfarmor_chestplate"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:blue_steel_maximilian_arms"
+  },
+  "tier": 6,
+  "result": {
+    "item": "knightsofterrafirma:blue_steel_maximilian_chestplate",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "knightsofterrafirma:blue_steel_knight_leggings"
+  },
+  "addition": {
+    "tag": "forge:ingots/sterling_silver"
+  },
+  "result": {
+    "item": "knightsofterrafirma:sterling_silver_blue_steel_knight_leggings",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:sterling_silver_gilding_template"
+  }
+}

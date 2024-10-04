@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/blue_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:blue_steel_maximilian_pants",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last",
+    "upset_not_last",
+    "draw_any"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " t ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/sterling_silver"
+    },
+    "t": {
+      "item": "knightsofterrafirma:sterling_silver_gilding_template"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:sterling_silver_gilding_template",
+    "count": 2
+  }
+}

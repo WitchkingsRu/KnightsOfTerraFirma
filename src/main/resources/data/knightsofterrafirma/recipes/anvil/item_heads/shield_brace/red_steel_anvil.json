@@ -1,17 +1,17 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_ingot/red_steel"
-    },
-    "result": {
-        "item": "knightsofterrafirma:red_steel_shield_brace",
-        "nbt": {}
-    },
-    "tier": 6,
-    "rules": [
-        "bend_any",
-        "shrink_not_last",
-        "upset_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_ingot/red_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:red_steel_shield_brace",
+    "nbt": {}
+  },
+  "tier": 6,
+  "rules": [
+    "upset_last",
+    "shrink_not_last",
+    "bend_any"
+  ],
+  "apply_forging_bonus": true
 }

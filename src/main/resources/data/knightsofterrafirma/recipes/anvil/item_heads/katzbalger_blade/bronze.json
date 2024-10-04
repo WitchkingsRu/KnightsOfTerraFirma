@@ -1,17 +1,17 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/sword_blade/bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:bronze_katzbalger_blade",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "bend_any",
-        "hit_second_last",
-        "upset_any"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sword_blade/bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bronze_katzbalger_blade",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "upset_any",
+    "hit_second_last",
+    "bend_any"
+  ],
+  "apply_forging_bonus": true
 }

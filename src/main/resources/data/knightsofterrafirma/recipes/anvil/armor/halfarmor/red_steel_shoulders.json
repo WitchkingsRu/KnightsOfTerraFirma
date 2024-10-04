@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/red_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:red_steel_halfarmor_shoulder_pads",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "hit_last",
+    "shrink_second_last",
+    "bend_any"
+  ]
+}

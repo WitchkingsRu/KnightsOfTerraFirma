@@ -1,17 +1,17 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/knife_blade/blue_steel"
-    },
-    "result": {
-        "item": "knightsofterrafirma:blue_steel_ranseur_head",
-        "nbt": {}
-    },
-    "tier": 6,
-    "rules": [
-        "hit_any",
-        "draw_second_last",
-        "punch_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/knife_blade/blue_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:blue_steel_ranseur_head",
+    "nbt": {}
+  },
+  "tier": 6,
+  "rules": [
+    "punch_last",
+    "draw_second_last",
+    "hit_any"
+  ],
+  "apply_forging_bonus": true
 }

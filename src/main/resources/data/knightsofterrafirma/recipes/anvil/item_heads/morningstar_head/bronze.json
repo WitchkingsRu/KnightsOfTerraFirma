@@ -1,17 +1,17 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/mace_head/bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:bronze_morningstar_head",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "hit_any",
-        "upset_second_last",
-        "punch_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/mace_head/bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bronze_morningstar_head",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "upset_second_last",
+    "hit_any"
+  ],
+  "apply_forging_bonus": true
 }

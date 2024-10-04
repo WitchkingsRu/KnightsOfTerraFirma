@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/blue_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:blue_steel_jousting_boots",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "bend_last",
+    "draw_not_last",
+    "shrink_any"
+  ]
+}

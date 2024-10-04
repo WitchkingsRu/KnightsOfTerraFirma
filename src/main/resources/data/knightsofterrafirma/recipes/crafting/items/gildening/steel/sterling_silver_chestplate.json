@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmory:knight_chestplate"
+  },
+  "addition": {
+    "tag": "forge:ingots/sterling_silver"
+  },
+  "result": {
+    "item": "knightsofterrafirma:sterling_silver_steel_ceremonial_chestplate",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:sterling_silver_gilding_template"
+  }
+}

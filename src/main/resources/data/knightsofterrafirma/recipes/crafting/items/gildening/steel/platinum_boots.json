@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "magistuarmory:knight_boots"
+  },
+  "addition": {
+    "tag": "forge:ingots/platinum"
+  },
+  "result": {
+    "item": "knightsofterrafirma:platinum_steel_ceremonial_boots",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:platinum_gilding_template"
+  }
+}

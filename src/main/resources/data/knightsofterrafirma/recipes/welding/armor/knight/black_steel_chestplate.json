@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:black_steel_halfarmor_chestplate"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:black_steel_knight_arms"
+  },
+  "tier": 5,
+  "result": {
+    "item": "knightsofterrafirma:black_steel_knight_chestplate",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

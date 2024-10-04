@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/red_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:red_steel_halfarmor_chestplate_unfinished",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "draw_last",
+    "upset_not_last",
+    "bend_any"
+  ]
+}

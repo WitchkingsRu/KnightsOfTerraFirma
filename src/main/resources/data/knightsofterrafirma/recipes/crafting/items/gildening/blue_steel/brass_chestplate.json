@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "knightsofterrafirma:blue_steel_knight_chestplate"
+  },
+  "addition": {
+    "tag": "forge:ingots/brass"
+  },
+  "result": {
+    "item": "knightsofterrafirma:brass_blue_steel_knight_chestplate",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:brass_gilding_template"
+  }
+}

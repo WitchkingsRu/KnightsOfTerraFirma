@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/black_steel"
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_steel_kastenbrust_arms",
+    "nbt": {}
+  },
+  "tier": 4,
+  "rules": [
+    "hit_last",
+    "shrink_second_last",
+    "bend_any"
+  ]
+}

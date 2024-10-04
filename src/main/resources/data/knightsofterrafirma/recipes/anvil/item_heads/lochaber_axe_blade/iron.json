@@ -1,17 +1,17 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_ingot/wrought_iron"
-    },
-    "result": {
-        "item": "knightsofterrafirma:iron_lochaber_axe_blade",
-        "nbt": {}
-    },
-    "tier": 3,
-    "rules": [
-        "bend_any",
-        "hit_not_last",
-        "punch_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_ingot/wrought_iron"
+  },
+  "result": {
+    "item": "knightsofterrafirma:iron_lochaber_axe_blade",
+    "nbt": {}
+  },
+  "tier": 3,
+  "rules": [
+    "punch_last",
+    "hit_not_last",
+    "bend_any"
+  ],
+  "apply_forging_bonus": true
 }

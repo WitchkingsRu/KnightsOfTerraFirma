@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "knightsofterrafirma:black_steel_knight_leggings"
+  },
+  "addition": {
+    "tag": "forge:ingots/brass"
+  },
+  "result": {
+    "item": "knightsofterrafirma:brass_black_steel_knight_leggings",
+    "count": 1
+  },
+  "template": {
+    "item": "knightsofterrafirma:brass_gilding_template"
+  }
+}
