@@ -367,9 +367,101 @@
   "item.knightsofterrafirma.chainmail_knees": "§eChainmail Kneepads",
   "item.knightsofterrafirma.xivcenturyknight_knees": "§eXIV Century Knight Kneepads",
   "item.knightsofterrafirma.crusader_knees": "§eCrusader Kneepads",
-
+  
   "item.knightsofterrafirma.chainmail_torso": "§eChainmail Torso",
   "item.knightsofterrafirma.halfarmor_chestplate_unfinished": "§eHalf-armor Unfinished Chestplate",
+
+  
+  "item.knightsofterrafirma.black_steel_gothic_visor": "§bBlack Steel Sallet Visor",
+  "item.knightsofterrafirma.black_steel_knight_visor": "§bBlack Steel Armet Visor",
+  "item.knightsofterrafirma.black_steel_maximilian_visor": "§bBlack Steel Maximilian Helmet Visor",
+  "item.knightsofterrafirma.black_steel_grand_bascinet_visor": "§bBlack Steel Grand Bascinet Visor",
+  "item.knightsofterrafirma.black_steel_jousting_visor": "§bBlack Steel Frogmouth Helmet Visor",
+  "item.knightsofterrafirma.black_steel_platemail_helmet_unfinished": "§bBlack Steel Kettlehat Hat",
+  "item.knightsofterrafirma.black_steel_halfarmor_helmet_unfinished": "§bBlack Steel Unfinished Barbute",
+  "item.knightsofterrafirma.black_steel_chainmail_helmet_unfinished": "§bBlack Steel Unfinished Platemail Helmet",
+
+  "item.knightsofterrafirma.black_steel_knight_arms": "§bBlack Steel Knight Arm Armor Piece",
+  "item.knightsofterrafirma.black_steel_jousting_arms": "§bBlack Steel Jousting Arm Armor Piece",
+  "item.knightsofterrafirma.black_steel_maximilian_arms": "§bBlack Steel Maximilian Arm Armor Piece",
+  "item.knightsofterrafirma.black_steel_gothic_arms": "§bBlack Steel Gothic Arm Armor Piece",
+  "item.knightsofterrafirma.black_steel_kastenbrust_arms": "§bBlack Steel Kasten-brust Arm Armor Piece",
+  "item.knightsofterrafirma.black_steel_platemail_arms": "§bBlack Steel Platemail Arm Armor Piece",
+  "item.knightsofterrafirma.black_steel_halfarmor_shoulder_pads": "§bBlack Steel Half-Armor Shoulder Pads",
+
+  "item.knightsofterrafirma.black_steel_knight_pants": "§bBlack Steel Knight Codpiece",
+  "item.knightsofterrafirma.black_steel_jousting_pants": "§bBlack Steel Jousting Codpiece",
+  "item.knightsofterrafirma.black_steel_maximilian_pants": "§bBlack Steel Maximilian Codpiece",
+  "item.knightsofterrafirma.black_steel_gothic_pants": "§bBlack Steel Gothic Codpiece",
+  "item.knightsofterrafirma.black_steel_kastenbrust_pants": "§bBlack Steel Kasten-brust Codpiece",
+  "item.knightsofterrafirma.black_steel_chainmail_pants": "§bBlack Steel Chainmail Codpiece",
+
+  "item.knightsofterrafirma.black_steel_knight_knees": "§bBlack Steel Knight Kneepads",
+  "item.knightsofterrafirma.black_steel_jousting_knees": "§bBlack Steel Jousting Kneepads",
+  "item.knightsofterrafirma.black_steel_maximilian_knees": "§bBlack Steel Maximilian Kneepads",
+  "item.knightsofterrafirma.black_steel_gothic_knees": "§bBlack Steel Gothic Kneepads",
+  "item.knightsofterrafirma.black_steel_kastenbrust_knees": "§bBlack Steel Kasten-brust Kneepads",
+  "item.knightsofterrafirma.black_steel_platemail_knees": "§bBlack Steel Platemail Kneepads",
+
+  "item.knightsofterrafirma.black_steel_chainmail_torso": "§bBlack Steel Chainmail Torso",
+  "item.knightsofterrafirma.black_steel_halfarmor_chestplate_unfinished": "§bBlack Steel Half-armor Unfinished Chestplate",
+
+  "item.knightsofterrafirma.red_steel_gothic_visor": "§dRed Steel Sallet Visor",
+  "item.knightsofterrafirma.red_steel_knight_visor": "§dRed Steel Armet Visor",
+  "item.knightsofterrafirma.red_steel_maximilian_visor": "§dRed Steel Maximilian Helmet Visor",
+  "item.knightsofterrafirma.red_steel_grand_bascinet_visor": "§dRed Steel Grand Bascinet Visor",
+  "item.knightsofterrafirma.red_steel_jousting_visor": "§dRed Steel Frogmouth Helmet Visor",
+  "item.knightsofterrafirma.red_steel_halfarmor_helmet_unfinished": "§dRed Steel Unfinished Barbute",
+
+  "item.knightsofterrafirma.red_steel_knight_arms": "§dRed Steel Knight Arm Armor Piece",
+  "item.knightsofterrafirma.red_steel_jousting_arms": "§dRed Steel Jousting Arm Armor Piece",
+  "item.knightsofterrafirma.red_steel_maximilian_arms": "§dRed Steel Maximilian Arm Armor Piece",
+  "item.knightsofterrafirma.red_steel_gothic_arms": "§dRed Steel Gothic Arm Armor Piece",
+  "item.knightsofterrafirma.red_steel_kastenbrust_arms": "§dRed Steel Kasten-brust Arm Armor Piece",
+  "item.knightsofterrafirma.red_steel_halfarmor_shoulder_pads": "§dRed Steel Half-Armor Shoulder Pads",
+
+  "item.knightsofterrafirma.red_steel_knight_pants": "§dRed Steel Knight Codpiece",
+  "item.knightsofterrafirma.red_steel_jousting_pants": "§dRed Steel Jousting Codpiece",
+  "item.knightsofterrafirma.red_steel_maximilian_pants": "§dRed Steel Maximilian Codpiece",
+  "item.knightsofterrafirma.red_steel_gothic_pants": "§dRed Steel Gothic Codpiece",
+  "item.knightsofterrafirma.red_steel_kastenbrust_pants": "§dRed Steel Kasten-brust Codpiece",
+
+  "item.knightsofterrafirma.red_steel_knight_knees": "§dRed Steel Knight Kneepads",
+  "item.knightsofterrafirma.red_steel_jousting_knees": "§dRed Steel Jousting Kneepads",
+  "item.knightsofterrafirma.red_steel_maximilian_knees": "§dRed Steel Maximilian Kneepads",
+  "item.knightsofterrafirma.red_steel_gothic_knees": "§dRed Steel Gothic Kneepads",
+  "item.knightsofterrafirma.red_steel_kastenbrust_knees": "§dRed Steel Kasten-brust Kneepads",
+
+  "item.knightsofterrafirma.red_steel_halfarmor_chestplate_unfinished": "§dRed Steel Half-armor Unfinished Chestplate",
+
+  "item.knightsofterrafirma.blue_steel_gothic_visor": "§dBlue Steel Sallet Visor",
+  "item.knightsofterrafirma.blue_steel_knight_visor": "§dBlue Steel Armet Visor",
+  "item.knightsofterrafirma.blue_steel_maximilian_visor": "§dBlue Steel Maximilian Helmet Visor",
+  "item.knightsofterrafirma.blue_steel_grand_bascinet_visor": "§dBlue Steel Grand Bascinet Visor",
+  "item.knightsofterrafirma.blue_steel_jousting_visor": "§dBlue Steel Frogmouth Helmet Visor",
+  "item.knightsofterrafirma.blue_steel_halfarmor_helmet_unfinished": "§dBlue Steel Unfinished Barbute",
+
+  "item.knightsofterrafirma.blue_steel_knight_arms": "§dBlue Steel Knight Arm Armor Piece",
+  "item.knightsofterrafirma.blue_steel_jousting_arms": "§dBlue Steel Jousting Arm Armor Piece",
+  "item.knightsofterrafirma.blue_steel_maximilian_arms": "§dBlue Steel Maximilian Arm Armor Piece",
+  "item.knightsofterrafirma.blue_steel_gothic_arms": "§dBlue Steel Gothic Arm Armor Piece",
+  "item.knightsofterrafirma.blue_steel_kastenbrust_arms": "§dBlue Steel Kasten-brust Arm Armor Piece",
+  "item.knightsofterrafirma.blue_steel_halfarmor_shoulder_pads": "§dBlue Steel Half-Armor Shoulder Pads",
+
+  "item.knightsofterrafirma.blue_steel_knight_pants": "§dBlue Steel Knight Codpiece",
+  "item.knightsofterrafirma.blue_steel_jousting_pants": "§dBlue Steel Jousting Codpiece",
+  "item.knightsofterrafirma.blue_steel_maximilian_pants": "§dBlue Steel Maximilian Codpiece",
+  "item.knightsofterrafirma.blue_steel_gothic_pants": "§dBlue Steel Gothic Codpiece",
+  "item.knightsofterrafirma.blue_steel_kastenbrust_pants": "§dBlue Steel Kasten-brust Codpiece",
+
+  "item.knightsofterrafirma.blue_steel_knight_knees": "§dBlue Steel Knight Kneepads",
+  "item.knightsofterrafirma.blue_steel_jousting_knees": "§dBlue Steel Jousting Kneepads",
+  "item.knightsofterrafirma.blue_steel_maximilian_knees": "§dBlue Steel Maximilian Kneepads",
+  "item.knightsofterrafirma.blue_steel_gothic_knees": "§dBlue Steel Gothic Kneepads",
+  "item.knightsofterrafirma.blue_steel_kastenbrust_knees": "§dBlue Steel Kasten-brust Kneepads",
+
+  "item.knightsofterrafirma.blue_steel_halfarmor_chestplate_unfinished": "§dBlue Steel Half-armor Unfinished Chestplate",
+
 
   "item.knightsofterrafirma.black_steel_armet": "§bBlack Steel Armet",
   "item.knightsofterrafirma.black_steel_knight_chestplate": "§bBlack Steel Knight Chestplate",
