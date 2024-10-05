@@ -1,12 +1,12 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:platemail_leggings"
+        "item": "magistuarmory:platemail_leggings"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 562
+        "fluid": "tfc:metal/steel",
+        "amount": 562
     },
     "temperature": 1540,
     "use_durability": true
-  }
+}

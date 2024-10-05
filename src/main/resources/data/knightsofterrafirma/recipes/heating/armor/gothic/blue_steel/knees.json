@@ -1,11 +1,11 @@
 {
-  "type": "tfc:heating",
-  "ingredient": {
-    "item": "knightsofterrafirma:blue_steel_gothic_knees"
-  },
-  "result_fluid": {
-    "fluid": "tfc:metal/blue_steel",
-    "amount": 400
-  },
-  "temperature": 1540
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:blue_steel_gothic_knees"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/blue_steel",
+        "amount": 400
+    },
+    "temperature": 1540
 }

@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:crown_decoration"
+        "item": "magistuarmory:crown_decoration"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/gold",
-      "amount": 200
+        "fluid": "tfc:metal/gold",
+        "amount": 200
     },
     "temperature": 1060
 }

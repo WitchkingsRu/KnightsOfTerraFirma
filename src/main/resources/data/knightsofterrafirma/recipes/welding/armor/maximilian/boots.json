@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "magistuarmory:knight_boots"
+  },
+  "second_input": {
+    "item": "tfc:metal/rod/steel"
+  },
+  "tier": 4,
+  "result": {
+    "item": "magistuarmory:maximilian_boots",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

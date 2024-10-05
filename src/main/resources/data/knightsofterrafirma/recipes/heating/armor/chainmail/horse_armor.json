@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:chainmail_horse_armor"
+        "item": "magistuarmory:chainmail_horse_armor"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 270
+        "fluid": "tfc:metal/steel",
+        "amount": 270
     },
     "temperature": 1540
 }

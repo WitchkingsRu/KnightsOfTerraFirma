@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "knightsofterrafirma:black_steel_platemail_helmet_unfinished"
+        "item": "knightsofterrafirma:black_steel_platemail_helmet_unfinished"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/black_steel",
-      "amount": 200
+        "fluid": "tfc:metal/black_steel",
+        "amount": 200
     },
     "temperature": 1485
 }

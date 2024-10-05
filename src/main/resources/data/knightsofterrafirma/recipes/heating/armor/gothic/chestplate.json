@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:gothic_chestplate"
+        "item": "magistuarmory:gothic_chestplate"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 800
+        "fluid": "tfc:metal/steel",
+        "amount": 800
     },
     "temperature": 1540
-  }
+}

@@ -4,7 +4,7 @@
         "item": "knightsofterrafirma:iron_claymore_blade"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/wrought_iron",
+        "fluid": "tfc:metal/cast_iron",
         "amount": 400
     },
     "temperature": 1585,

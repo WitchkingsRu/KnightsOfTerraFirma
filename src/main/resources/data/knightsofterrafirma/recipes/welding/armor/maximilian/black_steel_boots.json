@@ -1,0 +1,15 @@
+{
+  "type": "tfc:welding",
+  "first_input": {
+    "item": "knightsofterrafirma:black_steel_knight_boots"
+  },
+  "second_input": {
+    "item": "tfc:metal/rod/black_steel"
+  },
+  "tier": 5,
+  "result": {
+    "item": "knightsofterrafirma:black_steel_maximilian_boots",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
+}

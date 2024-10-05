@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "knightsofterrafirma:chainmail_knees"
+        "item": "knightsofterrafirma:chainmail_knees"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 108
+        "fluid": "tfc:metal/steel",
+        "amount": 108
     },
     "temperature": 1540
 }

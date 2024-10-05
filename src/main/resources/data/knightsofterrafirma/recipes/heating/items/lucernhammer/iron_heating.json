@@ -4,7 +4,7 @@
         "item": "magistuarmory:iron_lucernhammer"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/wrought_iron",
+        "fluid": "tfc:metal/cast_iron",
         "amount": 200
     },
     "temperature": 1585,

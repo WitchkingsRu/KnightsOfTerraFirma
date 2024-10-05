@@ -1,12 +1,12 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:crusader_leggings"
+        "item": "magistuarmory:crusader_leggings"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 562
+        "fluid": "tfc:metal/steel",
+        "amount": 562
     },
     "temperature": 1540,
     "use_durability": true
-  }
+}

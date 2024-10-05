@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:gothic_boots"
+        "item": "magistuarmory:gothic_boots"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 400
+        "fluid": "tfc:metal/steel",
+        "amount": 400
     },
     "temperature": 1540
-  }
+}

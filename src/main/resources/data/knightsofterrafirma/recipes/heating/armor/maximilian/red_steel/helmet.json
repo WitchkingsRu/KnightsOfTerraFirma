@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "knightsofterrafirma:red_steel_maximilian_helmet"
+        "item": "knightsofterrafirma:red_steel_maximilian_helmet"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/red_steel",
-      "amount": 800
+        "fluid": "tfc:metal/red_steel",
+        "amount": 800
     },
     "temperature": 1540
-  }
+}

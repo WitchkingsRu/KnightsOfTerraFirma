@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:maximilian_boots"
+        "item": "magistuarmory:maximilian_boots"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 400
+        "fluid": "tfc:metal/steel",
+        "amount": 400
     },
     "temperature": 1540
-  }
+}

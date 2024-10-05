@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "knightsofterrafirma:blue_steel_jousting_boots"
+        "item": "knightsofterrafirma:blue_steel_jousting_boots"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/blue_steel",
-      "amount": 400
+        "fluid": "tfc:metal/blue_steel",
+        "amount": 400
     },
     "temperature": 1540
-  }
+}

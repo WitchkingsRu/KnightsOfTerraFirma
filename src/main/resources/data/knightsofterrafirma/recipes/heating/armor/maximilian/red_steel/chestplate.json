@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "knightsofterrafirma:red_steel_maximilian_chestplate"
+        "item": "knightsofterrafirma:red_steel_maximilian_chestplate"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/red_steel",
-      "amount": 1000
+        "fluid": "tfc:metal/red_steel",
+        "amount": 1000
     },
     "temperature": 1540
-  }
+}

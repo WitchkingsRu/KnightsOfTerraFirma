@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "knightsofterrafirma:blue_steel_gothic_leggings"
+        "item": "knightsofterrafirma:blue_steel_gothic_leggings"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/blue_steel",
-      "amount": 600
+        "fluid": "tfc:metal/blue_steel",
+        "amount": 600
     },
     "temperature": 1540
-  }
+}

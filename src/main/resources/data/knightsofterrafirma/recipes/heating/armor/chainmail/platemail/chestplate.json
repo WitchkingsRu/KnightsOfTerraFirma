@@ -1,12 +1,12 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:platemail_chestplate"
+        "item": "magistuarmory:platemail_chestplate"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 416
+        "fluid": "tfc:metal/steel",
+        "amount": 416
     },
     "temperature": 1540,
     "use_durability": true
-  }
+}

@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "knightsofterrafirma:blue_steel_maximilian_chestplate"
+        "item": "knightsofterrafirma:blue_steel_maximilian_chestplate"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/blue_steel",
-      "amount": 1000
+        "fluid": "tfc:metal/blue_steel",
+        "amount": 1000
     },
     "temperature": 1540
-  }
+}

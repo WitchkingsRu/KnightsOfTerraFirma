@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:chainmail_helmet"
+        "item": "magistuarmory:chainmail_helmet"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 216
+        "fluid": "tfc:metal/steel",
+        "amount": 216
     },
     "temperature": 1540,
     "use_durability": true

@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:steel_chainmail"
+        "item": "magistuarmory:steel_chainmail"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 54
+        "fluid": "tfc:metal/steel",
+        "amount": 54
     },
     "temperature": 1540
 }

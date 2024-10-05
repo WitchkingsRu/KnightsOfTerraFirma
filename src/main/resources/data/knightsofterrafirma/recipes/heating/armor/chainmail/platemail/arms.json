@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "knightsofterrafirma:platemail_arms"
+        "item": "knightsofterrafirma:platemail_arms"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 200
+        "fluid": "tfc:metal/steel",
+        "amount": 200
     },
     "temperature": 1540
 }

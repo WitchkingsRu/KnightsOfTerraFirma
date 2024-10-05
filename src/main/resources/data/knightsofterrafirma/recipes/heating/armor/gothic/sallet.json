@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-      "item": "magistuarmory:sallet"
+        "item": "magistuarmory:sallet"
     },
     "result_fluid": {
-      "fluid": "tfc:metal/steel",
-      "amount": 600
+        "fluid": "tfc:metal/steel",
+        "amount": 600
     },
     "temperature": 1540
-  }
+}
