@@ -1,0 +1,20 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": [
+        {
+            "item": "knightsofterrafirma:black_steel_maximilian_boots"
+        },
+        {
+            "item": "knightsofterrafirma:black_steel_maximilian_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:black_steel_maximilian_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:black_steel_maximilian_helmet"
+        }
+    ],
+    "piercing": 16,
+    "slashing": 13,
+    "crushing": 13
+}

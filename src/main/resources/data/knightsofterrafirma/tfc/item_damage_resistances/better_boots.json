@@ -5,6 +5,9 @@
         },
         {
           "item": "magistuarmory:chainmail_boots"
+        },
+        {
+            "item": "knightsofterrafirma:black_steel_platemail_boots"
         }
     ],
     "piercing": 1,

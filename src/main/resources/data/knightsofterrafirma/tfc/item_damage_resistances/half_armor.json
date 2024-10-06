@@ -6,6 +6,24 @@
         },
         {
             "item": "magistuarmory:halfarmor_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:blue_steel_halfarmor_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:blue_steel_halfarmor_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:red_steel_halfarmor_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:red_steel_halfarmor_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:black_steel_halfarmor_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_steel_halfarmor_chestplate"
         }
     ],
     "piercing": 5,

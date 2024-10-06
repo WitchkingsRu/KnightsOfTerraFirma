@@ -1,0 +1,92 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": [
+        {
+            "item": "knightsofterrafirma:red_steel_knight_boots"
+        },
+        {
+            "item": "knightsofterrafirma:red_steel_knight_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:red_steel_knight_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:red_steel_armet"
+        },
+        {
+            "item": "knightsofterrafirma:gold_red_steel_knight_boots"
+        },
+        {
+            "item": "knightsofterrafirma:gold_red_steel_knight_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:gold_red_steel_knight_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:gold_red_steel_armet"
+        },
+        {
+            "item": "knightsofterrafirma:silver_red_steel_knight_boots"
+        },
+        {
+            "item": "knightsofterrafirma:silver_red_steel_knight_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:silver_red_steel_knight_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:silver_red_steel_armet"
+        },
+        {
+            "item": "knightsofterrafirma:sterling_silver_red_steel_knight_boots"
+        },
+        {
+            "item": "knightsofterrafirma:sterling_silver_red_steel_knight_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:sterling_silver_red_steel_knight_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:sterling_silver_red_steel_armet"
+        },
+        {
+            "item": "knightsofterrafirma:platinum_red_steel_knight_boots"
+        },
+        {
+            "item": "knightsofterrafirma:platinum_red_steel_knight_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:platinum_red_steel_knight_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:platinum_red_steel_armet"
+        },
+        {
+            "item": "knightsofterrafirma:brass_red_steel_knight_boots"
+        },
+        {
+            "item": "knightsofterrafirma:brass_red_steel_knight_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:brass_red_steel_knight_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:brass_red_steel_armet"
+        },
+        {
+            "item": "knightsofterrafirma:rose_gold_red_steel_knight_boots"
+        },
+        {
+            "item": "knightsofterrafirma:rose_gold_red_steel_knight_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:rose_gold_red_steel_knight_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:rose_gold_red_steel_armet"
+        }
+    ],
+    "piercing": 16,
+    "slashing": 13,
+    "crushing": 13
+}

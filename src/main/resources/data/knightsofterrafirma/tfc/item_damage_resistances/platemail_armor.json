@@ -9,7 +9,16 @@
         },
         {
           "item": "magistuarmory:platemail_leggings"
-        }
+        },
+      {
+        "item": "knightsofterrafirma:black_steel_platemail_leggings"
+      },
+      {
+        "item": "knightsofterrafirma:black_steel_platemail_chestplate"
+      },
+      {
+        "item": "knightsofterrafirma:black_steel_kettlehat"
+      }
     ],
     "piercing": 10,
     "slashing": 13,
