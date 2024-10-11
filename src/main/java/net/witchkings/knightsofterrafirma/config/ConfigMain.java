@@ -1,9 +1,5 @@
 package net.witchkings.knightsofterrafirma.config;
 
-import com.magistuarmory.config.ArmorConfig;
-import com.magistuarmory.config.MobEquipmentConfig;
-import com.magistuarmory.config.ShieldsConfig;
-import com.magistuarmory.config.WeaponsConfig;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry.Gui.CollapsibleObject;
 import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
@@ -11,17 +7,17 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 @Config(
         name = "knightsofterrafirma"
 )
-public class GeneralConfig extends PartitioningSerializer.GlobalData {
+public class ConfigMain extends PartitioningSerializer.GlobalData {
 //    @CollapsibleObject
-//    public GeneralConfig general = new GeneralConfig();
+//    public ConfigMain general = new ConfigMain();
 //    @CollapsibleObject
 //    public WeaponsConfig weapons = new WeaponsConfig();
 //    @CollapsibleObject
 //    public ShieldsConfig shields = new ShieldsConfig();
     @CollapsibleObject
-    public ArmorConfig armor = new ArmorConfig();
+    public ConfigArmor armor = new ConfigArmor();
 
-    public GeneralConfig() {
+    public ConfigMain() {
     }
 }
 

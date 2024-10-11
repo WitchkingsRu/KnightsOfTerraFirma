@@ -1,8 +1,14 @@
 package net.witchkings.knightsofterrafirma;
 
+import com.magistuarmory.config.ArmorConfig;
+import com.magistuarmory.config.GeneralConfig;
+import com.magistuarmory.config.ModConfig;
 import com.mojang.logging.LogUtils;
 import dev.architectury.platform.Platform;
 import dev.architectury.platform.forge.EventBuses;
+import me.shedaniel.autoconfig.AutoConfig;
+import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
+import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -13,6 +19,8 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.witchkings.knightsofterrafirma.client.ModModel;
+import net.witchkings.knightsofterrafirma.config.ConfigArmor;
+import net.witchkings.knightsofterrafirma.config.ConfigMain;
 import net.witchkings.knightsofterrafirma.item.*;
 import net.witchkings.knightsofterrafirma.misc.Additions;
 import net.witchkings.knightsofterrafirma.misc.CreativeTab;
@@ -32,10 +40,13 @@ public class KnightsOfTerraFirma {
     public static final String MODID = "knightsofterrafirma";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+    public static ConfigMain CONFIG;
+    public static ConfigArmor GENERAL_CONFIG;
 
     public KnightsOfTerraFirma() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         EventBuses.registerModEventBus(MODID, FMLJavaModLoadingContext.get().getModEventBus());
+
         CreativeTab.register(modEventBus);
         ModdedItems.INSTANCE.init();
         ModdedItems.weaponRegistry();
@@ -90,5 +101,10 @@ public class KnightsOfTerraFirma {
 
     public static void checkBetterCombatOrEpicFightInstalled() {
         BC_or_EF_installed = Platform.isModLoaded("bettercombat") || Platform.isModLoaded("epicfight");
+    }
+    static {
+        AutoConfig.register(ConfigMain.class, PartitioningSerializer.wrap(JanksonConfigSerializer::new));
+        CONFIG = (ConfigMain)AutoConfig.getConfigHolder(ConfigMain.class).getConfig();
+        GENERAL_CONFIG = CONFIG.armor;
     }
 }
