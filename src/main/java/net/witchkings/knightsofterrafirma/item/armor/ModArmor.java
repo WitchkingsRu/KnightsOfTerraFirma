@@ -1,25 +1,21 @@
 package net.witchkings.knightsofterrafirma.item.armor;
 
 import com.magistuarmory.item.armor.ArmorType;
-import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import com.magistuarmory.config.ArmorConfig;
 import dev.architectury.platform.Platform;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.tags.TagKey;
-import net.minecraft.world.item.ArmorMaterials;
-import net.minecraft.world.item.crafting.Ingredient;
+import net.witchkings.knightsofterrafirma.config.ConfigArmor;
 
 import static com.magistuarmory.item.armor.ArmorTypes.ARMOR_CONFIG;
 
 public final class ModArmor {
-    public static final ArmorType BLACKSTEEL_KNIGHT_CHESTPLATE = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_knight_chestplate"), new ResourceLocation("knightsofterrafirma", "black_steel_armor"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
-    public static final ArmorType BLACKSTEEL_KNIGHT = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_knight"), new ResourceLocation("default"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
-    public static final ArmorType BLACKSTEEL_ARMET = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_armet"), new ResourceLocation("knightsofterrafirma", "armet"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
+    public static final ArmorType BLACKSTEEL_KNIGHT_CHESTPLATE = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_knight_chestplate"), new ResourceLocation("knightsofterrafirma", "black_steel_armor"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ConfigArmor.knightBlackSteel.enabled, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
+    public static final ArmorType BLACKSTEEL_KNIGHT = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_knight"), new ResourceLocation("default"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ConfigArmor.knightBlackSteel.enabled, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
+    public static final ArmorType BLACKSTEEL_ARMET = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_armet"), new ResourceLocation("knightsofterrafirma", "armet"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ConfigArmor.armetBlackSteel.enabled, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
 
-    public static final ArmorType BLACKSTEEL_BARBUTE = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_barbute"), new ResourceLocation("default"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
-    public static final ArmorType BLACKSTEEL_HALFARMOR = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_halfarmor"), new ResourceLocation("default"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
+    public static final ArmorType BLACKSTEEL_BARBUTE = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_barbute"), new ResourceLocation("default"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ConfigArmor.barbuteBlackSteel.enabled, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
+    public static final ArmorType BLACKSTEEL_HALFARMOR = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_halfarmor"), new ResourceLocation("default"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ConfigArmor.halfarmorBlackSteel.enabled, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
 
     public static final ArmorType BLACKSTEEL_GOTHIC_CHESTPLATE = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_gothic_chestplate"), new ResourceLocation("knightsofterrafirma", "black_steel_armor"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");
     public static final ArmorType BLACKSTEEL_GOTHIC = new ArmorType(new ResourceLocation("knightsofterrafirma", "blacksteel_gothic"), new ResourceLocation("default"), 1.25F, 0.5F, new Integer[]{700, 800, 850, 600}, new Integer[]{2, 5, 8, 3}, 9, SoundEvents.ARMOR_EQUIP_IRON, ARMOR_CONFIG.enableKnightArmor, Platform.isForge() ? "forge:ingots/black_steel" : "c:black_steel_ingots");

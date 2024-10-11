@@ -67,7 +67,7 @@ description='''${mod_description}'''
     modId="magistuarmory"
     mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[9.8,)"
+    versionRange="[9.16,)"
     ordering="AFTER"
     side="BOTH"
 
