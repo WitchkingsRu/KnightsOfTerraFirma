@@ -106,5 +106,7 @@ public class KnightsOfTerraFirma {
         AutoConfig.register(ConfigMain.class, PartitioningSerializer.wrap(JanksonConfigSerializer::new));
         CONFIG = (ConfigMain)AutoConfig.getConfigHolder(ConfigMain.class).getConfig();
         GENERAL_CONFIG = CONFIG.armor;
+
+        //hgapfa;o
     }
 }
