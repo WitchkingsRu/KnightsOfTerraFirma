@@ -102,15 +102,15 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 850;
         @RequiresRestart
         public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 315;
+        public int leggingsDurability = 800;
         @RequiresRestart
         public int leggingsDefense = 5;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 700;
         @RequiresRestart
         public int bootsDefense = 2;
 
@@ -124,7 +124,7 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 275;
+        public int helmetDurability = 600;
         @RequiresRestart
         public int helmetDefense = 3;
 
@@ -136,9 +136,9 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 2.0F;
+        public float toughness = 1.5F;
         @RequiresRestart
-        public int helmetDurability = 385;
+        public int helmetDurability = 800;
         @RequiresRestart
         public int helmetDefense = 4;
 
@@ -150,17 +150,17 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 2.0F;
+        public float toughness = 1.5F;
         @RequiresRestart
-        public int chestplateDurability = 500;
+        public int chestplateDurability = 1050;
         @RequiresRestart
-        public int chestplateDefense = 9;
+        public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 440;
+        public int leggingsDurability = 1000;
         @RequiresRestart
         public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 345;
+        public int bootsDurability = 900;
         @RequiresRestart
         public int bootsDefense = 3;
 
@@ -174,7 +174,7 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 275;
+        public int helmetDurability = 600;
         @RequiresRestart
         public int helmetDefense = 3;
 
@@ -188,15 +188,15 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 850;
         @RequiresRestart
         public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 315;
+        public int leggingsDurability = 800;
         @RequiresRestart
         public int leggingsDefense = 5;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 700;
         @RequiresRestart
         public int bootsDefense = 2;
 
@@ -208,9 +208,9 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.8F;
+        public float toughness = 1.5F;
         @RequiresRestart
-        public int helmetDurability = 385;
+        public int helmetDurability = 800;
         @RequiresRestart
         public int helmetDefense = 4;
 
@@ -222,17 +222,17 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.8F;
+        public float toughness = 1.5F;
         @RequiresRestart
-        public int chestplateDurability = 500;
+        public int chestplateDurability = 1050;
         @RequiresRestart
-        public int chestplateDefense = 9;
+        public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 440;
+        public int leggingsDurability = 1000;
         @RequiresRestart
         public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 345;
+        public int bootsDurability = 900;
         @RequiresRestart
         public int bootsDefense = 3;
 
@@ -246,7 +246,7 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 0.5F;
         @RequiresRestart
-        public int helmetDurability = 170;
+        public int helmetDurability = 500;
         @RequiresRestart
         public int helmetDefense = 2;
 
@@ -260,7 +260,7 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 0.5F;
         @RequiresRestart
-        public int chestplateDurability = 315;
+        public int chestplateDurability = 750;
         @RequiresRestart
         public int chestplateDefense = 6;
 
@@ -274,15 +274,15 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 850;
         @RequiresRestart
         public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 315;
+        public int leggingsDurability = 800;
         @RequiresRestart
         public int leggingsDefense = 5;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 700;
         @RequiresRestart
         public int bootsDefense = 2;
 
@@ -296,7 +296,7 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 275;
+        public int helmetDurability = 600;
         @RequiresRestart
         public int helmetDefense = 3;
 
@@ -310,9 +310,9 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 0.5F;
         @RequiresRestart
-        public int helmetDurability = 240;
+        public int helmetDurability = 600;
         @RequiresRestart
-        public int helmetDefense = 2;
+        public int helmetDefense = 3;
 
         public BlackSteelKettlehatConfig() {
         }
@@ -324,17 +324,17 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 0.5F;
         @RequiresRestart
-        public int chestplateDurability = 290;
+        public int chestplateDurability = 750;
         @RequiresRestart
         public int chestplateDefense = 6;
         @RequiresRestart
-        public int leggingsDurability = 230;
+        public int leggingsDurability = 700;
         @RequiresRestart
-        public int leggingsDefense = 4;
+        public int leggingsDefense = 5;
         @RequiresRestart
-        public int bootsDurability = 200;
+        public int bootsDurability = 600;
         @RequiresRestart
-        public int bootsDefense = 3;
+        public int bootsDefense = 2;
 
         public BlackSteelPlatemailConfig() {
         }
@@ -346,9 +346,9 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 275;
+        public int helmetDurability = 550;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public CeremonialArmetConfig() {
         }
@@ -360,11 +360,11 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 670;
         @RequiresRestart
-        public int chestplateDefense = 8;
+        public int chestplateDefense = 7;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 460;
         @RequiresRestart
         public int bootsDefense = 2;
 
@@ -376,19 +376,19 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.25F;
+        public float toughness = 3F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 1050;
         @RequiresRestart
         public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 315;
+        public int leggingsDurability = 1000;
         @RequiresRestart
-        public int leggingsDefense = 5;
+        public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 900;
         @RequiresRestart
-        public int bootsDefense = 2;
+        public int bootsDefense = 3;
 
         public BlueSteelKnightConfig() {
         }
@@ -398,9 +398,9 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.25F;
+        public float toughness = 3F;
         @RequiresRestart
-        public int helmetDurability = 275;
+        public int helmetDurability = 800;
         @RequiresRestart
         public int helmetDefense = 3;
 
@@ -412,9 +412,9 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 2.0F;
+        public float toughness = 3.0F;
         @RequiresRestart
-        public int helmetDurability = 385;
+        public int helmetDurability = 1000;
         @RequiresRestart
         public int helmetDefense = 4;
 
@@ -426,17 +426,17 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 2.0F;
+        public float toughness = 3.0F;
         @RequiresRestart
-        public int chestplateDurability = 500;
+        public int chestplateDurability = 1500;
         @RequiresRestart
         public int chestplateDefense = 9;
         @RequiresRestart
-        public int leggingsDurability = 440;
+        public int leggingsDurability = 1350;
         @RequiresRestart
         public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 345;
+        public int bootsDurability = 950;
         @RequiresRestart
         public int bootsDefense = 3;
 
@@ -462,19 +462,19 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.25F;
+        public float toughness = 3F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 1050;
         @RequiresRestart
         public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 315;
+        public int leggingsDurability = 1000;
         @RequiresRestart
-        public int leggingsDefense = 5;
+        public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 900;
         @RequiresRestart
-        public int bootsDefense = 2;
+        public int bootsDefense = 3;
 
         public BlueSteelGothicConfig() {
         }
@@ -484,9 +484,9 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.8F;
+        public float toughness = 3.0F;
         @RequiresRestart
-        public int helmetDurability = 385;
+        public int helmetDurability = 1000;
         @RequiresRestart
         public int helmetDefense = 4;
 
@@ -498,17 +498,17 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.8F;
+        public float toughness = 3.0F;
         @RequiresRestart
-        public int chestplateDurability = 500;
+        public int chestplateDurability = 1500;
         @RequiresRestart
         public int chestplateDefense = 9;
         @RequiresRestart
-        public int leggingsDurability = 440;
+        public int leggingsDurability = 1350;
         @RequiresRestart
         public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 345;
+        public int bootsDurability = 950;
         @RequiresRestart
         public int bootsDefense = 3;
 
@@ -522,7 +522,7 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 0.5F;
         @RequiresRestart
-        public int helmetDurability = 170;
+        public int helmetDurability = 600;
         @RequiresRestart
         public int helmetDefense = 2;
 
@@ -536,7 +536,7 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 0.5F;
         @RequiresRestart
-        public int chestplateDurability = 315;
+        public int chestplateDurability = 900;
         @RequiresRestart
         public int chestplateDefense = 6;
 
@@ -548,19 +548,19 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.25F;
+        public float toughness = 3F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 1050;
         @RequiresRestart
         public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 315;
+        public int leggingsDurability = 1000;
         @RequiresRestart
-        public int leggingsDefense = 5;
+        public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 900;
         @RequiresRestart
-        public int bootsDefense = 2;
+        public int bootsDefense = 3;
 
         public BlueSteelKastenbrustConfig() {
         }
@@ -584,19 +584,19 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.25F;
+        public float toughness = 3F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 1050;
         @RequiresRestart
         public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 315;
+        public int leggingsDurability = 1000;
         @RequiresRestart
-        public int leggingsDefense = 5;
+        public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 900;
         @RequiresRestart
-        public int bootsDefense = 2;
+        public int bootsDefense = 3;
 
         public RedSteelKnightConfig() {
         }
@@ -620,9 +620,9 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 2.0F;
+        public float toughness = 3.0F;
         @RequiresRestart
-        public int helmetDurability = 385;
+        public int helmetDurability = 1000;
         @RequiresRestart
         public int helmetDefense = 4;
 
@@ -634,17 +634,17 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 2.0F;
+        public float toughness = 3.0F;
         @RequiresRestart
-        public int chestplateDurability = 500;
+        public int chestplateDurability = 1500;
         @RequiresRestart
         public int chestplateDefense = 9;
         @RequiresRestart
-        public int leggingsDurability = 440;
+        public int leggingsDurability = 1350;
         @RequiresRestart
         public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 345;
+        public int bootsDurability = 950;
         @RequiresRestart
         public int bootsDefense = 3;
 
@@ -670,19 +670,19 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.25F;
+        public float toughness = 3F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 1050;
         @RequiresRestart
         public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 315;
+        public int leggingsDurability = 1000;
         @RequiresRestart
-        public int leggingsDefense = 5;
+        public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 900;
         @RequiresRestart
-        public int bootsDefense = 2;
+        public int bootsDefense = 3;
 
         public RedSteelGothicConfig() {
         }
@@ -692,9 +692,9 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.8F;
+        public float toughness = 3.0F;
         @RequiresRestart
-        public int helmetDurability = 385;
+        public int helmetDurability = 1000;
         @RequiresRestart
         public int helmetDefense = 4;
 
@@ -706,17 +706,17 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.8F;
+        public float toughness = 3.0F;
         @RequiresRestart
-        public int chestplateDurability = 500;
+        public int chestplateDurability = 1500;
         @RequiresRestart
         public int chestplateDefense = 9;
         @RequiresRestart
-        public int leggingsDurability = 440;
+        public int leggingsDurability = 1350;
         @RequiresRestart
         public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 345;
+        public int bootsDurability = 950;
         @RequiresRestart
         public int bootsDefense = 3;
 
@@ -730,7 +730,7 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 0.5F;
         @RequiresRestart
-        public int helmetDurability = 170;
+        public int helmetDurability = 600;
         @RequiresRestart
         public int helmetDefense = 2;
 
@@ -744,7 +744,7 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public float toughness = 0.5F;
         @RequiresRestart
-        public int chestplateDurability = 315;
+        public int chestplateDurability = 900;
         @RequiresRestart
         public int chestplateDefense = 6;
 
@@ -756,19 +756,19 @@ public class ConfigArmor implements ConfigData {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
-        public float toughness = 1.25F;
+        public float toughness = 3F;
         @RequiresRestart
-        public int chestplateDurability = 335;
+        public int chestplateDurability = 1050;
         @RequiresRestart
         public int chestplateDefense = 8;
         @RequiresRestart
-        public int leggingsDurability = 315;
+        public int leggingsDurability = 1000;
         @RequiresRestart
-        public int leggingsDefense = 5;
+        public int leggingsDefense = 6;
         @RequiresRestart
-        public int bootsDurability = 230;
+        public int bootsDurability = 900;
         @RequiresRestart
-        public int bootsDefense = 2;
+        public int bootsDefense = 3;
 
         public RedSteelKastenbrustConfig() {
         }
