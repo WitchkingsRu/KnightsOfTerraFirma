@@ -41,7 +41,7 @@ public class KnightsOfTerraFirma {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public static ConfigMain CONFIG;
-    public static ConfigArmor GENERAL_CONFIG;
+    public static ConfigArmor CONFIG_ARMOR;
 
     public KnightsOfTerraFirma() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -80,6 +80,7 @@ public class KnightsOfTerraFirma {
         // Some common setup code
         LOGGER.info("Weapons ready, my lord!");
 
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -104,9 +105,7 @@ public class KnightsOfTerraFirma {
     }
     static {
         AutoConfig.register(ConfigMain.class, PartitioningSerializer.wrap(JanksonConfigSerializer::new));
-        CONFIG = (ConfigMain)AutoConfig.getConfigHolder(ConfigMain.class).getConfig();
-        GENERAL_CONFIG = CONFIG.armor;
-
-        //hgapfa;o
+        CONFIG = AutoConfig.getConfigHolder(ConfigMain.class).getConfig();
+        CONFIG_ARMOR = CONFIG.armor;
     }
 }

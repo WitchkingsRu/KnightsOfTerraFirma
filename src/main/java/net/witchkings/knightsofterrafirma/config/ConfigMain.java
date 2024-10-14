@@ -8,12 +8,6 @@ import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
         name = "knightsofterrafirma"
 )
 public class ConfigMain extends PartitioningSerializer.GlobalData {
-//    @CollapsibleObject
-//    public ConfigMain general = new ConfigMain();
-//    @CollapsibleObject
-//    public WeaponsConfig weapons = new WeaponsConfig();
-//    @CollapsibleObject
-//    public ShieldsConfig shields = new ShieldsConfig();
     @CollapsibleObject
     public ConfigArmor armor = new ConfigArmor();
 

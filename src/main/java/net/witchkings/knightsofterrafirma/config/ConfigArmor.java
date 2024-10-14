@@ -10,89 +10,89 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry.Gui.RequiresRestart;
 )
 public class ConfigArmor implements ConfigData {
     @CollapsibleObject
-    public static BlackSteelKnightConfig knightBlackSteel = new BlackSteelKnightConfig();
+    public BlackSteelKnightConfig knightBlackSteel = new BlackSteelKnightConfig();
     @CollapsibleObject
-    public static BlackSteelArmetConfig armetBlackSteel = new BlackSteelArmetConfig();
+    public BlackSteelArmetConfig armetBlackSteel = new BlackSteelArmetConfig();
     @CollapsibleObject
-    public static BlackSteelStechhelmConfig stechhelmBlackSteel = new BlackSteelStechhelmConfig();
+    public BlackSteelStechhelmConfig stechhelmBlackSteel = new BlackSteelStechhelmConfig();
     @CollapsibleObject
-    public static BlackSteelJoustingConfig joustingBlackSteel = new BlackSteelJoustingConfig();
+    public BlackSteelJoustingConfig joustingBlackSteel = new BlackSteelJoustingConfig();
     @CollapsibleObject
-    public static BlackSteelSalletConfig salletBlackSteel = new BlackSteelSalletConfig();
+    public BlackSteelSalletConfig salletBlackSteel = new BlackSteelSalletConfig();
     @CollapsibleObject
-    public static BlackSteelGothicConfig gothicBlackSteel = new BlackSteelGothicConfig();
+    public BlackSteelGothicConfig gothicBlackSteel = new BlackSteelGothicConfig();
     @CollapsibleObject
-    public static BlackSteelMaximilianHelmetConfig maximilianHelmetBlackSteel = new BlackSteelMaximilianHelmetConfig();
+    public BlackSteelMaximilianHelmetConfig maximilianHelmetBlackSteel = new BlackSteelMaximilianHelmetConfig();
     @CollapsibleObject
-    public static BlackSteelMaximilianConfig maximilianBlackSteel = new BlackSteelMaximilianConfig();
+    public BlackSteelMaximilianConfig maximilianBlackSteel = new BlackSteelMaximilianConfig();
     @CollapsibleObject
-    public static BlackSteelBarbuteConfig barbuteBlackSteel = new BlackSteelBarbuteConfig();
+    public BlackSteelBarbuteConfig barbuteBlackSteel = new BlackSteelBarbuteConfig();
     @CollapsibleObject
-    public static BlackSteelHalfarmorConfig halfarmorBlackSteel = new BlackSteelHalfarmorConfig();
+    public BlackSteelHalfarmorConfig halfarmorBlackSteel = new BlackSteelHalfarmorConfig();
     @CollapsibleObject
-    public static BlackSteelKastenbrustConfig kastenbrustBlackSteel = new BlackSteelKastenbrustConfig();
+    public BlackSteelKastenbrustConfig kastenbrustBlackSteel = new BlackSteelKastenbrustConfig();
     @CollapsibleObject
-    public static BlackSteelGrandBascinetConfig grandBascinetBlackSteel = new BlackSteelGrandBascinetConfig();
+    public BlackSteelGrandBascinetConfig grandBascinetBlackSteel = new BlackSteelGrandBascinetConfig();
     @CollapsibleObject
-    public static BlackSteelKettlehatConfig kettlehatBlackSteel = new BlackSteelKettlehatConfig();
+    public BlackSteelKettlehatConfig kettlehatBlackSteel = new BlackSteelKettlehatConfig();
     @CollapsibleObject
-    public static BlackSteelPlatemailConfig platemailBlackSteel = new BlackSteelPlatemailConfig();
-    
-    @CollapsibleObject
-    public static CeremonialArmetConfig ceremonialArmet = new CeremonialArmetConfig();
-    @CollapsibleObject
-    public static CeremonialConfig ceremonial = new CeremonialConfig();
+    public BlackSteelPlatemailConfig platemailBlackSteel = new BlackSteelPlatemailConfig();
 
     @CollapsibleObject
-    public static BlueSteelKnightConfig knightBlueSteel = new BlueSteelKnightConfig();
+    public CeremonialArmetConfig ceremonialArmet = new CeremonialArmetConfig();
     @CollapsibleObject
-    public static BlueSteelArmetConfig armetBlueSteel = new BlueSteelArmetConfig();
-    @CollapsibleObject
-    public static BlueSteelStechhelmConfig stechhelmBlueSteel = new BlueSteelStechhelmConfig();
-    @CollapsibleObject
-    public static BlueSteelJoustingConfig joustingBlueSteel = new BlueSteelJoustingConfig();
-    @CollapsibleObject
-    public static BlueSteelSalletConfig salletBlueSteel = new BlueSteelSalletConfig();
-    @CollapsibleObject
-    public static BlueSteelGothicConfig gothicBlueSteel = new BlueSteelGothicConfig();
-    @CollapsibleObject
-    public static BlueSteelMaximilianHelmetConfig maximilianHelmetBlueSteel = new BlueSteelMaximilianHelmetConfig();
-    @CollapsibleObject
-    public static BlueSteelMaximilianConfig maximilianBlueSteel = new BlueSteelMaximilianConfig();
-    @CollapsibleObject
-    public static BlueSteelBarbuteConfig barbuteBlueSteel = new BlueSteelBarbuteConfig();
-    @CollapsibleObject
-    public static BlueSteelHalfarmorConfig halfarmorBlueSteel = new BlueSteelHalfarmorConfig();
-    @CollapsibleObject
-    public static BlueSteelKastenbrustConfig kastenbrustBlueSteel = new BlueSteelKastenbrustConfig();
-    @CollapsibleObject
-    public static BlueSteelGrandBascinetConfig grandBascinetBlueSteel = new BlueSteelGrandBascinetConfig();
+    public CeremonialConfig ceremonial = new CeremonialConfig();
 
     @CollapsibleObject
-    public static RedSteelKnightConfig knightRedSteel = new RedSteelKnightConfig();
+    public BlueSteelKnightConfig knightBlueSteel = new BlueSteelKnightConfig();
     @CollapsibleObject
-    public static RedSteelArmetConfig armetRedSteel = new RedSteelArmetConfig();
+    public BlueSteelArmetConfig armetBlueSteel = new BlueSteelArmetConfig();
     @CollapsibleObject
-    public static RedSteelStechhelmConfig stechhelmRedSteel = new RedSteelStechhelmConfig();
+    public BlueSteelStechhelmConfig stechhelmBlueSteel = new BlueSteelStechhelmConfig();
     @CollapsibleObject
-    public static RedSteelJoustingConfig joustingRedSteel = new RedSteelJoustingConfig();
+    public BlueSteelJoustingConfig joustingBlueSteel = new BlueSteelJoustingConfig();
     @CollapsibleObject
-    public static RedSteelSalletConfig salletRedSteel = new RedSteelSalletConfig();
+    public BlueSteelSalletConfig salletBlueSteel = new BlueSteelSalletConfig();
     @CollapsibleObject
-    public static RedSteelGothicConfig gothicRedSteel = new RedSteelGothicConfig();
+    public BlueSteelGothicConfig gothicBlueSteel = new BlueSteelGothicConfig();
     @CollapsibleObject
-    public static RedSteelMaximilianHelmetConfig maximilianHelmetRedSteel = new RedSteelMaximilianHelmetConfig();
+    public BlueSteelMaximilianHelmetConfig maximilianHelmetBlueSteel = new BlueSteelMaximilianHelmetConfig();
     @CollapsibleObject
-    public static RedSteelMaximilianConfig maximilianRedSteel = new RedSteelMaximilianConfig();
+    public BlueSteelMaximilianConfig maximilianBlueSteel = new BlueSteelMaximilianConfig();
     @CollapsibleObject
-    public static RedSteelBarbuteConfig barbuteRedSteel = new RedSteelBarbuteConfig();
+    public BlueSteelBarbuteConfig barbuteBlueSteel = new BlueSteelBarbuteConfig();
     @CollapsibleObject
-    public static RedSteelHalfarmorConfig halfarmorRedSteel = new RedSteelHalfarmorConfig();
+    public BlueSteelHalfarmorConfig halfarmorBlueSteel = new BlueSteelHalfarmorConfig();
     @CollapsibleObject
-    public static RedSteelKastenbrustConfig kastenbrustRedSteel = new RedSteelKastenbrustConfig();
+    public BlueSteelKastenbrustConfig kastenbrustBlueSteel = new BlueSteelKastenbrustConfig();
     @CollapsibleObject
-    public static RedSteelGrandBascinetConfig grandBascinetRedSteel = new RedSteelGrandBascinetConfig();
-    
+    public BlueSteelGrandBascinetConfig grandBascinetBlueSteel = new BlueSteelGrandBascinetConfig();
+
+    @CollapsibleObject
+    public RedSteelKnightConfig knightRedSteel = new RedSteelKnightConfig();
+    @CollapsibleObject
+    public RedSteelArmetConfig armetRedSteel = new RedSteelArmetConfig();
+    @CollapsibleObject
+    public RedSteelStechhelmConfig stechhelmRedSteel = new RedSteelStechhelmConfig();
+    @CollapsibleObject
+    public RedSteelJoustingConfig joustingRedSteel = new RedSteelJoustingConfig();
+    @CollapsibleObject
+    public RedSteelSalletConfig salletRedSteel = new RedSteelSalletConfig();
+    @CollapsibleObject
+    public RedSteelGothicConfig gothicRedSteel = new RedSteelGothicConfig();
+    @CollapsibleObject
+    public RedSteelMaximilianHelmetConfig maximilianHelmetRedSteel = new RedSteelMaximilianHelmetConfig();
+    @CollapsibleObject
+    public RedSteelMaximilianConfig maximilianRedSteel = new RedSteelMaximilianConfig();
+    @CollapsibleObject
+    public RedSteelBarbuteConfig barbuteRedSteel = new RedSteelBarbuteConfig();
+    @CollapsibleObject
+    public RedSteelHalfarmorConfig halfarmorRedSteel = new RedSteelHalfarmorConfig();
+    @CollapsibleObject
+    public RedSteelKastenbrustConfig kastenbrustRedSteel = new RedSteelKastenbrustConfig();
+    @CollapsibleObject
+    public RedSteelGrandBascinetConfig grandBascinetRedSteel = new RedSteelGrandBascinetConfig();
+
     public ConfigArmor() {
     }
 
