@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S S",
+        "TBT"
+    ],
+    "key": {
+        "S": {
+            "item": "magistuarmory:leather_strip"
+        },
+        "B": {
+            "item": "minecraft:leather_boots"
+        },
+		"T": {
+            "item": "tfc:metal/ingot/black_steel"
+        }
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_steel_platemail_boots"
+    }
+}

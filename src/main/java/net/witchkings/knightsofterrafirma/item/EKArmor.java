@@ -8,31 +8,31 @@ public class EKArmor {
         // Call the method to apply all armor modifications at once
         ArmorModifier.modifyArmorType(ArmorTypes.KNIGHT,
                 460, 630, 670, 550,  
-                2, 5, 7, 2, 1.25F, 2.5F);         // Defense values);
+                2, 5, 7, 2, 1.25F, 3F);         // Defense values);
         ArmorModifier.modifyArmorType(ArmorTypes.ARMET,
                 460, 630, 670, 550,  
-                2, 5, 7, 2, 1.25F, 2.5F);
+                2, 5, 7, 2, 1.25F, 3F);
 
         ArmorModifier.modifyArmorType(ArmorTypes.STECHHELM,
                 690, 880, 1000, 770,  
-                2, 6, 7, 3, 2F, 7.5F);
+                2, 6, 7, 3, 2F, 6F);
         ArmorModifier.modifyArmorType(ArmorTypes.JOUSTING,
                 690, 880, 1000, 770,  
-                2, 6, 7, 3, 2F, 7.5F);
+                2, 6, 7, 3, 2F, 6F);
 
         ArmorModifier.modifyArmorType(ArmorTypes.SALLET,
                 460, 630, 670, 550,  
-                2, 5, 7, 2, 1.25F, 2.5F);
+                2, 5, 7, 2, 1.25F, 3F);
         ArmorModifier.modifyArmorType(ArmorTypes.GOTHIC,
                 460, 630, 670, 550,  
-                2, 5, 7, 2, 1.25F, 2.5F);
+                2, 5, 7, 2, 1.25F, 3F);
 
         ArmorModifier.modifyArmorType(ArmorTypes.MAXIMILIAN_HELMET,
                 690, 880, 1000, 770,
-                2, 6, 7, 3, 1.8F, 2.5F);
+                2, 6, 7, 3, 1.8F, 5F);
         ArmorModifier.modifyArmorType(ArmorTypes.MAXIMILIAN,
                 690, 880, 1000, 770,
-                2, 6, 7, 3, 1.8F, 2.5F);
+                2, 6, 7, 3, 1.8F, 5F);
 
         ArmorModifier.modifyArmorType(ArmorTypes.CHAINMAIL,
                 340, 470, 500, 410,
@@ -62,10 +62,10 @@ public class EKArmor {
 
         ArmorModifier.modifyArmorType(ArmorTypes.CEREMONIAL_ARMET,
                 560, 730, 770, 650,
-                2, 5, 7, 2, 1.25F, 2.5F);
+                2, 5, 7, 2, 1.25F, 3F);
         ArmorModifier.modifyArmorType(ArmorTypes.CEREMONIAL,
                 560, 730, 770, 650,
-                2, 5, 7, 2, 1.25F, 2.5F);
+                2, 5, 7, 2, 1.25F, 3F);
 
         ArmorModifier.modifyArmorType(ArmorTypes.SHISHAK,
                 400, 400, 540, 420,
@@ -91,10 +91,10 @@ public class EKArmor {
 
         ArmorModifier.modifyArmorType(ArmorTypes.KASTENBRUST,
                 460, 630, 670, 550,  
-                2, 5, 7, 2, 1.25F, 2.5F);
+                2, 5, 7, 2, 1.25F, 3F);
         ArmorModifier.modifyArmorType(ArmorTypes.GRAND_BASCINET,
                 460, 630, 670, 550,  
-                2, 5, 7, 2, 1.25F, 2.5F);
+                2, 5, 7, 2, 1.25F, 3F);
 
         ArmorModifier.modifyArmorType(ArmorTypes.LAMELLAR,
                 400, 440, 500, 480,
