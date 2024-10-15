@@ -1,1 +1,1 @@
-{"type":"tfc:loom","ingredient":{"ingredient":{"item":"tfc:wool_cloth"},"count":2},"result":{"item":"magistuarmory:woolen_fabric","count":8},"steps_required":4,"in_progress_texture":"minecraft:block/white_wool"}
+{"type":"tfc:damage_inputs_shapeless_crafting","recipe":{"type":"minecraft:crafting_shapeless","ingredients":[{"item":"tfc:wool_cloth"}],"result":{"item":"magistuarmory:woolen_fabric"}}}
