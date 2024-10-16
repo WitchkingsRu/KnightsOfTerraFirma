@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/black_bronze_heddernheim_helmet",
+        "layer1": "knightsofterrafirma:item/black_bronze_heddernheim_helmet_overlay"
+    }
+}

@@ -28,10 +28,10 @@ public class AntiqueTab {
         if (Platform.isModLoaded("antiquelegacy")) {
             if (tabData.getTabKey() == CreativeTab.KOTF_ARMOR.getKey()) {
                 for (RegistrySupplier<MedievalArmorItem> item: AntiqueItems.listArmorBismuthBronze) {
-                    tabData.getEntries().putBefore(ModelledItems.BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER.get(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                    tabData.getEntries().putBefore(ModelledItems.SILVER_STEEL_ARMET_WITH_PLUME_SUPPLIER.get(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 }
                 for (RegistrySupplier<MedievalArmorItem> item: AntiqueItems.listArmorBlackBronze) {
-                    tabData.getEntries().putBefore(ModelledItems.BLACK_STEEL_ARMET_WITH_PLUME_SUPPLIER.get(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                    tabData.getEntries().putBefore(ModelledItems.SILVER_STEEL_ARMET_WITH_PLUME_SUPPLIER.get(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 }
             }
         }

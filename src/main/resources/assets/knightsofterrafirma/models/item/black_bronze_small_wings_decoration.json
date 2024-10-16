@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/black_bronze_small_wings_decoration"
+    }
+}

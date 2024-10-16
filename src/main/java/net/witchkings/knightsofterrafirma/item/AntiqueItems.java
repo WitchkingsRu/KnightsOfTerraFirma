@@ -101,9 +101,9 @@ public class AntiqueItems extends ModItemsProvider {
 
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_SCYTHIAN_ATTIC_HELMET = INSTANCE.addMedievalArmorItem("black_bronze_scythian_attic_helmet", AntiqueArmor.BLACK_BRONZE_SCYTHIAN_ATTIC_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
 
-    public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_SCYTHIAN_SCALE_HELMET = INSTANCE.addMedievalArmorItem("black_bronze_bronze_scythian_scale_helmet", AntiqueArmor.BLACK_BRONZE_SCYTHIAN_SCALE_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_SCYTHIAN_SCALE_HELMET = INSTANCE.addMedievalArmorItem("black_bronze_scythian_scale_helmet", AntiqueArmor.BLACK_BRONZE_SCYTHIAN_SCALE_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
 
-    public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_ROMAN_GREAVES = INSTANCE.addMedievalArmorItem("black_bronze_bronze_roman_greaves", AntiqueArmor.BLACK_BRONZE_ROMAN_GREAVES, ArmorItem.Type.LEGGINGS, new Item.Properties());
+    public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_ROMAN_GREAVES = INSTANCE.addMedievalArmorItem("black_bronze_roman_greaves", AntiqueArmor.BLACK_BRONZE_ROMAN_GREAVES, ArmorItem.Type.LEGGINGS, new Item.Properties());
     
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_CELTIC_MONTEFORTINO_HELMET = INSTANCE.addMedievalArmorItem("black_bronze_celtic_montefortino_helmet", AntiqueArmor.BLACK_BRONZE_CELTIC_MONTEFORTINO_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
 

@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "antiquelegacy:item/heddernheim_helmet",
-        "layer1": "antiquelegacy:item/heddernheim_helmet_overlay"
-    }
-}
