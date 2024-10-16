@@ -16,6 +16,7 @@ import net.witchkings.knightsofterrafirma.client.armor.BlueSteelChestplate;
 import net.witchkings.knightsofterrafirma.client.armor.RedSteelChestplate;
 import com.magistuarmory.antiquelegacy.client.render.model.armor.*;
 import com.magistuarmory.antiquelegacy.client.render.model.decoration.*;
+import com.magistuarmory.antiquelegacy.client.render.model.shield.*;
 
 @OnlyIn(Dist.CLIENT)
 public class ModModel extends ModModelsProvider {
@@ -85,6 +86,33 @@ public class ModModel extends ModModelsProvider {
     public static final ModelLayerLocation PHRYGIAN_CAP_LOCATION = INSTANCE.addArmorModel("phrygian_cap", PhrygianCapModel::createLayer);
     public static final ModelLayerLocation LA_GORGE_MEILLET_LOCATION = INSTANCE.addArmorModel("la_gorge_meillet", LaGorgeMeilletModel::createLayer);
     public static final ModelLayerLocation WATERLOO_HELMET_LOCATION = INSTANCE.addArmorModel("waterloo_helmet", WaterlooHelmetModel::createLayer);
+    public static final ModelLayerLocation AGEN_PORT_HELMET_LOCATION = INSTANCE.addArmorModel("agen_port_helmet", AgenPortHelmetModel::createLayer);
+
+    public static final LayerDefinition LEFT_HAND_MANIKA_MODEL = LeftHandManikaModel.createLayer();
+    public static final LayerDefinition RIGHT_HAND_MANIKA_MODEL = RightHandManikaModel.createLayer();
+
+    public static final ModelLayerLocation REPUBLIC_SCUTUM = INSTANCE.addModel("republic_scutum", RepublicScutumModel::createLayer);
+    public static final ModelLayerLocation IMPERAIL_SCUTUM = INSTANCE.addModel("imperial_scutum", ImperialScutumModel::createLayer);
+    public static final ModelLayerLocation TUREOS = INSTANCE.addModel("tureos", TureosModel::createLayer);
+    public static final ModelLayerLocation HOPLON = INSTANCE.addModel("hoplon", HoplonModel::createLayer);
+    public static final ModelLayerLocation PELTA = INSTANCE.addModel("pelta", PeltaModel::createLayer);
+
+    public static final ModelLayerLocation BRONZE_HORNS_DECORATION_LOCATION = INSTANCE.addDecorationModel("bronze_horns", BronzeHornsModel::createLayer);
+    public static final ModelLayerLocation BRONZE_SMALL_WINGS_DECORATION_LOCATION = INSTANCE.addDecorationModel("bronze_small_wings", BronzeSmallWingsModel::createLayer);
+    public static final ModelLayerLocation ANTIQUE_CLOAK_DECORATION_LOCATION = INSTANCE.addDecorationModel("antique_cloak", CloakModel::createLayer);
+    public static final ModelLayerLocation GREEK_CREST_DECORATION_LOCATION = INSTANCE.addDecorationModel("greek_crest", GreekCrestModel::createLayer);
+    public static final ModelLayerLocation GREEK_HIGH_CREST_DECORATION_LOCATION = INSTANCE.addDecorationModel("greek_high_crest", GreekHighCrestModel::createLayer);
+    public static final ModelLayerLocation HAIR_PLUME_DECORATION_LOCATION = INSTANCE.addDecorationModel("hair_plume", HairPlumeModel::createLayer);
+    public static final ModelLayerLocation ROMAN_CREST_DECORATION_LOCATION = INSTANCE.addDecorationModel("roman_crest", RomanCrestModel::createLayer);
+    public static final ModelLayerLocation ROMAN_CREST_ALT_DECORATION_LOCATION = INSTANCE.addDecorationModel("roman_crest_alt", RomanCrestAltModel::createLayer);
+    public static final ModelLayerLocation ROMAN_FEATHERS_DECORATION_LOCATION = INSTANCE.addDecorationModel("roman_feathers", RomanFeathersModel::createLayer);
+    public static final ModelLayerLocation ROMAN_TWO_FEATHERS_DECORATION_LOCATION = INSTANCE.addDecorationModel("roman_two_feathers", RomanTwoFeathersModel::createLayer);
+    public static final ModelLayerLocation TRIPLE_FEATHER_DECORATION_LOCATION = INSTANCE.addDecorationModel("triple_feather", TripleFeatherModel::createLayer);
+    public static final ModelLayerLocation TWO_HAIR_PLUMES_DECORATION_LOCATION = INSTANCE.addDecorationModel("two_hair_plumes", TwoHairPlumesModel::createLayer);
+    public static final ModelLayerLocation LEFT_GLADIATOR_SHOULDER_PAD_DECORATION_LOCATION = INSTANCE.addDecorationModel("left_gladiator_shoulder_pad", LeftGladiatorShoulderPadModel::createLayer);
+    public static final ModelLayerLocation RIGHT_GLADIATOR_SHOULDER_PAD_DECORATION_LOCATION = INSTANCE.addDecorationModel("right_gladiator_shoulder_pad", RightGladiatorShoulderPadModel::createLayer);
+    public static final ModelLayerLocation BRONZE_LEFT_HAND_MANIKA_DECORATION_LOCATION = INSTANCE.addDecorationModel("bronze_left_hand_manika", () -> LEFT_HAND_MANIKA_MODEL);
+    public static final ModelLayerLocation BRONZE_RIGHT_HAND_MANIKA_DECORATION_LOCATION = INSTANCE.addDecorationModel("bronze_right_hand_manika", () -> RIGHT_HAND_MANIKA_MODEL);
 
     public ModModel(String modId) {
         super(modId);

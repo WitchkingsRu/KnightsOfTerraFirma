@@ -22,10 +22,7 @@ import net.witchkings.knightsofterrafirma.client.ModModel;
 import net.witchkings.knightsofterrafirma.config.ConfigArmor;
 import net.witchkings.knightsofterrafirma.config.ConfigMain;
 import net.witchkings.knightsofterrafirma.item.*;
-import net.witchkings.knightsofterrafirma.misc.Additions;
-import net.witchkings.knightsofterrafirma.misc.CreativeTab;
-import net.witchkings.knightsofterrafirma.misc.ExtendedCreativeTabs;
-import net.witchkings.knightsofterrafirma.misc.RPLoader;
+import net.witchkings.knightsofterrafirma.misc.*;
 
 
 import net.witchkings.knightsofterrafirma.recipe.WeldingSerializer;
@@ -72,6 +69,16 @@ public class KnightsOfTerraFirma {
         }
         if (Platform.isModLoaded("dfc")) {
             Additions.register(modEventBus);
+        }
+
+        if (Platform.isModLoaded("antiquelegacy")) {
+            AntiqueItems.INSTANCE.init();
+            if (Platform.getEnv() == Dist.CLIENT)
+                ModModel.INSTANCE.init(AntiqueItems.INSTANCE);
+
+        }
+        if (Platform.isModLoaded("antiquelegacy")) {
+            AntiqueTab.register(modEventBus);
         }
 
     }
