@@ -1,7 +1,6 @@
 package net.witchkings.knightsofterrafirma.item.armor;
 
 import com.magistuarmory.item.armor.ArmorType;
-import com.magistuarmory.config.ArmorConfig;
 import dev.architectury.platform.Platform;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
