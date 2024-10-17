@@ -44,6 +44,15 @@ public class AntiqueTab {
     public static void buildTabContentsDeco(BuildCreativeModeTabContentsEvent tabData) {
         if (Platform.isModLoaded("antiquelegacy")) {
             if (tabData.getTabKey() == AddonCreativeTabs.ARMOR_DECORATIONS_RESOURCE_KEY) {
+                tabData.accept(BISMUTH_BRONZE_HORNS_DECORATION.get());
+                tabData.accept(BISMUTH_BRONZE_SMALL_WINGS_DECORATION.get());
+                for (RegistrySupplier<DyeableArmorDecorationItem> item: AntiqueItems.listDecoBismuthBronze) {
+                    tabData.accept(item.get());
+                }
+                tabData.accept(BISMUTH_BRONZE_LEFT_GLADIATOR_SHOULDER_PAD_DECORATION.get());
+                tabData.accept(BISMUTH_BRONZE_RIGHT_GLADIATOR_SHOULDER_PAD_DECORATION.get());
+                tabData.accept(BISMUTH_BRONZE_LEFT_HAND_MANIKA_DECORATION.get());
+                tabData.accept(BISMUTH_BRONZE_RIGHT_HAND_MANIKA_DECORATION.get());
                 tabData.accept(BLACK_BRONZE_HORNS_DECORATION.get());
                 tabData.accept(BLACK_BRONZE_SMALL_WINGS_DECORATION.get());
                 for (RegistrySupplier<DyeableArmorDecorationItem> item: AntiqueItems.listDecoBlackBronze) {

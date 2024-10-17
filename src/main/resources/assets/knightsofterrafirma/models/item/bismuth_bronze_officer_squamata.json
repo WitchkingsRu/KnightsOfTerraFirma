@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/bismuth_bronze_officer_squamata",
+        "layer1": "knightsofterrafirma:item/bismuth_bronze_officer_squamata_overlay"
+    }
+}

@@ -190,9 +190,9 @@ public class AntiqueItems extends ModItemsProvider {
 
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_SCYTHIAN_ATTIC_HELMET = INSTANCE.addMedievalArmorItem("bismuth_bronze_scythian_attic_helmet", AntiqueArmor.BISMUTH_BRONZE_SCYTHIAN_ATTIC_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
 
-    public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_SCYTHIAN_SCALE_HELMET = INSTANCE.addMedievalArmorItem("bismuth_bronze_bronze_scythian_scale_helmet", AntiqueArmor.BISMUTH_BRONZE_SCYTHIAN_SCALE_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_SCYTHIAN_SCALE_HELMET = INSTANCE.addMedievalArmorItem("bismuth_bronze_scythian_scale_helmet", AntiqueArmor.BISMUTH_BRONZE_SCYTHIAN_SCALE_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
 
-    public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_ROMAN_GREAVES = INSTANCE.addMedievalArmorItem("bismuth_bronze_bronze_roman_greaves", AntiqueArmor.BISMUTH_BRONZE_ROMAN_GREAVES, ArmorItem.Type.LEGGINGS, new Item.Properties());
+    public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_ROMAN_GREAVES = INSTANCE.addMedievalArmorItem("bismuth_bronze_roman_greaves", AntiqueArmor.BISMUTH_BRONZE_ROMAN_GREAVES, ArmorItem.Type.LEGGINGS, new Item.Properties());
 
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_CELTIC_MONTEFORTINO_HELMET = INSTANCE.addMedievalArmorItem("bismuth_bronze_celtic_montefortino_helmet", AntiqueArmor.BISMUTH_BRONZE_CELTIC_MONTEFORTINO_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
 
@@ -218,6 +218,22 @@ public class AntiqueItems extends ModItemsProvider {
     public static final RegistrySupplier<WearableArmorDecorationItem> BLACK_BRONZE_LEFT_HAND_MANIKA_DECORATION = INSTANCE.addWearableArmorDecorationItem("black_bronze_left_hand_manika_decoration", AntiqueArmor.BLACK_BRONZE_LEFT_HAND_MANIKA, ArmorItem.Type.CHESTPLATE, new Item.Properties());
     public static final RegistrySupplier<WearableArmorDecorationItem> BLACK_BRONZE_RIGHT_HAND_MANIKA_DECORATION = INSTANCE.addWearableArmorDecorationItem("black_bronze_right_hand_manika_decoration", AntiqueArmor.BLACK_BRONZE_RIGHT_HAND_MANIKA, ArmorItem.Type.CHESTPLATE, new Item.Properties());
 
+    public static final RegistrySupplier<ArmorDecorationItem> BISMUTH_BRONZE_HORNS_DECORATION = INSTANCE.addArmorDecorationItem("bismuth_bronze_horns_decoration", () -> new ArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_horns"), new Item.Properties(), ArmorItem.Type.HELMET));
+    public static final RegistrySupplier<ArmorDecorationItem> BISMUTH_BRONZE_SMALL_WINGS_DECORATION = INSTANCE.addArmorDecorationItem("bismuth_bronze_small_wings_decoration", () -> new ArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_small_wings"), new Item.Properties(), ArmorItem.Type.HELMET));
+    public static final RegistrySupplier<DyeableArmorDecorationItem> BISMUTH_BRONZE_GREEK_CREST_DECORATION = INSTANCE.addDyeableArmorDecorationItem("bismuth_bronze_greek_crest_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_greek_crest"), new Item.Properties(), ArmorItem.Type.HELMET, 0xFFFFFF));
+    public static final RegistrySupplier<DyeableArmorDecorationItem> BISMUTH_BRONZE_GREEK_HIGH_CREST_DECORATION = INSTANCE.addDyeableArmorDecorationItem("bismuth_bronze_greek_high_crest_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_greek_high_crest"), new Item.Properties(), ArmorItem.Type.HELMET, 0xFFFFFF));
+    public static final RegistrySupplier<DyeableArmorDecorationItem> BISMUTH_BRONZE_HAIR_PLUME_DECORATION = INSTANCE.addDyeableArmorDecorationItem("bismuth_bronze_hair_plume_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_hair_plume"), new Item.Properties(), ArmorItem.Type.HELMET, 0xFFFFFF));
+    public static final RegistrySupplier<DyeableArmorDecorationItem> BISMUTH_BRONZE_ROMAN_CREST_DECORATION = INSTANCE.addDyeableArmorDecorationItem("bismuth_bronze_roman_crest_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_roman_crest"), new Item.Properties(), ArmorItem.Type.HELMET, 0xFFFFFF));
+    public static final RegistrySupplier<DyeableArmorDecorationItem> BISMUTH_BRONZE_ROMAN_CREST_ALT_DECORATION = INSTANCE.addDyeableArmorDecorationItem("bismuth_bronze_roman_crest_alt_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_roman_crest_alt"), new Item.Properties(), ArmorItem.Type.HELMET, 0xFFFFFF));
+    public static final RegistrySupplier<DyeableArmorDecorationItem> BISMUTH_BRONZE_ROMAN_FEATHERS_DECORATION = INSTANCE.addDyeableArmorDecorationItem("bismuth_bronze_roman_feathers_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_roman_feathers"), new Item.Properties(), ArmorItem.Type.HELMET, 0xFFFFFF));
+    public static final RegistrySupplier<DyeableArmorDecorationItem> BISMUTH_BRONZE_ROMAN_TWO_FEATHERS_DECORATION = INSTANCE.addDyeableArmorDecorationItem("bismuth_bronze_roman_two_feathers_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_roman_two_feathers"), new Item.Properties(), ArmorItem.Type.HELMET, 0xFFFFFF));
+    public static final RegistrySupplier<DyeableArmorDecorationItem> BISMUTH_BRONZE_TRIPLE_FEATHER_DECORATION = INSTANCE.addDyeableArmorDecorationItem("bismuth_bronze_triple_feather_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_triple_feather"), new Item.Properties(), ArmorItem.Type.HELMET, 0xFFFFFF));
+    public static final RegistrySupplier<DyeableArmorDecorationItem> BISMUTH_BRONZE_TWO_HAIR_PLUMES_DECORATION = INSTANCE.addDyeableArmorDecorationItem("bismuth_bronze_two_hair_plumes_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(KnightsOfTerraFirma.MODID, "bismuth_bronze_two_hair_plumes"), new Item.Properties(), ArmorItem.Type.HELMET, 0xFFFFFF));
+    public static final RegistrySupplier<WearableArmorDecorationItem> BISMUTH_BRONZE_LEFT_GLADIATOR_SHOULDER_PAD_DECORATION = INSTANCE.addWearableArmorDecorationItem("bismuth_bronze_left_gladiator_shoulder_pad_decoration", AntiqueArmor.BISMUTH_BRONZE_LEFT_GLADIATOR_SHOULDER_PAD, ArmorItem.Type.CHESTPLATE, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BISMUTH_BRONZE_RIGHT_GLADIATOR_SHOULDER_PAD_DECORATION = INSTANCE.addWearableArmorDecorationItem("bismuth_bronze_right_gladiator_shoulder_pad_decoration", AntiqueArmor.BISMUTH_BRONZE_RIGHT_GLADIATOR_SHOULDER_PAD, ArmorItem.Type.CHESTPLATE, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BISMUTH_BRONZE_LEFT_HAND_MANIKA_DECORATION = INSTANCE.addWearableArmorDecorationItem("bismuth_bronze_left_hand_manika_decoration", AntiqueArmor.BISMUTH_BRONZE_LEFT_HAND_MANIKA, ArmorItem.Type.CHESTPLATE, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BISMUTH_BRONZE_RIGHT_HAND_MANIKA_DECORATION = INSTANCE.addWearableArmorDecorationItem("bismuth_bronze_right_hand_manika_decoration", AntiqueArmor.BISMUTH_BRONZE_RIGHT_HAND_MANIKA, ArmorItem.Type.CHESTPLATE, new Item.Properties());
+
     public static final ArrayList<RegistrySupplier<DyeableArmorDecorationItem>> listDecoBlackBronze = new ArrayList<>(){{
         add(BLACK_BRONZE_GREEK_CREST_DECORATION);
         add(BLACK_BRONZE_GREEK_HIGH_CREST_DECORATION);
@@ -228,6 +244,18 @@ public class AntiqueItems extends ModItemsProvider {
         add(BLACK_BRONZE_ROMAN_TWO_FEATHERS_DECORATION);
         add(BLACK_BRONZE_TRIPLE_FEATHER_DECORATION);
         add(BLACK_BRONZE_TWO_HAIR_PLUMES_DECORATION);
+    }};
+
+    public static final ArrayList<RegistrySupplier<DyeableArmorDecorationItem>> listDecoBismuthBronze = new ArrayList<>(){{
+        add(BISMUTH_BRONZE_GREEK_CREST_DECORATION);
+        add(BISMUTH_BRONZE_GREEK_HIGH_CREST_DECORATION);
+        add(BISMUTH_BRONZE_HAIR_PLUME_DECORATION);
+        add(BISMUTH_BRONZE_ROMAN_CREST_DECORATION);
+        add(BISMUTH_BRONZE_ROMAN_CREST_ALT_DECORATION);
+        add(BISMUTH_BRONZE_ROMAN_FEATHERS_DECORATION);
+        add(BISMUTH_BRONZE_ROMAN_TWO_FEATHERS_DECORATION);
+        add(BISMUTH_BRONZE_TRIPLE_FEATHER_DECORATION);
+        add(BISMUTH_BRONZE_TWO_HAIR_PLUMES_DECORATION);
     }};
 
     public static final ArrayList<RegistrySupplier<MedievalArmorItem>> listArmorBlackBronze = new ArrayList<>(){{
