@@ -18,6 +18,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.witchkings.knightsofterrafirma.client.AntiqueModels;
 import net.witchkings.knightsofterrafirma.client.ModModel;
 import net.witchkings.knightsofterrafirma.config.ConfigArmor;
 import net.witchkings.knightsofterrafirma.config.ConfigMain;
@@ -74,7 +75,7 @@ public class KnightsOfTerraFirma {
         if (Platform.isModLoaded("antiquelegacy")) {
             AntiqueItems.INSTANCE.init();
             if (Platform.getEnv() == Dist.CLIENT)
-                ModModel.INSTANCE.init(AntiqueItems.INSTANCE);
+                AntiqueModels.INSTANCE.init(AntiqueItems.INSTANCE);
 
         }
         if (Platform.isModLoaded("antiquelegacy")) {
