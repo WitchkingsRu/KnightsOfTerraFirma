@@ -1,5 +1,6 @@
 package net.witchkings.knightsofterrafirma.config;
 
+import com.magistuarmory.config.ArmorConfig;
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry.Gui.CollapsibleObject;
@@ -9,6 +10,57 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry.Gui.RequiresRestart;
         name = "armor"
 )
 public class ConfigArmor implements ConfigData {
+
+    @CollapsibleObject
+    public KnightConfig knight = new KnightConfig();
+    @CollapsibleObject
+    public ArmetConfig armet = new ArmetConfig();
+    @CollapsibleObject
+    public StechhelmConfig stechhelm = new StechhelmConfig();
+    @CollapsibleObject
+    public JoustingConfig jousting = new JoustingConfig();
+    @CollapsibleObject
+    public SalletConfig sallet = new SalletConfig();
+    @CollapsibleObject
+    public GothicConfig gothic = new GothicConfig();
+    @CollapsibleObject
+    public MaximilianHelmetConfig maximilianHelmet = new MaximilianHelmetConfig();
+    @CollapsibleObject
+    public MaximilianConfig maximilian = new MaximilianConfig();
+    @CollapsibleObject
+    public ChainmailConfig chainmail = new ChainmailConfig();
+    @CollapsibleObject
+    public KettlehatConfig kettlehat = new KettlehatConfig();
+    @CollapsibleObject
+    public PlatemailConfig platemail = new PlatemailConfig();
+    @CollapsibleObject
+    public BarbuteConfig barbute = new BarbuteConfig();
+    @CollapsibleObject
+    public HalfarmorConfig halfarmor = new HalfarmorConfig();
+    @CollapsibleObject
+    public CrusaderConfig crusader = new CrusaderConfig();
+    @CollapsibleObject
+    public BrigandineConfig brigandine = new BrigandineConfig();
+    @CollapsibleObject
+    public ShishakConfig shishak = new ShishakConfig();
+    @CollapsibleObject
+    public NormanConfig norman = new NormanConfig();
+    @CollapsibleObject
+    public BascinetConfig bascinet = new BascinetConfig();
+    @CollapsibleObject
+    public XivCenturyKnightConfig xivCenturyKnight = new XivCenturyKnightConfig();
+    @CollapsibleObject
+    public WingedHussarChestplateConfig wingedHussarChestplate = new WingedHussarChestplateConfig();
+    @CollapsibleObject
+    public CuirassierConfig cuirassier = new CuirassierConfig();
+    @CollapsibleObject
+    public KastenbrustConfig kastenbrust = new KastenbrustConfig();
+    @CollapsibleObject
+    public GrandBascinetConfig grandBascinet = new GrandBascinetConfig();
+    @CollapsibleObject
+    public LamellarConfig lamellar = new LamellarConfig();
+    
+    
     @CollapsibleObject
     public BlackSteelKnightConfig knightBlackSteel = new BlackSteelKnightConfig();
     @CollapsibleObject
@@ -96,6 +148,440 @@ public class ConfigArmor implements ConfigData {
     public ConfigArmor() {
     }
 
+    public static class KnightConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 670;
+        @RequiresRestart
+        public int chestplateDefense = 7;
+        @RequiresRestart
+        public int leggingsDurability = 630;
+        @RequiresRestart
+        public int leggingsDefense = 5;
+        @RequiresRestart
+        public int bootsDurability = 460;
+        @RequiresRestart
+        public int bootsDefense = 2;
+
+        public KnightConfig() {
+        }
+    }
+
+    public static class ArmetConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int helmetDurability = 550;
+        @RequiresRestart
+        public int helmetDefense = 2;
+
+        public ArmetConfig() {
+        }
+    }
+
+    public static class StechhelmConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 2.0F;
+        @RequiresRestart
+        public int helmetDurability = 770;
+        @RequiresRestart
+        public int helmetDefense = 3;
+
+        public StechhelmConfig() {
+        }
+    }
+
+    public static class JoustingConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 2.0F;
+        @RequiresRestart
+        public int chestplateDurability = 1000;
+        @RequiresRestart
+        public int chestplateDefense = 7;
+        @RequiresRestart
+        public int leggingsDurability = 880;
+        @RequiresRestart
+        public int leggingsDefense = 6;
+        @RequiresRestart
+        public int bootsDurability = 690;
+        @RequiresRestart
+        public int bootsDefense = 2;
+
+        public JoustingConfig() {
+        }
+    }
+
+    public static class SalletConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int helmetDurability = 550;
+        @RequiresRestart
+        public int helmetDefense = 2;
+
+        public SalletConfig() {
+        }
+    }
+
+    public static class GothicConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 670;
+        @RequiresRestart
+        public int chestplateDefense = 7;
+        @RequiresRestart
+        public int leggingsDurability = 630;
+        @RequiresRestart
+        public int leggingsDefense = 5;
+        @RequiresRestart
+        public int bootsDurability = 460;
+        @RequiresRestart
+        public int bootsDefense = 2;
+
+        public GothicConfig() {
+        }
+    }
+
+    public static class MaximilianHelmetConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.8F;
+        @RequiresRestart
+        public int helmetDurability = 770;
+        @RequiresRestart
+        public int helmetDefense = 3;
+
+        public MaximilianHelmetConfig() {
+        }
+    }
+
+    public static class MaximilianConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.8F;
+        @RequiresRestart
+        public int chestplateDurability = 1000;
+        @RequiresRestart
+        public int chestplateDefense = 7;
+        @RequiresRestart
+        public int leggingsDurability = 880;
+        @RequiresRestart
+        public int leggingsDefense = 6;
+        @RequiresRestart
+        public int bootsDurability = 690;
+        @RequiresRestart
+        public int bootsDefense = 2;
+
+        public MaximilianConfig() {
+        }
+    }
+
+    public static class ChainmailConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.0F;
+        @RequiresRestart
+        public int helmetDurability = 410;
+        @RequiresRestart
+        public int helmetDefense = 2;
+        @RequiresRestart
+        public int chestplateDurability = 500;
+        @RequiresRestart
+        public int chestplateDefense = 5;
+        @RequiresRestart
+        public int leggingsDurability = 470;
+        @RequiresRestart
+        public int leggingsDefense = 4;
+        @RequiresRestart
+        public int bootsDurability = 340;
+        @RequiresRestart
+        public int bootsDefense = 1;
+
+        public ChainmailConfig() {
+        }
+    }
+
+    public static class KettlehatConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.5F;
+        @RequiresRestart
+        public int helmetDurability = 480;
+        @RequiresRestart
+        public int helmetDefense = 2;
+
+        public KettlehatConfig() {
+        }
+    }
+
+    public static class PlatemailConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.5F;
+        @RequiresRestart
+        public int chestplateDurability = 580;
+        @RequiresRestart
+        public int chestplateDefense = 6;
+        @RequiresRestart
+        public int leggingsDurability = 460;
+        @RequiresRestart
+        public int leggingsDefense = 4;
+        @RequiresRestart
+        public int bootsDurability = 400;
+        @RequiresRestart
+        public int bootsDefense = 2;
+
+        public PlatemailConfig() {
+        }
+    }
+
+    public static class BarbuteConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.5F;
+        @RequiresRestart
+        public int helmetDurability = 340;
+        @RequiresRestart
+        public int helmetDefense = 1;
+
+        public BarbuteConfig() {
+        }
+    }
+
+    public static class HalfarmorConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.5F;
+        @RequiresRestart
+        public int chestplateDurability = 630;
+        @RequiresRestart
+        public int chestplateDefense = 5;
+
+        public HalfarmorConfig() {
+        }
+    }
+
+    public static class CrusaderConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.6F;
+        @RequiresRestart
+        public int helmetDurability = 440;
+        @RequiresRestart
+        public int helmetDefense = 3;
+        @RequiresRestart
+        public int chestplateDurability = 590;
+        @RequiresRestart
+        public int chestplateDefense = 6;
+        @RequiresRestart
+        public int leggingsDurability = 560;
+        @RequiresRestart
+        public int leggingsDefense = 4;
+        @RequiresRestart
+        public int bootsDurability = 300;
+        @RequiresRestart
+        public int bootsDefense = 1;
+
+        public CrusaderConfig() {
+        }
+    }
+
+    public static class BrigandineConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.25F;
+        @RequiresRestart
+        public int chestplateDurability = 530;
+        @RequiresRestart
+        public int chestplateDefense = 5;
+
+        public BrigandineConfig() {
+        }
+    }
+
+    public static class ShishakConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.3F;
+        @RequiresRestart
+        public int helmetDurability = 550;
+        @RequiresRestart
+        public int helmetDefense = 2;
+
+        public ShishakConfig() {
+        }
+    }
+
+    public static class NormanConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.2F;
+        @RequiresRestart
+        public int helmetDurability = 550;
+        @RequiresRestart
+        public int helmetDefense = 2;
+
+        public NormanConfig() {
+        }
+    }
+
+    public static class BascinetConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1F;
+        @RequiresRestart
+        public int helmetDurability = 550;
+        @RequiresRestart
+        public int helmetDefense = 2;
+
+        public BascinetConfig() {
+        }
+    }
+
+    public static class XivCenturyKnightConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 640;
+        @RequiresRestart
+        public int chestplateDefense = 6;
+        @RequiresRestart
+        public int leggingsDurability = 600;
+        @RequiresRestart
+        public int leggingsDefense = 5;
+        @RequiresRestart
+        public int bootsDurability = 420;
+        @RequiresRestart
+        public int bootsDefense = 2;
+
+        public XivCenturyKnightConfig() {
+        }
+    }
+
+    public static class WingedHussarChestplateConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.5F;
+        @RequiresRestart
+        public int chestplateDurability = 720;
+        @RequiresRestart
+        public int chestplateDefense = 6;
+
+        public WingedHussarChestplateConfig() {
+        }
+    }
+
+    public static class CuirassierConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.5F;
+        @RequiresRestart
+        public int helmetDurability = 340;
+        @RequiresRestart
+        public int helmetDefense = 2;
+        @RequiresRestart
+        public int chestplateDurability = 630;
+        @RequiresRestart
+        public int chestplateDefense = 5;
+        @RequiresRestart
+        public int leggingsDurability = 200;
+        @RequiresRestart
+        public int leggingsDefense = 1;
+        @RequiresRestart
+        public int bootsDurability = 300;
+        @RequiresRestart
+        public int bootsDefense = 1;
+
+        public CuirassierConfig() {
+        }
+    }
+
+    public static class KastenbrustConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 670;
+        @RequiresRestart
+        public int chestplateDefense = 7;
+        @RequiresRestart
+        public int leggingsDurability = 630;
+        @RequiresRestart
+        public int leggingsDefense = 5;
+        @RequiresRestart
+        public int bootsDurability = 460;
+        @RequiresRestart
+        public int bootsDefense = 2;
+
+        public KastenbrustConfig() {
+        }
+    }
+
+    public static class GrandBascinetConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int helmetDurability = 550;
+        @RequiresRestart
+        public int helmetDefense = 2;
+
+        public GrandBascinetConfig() {
+        }
+    }
+
+    public static class LamellarConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 0.3F;
+        @RequiresRestart
+        public int chestplateDurability = 500;
+        @RequiresRestart
+        public int chestplateDefense = 5;
+        @RequiresRestart
+        public int bootsDurability = 400;
+        @RequiresRestart
+        public int bootsDefense = 2;
+
+        public LamellarConfig() {
+        }
+    }
+    
+    
+    
     public static class BlackSteelKnightConfig {
         @RequiresRestart
         public boolean enabled = true;
