@@ -1,11 +1,14 @@
 package net.witchkings.knightsofterrafirma.misc;
 
-import com.magistuarmory.antiquelegacy.misc.AddonCreativeTabs;
+
+import com.magistuarmory.EpicKnights;
 import com.magistuarmory.item.DyeableArmorDecorationItem;
 import com.magistuarmory.item.MedievalShieldItem;
 import com.magistuarmory.item.armor.MedievalArmorItem;
 import dev.architectury.platform.Platform;
 import dev.architectury.registry.registries.RegistrySupplier;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -26,7 +29,7 @@ import static net.witchkings.knightsofterrafirma.item.AntiqueItems.*;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class AntiqueTab {
     public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, KnightsOfTerraFirma.MODID);
-
+    public static final ResourceKey<CreativeModeTab> ARMOR_DECORATIONS_RESOURCE_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(EpicKnights.ID, "armor_decorations"));
     @SubscribeEvent
     public static void buildTabContents(BuildCreativeModeTabContentsEvent tabData) {
         if (Platform.isModLoaded("antiquelegacy")) {
@@ -43,7 +46,7 @@ public class AntiqueTab {
     @SubscribeEvent
     public static void buildTabContentsDeco(BuildCreativeModeTabContentsEvent tabData) {
         if (Platform.isModLoaded("antiquelegacy")) {
-            if (tabData.getTabKey() == AddonCreativeTabs.ARMOR_DECORATIONS_RESOURCE_KEY) {
+            if (tabData.getTabKey() == ARMOR_DECORATIONS_RESOURCE_KEY) {
                 tabData.accept(BISMUTH_BRONZE_HORNS_DECORATION.get());
                 tabData.accept(BISMUTH_BRONZE_SMALL_WINGS_DECORATION.get());
                 for (RegistrySupplier<DyeableArmorDecorationItem> item: AntiqueItems.listDecoBismuthBronze) {
