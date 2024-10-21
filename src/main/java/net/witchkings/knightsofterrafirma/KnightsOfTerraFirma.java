@@ -20,6 +20,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.witchkings.knightsofterrafirma.client.AntiqueModels;
 import net.witchkings.knightsofterrafirma.client.ModModel;
+import net.witchkings.knightsofterrafirma.config.ConfigAntique;
 import net.witchkings.knightsofterrafirma.config.ConfigArmor;
 import net.witchkings.knightsofterrafirma.config.ConfigMain;
 import net.witchkings.knightsofterrafirma.item.*;
@@ -40,6 +41,7 @@ public class KnightsOfTerraFirma {
     private static final Logger LOGGER = LogUtils.getLogger();
     public static ConfigMain CONFIG;
     public static ConfigArmor CONFIG_ARMOR;
+    public static ConfigAntique CONFIG_ANTIQUE;
 
     public KnightsOfTerraFirma() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -115,5 +117,6 @@ public class KnightsOfTerraFirma {
         AutoConfig.register(ConfigMain.class, PartitioningSerializer.wrap(JanksonConfigSerializer::new));
         CONFIG = AutoConfig.getConfigHolder(ConfigMain.class).getConfig();
         CONFIG_ARMOR = CONFIG.armor;
+        CONFIG_ANTIQUE = CONFIG.antique_armor;
     }
 }
