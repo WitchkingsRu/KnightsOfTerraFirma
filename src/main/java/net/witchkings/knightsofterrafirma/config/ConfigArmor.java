@@ -1,6 +1,6 @@
 package net.witchkings.knightsofterrafirma.config;
 
-import com.magistuarmory.config.ArmorConfig;
+
 import me.shedaniel.autoconfig.ConfigData;
 import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry.Gui.CollapsibleObject;

@@ -8,7 +8,7 @@ import com.magistuarmory.item.armor.ArmorType; // Replace with the actual packag
 
 import java.util.EnumMap;
 
-@Mixin(ArmorType.class)
+@Mixin(value = ArmorType.class, priority = 10000)
 public interface ArmorTypeAccessor {
 
     // Accessor for the toughness field

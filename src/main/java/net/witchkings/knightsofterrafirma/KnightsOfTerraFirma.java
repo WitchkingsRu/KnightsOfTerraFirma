@@ -46,7 +46,12 @@ public class KnightsOfTerraFirma {
     public KnightsOfTerraFirma() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         EventBuses.registerModEventBus(MODID, FMLJavaModLoadingContext.get().getModEventBus());
-
+        AutoConfig.register(ConfigMain.class, PartitioningSerializer.wrap(JanksonConfigSerializer::new));
+        CONFIG = AutoConfig.getConfigHolder(ConfigMain.class).getConfig();
+        CONFIG_ARMOR = CONFIG.armor;
+        CONFIG_ANTIQUE = CONFIG.antique_armor;
+        LOGGER.info("Config loaded");
+        EKArmor.init(CONFIG_ARMOR);
         CreativeTab.register(modEventBus);
         ModdedItems.INSTANCE.init();
         ModdedItems.weaponRegistry();
@@ -60,7 +65,7 @@ public class KnightsOfTerraFirma {
         if (Platform.getEnv() == Dist.CLIENT)
             ModModel.INSTANCE.init(ModelledItems.INSTANCE);
         RPLoader.init();
-        EKArmor.init();
+
         ExtendedCreativeTabs.register(modEventBus);
         WeldingSerializer.RECIPE_SERIALIZERS.register(modEventBus);
 
@@ -88,6 +93,8 @@ public class KnightsOfTerraFirma {
 
     private void commonSetup(final FMLCommonSetupEvent event) {
         // Some common setup code
+
+
         LOGGER.info("Weapons ready, my lord!");
 
 
@@ -114,9 +121,6 @@ public class KnightsOfTerraFirma {
         BC_or_EF_installed = Platform.isModLoaded("bettercombat") || Platform.isModLoaded("epicfight");
     }
     static {
-        AutoConfig.register(ConfigMain.class, PartitioningSerializer.wrap(JanksonConfigSerializer::new));
-        CONFIG = AutoConfig.getConfigHolder(ConfigMain.class).getConfig();
-        CONFIG_ARMOR = CONFIG.armor;
-        CONFIG_ANTIQUE = CONFIG.antique_armor;
+
     }
 }

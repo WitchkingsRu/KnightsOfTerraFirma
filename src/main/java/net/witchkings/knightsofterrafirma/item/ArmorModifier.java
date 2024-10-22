@@ -32,7 +32,7 @@ public class ArmorModifier {
         armorTypeAccessor.setToughness(toughness);
         armorTypeAccessor.setKnockbackResistance(knockbackResistance);
 
-        System.out.println("Modified " + armorType + " with new durability and defense values.");
+        System.out.println("Modified " + armorType + " with new durability and defense values: " + bootsDefense + " " + leggingsDefense + " " + chestplateDefense + " " + helmetDefense);
     }
 
 }

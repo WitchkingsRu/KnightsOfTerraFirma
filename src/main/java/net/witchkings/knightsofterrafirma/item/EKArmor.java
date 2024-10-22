@@ -1,13 +1,17 @@
 package net.witchkings.knightsofterrafirma.item;
 
 import com.magistuarmory.item.armor.ArmorTypes;
+import me.shedaniel.autoconfig.AutoConfig;
+import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
+import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 import net.witchkings.knightsofterrafirma.config.ConfigAntique;
 import net.witchkings.knightsofterrafirma.config.ConfigArmor;
+import net.witchkings.knightsofterrafirma.config.ConfigMain;
 
 
 public class EKArmor {
-    public static final ConfigArmor ARMOR_CONFIG = new ConfigArmor();
-    public static void init() {
+
+    public static void init(ConfigArmor ARMOR_CONFIG) {
         ArmorModifier.modifyArmorType(ArmorTypes.KNIGHT,
                 ARMOR_CONFIG.knight.bootsDurability, ARMOR_CONFIG.knight.leggingsDurability, ARMOR_CONFIG.knight.chestplateDurability, 0,
                 ARMOR_CONFIG.knight.bootsDefense, ARMOR_CONFIG.knight.leggingsDefense, ARMOR_CONFIG.knight.chestplateDefense, 0, ARMOR_CONFIG.knight.toughness, 3F);         // Defense values);
@@ -112,4 +116,5 @@ public class EKArmor {
                 ARMOR_CONFIG.lamellar.bootsDefense, 0, ARMOR_CONFIG.lamellar.chestplateDefense, 0,
                 ARMOR_CONFIG.lamellar.toughness, 0F);
     }
+
 }

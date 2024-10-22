@@ -49,7 +49,7 @@ public class ModItemTierMixin {
                 this.uses = 50;
                 break;
             default:
-                this.uses = uses * 2;
+                System.out.println("Modified uses: " + this.uses);
         }
         System.out.println("Modified uses: " + this.uses);
     }
