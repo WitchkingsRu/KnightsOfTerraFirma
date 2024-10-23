@@ -1,12 +1,8 @@
 package net.witchkings.knightsofterrafirma.item;
 
 import com.magistuarmory.item.armor.ArmorTypes;
-import me.shedaniel.autoconfig.AutoConfig;
-import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
-import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
-import net.witchkings.knightsofterrafirma.config.ConfigAntique;
 import net.witchkings.knightsofterrafirma.config.ConfigArmor;
-import net.witchkings.knightsofterrafirma.config.ConfigMain;
+
 
 
 public class EKArmor {

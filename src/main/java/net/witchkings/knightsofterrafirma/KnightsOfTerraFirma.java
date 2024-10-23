@@ -52,6 +52,7 @@ public class KnightsOfTerraFirma {
         CONFIG_ANTIQUE = CONFIG.antique_armor;
         LOGGER.info("Config loaded");
         EKArmor.init(CONFIG_ARMOR);
+        ALArmor.init(CONFIG_ANTIQUE);
         CreativeTab.register(modEventBus);
         ModdedItems.INSTANCE.init();
         ModdedItems.weaponRegistry();

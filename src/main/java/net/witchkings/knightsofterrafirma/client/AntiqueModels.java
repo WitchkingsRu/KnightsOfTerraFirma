@@ -1,20 +1,18 @@
 package net.witchkings.knightsofterrafirma.client;
 
 
+import com.magistuarmory.antiquelegacy.client.render.model.armor.*;
+import com.magistuarmory.antiquelegacy.client.render.model.decoration.*;
+import com.magistuarmory.antiquelegacy.client.render.model.shield.*;
+
 import com.magistuarmory.api.client.render.model.ModModelsProvider;
-import com.magistuarmory.client.render.model.ModModels;
-import com.magistuarmory.client.render.model.armor.*;
-import com.magistuarmory.client.render.model.block.PaviseBlockModel;
-import com.magistuarmory.client.render.model.item.*;
-import dev.architectury.platform.Mod;
+
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.builders.LayerDefinition;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
-import net.witchkings.knightsofterrafirma.client.armor.*;
-import net.witchkings.knightsofterrafirma.client.decoration.*;
-import net.witchkings.knightsofterrafirma.client.shield.*;
+
 
 @OnlyIn(Dist.CLIENT)
 public class AntiqueModels extends ModModelsProvider {
