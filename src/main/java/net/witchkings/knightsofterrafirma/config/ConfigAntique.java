@@ -106,7 +106,7 @@ public class ConfigAntique implements ConfigData{
     @CollapsibleObject
     public MarsOfTodiThoraxConfig MarsOfTodiThoraxConfig = new MarsOfTodiThoraxConfig();
     @CollapsibleObject
-    public LinothoraxConfig LinothoraxConfig = new LinothoraxConfig();
+    public IronThoraxConfig IronThoraxConfig = new IronThoraxConfig();
     @CollapsibleObject
     public KubanHelmetConfig KubanHelmetConfig = new KubanHelmetConfig();
     @CollapsibleObject
@@ -804,7 +804,7 @@ public class ConfigAntique implements ConfigData{
         }
     }
 
-    public static class LinothoraxConfig {
+    public static class IronThoraxConfig {
         @RequiresRestart
         public boolean enabled = true;
         @RequiresRestart
@@ -814,7 +814,7 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public int chestplateDefense = 3;
 
-        public LinothoraxConfig() {
+        public IronThoraxConfig() {
         }
     }
 

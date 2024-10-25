@@ -193,10 +193,9 @@ public class ALArmor {
                 0, 0, ARMOR_CONFIG.MarsOfTodiThoraxConfig.chestplateDurability, 0,
                 0, 0, ARMOR_CONFIG.MarsOfTodiThoraxConfig.chestplateDefense, 0, 0, 0);
 
-        ArmorModifier.modifyArmorType(AddonArmorTypes.LINOTHORAX,
-                0, 0, ARMOR_CONFIG.LinothoraxConfig.chestplateDurability, 0,
-                0, 0, ARMOR_CONFIG.LinothoraxConfig.chestplateDefense, 0, 0, 0);
-
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_THORAX,
+                0, 0, ARMOR_CONFIG.IronThoraxConfig.chestplateDurability, 0,
+                0, 0, ARMOR_CONFIG.IronThoraxConfig.chestplateDefense, 0, 0, 0);
 
         ArmorModifier.modifyArmorType(AddonArmorTypes.SCALE_THORAX,
                 0, 0, ARMOR_CONFIG.ScaleThoraxConfig.chestplateDurability, 0,
