@@ -20,11 +20,17 @@ public class ConfigAntique implements ConfigData{
     @CollapsibleObject
     public RidgeHelmetConfig RidgeHelmetConfig = new RidgeHelmetConfig();
     @CollapsibleObject
+    public IronRidgeConfig IronRidgeConfig = new IronRidgeConfig();
+    @CollapsibleObject
     public CoolusConfig CoolusConfig = new CoolusConfig();
     @CollapsibleObject
     public IntercisaConfig IntercisaConfig = new IntercisaConfig();
     @CollapsibleObject
+    public IronIntercisaConfig IronIntercisaConfig = new IronIntercisaConfig();
+    @CollapsibleObject
     public MelosConfig MelosConfig = new MelosConfig();
+    @CollapsibleObject
+    public IronMelosConfig IronMelosConfig = new IronMelosConfig();
     @CollapsibleObject
     public MontefortinoHelmetConfig MontefortinoHelmetConfig = new MontefortinoHelmetConfig();
     @CollapsibleObject
@@ -38,7 +44,13 @@ public class ConfigAntique implements ConfigData{
     @CollapsibleObject
     public PilosConfig PilosConfig = new PilosConfig();
     @CollapsibleObject
+    public IronPilosConfig IronPilosConfig = new IronPilosConfig();
+    @CollapsibleObject
     public SquamataConfig SquamataConfig = new SquamataConfig();
+    @CollapsibleObject
+    public IronSquamataConfig IronSquamataConfig = new IronSquamataConfig();
+    @CollapsibleObject
+    public LateHamataConfig LateHamataConfig = new LateHamataConfig();
     @CollapsibleObject
     public RomanParadeHelmetConfig RomanParadeHelmetConfig = new RomanParadeHelmetConfig();
     @CollapsibleObject
@@ -86,7 +98,15 @@ public class ConfigAntique implements ConfigData{
     @CollapsibleObject
     public RightManikaConfig RightManikaConfig = new RightManikaConfig();
     @CollapsibleObject
+    public IronLeftManikaConfig IronLeftManikaConfig = new IronLeftManikaConfig();
+    @CollapsibleObject
+    public IronRightManikaConfig IronRightManikaConfig = new IronRightManikaConfig();
+    @CollapsibleObject
     public ScaleThoraxConfig ScaleThoraxConfig = new ScaleThoraxConfig();
+    @CollapsibleObject
+    public MarsOfTodiThoraxConfig MarsOfTodiThoraxConfig = new MarsOfTodiThoraxConfig();
+    @CollapsibleObject
+    public LinothoraxConfig LinothoraxConfig = new LinothoraxConfig();
     @CollapsibleObject
     public KubanHelmetConfig KubanHelmetConfig = new KubanHelmetConfig();
     @CollapsibleObject
@@ -96,11 +116,17 @@ public class ConfigAntique implements ConfigData{
     @CollapsibleObject
     public ScythianScaleHelmetConfig ScythianScaleHelmetConfig = new ScythianScaleHelmetConfig();
     @CollapsibleObject
+    public IronScythianScaleHelmetConfig IronScythianScaleHelmetConfig = new IronScythianScaleHelmetConfig();
+    @CollapsibleObject
     public RomanGreavesConfig RomanGreavesConfig = new RomanGreavesConfig();
+    @CollapsibleObject
+    public IronRomanGreavesConfig IronRomanGreavesConfig = new IronRomanGreavesConfig();
     @CollapsibleObject
     public CelticMontefortinoConfig CelticMontefortinoConfig = new CelticMontefortinoConfig();
     @CollapsibleObject
     public LaGorgeMelletConfig LaGorgeMelletConfig = new LaGorgeMelletConfig();
+    @CollapsibleObject
+    public AgenPortHelmetConfig AgenPortHelmetConfig = new AgenPortHelmetConfig();
     @CollapsibleObject
     public SavaHelmetConfig SavaHelmetConfig = new SavaHelmetConfig();
     @CollapsibleObject
@@ -176,6 +202,20 @@ public class ConfigAntique implements ConfigData{
         }
     }
 
+    public static class IronRidgeConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int helmetDurability = 600;
+        @RequiresRestart
+        public int helmetDefense = 3;
+
+        public IronRidgeConfig() {
+        }
+    }
+
     public static class CoolusConfig {
         @RequiresRestart
         public boolean enabled = true;
@@ -204,6 +244,20 @@ public class ConfigAntique implements ConfigData{
         }
     }
 
+    public static class IronIntercisaConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int helmetDurability = 600;
+        @RequiresRestart
+        public int helmetDefense = 3;
+
+        public IronIntercisaConfig() {
+        }
+    }
+
     public static class MelosConfig {
         @RequiresRestart
         public boolean enabled = true;
@@ -215,6 +269,20 @@ public class ConfigAntique implements ConfigData{
         public int helmetDefense = 3;
 
         public MelosConfig() {
+        }
+    }
+
+    public static class IronMelosConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int helmetDurability = 600;
+        @RequiresRestart
+        public int helmetDefense = 3;
+
+        public IronMelosConfig() {
         }
     }
 
@@ -302,6 +370,20 @@ public class ConfigAntique implements ConfigData{
         }
     }
 
+    public static class IronPilosConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int helmetDurability = 600;
+        @RequiresRestart
+        public int helmetDefense = 3;
+
+        public IronPilosConfig() {
+        }
+    }
+
     public static class SquamataConfig {
         @RequiresRestart
         public boolean enabled = true;
@@ -313,6 +395,34 @@ public class ConfigAntique implements ConfigData{
         public int chestplateDefense = 3;
 
         public SquamataConfig() {
+        }
+    }
+
+    public static class IronSquamataConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 600;
+        @RequiresRestart
+        public int chestplateDefense = 3;
+
+        public IronSquamataConfig() {
+        }
+    }
+
+    public static class LateHamataConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 600;
+        @RequiresRestart
+        public int chestplateDefense = 3;
+
+        public LateHamataConfig() {
         }
     }
 
@@ -638,6 +748,34 @@ public class ConfigAntique implements ConfigData{
         }
     }
 
+    public static class IronLeftManikaConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 600;
+        @RequiresRestart
+        public int chestplateDefense = 3;
+
+        public IronLeftManikaConfig() {
+        }
+    }
+
+    public static class IronRightManikaConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 600;
+        @RequiresRestart
+        public int chestplateDefense = 3;
+
+        public IronRightManikaConfig() {
+        }
+    }
+
     public static class ScaleThoraxConfig {
         @RequiresRestart
         public boolean enabled = true;
@@ -649,6 +787,34 @@ public class ConfigAntique implements ConfigData{
         public int chestplateDefense = 3;
 
         public ScaleThoraxConfig() {
+        }
+    }
+
+    public static class MarsOfTodiThoraxConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 600;
+        @RequiresRestart
+        public int chestplateDefense = 3;
+
+        public MarsOfTodiThoraxConfig() {
+        }
+    }
+
+    public static class LinothoraxConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 600;
+        @RequiresRestart
+        public int chestplateDefense = 3;
+
+        public LinothoraxConfig() {
         }
     }
 
@@ -708,6 +874,20 @@ public class ConfigAntique implements ConfigData{
         }
     }
 
+    public static class IronScythianScaleHelmetConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int helmetDurability = 600;
+        @RequiresRestart
+        public int helmetDefense = 3;
+
+        public IronScythianScaleHelmetConfig() {
+        }
+    }
+
     public static class RomanGreavesConfig {
         @RequiresRestart
         public boolean enabled = true;
@@ -719,6 +899,20 @@ public class ConfigAntique implements ConfigData{
         public int leggingsDefense = 3;
 
         public RomanGreavesConfig() {
+        }
+    }
+
+    public static class IronRomanGreavesConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int leggingsDurability = 600;
+        @RequiresRestart
+        public int leggingsDefense = 3;
+
+        public IronRomanGreavesConfig() {
         }
     }
 
@@ -747,6 +941,20 @@ public class ConfigAntique implements ConfigData{
         public int helmetDefense = 3;
 
         public LaGorgeMelletConfig() {
+        }
+    }
+
+    public static class AgenPortHelmetConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int helmetDurability = 600;
+        @RequiresRestart
+        public int helmetDefense = 3;
+
+        public AgenPortHelmetConfig() {
         }
     }
 

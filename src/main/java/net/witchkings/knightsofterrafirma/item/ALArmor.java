@@ -89,27 +89,34 @@ public class ALArmor {
         ArmorModifier.modifyArmorType(AddonArmorTypes.ILLIRIAN_HELMET,
                 0, 0, 0, ARMOR_CONFIG.IllirianHelmetConfig.helmetDurability,
                 0, 0, 0, ARMOR_CONFIG.IllirianHelmetConfig.helmetDefense, 0, 0);
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_RIDGE_HELMET,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDurability,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDefense, 0, 0);
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_INTERCISA,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDurability,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDefense, 0, 0);
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_MELOS,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDurability,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDefense, 0, 0);
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_NIEDERBIEBER_HELMET,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDurability,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDefense, 0, 0);
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_PILOS,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDurability,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDefense, 0, 0);
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_SQUAMATA,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDurability,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDefense, 0, 0);
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.LATE_HAMATA,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDurability,
-//                0, 0, 0, ARMOR_CONFIG.AtticHelmetConfig.helmetDefense, 0, 0);
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_RIDGE_HELMET,
+                0, 0, 0, ARMOR_CONFIG.IronRidgeConfig.helmetDurability,
+                0, 0, 0, ARMOR_CONFIG.IronRidgeConfig.helmetDefense, 0, 0);
+
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_INTERCISA,
+                0, 0, 0, ARMOR_CONFIG.IronIntercisaConfig.helmetDurability,
+                0, 0, 0, ARMOR_CONFIG.IronIntercisaConfig.helmetDefense, 0, 0);
+
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_MELOS,
+                0, 0, 0, ARMOR_CONFIG.IronMelosConfig.helmetDurability,
+                0, 0, 0, ARMOR_CONFIG.IronMelosConfig.helmetDefense, 0, 0);
+
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_NIEDERBIEBER_HELMET,
+                0, 0, 0, ARMOR_CONFIG.IronNiederbieberHelmetConfig.helmetDurability,
+                0, 0, 0, ARMOR_CONFIG.IronNiederbieberHelmetConfig.helmetDefense, 0, 0);
+
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_PILOS,
+                0, 0, 0, ARMOR_CONFIG.IronPilosConfig.helmetDurability,
+                0, 0, 0, ARMOR_CONFIG.IronPilosConfig.helmetDefense, 0, 0);
+
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_SQUAMATA,
+                0, 0, ARMOR_CONFIG.IronSquamataConfig.chestplateDurability, 0,
+                0, 0, ARMOR_CONFIG.IronSquamataConfig.chestplateDefense, 0,0,0);
+
+        ArmorModifier.modifyArmorType(AddonArmorTypes.LATE_HAMATA,
+                0, 0, ARMOR_CONFIG.LateHamataConfig.chestplateDurability, 0,
+              0, 0, ARMOR_CONFIG.LateHamataConfig.chestplateDefense, 0, 0, 0);
+
         ArmorModifier.modifyArmorType(AddonArmorTypes.MURMILLO_HELMET,
                 0, 0, 0, ARMOR_CONFIG.MurmilloHelmetConfig.helmetDurability,
                 0, 0, 0, ARMOR_CONFIG.MurmilloHelmetConfig.helmetDefense, 0, 0);
@@ -174,21 +181,21 @@ public class ALArmor {
                 0, 0, ARMOR_CONFIG.RightManikaConfig.chestplateDurability, 0,
                 0, 0, ARMOR_CONFIG.RightManikaConfig.chestplateDefense, 0, 0, 0);
 
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_LEFT_HAND_MANIKA,
-//                0, 0, ARMOR_CONFIG.LeftManikaConfig.chestplateDurability, 0,
-//                0, 0, ARMOR_CONFIG.LeftManikaConfig.chestplateDefense, 0, 0, 0);
-//
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_RIGHT_HAND_MANIKA,
-//                0, 0, ARMOR_CONFIG.RightManikaConfig.chestplateDurability, 0,
-//                0, 0, ARMOR_CONFIG.RightManikaConfig.chestplateDefense, 0, 0, 0);
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_LEFT_HAND_MANIKA,
+                0, 0, ARMOR_CONFIG.IronLeftManikaConfig.chestplateDurability, 0,
+                0, 0, ARMOR_CONFIG.IronLeftManikaConfig.chestplateDefense, 0, 0, 0);
 
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.MARS_OF_TODI_THORAX,
-//                0, 0, ARMOR_CONFIG.RightManikaConfig.chestplateDurability, 0,
-//                0, 0, ARMOR_CONFIG.RightManikaConfig.chestplateDefense, 0, 0, 0);
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_RIGHT_HAND_MANIKA,
+                0, 0, ARMOR_CONFIG.IronRightManikaConfig.chestplateDurability, 0,
+                0, 0, ARMOR_CONFIG.IronRightManikaConfig.chestplateDefense, 0, 0, 0);
 
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.LINOTHORAX,
-//                0, 0, ARMOR_CONFIG.RightManikaConfig.chestplateDurability, 0,
-//                0, 0, ARMOR_CONFIG.RightManikaConfig.chestplateDefense, 0, 0, 0);
+        ArmorModifier.modifyArmorType(AddonArmorTypes.MARS_OF_TODI_THORAX,
+                0, 0, ARMOR_CONFIG.MarsOfTodiThoraxConfig.chestplateDurability, 0,
+                0, 0, ARMOR_CONFIG.MarsOfTodiThoraxConfig.chestplateDefense, 0, 0, 0);
+
+        ArmorModifier.modifyArmorType(AddonArmorTypes.LINOTHORAX,
+                0, 0, ARMOR_CONFIG.LinothoraxConfig.chestplateDurability, 0,
+                0, 0, ARMOR_CONFIG.LinothoraxConfig.chestplateDefense, 0, 0, 0);
 
 
         ArmorModifier.modifyArmorType(AddonArmorTypes.SCALE_THORAX,
@@ -210,21 +217,21 @@ public class ALArmor {
                 0, 0, 0, ARMOR_CONFIG.ScythianScaleHelmetConfig.helmetDurability,
                 0, 0, 0, ARMOR_CONFIG.ScythianScaleHelmetConfig.helmetDefense, 0, 0);
 
-//      ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_SCYTHIAN_SCALE_HELMET,
-//                0, 0, 0, ARMOR_CONFIG.ScythianScaleHelmetConfig.helmetDurability,
-//                0, 0, 0, ARMOR_CONFIG.ScythianScaleHelmetConfig.helmetDefense, 0, 0);
+      ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_SCYTHIAN_SCALE_HELMET,
+                0, 0, 0, ARMOR_CONFIG.IronScythianScaleHelmetConfig.helmetDurability,
+                0, 0, 0, ARMOR_CONFIG.IronScythianScaleHelmetConfig.helmetDefense, 0, 0);
 
         ArmorModifier.modifyArmorType(AddonArmorTypes.BRONZE_ROMAN_GREAVES,
                 0, ARMOR_CONFIG.RomanGreavesConfig.leggingsDurability, 0, 0,
                 0, ARMOR_CONFIG.RomanGreavesConfig.leggingsDefense, 0, 0, 0, 0);
 
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_ROMAN_GREAVES,
-//                0, ARMOR_CONFIG.RomanGreavesConfig.leggingsDurability, 0, 0,
-//                0, ARMOR_CONFIG.RomanGreavesConfig.leggingsDefense, 0, 0, 0, 0);
+        ArmorModifier.modifyArmorType(AddonArmorTypes.IRON_ROMAN_GREAVES,
+                0, ARMOR_CONFIG.IronRomanGreavesConfig.leggingsDurability, 0, 0,
+                0, ARMOR_CONFIG.IronRomanGreavesConfig.leggingsDefense, 0, 0, 0, 0);
 
-//        ArmorModifier.modifyArmorType(AddonArmorTypes.AGEN_PORT_HELMET,
-//                0, 0, 0, ARMOR_CONFIG.ScythianScaleHelmetConfig.helmetDurability,
-//                0, 0, 0, ARMOR_CONFIG.ScythianScaleHelmetConfig.helmetDefense, 0, 0);
+        ArmorModifier.modifyArmorType(AddonArmorTypes.AGEN_PORT_HELMET,
+                0, 0, 0, ARMOR_CONFIG.AgenPortHelmetConfig.helmetDurability,
+                0, 0, 0, ARMOR_CONFIG.AgenPortHelmetConfig.helmetDefense, 0, 0);
 
         ArmorModifier.modifyArmorType(AddonArmorTypes.CELTIC_MONTEFORTINO_HELMET,
                 0, 0, 0, ARMOR_CONFIG.CelticMontefortinoConfig.helmetDurability,
