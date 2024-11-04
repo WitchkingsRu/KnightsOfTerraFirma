@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "antiquelegacy:bronze_lamellar_rows"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/bronze",
+        "amount": 84
+    },
+    "temperature": 950
+}

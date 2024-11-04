@@ -11,16 +11,13 @@ import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.annotation.N
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ItemStack;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
-import net.witchkings.knightsofterrafirma.item.armor.ModArmor;
 import net.witchkings.knightsofterrafirma.item.armor.AntiqueArmor;
 
 import java.util.ArrayList;
-import java.util.function.Supplier;
 
-import static net.witchkings.knightsofterrafirma.item.ModdedItems.BISMUTH_BRONZE;
-import static net.witchkings.knightsofterrafirma.item.ModdedItems.Materials;
+
+
 
 public class AntiqueItems extends ModItemsProvider {
     public static final AntiqueItems INSTANCE = new AntiqueItems();

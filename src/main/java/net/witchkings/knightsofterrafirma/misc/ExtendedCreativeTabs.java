@@ -22,12 +22,12 @@ public class ExtendedCreativeTabs {
     @SubscribeEvent
     public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
         if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            tabData.accept(ModdedItems.BLACK_STEEL_CHAINMAIL.get());
             tabData.accept(ModItems.GILDING_TEMPLATE.get());
             tabData.accept(ModdedItems.SILVER_TEMPLATE.get());
             tabData.accept(ModdedItems.STERLING_SILVER_TEMPLATE.get());
             tabData.accept(ModdedItems.BRASS_TEMPLATE.get());
             tabData.accept(ModdedItems.ROSE_GOLD_TEMPLATE.get());
+            tabData.accept(ModdedItems.BLACK_STEEL_CHAINMAIL.get());
         }
     }
     public static void register(IEventBus eventBus) {

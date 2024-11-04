@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "antiquelegacy:iron_chainmail"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/cast_iron",
+        "amount": 54
+    },
+    "temperature": 1585
+}
