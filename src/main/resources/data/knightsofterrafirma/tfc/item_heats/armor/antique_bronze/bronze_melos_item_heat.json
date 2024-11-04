@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+        "item": "antiquelegacy:bronze_melos"
+    },
+    "heat_capacity": 5.428,
+    "forging_temperature": 570,
+    "welding_temperature": 760
+}
