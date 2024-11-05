@@ -34,6 +34,8 @@ import static net.witchkings.knightsofterrafirma.item.AntiqueItems.*;
 public class AntiqueTab {
     public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, KnightsOfTerraFirma.MODID);
     public static final ResourceKey<CreativeModeTab> ARMOR_DECORATIONS_RESOURCE_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(EpicKnights.ID, "armor_decorations"));
+    public static final ResourceKey<CreativeModeTab> PARTICULAR_WEAPONS_RESOURCE_KEY = ResourceKey.create(Registries.CREATIVE_MODE_TAB, new ResourceLocation(EpicKnights.ID, "particular_weapons"));
+
     @SubscribeEvent
     public static void buildTabContents(BuildCreativeModeTabContentsEvent tabData) {
         if (Platform.isModLoaded("antiquelegacy")) {
@@ -89,6 +91,13 @@ public class AntiqueTab {
             if (tabData.getTabKey() == CreativeTab.KOTF_WEAPONS.getKey()) {
                 for (RegistrySupplier<MedievalWeaponItem> item: listBismuthBronzeWeapons) {
                     tabData.getEntries().putBefore(ModdedItems.BISMUTH_BRONZE_BASTARDSWORD.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                }
+                for (RegistrySupplier<MedievalWeaponItem> item: listBlackBronzeWeapons) {
+                    tabData.getEntries().putBefore(ModdedItems.BLACK_BRONZE_BASTARDSWORD.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                }
+            } else if (tabData.getTabKey() == PARTICULAR_WEAPONS_RESOURCE_KEY) {
+                for (RegistrySupplier<MedievalWeaponItem> item: listBronzeWeapons) {
+                    tabData.getEntries().putBefore(AddonItems.IRON_ANTIQUE_DAGGER.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 }
             }
         }

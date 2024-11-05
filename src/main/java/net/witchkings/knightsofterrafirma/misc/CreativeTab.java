@@ -30,7 +30,6 @@ public class CreativeTab {
     public static final RegistryObject<CreativeModeTab> KOTF_WEAPONS = CREATIVE_MODE_TABS.register("kotf_weapons", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BISMUTH_BRONZE_BASTARDSWORD.get()))
             .title(Component.translatable("creativetab.kotf_weapons")).
             displayItems((itemDisplayParameters, output) -> {
-                output.accept(ModdedItems.BISMUTH_BRONZE_BASTARDSWORD.get());
             for (RegistrySupplier<MedievalWeaponItem> item:ModdedItems.listWeapons) {
                 output.accept(item.get());
             }})

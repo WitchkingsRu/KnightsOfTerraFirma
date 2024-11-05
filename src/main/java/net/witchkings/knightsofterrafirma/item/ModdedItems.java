@@ -26,7 +26,8 @@ public class ModdedItems extends ModItemsProvider{
     public static ModItemTier BLUE_STEEL = new ModItemTier("blue_steel", 5, 6500, 9.0F, 5.0F, 15, Platform.isForge() ? "forge:ingots/blue_steel" : "c:blue_steel_ingots", 5);
     public static ModItemTier RED_STEEL = new ModItemTier("red_steel", 5, 6500, 9.0F, 5.0F, 15, Platform.isForge() ? "forge:ingots/red_steel" : "c:red_steel_ingots", 5);
 
-    public static RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_BASTARDSWORD = INSTANCE.addMedievalWeaponItem("bismuth_bronze_bastard_sword", new Properties(), BISMUTH_BRONZE, WeaponTypes.BASTARD_SWORD);
+    public static RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_BASTARDSWORD;
+    public static RegistrySupplier<MedievalWeaponItem> BLACK_BRONZE_BASTARDSWORD;
     public static RegistrySupplier<Item> BISMUTH_BRONZE_CONCAVE_HEAD = INSTANCE.addIngredientItem("bismuth_bronze_concave_halberd_head", () -> {
         return new Item(new Item.Properties());
     });
@@ -292,12 +293,15 @@ public class ModdedItems extends ModItemsProvider{
     }};
 
     public static void weaponRegistry() {
-        for (Map.Entry<String, WeaponType> Weapon:Weapons.entrySet()) {
-            for (ModItemTier Material:Materials) {
+        for (ModItemTier Material:Materials) {
+            for (Map.Entry<String, WeaponType> Weapon:Weapons.entrySet()){
                 if (Weapon.getValue() == BASTARD_SWORD && Material.getMaterialName() == "bismuth_bronze") {
-
-                }
-                else {
+                    BISMUTH_BRONZE_BASTARDSWORD = INSTANCE.addMedievalWeaponItem("bismuth_bronze_bastard_sword", new Properties(), BISMUTH_BRONZE, WeaponTypes.BASTARD_SWORD);
+                    listWeapons.add(BISMUTH_BRONZE_BASTARDSWORD);
+                } else if (Weapon.getValue() == BASTARD_SWORD && Material.getMaterialName() == "black_bronze") {
+                    BLACK_BRONZE_BASTARDSWORD = INSTANCE.addMedievalWeaponItem("black_bronze_bastard_sword", new Properties(), BLACK_BRONZE, WeaponTypes.BASTARD_SWORD);
+                    listWeapons.add(BLACK_BRONZE_BASTARDSWORD);
+                } else {
                     if (Weapon.getValue() == GIANT_LANCE) {
                         listWeapons.add(INSTANCE.addLanceItem(Material.getMaterialName() + "_" + Weapon.getKey(), new Properties(), Material, Weapon.getValue()));
                     }
