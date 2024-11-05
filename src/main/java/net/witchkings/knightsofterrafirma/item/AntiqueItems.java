@@ -515,14 +515,13 @@ public class AntiqueItems extends ModItemsProvider {
     public static ArrayList<String> WeaponParts = new ArrayList<>() {{
         add("antique_dagger_blade");
         add("antique_sword_blade");
-        add("antique_spear_tip");
         add("celtic_sword_blade");
         add("celtic_sword_hilt");
         add("gladiator_sword_blade");
         add("gladius_blade");
         add("kopis_blade");
         add("republic_gladius_blade");
-        add("retiarius_blade");
+        add("retiarius_head");
         add("rhomphaia_blade");
         add("sica_blade");
         add("single_edged_sword_blade");

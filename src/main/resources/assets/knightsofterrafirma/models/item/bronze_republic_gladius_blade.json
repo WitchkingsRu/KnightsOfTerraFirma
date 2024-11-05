@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "knightsofterrafirma:item/bronze_republic_gladius_blade"
+    }
+}
