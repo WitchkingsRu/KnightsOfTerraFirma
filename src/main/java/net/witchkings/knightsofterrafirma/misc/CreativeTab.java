@@ -46,7 +46,6 @@ public class CreativeTab {
     public static final RegistryObject<CreativeModeTab> KOTF_PARTS = CREATIVE_MODE_TABS.register("kotf_parts", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get()))
             .title(Component.translatable("creativetab.kotf_weapon_parts")).
             displayItems((itemDisplayParameters, output) -> {
-                output.accept(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get());
                 for (RegistrySupplier<Item> item:ModdedItems.listParts) {
                     output.accept(item.get());
                 }

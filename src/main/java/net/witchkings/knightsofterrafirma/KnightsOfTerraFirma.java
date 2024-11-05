@@ -82,6 +82,7 @@ public class KnightsOfTerraFirma {
 
         if (Platform.isModLoaded("antiquelegacy")) {
             AntiqueItems.INSTANCE.init();
+            AntiqueItems.weaponRegistry();
             if (Platform.getEnv() == Dist.CLIENT)
                 AntiqueModels.INSTANCE.init(AntiqueItems.INSTANCE);
 

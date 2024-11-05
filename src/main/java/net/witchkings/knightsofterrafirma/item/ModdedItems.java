@@ -28,9 +28,10 @@ public class ModdedItems extends ModItemsProvider{
 
     public static RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_BASTARDSWORD;
     public static RegistrySupplier<MedievalWeaponItem> BLACK_BRONZE_BASTARDSWORD;
-    public static RegistrySupplier<Item> BISMUTH_BRONZE_CONCAVE_HEAD = INSTANCE.addIngredientItem("bismuth_bronze_concave_halberd_head", () -> {
-        return new Item(new Item.Properties());
-    });
+    public static RegistrySupplier<Item> BISMUTH_BRONZE_CONCAVE_HEAD;
+    public static RegistrySupplier<Item> BLACK_BRONZE_CONCAVE_HEAD;
+    public static RegistrySupplier<Item> BRONZE_CONCAVE_HEAD;
+
     public static RegistrySupplier<Item> BASCINET_VISOR = INSTANCE.addIngredientItem("bascinet_visor", () -> {
         return new Item(new Item.Properties());
     });
@@ -315,6 +316,21 @@ public class ModdedItems extends ModItemsProvider{
         for (String WeaponPart:WeaponParts) {
             for (String Material:PartsMaterials) {
                 if (WeaponPart == "concave_halberd_head" && Material == "bismuth_bronze") {
+                    BISMUTH_BRONZE_CONCAVE_HEAD = INSTANCE.addIngredientItem("bismuth_bronze_concave_halberd_head", () -> {
+                        return new Item(new Item.Properties());
+                    });
+                    listParts.add(BISMUTH_BRONZE_CONCAVE_HEAD);
+                } else if (WeaponPart == "concave_halberd_head" && Material == "black_bronze") {
+                    BLACK_BRONZE_CONCAVE_HEAD = INSTANCE.addIngredientItem("black_bronze_concave_halberd_head", () -> {
+                        return new Item(new Item.Properties());
+                    });
+                    listParts.add(BLACK_BRONZE_CONCAVE_HEAD);
+                }
+                else if (WeaponPart == "concave_halberd_head" && Material == "bronze") {
+                    BRONZE_CONCAVE_HEAD = INSTANCE.addIngredientItem("bronze_concave_halberd_head", () -> {
+                        return new Item(new Item.Properties());
+                    });
+                    listParts.add(BRONZE_CONCAVE_HEAD);
                 }
                 else {
                     listParts.add(INSTANCE.addIngredientItem(Material+"_"+WeaponPart, () -> {

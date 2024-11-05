@@ -50,6 +50,27 @@ public class AntiqueTab {
         }
     }
     @SubscribeEvent
+    public static void bildTabContents(BuildCreativeModeTabContentsEvent tabData) {
+        if (Platform.isModLoaded("antiquelegacy")) {
+            if (tabData.getTabKey() == CreativeTab.KOTF_PARTS.getKey()) {
+                for (RegistrySupplier<Item> item: AntiqueItems.listBismuthBronzeParts) {
+                    tabData.getEntries().putBefore(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                }
+                for (RegistrySupplier<Item> item: AntiqueItems.listBlackBronzeParts) {
+                    tabData.getEntries().putBefore(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                }
+                for (RegistrySupplier<Item> item: AntiqueItems.listBronzeParts) {
+                    tabData.getEntries().putBefore(ModdedItems.BISMUTH_BRONZE_CONCAVE_HEAD.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                }
+            }
+            else if (tabData.getTabKey() == CreativeTab.KOTF_ARMOR_PARTS.getKey()) {
+                for (RegistrySupplier<Item> item : listArmorParts) {
+                    tabData.getEntries().putBefore(ModdedItems.BASCINET_VISOR.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                }
+            }
+        }
+    }
+    @SubscribeEvent
     public static void buildTabContentsDeco(BuildCreativeModeTabContentsEvent tabData) {
         if (Platform.isModLoaded("antiquelegacy")) {
             if (tabData.getTabKey() == ARMOR_DECORATIONS_RESOURCE_KEY) {
