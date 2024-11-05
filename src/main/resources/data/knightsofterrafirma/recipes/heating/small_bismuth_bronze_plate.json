@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:small_bismuth_bronze_plate"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/bismuth_bronze",
+        "amount": 14
+    },
+    "temperature": 970
+}

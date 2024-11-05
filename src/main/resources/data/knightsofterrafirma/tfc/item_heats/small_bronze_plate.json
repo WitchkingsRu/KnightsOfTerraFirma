@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+      "item": "antiquelegacy:small_bronze_plate"
+    },
+    "heat_capacity": 0.4081,
+    "forging_temperature": 570,
+    "welding_temperature": 760
+}

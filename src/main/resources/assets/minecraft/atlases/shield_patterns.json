@@ -464,6 +464,78 @@
       "type": "directory",
       "source": "entity/pavese",
       "prefix": "entity/pavese/"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/black_bronze_republic_scutum_pattern"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/black_bronze_republic_scutum_nopattern"
+    },
+    {
+      "type": "directory", "source": "entity/republic_scutum", "prefix": "entity/republic_scutum/"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/black_bronze_imperial_scutum_pattern"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/black_bronze_imperial_scutum_nopattern"
+    },
+    {
+      "type": "directory", "source": "entity/imperial_scutum", "prefix": "entity/imperial_scutum/"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/black_bronze_hoplon_pattern"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/black_bronze_hoplon_nopattern"
+    },
+    {
+      "type": "directory", "source": "entity/hoplon", "prefix": "entity/hoplon/"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/black_bronze_tureos_pattern"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/black_bronze_tureos_nopattern"
+    },
+    {
+      "type": "directory", "source": "entity/tureos", "prefix": "entity/tureos/"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_republic_scutum_pattern"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_republic_scutum_nopattern"
+    },
+    {
+      "type": "directory", "source": "entity/republic_scutum", "prefix": "entity/republic_scutum/"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_imperial_scutum_pattern"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_imperial_scutum_nopattern"
+    },
+    {
+      "type": "directory", "source": "entity/imperial_scutum", "prefix": "entity/imperial_scutum/"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_hoplon_pattern"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_hoplon_nopattern"
+    },
+    {
+      "type": "directory", "source": "entity/hoplon", "prefix": "entity/hoplon/"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_tureos_pattern"
+    },
+    {
+      "type": "single", "resource": "knightsofterrafirma:entity/bismuth_bronze_tureos_nopattern"
+    },
+    {
+      "type": "directory", "source": "entity/tureos", "prefix": "entity/tureos/"
     }
   ]
 }

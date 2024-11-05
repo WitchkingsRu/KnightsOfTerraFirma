@@ -1,5 +1,7 @@
 package net.witchkings.knightsofterrafirma.item;
 
+import com.magistuarmory.antiquelegacy.item.AddonShieldTypes;
+import com.magistuarmory.antiquelegacy.item.AddonWeaponTypes;
 import com.magistuarmory.api.item.ModItemsProvider;
 import com.magistuarmory.item.*;
 import com.magistuarmory.item.armor.ArmorTypes;
@@ -349,7 +351,101 @@ public class AntiqueItems extends ModItemsProvider {
         add(BISMUTH_BRONZE_WATERLOO_HELMET);
     }};
 
+    public static final RegistrySupplier<Item> SMALL_BLACK_BRONZE_PLATE = INSTANCE.addIngredientItem("small_black_bronze_plate", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static final RegistrySupplier<Item> BLACK_BRONZE_LAMELLAR_ROWS = INSTANCE.addIngredientItem("black_bronze_lamellar_rows", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static final RegistrySupplier<Item> BLACK_BRONZE_PLATE = INSTANCE.addIngredientItem("black_bronze_plate", () -> {
+        return new Item(new Item.Properties());
+    });
 
+    public static final RegistrySupplier<Item> SMALL_BISMUTH_BRONZE_PLATE = INSTANCE.addIngredientItem("small_bismuth_bronze_plate", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static final RegistrySupplier<Item> BISMUTH_BRONZE_LAMELLAR_ROWS = INSTANCE.addIngredientItem("bismuth_bronze_lamellar_rows", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static final RegistrySupplier<Item> BISMUTH_BRONZE_PLATE = INSTANCE.addIngredientItem("bismuth_bronze_plate", () -> {
+        return new Item(new Item.Properties());
+    });
+
+    public static final RegistrySupplier<MedievalShieldItem> BLACK_BRONZE_REPUBLIC_SCUTUM = INSTANCE.addMedievalShieldItem("black_bronze_republic_scutum", "republic_scutum", new Item.Properties(), ModdedItems.BLACK_BRONZE, true, true, AddonShieldTypes.REPUBLIC_SCUTUM);
+    public static final RegistrySupplier<MedievalShieldItem> BLACK_BRONZE_IMPERIAL_SCUTUM = INSTANCE.addMedievalShieldItem("black_bronze_imperial_scutum", "imperial_scutum", new Item.Properties(), ModdedItems.BLACK_BRONZE, true, true, AddonShieldTypes.IMPERIAL_SCUTUM);
+    public static final RegistrySupplier<MedievalShieldItem> BLACK_BRONZE_TUREOS = INSTANCE.addMedievalShieldItem("black_bronze_tureos", "tureos", new Item.Properties(), ModdedItems.BLACK_BRONZE, true, true, AddonShieldTypes.TUREOS);
+    public static final RegistrySupplier<MedievalShieldItem> BLACK_BRONZE_HOPLON = INSTANCE.addMedievalShieldItem("black_bronze_hoplon", "hoplon", new Item.Properties(), ModdedItems.BLACK_BRONZE, true, true, AddonShieldTypes.HOPLON);
+
+    public static final RegistrySupplier<MedievalShieldItem> BISMUTH_BRONZE_REPUBLIC_SCUTUM = INSTANCE.addMedievalShieldItem("bismuth_bronze_republic_scutum", "republic_scutum", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, true, true, AddonShieldTypes.REPUBLIC_SCUTUM);
+    public static final RegistrySupplier<MedievalShieldItem> BISMUTH_BRONZE_IMPERIAL_SCUTUM = INSTANCE.addMedievalShieldItem("bismuth_bronze_imperial_scutum", "imperial_scutum", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, true, true, AddonShieldTypes.IMPERIAL_SCUTUM);
+    public static final RegistrySupplier<MedievalShieldItem> BISMUTH_BRONZE_TUREOS = INSTANCE.addMedievalShieldItem("bismuth_bronze_tureos", "tureos", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, true, true, AddonShieldTypes.TUREOS);
+    public static final RegistrySupplier<MedievalShieldItem> BISMUTH_BRONZE_HOPLON = INSTANCE.addMedievalShieldItem("bismuth_bronze_hoplon", "hoplon", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, true, true, AddonShieldTypes.HOPLON);
+
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_ANTIQUE_DAGGER = INSTANCE.addMedievalWeaponItem("bismuth_bronze_antique_dagger", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.ANTIQUE_DAGGER);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_SICA = INSTANCE.addMedievalWeaponItem("bismuth_bronze_sica", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.SICA);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_ANTIQUE_SPEAR = INSTANCE.addMedievalWeaponItem("bismuth_bronze_antique_spear", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.ANTIQUE_SPEAR);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_DORU = INSTANCE.addMedievalWeaponItem("bismuth_bronze_doru", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.DORU);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_RETIARIUS = INSTANCE.addMedievalWeaponItem("bismuth_bronze_retiarius", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.RETIARIUS);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_SARISSA = INSTANCE.addMedievalWeaponItem("bismuth_bronze_sarissa", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.SARISSA);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_TRIARII_SPEAR = INSTANCE.addMedievalWeaponItem("bismuth_bronze_triarii_spear", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.TRIARII_SPEAR);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_ANTIQUE_SWORD = INSTANCE.addMedievalWeaponItem("bismuth_bronze_antique_sword", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.ANTIQUE_SWORD);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_CELTIC_SWORD = INSTANCE.addMedievalWeaponItem("bismuth_bronze_celtic_sword", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.CELTIC_SWORD);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_EARLY_SPATHA = INSTANCE.addMedievalWeaponItem("bismuth_bronze_early_spatha", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.EARLY_SPATHA);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_GLADIATOR_SWORD = INSTANCE.addMedievalWeaponItem("bismuth_bronze_gladiator_sword", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.GLADIATOR_SWORD);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_GLADIUS = INSTANCE.addMedievalWeaponItem("bismuth_bronze_gladius", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.GLADIUS);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_KOPIS = INSTANCE.addMedievalWeaponItem("bismuth_bronze_kopis", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.KOPIS);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_REPUBLIC_GLADIUS = INSTANCE.addMedievalWeaponItem("bismuth_bronze_republic_gladius", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.REPUBLIC_GLADIUS);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_RHOMPHAIA = INSTANCE.addMedievalWeaponItem("bismuth_bronze_rhomphaia", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.RHOMPHAIA);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_SINGLE_EDGED_SWORD = INSTANCE.addMedievalWeaponItem("bismuth_bronze_single_edged_sword", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.SINGLE_EDGED_SWORD);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_SPATHA = INSTANCE.addMedievalWeaponItem("bismuth_bronze_spatha", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.SPATHA);
+    public static final RegistrySupplier<MedievalWeaponItem> BISMUTH_BRONZE_XIPHOS = INSTANCE.addMedievalWeaponItem("bismuth_bronze_xiphos", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, AddonWeaponTypes.XIPHOS);
+
+    
+    public static final ArrayList<RegistrySupplier<MedievalShieldItem>> listShields = new ArrayList<>(){{
+        add(BLACK_BRONZE_REPUBLIC_SCUTUM);
+        add(BLACK_BRONZE_IMPERIAL_SCUTUM);
+        add(BLACK_BRONZE_TUREOS);
+        add(BLACK_BRONZE_HOPLON);
+        add(BISMUTH_BRONZE_REPUBLIC_SCUTUM);
+        add(BISMUTH_BRONZE_IMPERIAL_SCUTUM);
+        add(BISMUTH_BRONZE_TUREOS);
+        add(BISMUTH_BRONZE_HOPLON);
+    }};
+    public static final ArrayList<RegistrySupplier<Item>> listBismuthBronzeParts = new ArrayList<>() {{
+
+    }};
+    public static final ArrayList<RegistrySupplier<Item>> listBlackBronzeParts = new ArrayList<>() {{
+
+    }};
+    public static final ArrayList<RegistrySupplier<Item>> listBronzeParts = new ArrayList<>() {{
+
+    }};
+    public static final ArrayList<RegistrySupplier<MedievalWeaponItem>> listBismuthBronzeWeapons = new ArrayList<>() {{
+        add(BISMUTH_BRONZE_ANTIQUE_DAGGER);
+        add(BISMUTH_BRONZE_SICA);
+        add(BISMUTH_BRONZE_ANTIQUE_SPEAR);
+        add(BISMUTH_BRONZE_ANTIQUE_SWORD);
+        add(BISMUTH_BRONZE_DORU);
+        add(BISMUTH_BRONZE_RETIARIUS);
+        add(BISMUTH_BRONZE_SARISSA);
+        add(BISMUTH_BRONZE_TRIARII_SPEAR);
+        add(BISMUTH_BRONZE_CELTIC_SWORD);
+        add(BISMUTH_BRONZE_EARLY_SPATHA);
+        add(BISMUTH_BRONZE_GLADIATOR_SWORD);
+        add(BISMUTH_BRONZE_GLADIUS);
+        add(BISMUTH_BRONZE_KOPIS);
+        add(BISMUTH_BRONZE_REPUBLIC_GLADIUS);
+        add(BISMUTH_BRONZE_RHOMPHAIA);
+        add(BISMUTH_BRONZE_SINGLE_EDGED_SWORD);
+        add(BISMUTH_BRONZE_SPATHA);
+        add(BISMUTH_BRONZE_XIPHOS);
+    }};
+    public static final ArrayList<RegistrySupplier<MedievalWeaponItem>> listBlackBronzeWeapons = new ArrayList<>() {{
+
+    }};
+    public static final ArrayList<RegistrySupplier<MedievalWeaponItem>> listBronzeWeapons = new ArrayList<>() {{
+
+    }};
     public AntiqueItems() {
         super(KnightsOfTerraFirma.MODID);
     }

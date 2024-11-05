@@ -1,0 +1,8 @@
+{
+    "ingredient": {
+      "item": "antiquelegacy:small_iron_plate"
+    },
+    "heat_capacity": 0.4081,
+    "forging_temperature": 921,
+    "welding_temperature": 1228
+}

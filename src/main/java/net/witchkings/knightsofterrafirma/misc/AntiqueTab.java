@@ -2,8 +2,11 @@ package net.witchkings.knightsofterrafirma.misc;
 
 
 import com.magistuarmory.EpicKnights;
+import com.magistuarmory.antiquelegacy.item.AddonItems;
 import com.magistuarmory.item.DyeableArmorDecorationItem;
 import com.magistuarmory.item.MedievalShieldItem;
+import com.magistuarmory.item.MedievalWeaponItem;
+import com.magistuarmory.item.ModItems;
 import com.magistuarmory.item.armor.MedievalArmorItem;
 import dev.architectury.platform.Platform;
 import dev.architectury.registry.registries.RegistrySupplier;
@@ -22,6 +25,7 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.core.registries.Registries;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.network.chat.Component;
+import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.witchkings.knightsofterrafirma.item.ModelledItems;
 
 import static net.witchkings.knightsofterrafirma.item.AntiqueItems.*;
@@ -67,6 +71,37 @@ public class AntiqueTab {
                 tabData.accept(BLACK_BRONZE_RIGHT_HAND_MANIKA_DECORATION.get());
 
             }
+        }
+    }
+    @SubscribeEvent
+    public static void builtTabContents(BuildCreativeModeTabContentsEvent tabData) {
+        if (Platform.isModLoaded("antiquelegacy")) {
+            if (tabData.getTabKey() == CreativeTab.KOTF_SHIELDS.getKey()) {
+                for (RegistrySupplier<MedievalShieldItem> item: AntiqueItems.listShields) {
+                    tabData.getEntries().putBefore(ModelledItems.ELLIPTICAL_SHIELD.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                }
+            }
+        }
+    }
+    @SubscribeEvent
+    public static void buildedTabContents(BuildCreativeModeTabContentsEvent tabData) {
+        if (Platform.isModLoaded("antiquelegacy")) {
+            if (tabData.getTabKey() == CreativeTab.KOTF_WEAPONS.getKey()) {
+                for (RegistrySupplier<MedievalWeaponItem> item: listBismuthBronzeWeapons) {
+                    tabData.getEntries().putBefore(ModdedItems.BISMUTH_BRONZE_BASTARDSWORD.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                }
+            }
+        }
+    }
+    @SubscribeEvent
+    public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
+        if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            tabData.getEntries().putAfter(AddonItems.IRON_LAMELLAR_ROWS.get().getDefaultInstance(), SMALL_BLACK_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            tabData.getEntries().putAfter(SMALL_BLACK_BRONZE_PLATE.get().getDefaultInstance(), BLACK_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            tabData.getEntries().putAfter(BLACK_BRONZE_PLATE.get().getDefaultInstance(), BLACK_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            tabData.getEntries().putAfter(BLACK_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), SMALL_BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            tabData.getEntries().putAfter(SMALL_BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            tabData.getEntries().putAfter(BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), BISMUTH_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
     }
     public static void register(IEventBus eventBus) {
