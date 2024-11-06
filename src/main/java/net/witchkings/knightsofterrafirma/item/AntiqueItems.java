@@ -362,6 +362,9 @@ public class AntiqueItems extends ModItemsProvider {
     public static final RegistrySupplier<Item> BLACK_BRONZE_PLATE = INSTANCE.addIngredientItem("black_bronze_plate", () -> {
         return new Item(new Item.Properties());
     });
+    public static final RegistrySupplier<Item> BLACK_BRONZE_NUGGET = INSTANCE.addIngredientItem("black_bronze_nugget", () -> {
+        return new Item(new Item.Properties());
+    });
 
     public static final RegistrySupplier<Item> SMALL_BISMUTH_BRONZE_PLATE = INSTANCE.addIngredientItem("small_bismuth_bronze_plate", () -> {
         return new Item(new Item.Properties());
@@ -370,6 +373,9 @@ public class AntiqueItems extends ModItemsProvider {
         return new Item(new Item.Properties());
     });
     public static final RegistrySupplier<Item> BISMUTH_BRONZE_PLATE = INSTANCE.addIngredientItem("bismuth_bronze_plate", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static final RegistrySupplier<Item> BISMUTH_BRONZE_NUGGET = INSTANCE.addIngredientItem("bismuth_bronze_nugget", () -> {
         return new Item(new Item.Properties());
     });
 

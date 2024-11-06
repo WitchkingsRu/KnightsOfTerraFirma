@@ -128,9 +128,11 @@ public class AntiqueTab {
             tabData.getEntries().putAfter(AddonItems.IRON_LAMELLAR_ROWS.get().getDefaultInstance(), SMALL_BLACK_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             tabData.getEntries().putAfter(SMALL_BLACK_BRONZE_PLATE.get().getDefaultInstance(), BLACK_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             tabData.getEntries().putAfter(BLACK_BRONZE_PLATE.get().getDefaultInstance(), BLACK_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
-            tabData.getEntries().putAfter(BLACK_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), SMALL_BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            tabData.getEntries().putAfter(BLACK_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), BLACK_BRONZE_NUGGET.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            tabData.getEntries().putAfter(BLACK_BRONZE_NUGGET.get().getDefaultInstance(), SMALL_BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             tabData.getEntries().putAfter(SMALL_BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             tabData.getEntries().putAfter(BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), BISMUTH_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            tabData.getEntries().putAfter(BISMUTH_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), BISMUTH_BRONZE_NUGGET.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
         }
     }
     public static void register(IEventBus eventBus) {

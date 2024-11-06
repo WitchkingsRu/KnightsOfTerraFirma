@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-        "item": "magistuarmory:steel_nugget"
+        "item": "antiquelegacy:bronze_nugget"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
+        "fluid": "tfc:metal/bronze",
         "amount": 5
     },
-    "temperature": 1540
+    "temperature": 950
 }
