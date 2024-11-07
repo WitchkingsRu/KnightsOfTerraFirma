@@ -61,6 +61,9 @@ public class AntiqueTab {
                 for (RegistrySupplier<Item> item: AntiqueItems.listBlackBronzeParts) {
                     tabData.accept(item.get());}
 
+                for (RegistrySupplier<Item> item: AntiqueItems.listIronParts) {
+                    tabData.accept(item.get());}
+
             }
             else if (tabData.getTabKey() == CreativeTab.KOTF_ARMOR_PARTS.getKey()) {
                 for (RegistrySupplier<Item> item : listArmorParts) {
@@ -119,6 +122,12 @@ public class AntiqueTab {
                 for (RegistrySupplier<MedievalWeaponItem> item: listBronzeWeapons) {
                     tabData.getEntries().putBefore(AddonItems.IRON_ANTIQUE_DAGGER.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 }
+                tabData.getEntries().putBefore(AddonItems.IRON_ANTIQUE_DAGGER.get().getDefaultInstance(), IRON_BLACK_BRONZE_ANTIQUE_DAGGER.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                tabData.getEntries().putBefore(IRON_BLACK_BRONZE_ANTIQUE_DAGGER.get().getDefaultInstance(), IRON_BLACK_BRONZE_ANTIQUE_SWORD.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                tabData.getEntries().putBefore(IRON_BLACK_BRONZE_ANTIQUE_SWORD.get().getDefaultInstance(), IRON_BLACK_BRONZE_CELTIC_SWORD.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                tabData.getEntries().putBefore(IRON_BLACK_BRONZE_CELTIC_SWORD.get().getDefaultInstance(), IRON_BISMUTH_BRONZE_ANTIQUE_DAGGER.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                tabData.getEntries().putBefore(IRON_BISMUTH_BRONZE_ANTIQUE_DAGGER.get().getDefaultInstance(), IRON_BISMUTH_BRONZE_ANTIQUE_SWORD.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                tabData.getEntries().putBefore(IRON_BISMUTH_BRONZE_ANTIQUE_SWORD.get().getDefaultInstance(), IRON_BISMUTH_BRONZE_CELTIC_SWORD.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             }
         }
     }

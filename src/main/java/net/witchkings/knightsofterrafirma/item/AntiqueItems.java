@@ -19,6 +19,7 @@ import net.witchkings.knightsofterrafirma.item.armor.AntiqueArmor;
 import java.util.ArrayList;
 
 import static com.magistuarmory.item.ModItemTier.BRONZE;
+import static com.magistuarmory.item.ModItemTier.IRON;
 import static net.witchkings.knightsofterrafirma.item.ModdedItems.BISMUTH_BRONZE;
 import static net.witchkings.knightsofterrafirma.item.ModdedItems.BLACK_BRONZE;
 
@@ -535,6 +536,15 @@ public class AntiqueItems extends ModItemsProvider {
         add("xiphos_blade");
     }};
 
+    public static final RegistrySupplier<Item> BRONZE_HILT = INSTANCE.addIngredientItem("bronze_antique_hilt", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static final RegistrySupplier<Item> BISMUTH_BRONZE_HILT = INSTANCE.addIngredientItem("bismuth_bronze_antique_hilt", () -> {
+        return new Item(new Item.Properties());
+    });
+    public static final RegistrySupplier<Item> BLACK_BRONZE_HILT = INSTANCE.addIngredientItem("black_bronze_antique_hilt", () -> {
+        return new Item(new Item.Properties());
+    });
 
     public static final RegistrySupplier<MedievalShieldItem> BLACK_BRONZE_REPUBLIC_SCUTUM = INSTANCE.addMedievalShieldItem("black_bronze_republic_scutum", "republic_scutum", new Item.Properties(), BLACK_BRONZE, true, true, AddonShieldTypes.REPUBLIC_SCUTUM);
     public static final RegistrySupplier<MedievalShieldItem> BLACK_BRONZE_IMPERIAL_SCUTUM = INSTANCE.addMedievalShieldItem("black_bronze_imperial_scutum", "imperial_scutum", new Item.Properties(), BLACK_BRONZE, true, true, AddonShieldTypes.IMPERIAL_SCUTUM);
@@ -603,6 +613,13 @@ public class AntiqueItems extends ModItemsProvider {
     public static final RegistrySupplier<MedievalWeaponItem> BLACK_BRONZE_SPATHA = INSTANCE.addMedievalWeaponItem("black_bronze_spatha", new Item.Properties(), BLACK_BRONZE, AddonWeaponTypes.SPATHA);
     public static final RegistrySupplier<MedievalWeaponItem> BLACK_BRONZE_XIPHOS = INSTANCE.addMedievalWeaponItem("black_bronze_xiphos", new Item.Properties(), BLACK_BRONZE, AddonWeaponTypes.XIPHOS);
 
+    public static final RegistrySupplier<MedievalWeaponItem> IRON_BISMUTH_BRONZE_ANTIQUE_DAGGER = INSTANCE.addMedievalWeaponItem("iron_bismuth_bronze_antique_dagger", new Item.Properties(), IRON, AddonWeaponTypes.ANTIQUE_DAGGER);
+    public static final RegistrySupplier<MedievalWeaponItem> IRON_BISMUTH_BRONZE_CELTIC_SWORD = INSTANCE.addMedievalWeaponItem("iron_bismuth_bronze_celtic_sword", new Item.Properties(), IRON, AddonWeaponTypes.CELTIC_SWORD);
+    public static final RegistrySupplier<MedievalWeaponItem> IRON_BISMUTH_BRONZE_ANTIQUE_SWORD = INSTANCE.addMedievalWeaponItem("iron_bismuth_bronze_antique_sword", new Item.Properties(), IRON, AddonWeaponTypes.ANTIQUE_SWORD);
+
+    public static final RegistrySupplier<MedievalWeaponItem> IRON_BLACK_BRONZE_ANTIQUE_DAGGER = INSTANCE.addMedievalWeaponItem("iron_black_bronze_antique_dagger", new Item.Properties(), IRON, AddonWeaponTypes.ANTIQUE_DAGGER);
+    public static final RegistrySupplier<MedievalWeaponItem> IRON_BLACK_BRONZE_CELTIC_SWORD = INSTANCE.addMedievalWeaponItem("iron_black_bronze_celtic_sword", new Item.Properties(), IRON, AddonWeaponTypes.CELTIC_SWORD);
+    public static final RegistrySupplier<MedievalWeaponItem> IRON_BLACK_BRONZE_ANTIQUE_SWORD = INSTANCE.addMedievalWeaponItem("iron_black_bronze_antique_sword", new Item.Properties(), IRON, AddonWeaponTypes.ANTIQUE_SWORD);
 
     public static final ArrayList<RegistrySupplier<MedievalShieldItem>> listShields = new ArrayList<>(){{
         add(BLACK_BRONZE_REPUBLIC_SCUTUM);
@@ -618,16 +635,20 @@ public class AntiqueItems extends ModItemsProvider {
         add(BRONZE);
         add(BISMUTH_BRONZE);
         add(BLACK_BRONZE);
+        add(IRON);
     }};
 
 
     public static final ArrayList<RegistrySupplier<Item>> listBismuthBronzeParts = new ArrayList<>() {{
-
+        add(BISMUTH_BRONZE_HILT);
     }};
     public static final ArrayList<RegistrySupplier<Item>> listBlackBronzeParts = new ArrayList<>() {{
-
+        add(BLACK_BRONZE_HILT);
     }};
     public static final ArrayList<RegistrySupplier<Item>> listBronzeParts = new ArrayList<>() {{
+        add(BRONZE_HILT);
+    }};
+    public static final ArrayList<RegistrySupplier<Item>> listIronParts = new ArrayList<>() {{
 
     }};
 
@@ -752,10 +773,20 @@ public class AntiqueItems extends ModItemsProvider {
                     }));
 
                 }
-                else {
+                else if (Material == BLACK_BRONZE){
                     listBlackBronzeParts.add(INSTANCE.addIngredientItem(Material.getMaterialName()+"_"+WeaponPart, () -> {
                         return new Item(new Item.Properties());
                     }));
+                }
+                else {
+                    if (WeaponPart == "celtic_sword_hilt") {
+
+                    }
+                    else {
+                        listIronParts.add(INSTANCE.addIngredientItem(Material.getMaterialName()+"_"+WeaponPart, () -> {
+                            return new Item(new Item.Properties());
+                        }));
+                    }
                 }
             }
         }
