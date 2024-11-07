@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/wrought_iron"
+    },
+    "result": {
+        "item": "knightsofterrafirma:iron_celtic_sword_blade",
+        "nbt": {}
+    },
+    "tier": 3,
+    "rules": [
+        "hit_any",
+        "bend_not_last",
+        "draw_last"
+    ],
+    "apply_forging_bonus": true
+}

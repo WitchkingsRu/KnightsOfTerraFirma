@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/ingot/black_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_antique_hilt",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "hit_any",
+        "draw_not_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

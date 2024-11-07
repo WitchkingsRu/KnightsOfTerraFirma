@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/black_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_rhomphaia_blade",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "bend_any",
+        "hit_not_last",
+        "draw_last"
+    ],
+    "apply_forging_bonus": true
+}

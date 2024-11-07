@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/black_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_single_edged_sword_blade",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "draw_any",
+        "hit_not_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

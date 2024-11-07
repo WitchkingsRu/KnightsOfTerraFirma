@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/wrought_iron"
+    },
+    "result": {
+        "item": "knightsofterrafirma:iron_sica_blade",
+        "nbt": {}
+    },
+    "tier": 3,
+    "rules": [
+        "bend_any",
+        "hit_second_last",
+        "draw_last"
+    ],
+    "apply_forging_bonus": true
+}

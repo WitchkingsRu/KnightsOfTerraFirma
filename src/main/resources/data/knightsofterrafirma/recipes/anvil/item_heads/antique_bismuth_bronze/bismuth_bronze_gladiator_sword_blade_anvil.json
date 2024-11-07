@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/bismuth_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronze_gladiator_sword_blade",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "hit_any",
+        "upset_not_last",
+        "bend_last"
+    ],
+    "apply_forging_bonus": true
+}

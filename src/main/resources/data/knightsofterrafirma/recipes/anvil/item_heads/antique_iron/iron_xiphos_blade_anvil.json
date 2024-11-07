@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sword_blade/wrought_iron"
+    },
+    "result": {
+        "item": "knightsofterrafirma:iron_xiphos_blade",
+        "nbt": {}
+    },
+    "tier": 3,
+    "rules": [
+        "hit_any",
+        "bend_second_last",
+        "draw_last"
+    ],
+    "apply_forging_bonus": true
+}

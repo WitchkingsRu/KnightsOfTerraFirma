@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bronze_gladius_blade",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "punch_any",
+        "bend_not_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": true
+}

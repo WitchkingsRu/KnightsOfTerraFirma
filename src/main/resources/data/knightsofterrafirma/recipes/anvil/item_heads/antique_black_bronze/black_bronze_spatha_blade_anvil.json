@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/black_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_spatha_blade",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "draw_any",
+        "hit_not_last",
+        "shrink_last"
+    ],
+    "apply_forging_bonus": true
+}

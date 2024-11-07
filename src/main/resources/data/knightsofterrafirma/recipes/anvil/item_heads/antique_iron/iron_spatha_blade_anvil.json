@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/wrought_iron"
+    },
+    "result": {
+        "item": "knightsofterrafirma:iron_spatha_blade",
+        "nbt": {}
+    },
+    "tier": 3,
+    "rules": [
+        "draw_any",
+        "hit_not_last",
+        "shrink_last"
+    ],
+    "apply_forging_bonus": true
+}

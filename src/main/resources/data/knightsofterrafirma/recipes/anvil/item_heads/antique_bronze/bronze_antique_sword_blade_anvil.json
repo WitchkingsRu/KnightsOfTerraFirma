@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_ingot/bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bronze_antique_sword_blade",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "bend_any",
+        "draw_not_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": true
+}
