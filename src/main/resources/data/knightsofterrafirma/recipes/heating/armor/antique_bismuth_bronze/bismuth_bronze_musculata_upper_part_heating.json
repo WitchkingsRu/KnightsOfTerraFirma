@@ -5,7 +5,13 @@
     },
     "result_fluid": {
         "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 400
+        "amount": 200
+    },
+	"result_item": {
+		"stack": {
+			"item": "tfc:metal/sheet/wrought_iron",
+			"count": 1
+		}
     },
     "temperature": 985,
     "use_durability": true

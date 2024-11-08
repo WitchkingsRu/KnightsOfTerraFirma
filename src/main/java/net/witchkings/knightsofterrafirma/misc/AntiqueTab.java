@@ -7,7 +7,9 @@ import com.magistuarmory.item.DyeableArmorDecorationItem;
 import com.magistuarmory.item.MedievalShieldItem;
 import com.magistuarmory.item.MedievalWeaponItem;
 import com.magistuarmory.item.ModItems;
+import com.magistuarmory.item.armor.DyeableWearableArmorDecorationItem;
 import com.magistuarmory.item.armor.MedievalArmorItem;
+import com.magistuarmory.item.armor.WearableArmorDecorationItem;
 import dev.architectury.platform.Platform;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.resources.ResourceKey;
@@ -28,6 +30,7 @@ import net.minecraft.network.chat.Component;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.witchkings.knightsofterrafirma.item.ModelledItems;
 
+import static com.magistuarmory.misc.ModCreativeTabs.ARMOR_DECORATIONS_RESOURCE_KEY;
 import static net.witchkings.knightsofterrafirma.item.AntiqueItems.*;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -94,7 +97,9 @@ public class AntiqueTab {
                 tabData.accept(BLACK_BRONZE_RIGHT_GLADIATOR_SHOULDER_PAD_DECORATION.get());
                 tabData.accept(BLACK_BRONZE_LEFT_HAND_MANIKA_DECORATION.get());
                 tabData.accept(BLACK_BRONZE_RIGHT_HAND_MANIKA_DECORATION.get());
-
+                for (RegistrySupplier<WearableArmorDecorationItem> item: AntiqueItems.listDeco) {
+                    tabData.getEntries().putAfter(AddonItems.GOLDEN_LAUREL_WREATH_DECORATION.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+                }
             }
         }
     }
@@ -142,6 +147,18 @@ public class AntiqueTab {
             tabData.getEntries().putAfter(SMALL_BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             tabData.getEntries().putAfter(BISMUTH_BRONZE_PLATE.get().getDefaultInstance(), BISMUTH_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             tabData.getEntries().putAfter(BISMUTH_BRONZE_LAMELLAR_ROWS.get().getDefaultInstance(), BISMUTH_BRONZE_NUGGET.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+        }
+    }
+//for some reason had to put it there:
+    @SubscribeEvent
+    public static void buildTabContentsDecoCrowns(BuildCreativeModeTabContentsEvent tabData) {
+        if (tabData.getTabKey() == ARMOR_DECORATIONS_RESOURCE_KEY) {
+            for (RegistrySupplier<DyeableWearableArmorDecorationItem> item: ModelledItems.listCrownDeco) {
+                tabData.getEntries().putAfter(ModItems.CROWN_DECORATION.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            }
+            for (RegistrySupplier<WearableArmorDecorationItem> item: ModelledItems.listMinicrownDeco) {
+                tabData.getEntries().putAfter(ModItems.MINICROWN_DECORATION.get().getDefaultInstance(), item.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
+            }
         }
     }
     public static void register(IEventBus eventBus) {

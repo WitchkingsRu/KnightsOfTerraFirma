@@ -6,13 +6,17 @@ import com.magistuarmory.item.ModItemTier;
 import com.magistuarmory.item.ModItems;
 import com.magistuarmory.item.ShieldTypes;
 import com.magistuarmory.item.armor.ArmorTypes;
+import com.magistuarmory.item.armor.DyeableWearableArmorDecorationItem;
 import com.magistuarmory.item.armor.MedievalArmorItem;
+import com.magistuarmory.item.armor.WearableArmorDecorationItem;
 import dev.architectury.registry.registries.RegistrySupplier;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.annotation.Nullable;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.material.MapColor;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
+import net.witchkings.knightsofterrafirma.item.armor.AntiqueArmor;
 import net.witchkings.knightsofterrafirma.item.armor.ModArmor;
 
 import java.util.ArrayList;
@@ -421,6 +425,65 @@ public class ModelledItems extends ModItemsProvider {
         return ModItems.getDecoratedStack(ROSE_GOLD_STEEl_CEREMONIAL_ARMET, ModItems.BIG_PLUME_DECORATION);
     };
 
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> SILVER_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("silver_crown_decoration", ModArmor.SILVER_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_BLUE.col);
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> ST_SILVER_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("sterling_silver_crown_decoration", ModArmor.ST_SILVER_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_RED.col);
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> PLATINUM_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("platinum_crown_decoration", ModArmor.PLATINUM_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_MAGENTA.col);
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> BRASS_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("brass_crown_decoration", ModArmor.BRASS_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_ORANGE.col);
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> ROSE_GOLD_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("rose_gold_crown_decoration", ModArmor.ROSE_GOLD_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_LIGHT_GREEN.col);
+
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> COPPER_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("copper_crown_decoration", ModArmor.COPPER_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_GREEN.col);
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> BRONZE_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("bronze_crown_decoration", ModArmor.BRONZE_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_LIGHT_BLUE.col);
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> BISMUTH_BRONZE_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("bismuth_bronze_crown_decoration", ModArmor.BISMUTH_BRONZE_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_PURPLE.col);
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> BLACK_BRONZE_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("black_bronze_crown_decoration", ModArmor.BLACK_BRONZE_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_YELLOW.col);
+
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> BLACK_STEEL_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("black_steel_crown_decoration", ModArmor.BLACK_STEEL_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_RED.col);
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> BLUE_STEEL_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("blue_steel_crown_decoration", ModArmor.BLUE_STEEL_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_PINK.col);
+    public static final RegistrySupplier<DyeableWearableArmorDecorationItem> RED_STEEL_CROWN_DECORATION = INSTANCE.addDyeableWearableArmorDecorationItem("red_steel_crown_decoration", ModArmor.RED_STEEL_CROWN, ArmorItem.Type.HELMET, new Item.Properties(), MapColor.COLOR_CYAN.col);
+
+    public static final RegistrySupplier<WearableArmorDecorationItem> SILVER_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("silver_minicrown_decoration", ModArmor.SILVER_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> ST_SILVER_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("sterling_silver_minicrown_decoration", ModArmor.ST_SILVER_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> PLATINUM_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("platinum_minicrown_decoration", ModArmor.PLATINUM_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BRASS_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("brass_minicrown_decoration", ModArmor.BRASS_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> ROSE_GOLD_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("rose_gold_minicrown_decoration", ModArmor.ROSE_GOLD_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+
+    public static final RegistrySupplier<WearableArmorDecorationItem> COPPER_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("copper_minicrown_decoration", ModArmor.COPPER_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BRONZE_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("bronze_minicrown_decoration", ModArmor.BRONZE_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BISMUTH_BRONZE_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("bismuth_bronze_minicrown_decoration", ModArmor.BISMUTH_BRONZE_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BLACK_BRONZE_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("black_bronze_minicrown_decoration", ModArmor.BLACK_BRONZE_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+
+    public static final RegistrySupplier<WearableArmorDecorationItem> BLACK_STEEL_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("black_steel_minicrown_decoration", ModArmor.BLACK_STEEL_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BLUE_STEEL_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("blue_steel_minicrown_decoration", ModArmor.BLUE_STEEL_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> RED_STEEL_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("red_steel_minicrown_decoration", ModArmor.RED_STEEL_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
+
+    public static final ArrayList<RegistrySupplier<DyeableWearableArmorDecorationItem>> listCrownDeco = new ArrayList<>(){{
+        add(SILVER_CROWN_DECORATION);
+        add(ST_SILVER_CROWN_DECORATION);
+        add(PLATINUM_CROWN_DECORATION);
+        add(BRASS_CROWN_DECORATION);
+        add(ROSE_GOLD_CROWN_DECORATION);
+        add(COPPER_CROWN_DECORATION);
+        add(BRONZE_CROWN_DECORATION);
+        add(BISMUTH_BRONZE_CROWN_DECORATION);
+        add(BLACK_BRONZE_CROWN_DECORATION);
+        add(BLACK_STEEL_CROWN_DECORATION);
+        add(BLUE_STEEL_CROWN_DECORATION);
+        add(RED_STEEL_CROWN_DECORATION);
+    }};
+
+    public static final ArrayList<RegistrySupplier<WearableArmorDecorationItem>> listMinicrownDeco = new ArrayList<>(){{
+        add(SILVER_MINICROWN_DECORATION);
+        add(ST_SILVER_MINICROWN_DECORATION);
+        add(PLATINUM_MINICROWN_DECORATION);
+        add(BRASS_MINICROWN_DECORATION);
+        add(ROSE_GOLD_MINICROWN_DECORATION);
+        add(COPPER_MINICROWN_DECORATION);
+        add(BRONZE_MINICROWN_DECORATION);
+        add(BISMUTH_BRONZE_MINICROWN_DECORATION);
+        add(BLACK_BRONZE_MINICROWN_DECORATION);
+        add(BLACK_STEEL_MINICROWN_DECORATION);
+        add(BLUE_STEEL_MINICROWN_DECORATION);
+        add(RED_STEEL_MINICROWN_DECORATION);
+    }};
     public static final ArrayList<RegistrySupplier<MedievalArmorItem>> listBlackArmor = new ArrayList<>() {{
         add(BLACKSTEEL_SALLET);
         add(BLACKSTEEL_GOTHIC_CHESTPLATE);

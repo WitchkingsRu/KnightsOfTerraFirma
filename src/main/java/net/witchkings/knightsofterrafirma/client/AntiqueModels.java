@@ -65,7 +65,41 @@ public class AntiqueModels extends ModModelsProvider {
     public static final ModelLayerLocation WATERLOO_HELMET_LOCATION = INSTANCE.addArmorModel("waterloo_helmet", WaterlooHelmetModel::createLayer);
     public static final ModelLayerLocation AGEN_PORT_HELMET_LOCATION = INSTANCE.addArmorModel("agen_port_helmet", AgenPortHelmetModel::createLayer);
 
+    public static final ModelLayerLocation S_WREATH = INSTANCE.addArmorModel("silver_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation S_WREATH_DECO = INSTANCE.addDecorationModel("silver_laurel_wreath", LaurelWreathModel::createLayer);
 
+    public static final ModelLayerLocation ST_SILVER_WREATH = INSTANCE.addArmorModel("sterling_silver_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation ST_S_WREATH_DECO = INSTANCE.addDecorationModel("sterling_silver_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation P_WREATH = INSTANCE.addArmorModel("platinum_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation P_WREATH_DECO = INSTANCE.addDecorationModel("platinum_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation B_WREATH = INSTANCE.addArmorModel("brass_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation B_WREATH_DECO = INSTANCE.addDecorationModel("brass_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation RG_WREATH = INSTANCE.addArmorModel("rose_gold_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation RG_WREATH_DECO = INSTANCE.addDecorationModel("rose_gold_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation C_WREATH = INSTANCE.addArmorModel("copper_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation C_WREATH_DECO = INSTANCE.addDecorationModel("copper_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation BR_WREATH = INSTANCE.addArmorModel("bronze_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation BR_WREATH_DECO = INSTANCE.addDecorationModel("bronze_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation BI_BR_WREATH = INSTANCE.addArmorModel("bismuth_bronze_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation BI_BR_WREATH_DECO = INSTANCE.addDecorationModel("bismuth_bronze_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation BL_BR_WREATH = INSTANCE.addArmorModel("black_bronze_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation BL_BR_WREATH_DECO = INSTANCE.addDecorationModel("black_bronze_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation BS_WREATH = INSTANCE.addArmorModel("black_steel_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation BS_WREATH_DECO = INSTANCE.addDecorationModel("black_steel_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation BLS_WREATH = INSTANCE.addArmorModel("blue_steel_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation BLS_WREATH_DECO = INSTANCE.addDecorationModel("blue_steel_laurel_wreath", LaurelWreathModel::createLayer);
+
+    public static final ModelLayerLocation RS_WREATH = INSTANCE.addArmorModel("red_steel_laurel_wreath", LaurelWreathModel::createLayer);
+    public static final ModelLayerLocation RS_WREATH_DECO = INSTANCE.addDecorationModel("red_steel_laurel_wreath", LaurelWreathModel::createLayer);
 
     public static final ModelLayerLocation REPUBLIC_SCUTUM = INSTANCE.addModel("republic_scutum", RepublicScutumModel::createLayer);
     public static final ModelLayerLocation IMPERAIL_SCUTUM = INSTANCE.addModel("imperial_scutum", ImperialScutumModel::createLayer);

@@ -1,16 +1,23 @@
 package net.witchkings.knightsofterrafirma.misc;
 
 
+import com.magistuarmory.EpicKnights;
+import com.magistuarmory.antiquelegacy.item.AddonItems;
+import com.magistuarmory.item.DyeableArmorDecorationItem;
 import com.magistuarmory.item.MedievalShieldItem;
 import com.magistuarmory.item.MedievalWeaponItem;
 import com.magistuarmory.item.ModItems;
 import com.magistuarmory.item.armor.MedievalArmorItem;
+import com.magistuarmory.item.armor.WearableArmorDecorationItem;
+import dev.architectury.platform.Platform;
 import dev.architectury.registry.registries.RegistrySupplier;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.witchkings.knightsofterrafirma.KnightsOfTerraFirma;
 import net.witchkings.knightsofterrafirma.item.AdditionalItems;
+import net.witchkings.knightsofterrafirma.item.AntiqueItems;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,10 +29,16 @@ import net.witchkings.knightsofterrafirma.item.ModelledItems;
 
 import java.util.function.Supplier;
 
+import static com.magistuarmory.misc.ModCreativeTabs.ARMOR_DECORATIONS_RESOURCE_KEY;
+import static net.witchkings.knightsofterrafirma.item.AntiqueItems.*;
+import static net.witchkings.knightsofterrafirma.item.AntiqueItems.BLACK_BRONZE_RIGHT_HAND_MANIKA_DECORATION;
+
 
 public class CreativeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, KnightsOfTerraFirma.MODID);
+    public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, KnightsOfTerraFirma.MODID);
+
 
     public static final RegistryObject<CreativeModeTab> KOTF_WEAPONS = CREATIVE_MODE_TABS.register("kotf_weapons", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModdedItems.BISMUTH_BRONZE_BASTARDSWORD.get()))
             .title(Component.translatable("creativetab.kotf_weapons")).

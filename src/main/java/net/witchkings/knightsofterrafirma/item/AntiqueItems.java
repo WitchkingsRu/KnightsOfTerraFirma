@@ -2,6 +2,7 @@ package net.witchkings.knightsofterrafirma.item;
 
 import com.magistuarmory.antiquelegacy.item.AddonShieldTypes;
 import com.magistuarmory.antiquelegacy.item.AddonWeaponTypes;
+import com.magistuarmory.antiquelegacy.item.armor.AddonArmorTypes;
 import com.magistuarmory.api.item.ModItemsProvider;
 import com.magistuarmory.item.*;
 import com.magistuarmory.item.armor.ArmorTypes;
@@ -97,6 +98,8 @@ public class AntiqueItems extends ModItemsProvider {
 
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_SCALE_THORAX = INSTANCE.addMedievalArmorItem("black_bronze_scale_thorax", AntiqueArmor.BLACK_BRONZE_SCALE_THORAX, ArmorItem.Type.CHESTPLATE, new Item.Properties());
 
+    public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_IRON_THORAX = INSTANCE.addDyeableMedievalArmorItem("black_bronze_iron_thorax", AntiqueArmor.BLACK_BRONZE_IRON_THORAX, ArmorItem.Type.CHESTPLATE, new Item.Properties(), 16777215);
+
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_KUBAN_HELMET = INSTANCE.addMedievalArmorItem("black_bronze_kuban_helmet", AntiqueArmor.BLACK_BRONZE_KUBAN_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
 
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BLACK_BRONZE_SCYTHIAN_SCALE_THORAX = INSTANCE.addMedievalArmorItem("black_bronze_scythian_scale_thorax", AntiqueArmor.BLACK_BRONZE_SCYTHIAN_SCALE_THORAX, ArmorItem.Type.CHESTPLATE, new Item.Properties());
@@ -186,6 +189,8 @@ public class AntiqueItems extends ModItemsProvider {
 
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_SCALE_THORAX = INSTANCE.addMedievalArmorItem("bismuth_bronze_scale_thorax", AntiqueArmor.BISMUTH_BRONZE_SCALE_THORAX, ArmorItem.Type.CHESTPLATE, new Item.Properties());
 
+    public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_IRON_THORAX = INSTANCE.addDyeableMedievalArmorItem("bismuth_bronze_iron_thorax", AntiqueArmor.BISMUTH_BRONZE_IRON_THORAX, ArmorItem.Type.CHESTPLATE, new Item.Properties(), 16777215);
+
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_KUBAN_HELMET = INSTANCE.addMedievalArmorItem("bismuth_bronze_kuban_helmet", AntiqueArmor.BISMUTH_BRONZE_KUBAN_HELMET, ArmorItem.Type.HELMET, new Item.Properties());
 
     public static final @Nullable RegistrySupplier<MedievalArmorItem> BISMUTH_BRONZE_SCYTHIAN_SCALE_THORAX = INSTANCE.addMedievalArmorItem("bismuth_bronze_scythian_scale_thorax", AntiqueArmor.BISMUTH_BRONZE_SCYTHIAN_SCALE_THORAX, ArmorItem.Type.CHESTPLATE, new Item.Properties());
@@ -236,6 +241,22 @@ public class AntiqueItems extends ModItemsProvider {
     public static final RegistrySupplier<WearableArmorDecorationItem> BISMUTH_BRONZE_LEFT_HAND_MANIKA_DECORATION = INSTANCE.addWearableArmorDecorationItem("bismuth_bronze_left_hand_manika_decoration", AntiqueArmor.BISMUTH_BRONZE_LEFT_HAND_MANIKA, ArmorItem.Type.CHESTPLATE, new Item.Properties());
     public static final RegistrySupplier<WearableArmorDecorationItem> BISMUTH_BRONZE_RIGHT_HAND_MANIKA_DECORATION = INSTANCE.addWearableArmorDecorationItem("bismuth_bronze_right_hand_manika_decoration", AntiqueArmor.BISMUTH_BRONZE_RIGHT_HAND_MANIKA, ArmorItem.Type.CHESTPLATE, new Item.Properties());
 
+    public static final RegistrySupplier<WearableArmorDecorationItem> SILVER_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("silver_laurel_wreath_decoration", AntiqueArmor.SILVER_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> ST_SILVER_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("sterling_silver_laurel_wreath_decoration", AntiqueArmor.ST_SILVER_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> PLATINUM_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("platinum_laurel_wreath_decoration", AntiqueArmor.PLATINUM_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BRASS_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("brass_laurel_wreath_decoration", AntiqueArmor.BRASS_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> ROSE_GOLD_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("rose_gold_laurel_wreath_decoration", AntiqueArmor.ROSE_GOLD_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+
+    public static final RegistrySupplier<WearableArmorDecorationItem> COPPER_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("copper_laurel_wreath_decoration", AntiqueArmor.COPPER_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BRONZE_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("bronze_laurel_wreath_decoration", AntiqueArmor.BRONZE_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BISMUTH_BRONZE_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("bismuth_bronze_laurel_wreath_decoration", AntiqueArmor.BISMUTH_BRONZE_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BLACK_BRONZE_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("black_bronze_laurel_wreath_decoration", AntiqueArmor.BLACK_BRONZE_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+
+    public static final RegistrySupplier<WearableArmorDecorationItem> BLACK_STEEL_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("black_steel_laurel_wreath_decoration", AntiqueArmor.BLACK_STEEL_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> BLUE_STEEL_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("blue_steel_laurel_wreath_decoration", AntiqueArmor.BLUE_STEEL_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+    public static final RegistrySupplier<WearableArmorDecorationItem> RED_STEEL_LAUREL_WREATH_DECORATION = INSTANCE.addWearableArmorDecorationItem("red_steel_laurel_wreath_decoration", AntiqueArmor.RED_STEEL_LAUREL_WREATH, ArmorItem.Type.HELMET, new Item.Properties());
+
+
     public static final ArrayList<RegistrySupplier<DyeableArmorDecorationItem>> listDecoBlackBronze = new ArrayList<>(){{
         add(BLACK_BRONZE_GREEK_CREST_DECORATION);
         add(BLACK_BRONZE_GREEK_HIGH_CREST_DECORATION);
@@ -247,7 +268,20 @@ public class AntiqueItems extends ModItemsProvider {
         add(BLACK_BRONZE_TRIPLE_FEATHER_DECORATION);
         add(BLACK_BRONZE_TWO_HAIR_PLUMES_DECORATION);
     }};
-
+    public static final ArrayList<RegistrySupplier<WearableArmorDecorationItem>> listDeco = new ArrayList<>(){{
+        add(SILVER_LAUREL_WREATH_DECORATION);
+        add(ST_SILVER_LAUREL_WREATH_DECORATION);
+        add(PLATINUM_LAUREL_WREATH_DECORATION);
+        add(BRASS_LAUREL_WREATH_DECORATION);
+        add(ROSE_GOLD_LAUREL_WREATH_DECORATION);
+        add(COPPER_LAUREL_WREATH_DECORATION);
+        add(BRONZE_LAUREL_WREATH_DECORATION);
+        add(BISMUTH_BRONZE_LAUREL_WREATH_DECORATION);
+        add(BLACK_BRONZE_LAUREL_WREATH_DECORATION);
+        add(BLACK_STEEL_LAUREL_WREATH_DECORATION);
+        add(BLUE_STEEL_LAUREL_WREATH_DECORATION);
+        add(RED_STEEL_LAUREL_WREATH_DECORATION);
+    }};
     public static final ArrayList<RegistrySupplier<DyeableArmorDecorationItem>> listDecoBismuthBronze = new ArrayList<>(){{
         add(BISMUTH_BRONZE_GREEK_CREST_DECORATION);
         add(BISMUTH_BRONZE_GREEK_HIGH_CREST_DECORATION);
@@ -296,6 +330,7 @@ public class AntiqueItems extends ModItemsProvider {
         add(BLACK_BRONZE_THRACIAN_HELMET);
         add(BLACK_BRONZE_CARDIOPHYLAX);
         add(BLACK_BRONZE_SCALE_THORAX);
+        add(BLACK_BRONZE_IRON_THORAX);
         add(BLACK_BRONZE_KUBAN_HELMET);
         add(BLACK_BRONZE_SCYTHIAN_SCALE_HELMET);
         add(BLACK_BRONZE_SCYTHIAN_ATTIC_HELMET);
@@ -343,6 +378,7 @@ public class AntiqueItems extends ModItemsProvider {
         add(BISMUTH_BRONZE_THRACIAN_HELMET);
         add(BISMUTH_BRONZE_CARDIOPHYLAX);
         add(BISMUTH_BRONZE_SCALE_THORAX);
+        add(BISMUTH_BRONZE_IRON_THORAX);
         add(BISMUTH_BRONZE_KUBAN_HELMET);
         add(BISMUTH_BRONZE_SCYTHIAN_SCALE_HELMET);
         add(BISMUTH_BRONZE_SCYTHIAN_ATTIC_HELMET);

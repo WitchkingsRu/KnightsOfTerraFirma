@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "antiquelegacy:iron_left_hand_manika_decoration"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/cast_iron",
+        "amount": 200
+    },
+    "temperature": 1585,
+    "use_durability": true
+}

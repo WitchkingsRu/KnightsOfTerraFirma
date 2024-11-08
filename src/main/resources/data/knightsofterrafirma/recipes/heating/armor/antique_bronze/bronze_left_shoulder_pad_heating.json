@@ -1,0 +1,12 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "antiquelegacy:left_gladiator_shoulder_pad_decoration"
+    },
+    "result_fluid": {
+        "fluid": "tfc:metal/bronze",
+        "amount": 200
+    },
+    "temperature": 950,
+    "use_durability": true
+}
