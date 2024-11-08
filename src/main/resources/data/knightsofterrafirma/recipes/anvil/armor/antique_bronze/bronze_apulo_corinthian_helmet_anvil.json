@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/bronze"
+    },
+    "result": {
+        "item": "antiquelegacy:bronze_apulo_corinthian_helmet",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "bend_any",
+        "upset_not_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": true
+}

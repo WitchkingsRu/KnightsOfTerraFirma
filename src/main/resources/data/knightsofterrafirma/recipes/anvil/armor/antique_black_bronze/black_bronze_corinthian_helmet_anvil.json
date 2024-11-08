@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/black_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_corinthian_helmet",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "shrink_any",
+        "hit_not_last",
+        "draw_last"
+    ],
+    "apply_forging_bonus": true
+}

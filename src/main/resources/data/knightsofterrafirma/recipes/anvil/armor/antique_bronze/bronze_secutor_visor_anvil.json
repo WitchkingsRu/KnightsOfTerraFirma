@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bronze_secutor_visor",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "hit_any",
+        "upset_not_last",
+        "punch_last"
+    ],
+    "apply_forging_bonus": true
+}

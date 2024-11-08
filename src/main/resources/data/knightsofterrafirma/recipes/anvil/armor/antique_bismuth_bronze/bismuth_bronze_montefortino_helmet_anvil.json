@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/bismuth_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronze_montefortino_helmet",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "shrink_any",
+        "bend_not_last",
+        "upset_last"
+    ],
+    "apply_forging_bonus": true
+}

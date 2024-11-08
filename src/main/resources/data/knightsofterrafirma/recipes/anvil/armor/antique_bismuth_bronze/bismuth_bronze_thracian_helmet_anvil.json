@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/bismuth_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronze_thracian_helmet",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "shrink_any",
+        "hit_second_last",
+        "bend_last"
+    ],
+    "apply_forging_bonus": true
+}

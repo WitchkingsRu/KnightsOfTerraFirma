@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bronze_provocator_helm",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "draw_any",
+        "hit_not_last",
+        "bend_last"
+    ],
+    "apply_forging_bonus": true
+}

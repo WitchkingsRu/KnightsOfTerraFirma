@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/wrought_iron"
+    },
+    "result": {
+        "item": "antiquelegacy:gallea",
+        "nbt": {}
+    },
+    "tier": 3,
+    "rules": [
+        "upset_any",
+        "draw_second_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": true
+}
