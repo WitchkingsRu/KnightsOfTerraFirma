@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "knightsofterrafirma:item/rose_gold_crown_decoration",
+    "layer1": "knightsofterrafirma:item/rose_gold_crown_decoration_overlay"
+  }
+}
