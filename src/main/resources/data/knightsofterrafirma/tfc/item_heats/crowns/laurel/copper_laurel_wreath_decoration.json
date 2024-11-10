@@ -1,0 +1,9 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": {
+      "item": "knightsofterrafirma:copper_laurel_wreath_decoration"
+    },
+    "heat_capacity": 6.667,
+	"forging_temperature": 648,
+	"welding_temperature": 864
+}

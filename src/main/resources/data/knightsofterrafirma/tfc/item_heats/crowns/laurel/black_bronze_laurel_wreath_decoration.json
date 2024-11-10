@@ -1,0 +1,9 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": {
+      "item": "knightsofterrafirma:black_bronze_laurel_wreath_decoration"
+    },
+    "heat_capacity": 6.667,
+	"forging_temperature": 642,
+    "welding_temperature": 856
+}

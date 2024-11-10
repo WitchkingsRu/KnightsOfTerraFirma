@@ -1,0 +1,11 @@
+{
+    "type": "tfc:heating",
+    "ingredient": {
+        "item": "knightsofterrafirma:platinum_crown_decoration"
+    },
+    "result_fluid": {
+        "fluid": "dfc:metal/platinum",
+        "amount": 200
+    },
+    "temperature": 1540
+}

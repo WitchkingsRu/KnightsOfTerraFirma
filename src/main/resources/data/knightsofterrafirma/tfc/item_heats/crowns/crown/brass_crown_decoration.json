@@ -1,0 +1,9 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": {
+      "item": "knightsofterrafirma:brass_crown_decoration"
+    },
+    "heat_capacity": 6.667,
+    "forging_temperature": 558,
+    "welding_temperature": 744
+}

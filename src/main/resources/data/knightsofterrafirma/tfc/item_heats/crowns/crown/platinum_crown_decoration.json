@@ -1,0 +1,9 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": {
+      "item": "knightsofterrafirma:platinum_crown_decoration"
+    },
+    "heat_capacity": 6.667,
+    "forging_temperature": 924,
+    "welding_temperature": 1232
+}
