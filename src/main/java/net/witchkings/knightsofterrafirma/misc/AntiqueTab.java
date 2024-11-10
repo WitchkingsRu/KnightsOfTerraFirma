@@ -30,6 +30,8 @@ import net.minecraft.network.chat.Component;
 import net.witchkings.knightsofterrafirma.item.ModdedItems;
 import net.witchkings.knightsofterrafirma.item.ModelledItems;
 
+import java.util.Collections;
+
 import static com.magistuarmory.misc.ModCreativeTabs.ARMOR_DECORATIONS_RESOURCE_KEY;
 import static net.witchkings.knightsofterrafirma.item.AntiqueItems.*;
 

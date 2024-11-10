@@ -70,16 +70,6 @@ public class KnightsOfTerraFirma {
         ExtendedCreativeTabs.register(modEventBus);
         WeldingSerializer.RECIPE_SERIALIZERS.register(modEventBus);
 
-        if (Platform.isModLoaded("dfc")) {
-            AdditionalItems.INSTANCE.init();
-            if (Platform.getEnv() == Dist.CLIENT)
-                ModModel.INSTANCE.init(AdditionalItems.INSTANCE);
-
-        }
-        if (Platform.isModLoaded("dfc")) {
-            Additions.register(modEventBus);
-        }
-
         if (Platform.isModLoaded("antiquelegacy")) {
             AntiqueItems.INSTANCE.init();
             AntiqueItems.weaponRegistry();
@@ -90,7 +80,15 @@ public class KnightsOfTerraFirma {
         if (Platform.isModLoaded("antiquelegacy")) {
             AntiqueTab.register(modEventBus);
         }
+        if (Platform.isModLoaded("dfc")) {
+            AdditionalItems.INSTANCE.init();
+            if (Platform.getEnv() == Dist.CLIENT)
+                ModModel.INSTANCE.init(AdditionalItems.INSTANCE);
 
+        }
+        if (Platform.isModLoaded("dfc")) {
+            Additions.register(modEventBus);
+        }
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

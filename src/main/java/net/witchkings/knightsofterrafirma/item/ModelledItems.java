@@ -456,33 +456,31 @@ public class ModelledItems extends ModItemsProvider {
     public static final RegistrySupplier<WearableArmorDecorationItem> RED_STEEL_MINICROWN_DECORATION = INSTANCE.addWearableArmorDecorationItem("red_steel_minicrown_decoration", ModArmor.RED_STEEL_MINICROWN, ArmorItem.Type.HELMET, new Item.Properties());
 
     public static final ArrayList<RegistrySupplier<DyeableWearableArmorDecorationItem>> listCrownDeco = new ArrayList<>(){{
-        add(SILVER_CROWN_DECORATION);
-        add(ST_SILVER_CROWN_DECORATION);
-        add(PLATINUM_CROWN_DECORATION);
-        add(BRASS_CROWN_DECORATION);
-        add(ROSE_GOLD_CROWN_DECORATION);
-        add(COPPER_CROWN_DECORATION);
-        add(BRONZE_CROWN_DECORATION);
-        add(BISMUTH_BRONZE_CROWN_DECORATION);
-        add(BLACK_BRONZE_CROWN_DECORATION);
-        add(BLACK_STEEL_CROWN_DECORATION);
-        add(BLUE_STEEL_CROWN_DECORATION);
         add(RED_STEEL_CROWN_DECORATION);
+        add(BLUE_STEEL_CROWN_DECORATION);
+        add(BLACK_STEEL_CROWN_DECORATION);
+        add(BLACK_BRONZE_CROWN_DECORATION);
+        add(BISMUTH_BRONZE_CROWN_DECORATION);
+        add(BRONZE_CROWN_DECORATION);
+        add(COPPER_CROWN_DECORATION);
+        add(ROSE_GOLD_CROWN_DECORATION);
+        add(BRASS_CROWN_DECORATION);
+        add(ST_SILVER_CROWN_DECORATION);
+        add(SILVER_CROWN_DECORATION);
     }};
 
     public static final ArrayList<RegistrySupplier<WearableArmorDecorationItem>> listMinicrownDeco = new ArrayList<>(){{
-        add(SILVER_MINICROWN_DECORATION);
-        add(ST_SILVER_MINICROWN_DECORATION);
-        add(PLATINUM_MINICROWN_DECORATION);
-        add(BRASS_MINICROWN_DECORATION);
-        add(ROSE_GOLD_MINICROWN_DECORATION);
-        add(COPPER_MINICROWN_DECORATION);
-        add(BRONZE_MINICROWN_DECORATION);
-        add(BISMUTH_BRONZE_MINICROWN_DECORATION);
-        add(BLACK_BRONZE_MINICROWN_DECORATION);
-        add(BLACK_STEEL_MINICROWN_DECORATION);
-        add(BLUE_STEEL_MINICROWN_DECORATION);
         add(RED_STEEL_MINICROWN_DECORATION);
+        add(BLUE_STEEL_MINICROWN_DECORATION);
+        add(BLACK_STEEL_MINICROWN_DECORATION);
+        add(BLACK_BRONZE_MINICROWN_DECORATION);
+        add(BISMUTH_BRONZE_MINICROWN_DECORATION);
+        add(BRONZE_MINICROWN_DECORATION);
+        add(COPPER_MINICROWN_DECORATION);
+        add(ROSE_GOLD_MINICROWN_DECORATION);
+        add(BRASS_MINICROWN_DECORATION);
+        add(ST_SILVER_MINICROWN_DECORATION);
+        add(SILVER_MINICROWN_DECORATION);
     }};
     public static final ArrayList<RegistrySupplier<MedievalArmorItem>> listBlackArmor = new ArrayList<>() {{
         add(BLACKSTEEL_SALLET);
