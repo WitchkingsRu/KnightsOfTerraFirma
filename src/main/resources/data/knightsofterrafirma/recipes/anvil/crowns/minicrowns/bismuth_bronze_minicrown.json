@@ -1,12 +1,12 @@
 {
     "type": "tfc:anvil",
     "input": {
-        "item": "tfc:metal/sheet/gold"
+        "item": "tfc:metal/sheet/bismuth_bronze"
     },
     "result": {
-        "item": "magistuarmory:minicrown_decoration"
+        "item": "knightsofterrafirma:bismuth_bronze_minicrown_decoration"
     },
-    "tier": 4,
+    "tier": 2,
     "rules": [
         "bend_third_last",
         "bend_second_last",

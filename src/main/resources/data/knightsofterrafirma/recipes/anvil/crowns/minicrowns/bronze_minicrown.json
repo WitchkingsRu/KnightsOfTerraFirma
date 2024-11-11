@@ -1,0 +1,16 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/sheet/bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bronze_minicrown_decoration"
+    },
+    "tier": 2,
+    "rules": [
+        "bend_third_last",
+        "bend_second_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": false
+}
