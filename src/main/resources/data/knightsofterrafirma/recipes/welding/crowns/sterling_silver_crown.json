@@ -1,0 +1,13 @@
+{
+    "type": "tfc:welding",
+    "first_input": {
+      "item": "knightsofterrafirma:sterling_silver_minicrown_decoration"
+    },
+    "second_input": {
+      "tag": "tfc:gems"
+    },
+    "tier": 0,
+    "result": {
+      "item": "knightsofterrafirma:sterling_silver_crown_decoration"
+    }
+}

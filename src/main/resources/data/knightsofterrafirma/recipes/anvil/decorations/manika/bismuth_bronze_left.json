@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/bismuth_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_left_hand_manika_decoration",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "upset_any",
+	"punch_second_last",
+	"draw_last"
+  ],
+  "apply_forging_bonus": false
+}
