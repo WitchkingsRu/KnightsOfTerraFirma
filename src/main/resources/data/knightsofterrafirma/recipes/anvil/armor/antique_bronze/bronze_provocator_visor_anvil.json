@@ -1,7 +1,7 @@
 {
     "type": "tfc:anvil",
     "input": {
-        "item": "tfc:metal/double_sheet/bronze"
+        "item": "tfc:metal/sheet/bronze"
     },
     "result": {
         "item": "knightsofterrafirma:bronze_provocator_visor",

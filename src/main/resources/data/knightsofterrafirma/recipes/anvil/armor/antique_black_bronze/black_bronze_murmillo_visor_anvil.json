@@ -1,7 +1,7 @@
 {
     "type": "tfc:anvil",
     "input": {
-        "item": "tfc:metal/double_sheet/black_bronze"
+        "item": "tfc:metal/sheet/black_bronze"
     },
     "result": {
         "item": "knightsofterrafirma:black_bronze_murmillo_visor",
