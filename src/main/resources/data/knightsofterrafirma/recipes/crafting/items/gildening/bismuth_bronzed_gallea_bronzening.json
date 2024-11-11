@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "antiquelegacy:gallea"
+    },
+    "addition": {
+        "tag": "forge:ingots/bismuth_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronzed_gallea",
+        "count": 1
+    },
+    "template": {
+        "item": "knightsofterrafirma:bismuth_bronze_gilding_template"
+    }
+}

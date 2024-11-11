@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "cb ",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/bismuth_bronze"
+    },
+    "b": {
+      "tag": "forge:ingots/bismuth_bronze"
+    },
+    "c": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_greek_high_crest_decoration",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "antiquelegacy:gallea"
+    },
+    "addition": {
+        "tag": "forge:ingots/black_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronzed_gallea",
+        "count": 1
+    },
+    "template": {
+        "item": "knightsofterrafirma:black_bronze_gilding_template"
+    }
+}

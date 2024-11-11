@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "cb ",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/black_bronze"
+    },
+    "b": {
+      "tag": "forge:ingots/black_bronze"
+    },
+    "c": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_bronze_greek_high_crest_decoration",
+    "count": 1
+  }
+}

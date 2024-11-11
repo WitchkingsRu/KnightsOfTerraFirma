@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:smithing_transform",
+    "base": {
+        "item": "antiquelegacy:iron_ridge_helmet"
+    },
+    "addition": {
+        "tag": "forge:ingots/gold"
+    },
+    "result": {
+        "item": "antiquelegacy:golden_ridge_helmet",
+        "count": 1
+    },
+    "template": {
+        "item": "magistuarmory:gilding_template"
+    }
+}

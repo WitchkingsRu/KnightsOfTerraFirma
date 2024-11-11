@@ -10,7 +10,7 @@
       "tag": "forge:ingots/tin"
     },
     "p": {
-      "tag": "antiquelegacy:small_plates/bronze"
+      "item": "antiquelegacy:small_bronze_plate"
     }
   },
   "result": {

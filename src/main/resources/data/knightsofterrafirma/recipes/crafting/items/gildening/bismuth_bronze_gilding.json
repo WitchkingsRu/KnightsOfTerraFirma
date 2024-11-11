@@ -10,7 +10,7 @@
       "tag": "forge:ingots/bismuth_bronze"
     },
     "p": {
-      "tag": "antiquelegacy:small_plates/iron"
+      "item": "antiquelegacy:small_iron_plate"
     }
   },
   "result": {
