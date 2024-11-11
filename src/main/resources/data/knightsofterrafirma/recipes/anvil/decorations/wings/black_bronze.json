@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/ingot/black_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_bronze_small_wings_decoration",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "draw_any",
+	"upset_not_last",
+	"bend_last"
+  ],
+  "apply_forging_bonus": false
+}

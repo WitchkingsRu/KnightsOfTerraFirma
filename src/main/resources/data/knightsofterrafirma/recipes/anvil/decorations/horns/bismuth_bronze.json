@@ -1,0 +1,17 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/ingot/bismuth_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_horns_decoration",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "bend_any",
+	"hit_not_last",
+	"shrink_last"
+  ],
+  "apply_forging_bonus": false
+}
