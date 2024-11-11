@@ -27,6 +27,10 @@ public class ExtendedCreativeTabs {
             tabData.accept(ModdedItems.STERLING_SILVER_TEMPLATE.get());
             tabData.accept(ModdedItems.BRASS_TEMPLATE.get());
             tabData.accept(ModdedItems.ROSE_GOLD_TEMPLATE.get());
+            tabData.accept(ModdedItems.BRONZE_TEMPLATE.get());
+            tabData.accept(ModdedItems.BISMUTH_BRONZE_TEMPLATE.get());
+            tabData.accept(ModdedItems.BLACK_BRONZE_TEMPLATE.get());
+            tabData.accept(ModdedItems.TIN_TEMPLATE.get());
             tabData.accept(ModdedItems.BLACK_STEEL_CHAINMAIL.get());
         }
     }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " t ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/bronze"
+    },
+    "t": {
+      "item": "knightsofterrafirma:bronze_gilding_template"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:bronze_gilding_template",
+    "count": 2
+  }
+}

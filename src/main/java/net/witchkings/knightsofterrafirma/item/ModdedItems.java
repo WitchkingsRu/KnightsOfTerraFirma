@@ -206,6 +206,22 @@ public class ModdedItems extends ModItemsProvider{
         return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.rose_gold_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
     });
 
+    public static final RegistrySupplier<SmithingTemplateItem> BRONZE_TEMPLATE = INSTANCE.items.register("bronze_gilding_template", () -> {
+        return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.bronze_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
+    });
+
+    public static final RegistrySupplier<SmithingTemplateItem> BISMUTH_BRONZE_TEMPLATE = INSTANCE.items.register("bismuth_bronze_gilding_template", () -> {
+        return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.bismuth_bronze_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
+    });
+
+    public static final RegistrySupplier<SmithingTemplateItem> BLACK_BRONZE_TEMPLATE = INSTANCE.items.register("black_bronze_gilding_template", () -> {
+        return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.black_bronze_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
+    });
+
+    public static final RegistrySupplier<SmithingTemplateItem> TIN_TEMPLATE = INSTANCE.items.register("tin_gilding_template", () -> {
+        return new SmithingTemplateItem(Component.translatable("magistuarmory.gilding_template.applies_to"), Component.translatable("knightsofterrafirma.tin_gilding_template.ingredients"), Component.translatable("magistuarmory.gilding_template.upgrade_description"), Component.translatable("magistuarmory.gilding_template.base_slot_description"), Component.translatable("magistuarmory.gilding_template.additions_slot_description"), List.of(), List.of());
+    });
+
     public static final RegistrySupplier<Item> BLACK_STEEL_CHAINMAIL = INSTANCE.addIngredientItem("black_steel_chainmail", () -> {
         return new Item(new Item.Properties());
     });

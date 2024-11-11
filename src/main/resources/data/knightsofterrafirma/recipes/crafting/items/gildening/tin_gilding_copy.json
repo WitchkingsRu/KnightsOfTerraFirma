@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " t ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/tin"
+    },
+    "t": {
+      "item": "knightsofterrafirma:tin_gilding_template"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:tin_gilding_template",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " p ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/tin"
+    },
+    "p": {
+      "tag": "antiquelegacy:small_plates/bronze"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:tin_gilding_template",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " p ",
+    "   "
+  ],
+  "key": {
+    "i": {
+      "tag": "forge:ingots/bismuth_bronze"
+    },
+    "p": {
+      "tag": "antiquelegacy:small_plates/iron"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_gilding_template",
+    "count": 1
+  }
+}

@@ -751,6 +751,10 @@
   "knightsofterrafirma.platinum_gilding_template.ingredients": "Platinum ingots",
   "knightsofterrafirma.brass_gilding_template.ingredients": "Brass ingots",
   "knightsofterrafirma.rose_gold_gilding_template.ingredients": "Rose Golden ingots",
+  "knightsofterrafirma.bronze_gilding_template.ingredients": "Bronze ingots",
+  "knightsofterrafirma.bismuth_bronze_gilding_template.ingredients": "Bismuth Bronze ingots",
+  "knightsofterrafirma.black_bronze_gilding_template.ingredients": "Black Bronze ingots",
+  "knightsofterrafirma.tin_gilding_template.ingredients": "Tin ingots",
 
   "item.knightsofterrafirma.bismuth_bronze_attic_helmet": "Bismuth Bronze Attic Helmet",
   "item.knightsofterrafirma.bismuth_bronze_bell_cuirass": "Bismuth Bronze Bell Cuirass",
