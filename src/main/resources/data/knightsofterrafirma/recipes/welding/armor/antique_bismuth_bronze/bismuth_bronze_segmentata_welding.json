@@ -1,0 +1,15 @@
+{
+    "type": "knightsofterrafirma:welding",
+    "first_input": {
+        "item": "knightsofterrafirma:bismuth_bronze_segmentata_upper_part"
+    },
+    "second_input": {
+        "item": "knightsofterrafirma:bismuth_bronze_segmentata_lower_part"
+    },
+    "tier": 2,
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronze_segmentata",
+        "nbt": {}
+    },
+    "combine_forging_bonus": false
+}

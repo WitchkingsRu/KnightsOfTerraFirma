@@ -1,0 +1,15 @@
+{
+    "type": "knightsofterrafirma:welding",
+    "first_input": {
+        "item": "knightsofterrafirma:black_bronze_provocator_helm"
+    },
+    "second_input": {
+        "item": "knightsofterrafirma:black_bronze_provocator_visor"
+    },
+    "tier": 2,
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_provocator_helmet",
+        "nbt": {}
+    },
+    "combine_forging_bonus": false
+}

@@ -1,0 +1,15 @@
+{
+    "type": "knightsofterrafirma:welding",
+    "first_input": {
+        "item": "tfc:metal/double_sheet/wrought_iron"
+    },
+    "second_input": {
+        "item": "tfc:metal/double_ingot/bronze"
+    },
+    "tier": 2,
+    "result": {
+        "item": "antiquelegacy:sava_helmet",
+        "nbt": {}
+    },
+    "combine_forging_bonus": false
+}

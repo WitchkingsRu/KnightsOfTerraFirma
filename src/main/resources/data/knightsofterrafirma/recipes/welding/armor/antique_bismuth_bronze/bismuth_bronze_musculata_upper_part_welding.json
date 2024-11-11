@@ -1,0 +1,15 @@
+{
+    "type": "knightsofterrafirma:welding",
+    "first_input": {
+        "item": "tfc:metal/sheet/wrought_iron"
+    },
+    "second_input": {
+        "item": "tfc:metal/sheet/bismuth_bronze"
+    },
+    "tier": 2,
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronze_musculata_upper_part",
+        "nbt": {}
+    },
+    "combine_forging_bonus": false
+}

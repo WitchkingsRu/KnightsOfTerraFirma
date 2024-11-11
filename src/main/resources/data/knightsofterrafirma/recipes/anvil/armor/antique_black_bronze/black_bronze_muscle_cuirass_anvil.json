@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "knightsofterrafirma:black_bronze_muscle_cuirass_unfinished"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_muscle_cuirass",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "hit_any",
+        "hit_not_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": true
+}

@@ -1,0 +1,15 @@
+{
+    "type": "knightsofterrafirma:welding",
+    "first_input": {
+        "item": "knightsofterrafirma:bismuth_bronze_bell_cuirass_upper_part"
+    },
+    "second_input": {
+        "item": "knightsofterrafirma:bismuth_bronze_bell_cuirass_lower_part"
+    },
+    "tier": 2,
+    "result": {
+        "item": "knightsofterrafirma:bismuth_bronze_bell_cuirass",
+        "nbt": {}
+    },
+    "combine_forging_bonus": false
+}

@@ -1,0 +1,15 @@
+{
+    "type": "knightsofterrafirma:welding",
+    "first_input": {
+        "item": "knightsofterrafirma:bronze_secutor_helm"
+    },
+    "second_input": {
+        "item": "knightsofterrafirma:bronze_secutor_visor"
+    },
+    "tier": 2,
+    "result": {
+        "item": "antiquelegacy:secutor_helmet",
+        "nbt": {}
+    },
+    "combine_forging_bonus": false
+}

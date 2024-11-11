@@ -1,0 +1,15 @@
+{
+    "type": "knightsofterrafirma:welding",
+    "first_input": {
+        "item": "tfc:metal/double_sheet/wrought_iron"
+    },
+    "second_input": {
+        "item": "tfc:metal/sheet/bronze"
+    },
+    "tier": 2,
+    "result": {
+        "item": "antiquelegacy:iron_thorax",
+        "nbt": {}
+    },
+    "combine_forging_bonus": false
+}
