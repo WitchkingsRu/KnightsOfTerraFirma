@@ -1,0 +1,30 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "  S",
+        " P ",
+        "T  "
+    ],
+    "key": {
+        "S": {
+            "item": "knightsofterrafirma:bronze_antique_sword_blade"
+        },
+        "P": {
+            "item": "magistuarmory:hilt"
+        },
+        "T": {
+            "item": "knightsofterrafirma:bronze_antique_hilt"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:bronze_antique_sword",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 2
+}

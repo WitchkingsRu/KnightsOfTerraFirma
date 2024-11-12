@@ -1,0 +1,26 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        " S",
+        "P "
+    ],
+    "key": {
+        "S": {
+            "item": "knightsofterrafirma:bismuth_bronze_single_edged_sword_blade"
+        },
+        "P": {
+            "item": "magistuarmory:hilt"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:bismuth_bronze_single_edged_sword",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 1
+}

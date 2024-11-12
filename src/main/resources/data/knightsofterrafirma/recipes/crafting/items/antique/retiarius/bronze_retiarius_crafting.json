@@ -1,0 +1,26 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "A",
+        "P"
+    ],
+    "key": {
+        "P": {
+            "item": "magistuarmory:pole"
+        },
+        "A": {
+            "item": "knightsofterrafirma:bronze_retiarius_head"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:bronze_retiarius",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 0
+}

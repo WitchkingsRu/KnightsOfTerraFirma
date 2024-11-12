@@ -1,0 +1,26 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "S",
+        "P"
+    ],
+    "key": {
+        "S": {
+            "item": "tfc:metal/javelin_head/bronze"
+        },
+        "P": {
+            "item": "magistuarmory:pole"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:bronze_antique_spear",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 0
+}

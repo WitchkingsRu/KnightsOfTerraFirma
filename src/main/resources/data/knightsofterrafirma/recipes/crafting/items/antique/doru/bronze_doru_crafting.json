@@ -1,0 +1,30 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "A",
+        "P",
+        "S"
+    ],
+    "key": {
+        "S": {
+            "item": "magistuarmory:hilt"
+        },
+        "P": {
+            "item": "magistuarmory:pole"
+        },
+        "A": {
+            "item": "tfc:metal/javelin_head/bronze"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:bronze_doru",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 0
+}
