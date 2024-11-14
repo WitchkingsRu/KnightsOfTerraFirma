@@ -4,9 +4,15 @@
         "item": "knightsofterrafirma:iron_bismuth_bronze_antique_sword"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 400
+        "fluid": "tfc:metal/bismuth_bronze",
+        "amount": 100
     },
-    "temperature": 1585,
+	"result_item": {
+		"stack": {
+			"item": "knightsofterrafirma:iron_antique_sword_blade",
+			"count": 1
+		}
+    },
+    "temperature": 970,
     "use_durability": true
 }

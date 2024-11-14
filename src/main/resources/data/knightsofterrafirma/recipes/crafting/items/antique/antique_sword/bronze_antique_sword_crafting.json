@@ -1,9 +1,8 @@
 {
     "type": "tfc:advanced_shaped_crafting",
     "pattern": [
-        "  S",
-        " P ",
-        "T  "
+        "TS",
+        "P ",
     ],
     "key": {
         "S": {

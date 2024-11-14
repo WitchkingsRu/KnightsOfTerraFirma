@@ -2,22 +2,22 @@
     "type": "tfc:advanced_shaped_crafting",
     "pattern": [
         "TS",
-        "P ",
+        "P "
     ],
     "key": {
         "S": {
-            "item": "knightsofterrafirma:bismuth_bronze_antique_sword_blade"
+            "item": "knightsofterrafirma:iron_antique_dagger_blade"
         },
         "P": {
             "item": "magistuarmory:hilt"
         },
         "T": {
-            "item": "knightsofterrafirma:bismuth_bronze_antique_hilt"
+            "item": "knightsofterrafirma:bronze_antique_hilt"
         }
     },
     "result": {
         "stack": {
-            "item": "knightsofterrafirma:bismuth_bronze_antique_sword",
+            "item": "antiquelegacy:iron_antique_dagger",
             "nbt": {}
         },
         "modifiers": [
@@ -25,5 +25,5 @@
         ]
     },
     "input_row": 0,
-    "input_column": 2
+    "input_column": 1
 }
