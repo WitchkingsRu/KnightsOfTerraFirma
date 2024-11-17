@@ -2,7 +2,7 @@
     "type": "tfc:advanced_shaped_crafting",
     "pattern": [
         "TS",
-        "P ",
+        "P "
     ],
     "key": {
         "S": {
@@ -25,5 +25,5 @@
         ]
     },
     "input_row": 0,
-    "input_column": 2
+    "input_column": 1
 }
