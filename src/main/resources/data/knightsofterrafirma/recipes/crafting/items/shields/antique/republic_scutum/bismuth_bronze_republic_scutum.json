@@ -1,0 +1,33 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "HPT",
+        "PNP",
+        " PH"
+    ],
+    "key": {
+        "T": {
+            "item": "knightsofterrafirma:bismuth_bronze_shield_brace"
+        },
+        "P": {
+            "tag": "tfc:lumber"
+        },
+		"H": {
+            "item": "tfc:metal/ingot/bismuth_bronze"
+        },
+		"N": {
+            "tag": "forge:nuggets/bismuth_bronze"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:bismuth_bronze_republic_scutum",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 2
+}

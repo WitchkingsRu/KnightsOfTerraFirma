@@ -1,0 +1,33 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "HPT",
+        "PNP",
+        " PH"
+    ],
+    "key": {
+        "T": {
+            "item": "knightsofterrafirma:black_bronze_shield_brace"
+        },
+        "P": {
+            "tag": "tfc:lumber"
+        },
+		"H": {
+            "item": "tfc:metal/ingot/black_bronze"
+        },
+		"N": {
+            "tag": "forge:rods/black_bronze"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:black_bronze_tureos",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 2
+}

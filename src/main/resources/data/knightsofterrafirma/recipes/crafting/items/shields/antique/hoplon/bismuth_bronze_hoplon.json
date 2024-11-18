@@ -1,0 +1,28 @@
+{
+    "type": "tfc:advanced_shaped_crafting",
+    "pattern": [
+        "NHT"
+    ],
+    "key": {
+        "T": {
+            "item": "knightsofterrafirma:bismuth_bronze_shield_brace"
+        },
+		"H": {
+            "item": "minecraft:leather"
+        },
+		"N": {
+            "item": "tfc:metal/double_sheet/bismuth_bronze"
+        }
+    },
+    "result": {
+        "stack": {
+            "item": "knightsofterrafirma:bismuth_bronze_hoplon",
+            "nbt": {}
+        },
+        "modifiers": [
+            "tfc:copy_forging_bonus"
+        ]
+    },
+    "input_row": 0,
+    "input_column": 0
+}
