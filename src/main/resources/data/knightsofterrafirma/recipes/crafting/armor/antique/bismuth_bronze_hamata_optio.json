@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "cac",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:plates/bismuth_bronze"
+    },
+    "b": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "c": {
+      "tag": "magistuarmory:chainmails/iron"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_hamata_optio",
+    "count": 1
+  }
+}

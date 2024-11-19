@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "d d",
+    "cac",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:plates/bismuth_bronze"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "item": "knightsofterrafirma:bismuth_bronze_lamellar_rows"
+    },
+    "d": {
+      "tag": "forge:nuggets/bismuth_bronze"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_scale_thorax",
+    "count": 1
+  }
+}

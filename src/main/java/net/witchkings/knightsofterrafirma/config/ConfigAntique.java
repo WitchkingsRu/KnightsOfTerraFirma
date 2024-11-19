@@ -138,9 +138,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public AtticHelmetConfig() {
         }
@@ -152,9 +152,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public BellCuirassConfig() {
         }
@@ -166,9 +166,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public BeotianHelmetConfig() {
         }
@@ -180,9 +180,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public GalleaConfig() {
         }
@@ -194,9 +194,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public RidgeHelmetConfig() {
         }
@@ -208,9 +208,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public IronRidgeConfig() {
         }
@@ -222,9 +222,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public CoolusConfig() {
         }
@@ -236,9 +236,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public IntercisaConfig() {
         }
@@ -250,9 +250,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public IronIntercisaConfig() {
         }
@@ -264,9 +264,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public MelosConfig() {
         }
@@ -278,9 +278,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public IronMelosConfig() {
         }
@@ -292,9 +292,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public MontefortinoHelmetConfig() {
         }
@@ -306,9 +306,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public MusculeCuirassConfig() {
         }
@@ -320,9 +320,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public NiederbieberHelmetConfig() {
         }
@@ -334,9 +334,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public PhyrigianHelmetConfig() {
         }
@@ -348,9 +348,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public PilosClosetConfig() {
         }
@@ -362,9 +362,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public PilosConfig() {
         }
@@ -376,9 +376,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public IronPilosConfig() {
         }
@@ -390,7 +390,7 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
         public int chestplateDefense = 3;
 
@@ -404,9 +404,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 450;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public IronSquamataConfig() {
         }
@@ -418,9 +418,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 400;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public LateHamataConfig() {
         }
@@ -432,9 +432,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public RomanParadeHelmetConfig() {
         }
@@ -446,9 +446,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public ApuloCorinthianHelmetConfig() {
         }
@@ -460,9 +460,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public ChalcidianHelmetConfig() {
         }
@@ -474,9 +474,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public CorinthianHelmetConfig() {
         }
@@ -488,9 +488,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int leggingsDurability = 600;
+        public int leggingsDurability = 250;
         @RequiresRestart
-        public int leggingsDefense = 3;
+        public int leggingsDefense = 1;
 
         public GreekGreavesConfig() {
         }
@@ -502,9 +502,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public HamataConfig() {
         }
@@ -516,9 +516,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public HamataOptioConfig() {
         }
@@ -530,9 +530,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public HeddernheimHelmetConfig() {
         }
@@ -544,9 +544,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public IllirianHelmetConfig() {
         }
@@ -558,9 +558,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public IronNiederbieberHelmetConfig() {
         }
@@ -572,9 +572,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public MurmilloHelmetConfig() {
         }
@@ -586,9 +586,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public MusculataConfig() {
         }
@@ -600,9 +600,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public OfficerSquamataConfig() {
         }
@@ -614,9 +614,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public OpenAtticHelmetConfig() {
         }
@@ -628,9 +628,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public ProvocatorHelmetConfig() {
         }
@@ -642,9 +642,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public SecutorHelmetConfig() {
         }
@@ -656,9 +656,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 450;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 5;
 
         public SegmentataConfig() {
         }
@@ -670,9 +670,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public ThracianHelmetConfig() {
         }
@@ -684,7 +684,7 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 250;
         @RequiresRestart
         public int chestplateDefense = 3;
 
@@ -698,7 +698,7 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 250;
         @RequiresRestart
         public int chestplateDefense = 3;
 
@@ -712,7 +712,7 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 250;
         @RequiresRestart
         public int chestplateDefense = 3;
 
@@ -726,7 +726,7 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 300;
         @RequiresRestart
         public int chestplateDefense = 3;
 
@@ -740,7 +740,7 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 300;
         @RequiresRestart
         public int chestplateDefense = 3;
 
@@ -754,9 +754,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 400;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public IronLeftManikaConfig() {
         }
@@ -768,9 +768,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 400;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public IronRightManikaConfig() {
         }
@@ -782,9 +782,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public ScaleThoraxConfig() {
         }
@@ -796,9 +796,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public MarsOfTodiThoraxConfig() {
         }
@@ -810,9 +810,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 450;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 5;
 
         public IronThoraxConfig() {
         }
@@ -824,9 +824,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public KubanHelmetConfig() {
         }
@@ -838,9 +838,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int chestplateDurability = 600;
+        public int chestplateDurability = 350;
         @RequiresRestart
-        public int chestplateDefense = 3;
+        public int chestplateDefense = 4;
 
         public ScythianScaleThoraxConfig() {
         }
@@ -852,9 +852,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public ScythianAtticHelmetConfig() {
         }
@@ -866,9 +866,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public ScythianScaleHelmetConfig() {
         }
@@ -880,9 +880,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public IronScythianScaleHelmetConfig() {
         }
@@ -894,9 +894,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int leggingsDurability = 600;
+        public int leggingsDurability = 300;
         @RequiresRestart
-        public int leggingsDefense = 3;
+        public int leggingsDefense = 1;
 
         public RomanGreavesConfig() {
         }
@@ -908,9 +908,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int leggingsDurability = 600;
+        public int leggingsDurability = 400;
         @RequiresRestart
-        public int leggingsDefense = 3;
+        public int leggingsDefense = 2;
 
         public IronRomanGreavesConfig() {
         }
@@ -922,9 +922,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public CelticMontefortinoConfig() {
         }
@@ -936,9 +936,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public LaGorgeMelletConfig() {
         }
@@ -950,9 +950,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public AgenPortHelmetConfig() {
         }
@@ -964,9 +964,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 350;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 2;
 
         public SavaHelmetConfig() {
         }
@@ -978,9 +978,9 @@ public class ConfigAntique implements ConfigData{
         @RequiresRestart
         public float toughness = 1.25F;
         @RequiresRestart
-        public int helmetDurability = 600;
+        public int helmetDurability = 250;
         @RequiresRestart
-        public int helmetDefense = 3;
+        public int helmetDefense = 1;
 
         public WaterlooHelmetConfig() {
         }

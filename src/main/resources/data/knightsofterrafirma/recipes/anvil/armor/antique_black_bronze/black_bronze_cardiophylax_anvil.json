@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/black_bronze"
+    },
+    "result": {
+        "item": "knightsofterrafirma:black_bronze_cardiophylax",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "shrink_any",
+        "bend_not_last",
+        "draw_last"
+    ],
+    "apply_forging_bonus": true
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a a",
+    "cbc",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "tag": "forge:plates/black_bronze"
+    },
+    "c": {
+      "tag": "magistuarmory:chainmails/iron"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_bronze_hamata",
+    "count": 1
+  }
+}

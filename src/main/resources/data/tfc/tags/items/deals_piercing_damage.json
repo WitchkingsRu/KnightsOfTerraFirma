@@ -6,6 +6,7 @@
         "#knightsofterrafirma:weapons/guisarme",
         "#knightsofterrafirma:weapons/pike",
         "#knightsofterrafirma:weapons/shortsword",
-        "#knightsofterrafirma:weapons/stylet"
+        "#knightsofterrafirma:weapons/stylet",
+		"#knightsofterrafirma:weapons/antiquedagger"
     ]
 }

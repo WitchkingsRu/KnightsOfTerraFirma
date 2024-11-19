@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a a",
+    "ccc",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/black_bronze"
+    },
+    "b": {
+      "item": "minecraft:leather"
+    },
+    "c": {
+      "item": "knightsofterrafirma:black_bronze_lamellar_rows"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_bronze_scythian_scale_thorax",
+    "count": 1
+  }
+}

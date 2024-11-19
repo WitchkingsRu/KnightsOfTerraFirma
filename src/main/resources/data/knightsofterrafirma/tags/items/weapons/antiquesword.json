@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+	"antiquelegacy:iron_antique_sword",
+	"knightsofterrafirma:bronze_antique_sword",
+	"knightsofterrafirma:bismuth_bronze_antique_sword",
+	"knightsofterrafirma:black_bronze_antique_sword",
+	"knightsofterrafirma:iron_black_bronze_antique_sword",
+	"knightsofterrafirma:iron_bismuth_bronze_antique_sword"
+  ]
+}

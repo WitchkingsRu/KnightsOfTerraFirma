@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/bronze"
+    },
+    "result": {
+        "item": "antiquelegacy:greek_greaves",
+        "nbt": {}
+    },
+    "tier": 2,
+    "rules": [
+        "bend_any",
+        "bend_not_last",
+        "draw_last"
+    ],
+    "apply_forging_bonus": true
+}

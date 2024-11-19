@@ -38,10 +38,16 @@ public class ALArmor {
         ArmorModifier.modifyArmorType(AddonArmorTypes.BRONZE_MUSCLE_CUIRASS,
                 0, 0, ARMOR_CONFIG.MusculeCuirassConfig.chestplateDurability, 0,
                 0, 0, ARMOR_CONFIG.MusculeCuirassConfig.chestplateDefense, 0, 0, 0);
+        ArmorModifier.modifyArmorType(AddonArmorTypes.TINNED_MUSCLE_CUIRASS,
+                0, 0, ARMOR_CONFIG.MusculeCuirassConfig.chestplateDurability, 0,
+                0, 0, ARMOR_CONFIG.MusculeCuirassConfig.chestplateDefense, 0, 0, 0);
         ArmorModifier.modifyArmorType(AddonArmorTypes.BRONZE_NIEDERBIEBER_HELMET,
                 0, 0, 0, ARMOR_CONFIG.NiederbieberHelmetConfig.helmetDurability,
                 0, 0, 0, ARMOR_CONFIG.NiederbieberHelmetConfig.helmetDefense, 0, 0);
         ArmorModifier.modifyArmorType(AddonArmorTypes.BRONZE_PHRYGIAN_HELMET,
+                0, 0, 0, ARMOR_CONFIG.PhyrigianHelmetConfig.helmetDurability,
+                0, 0, 0, ARMOR_CONFIG.PhyrigianHelmetConfig.helmetDefense, 0, 0);
+        ArmorModifier.modifyArmorType(AddonArmorTypes.TINNED_PHRYGIAN_HELMET,
                 0, 0, 0, ARMOR_CONFIG.PhyrigianHelmetConfig.helmetDurability,
                 0, 0, 0, ARMOR_CONFIG.PhyrigianHelmetConfig.helmetDefense, 0, 0);
         ArmorModifier.modifyArmorType(AddonArmorTypes.BRONZE_PILOS,
@@ -72,8 +78,8 @@ public class ALArmor {
                 0, 0, 0, ARMOR_CONFIG.GalleaConfig.helmetDurability,
                 0, 0, 0, ARMOR_CONFIG.GalleaConfig.helmetDefense, 0, 0);
         ArmorModifier.modifyArmorType(AddonArmorTypes.GOLDEN_RIDGE_HELMET,
-                0, 0, 0, ARMOR_CONFIG.RidgeHelmetConfig.helmetDurability,
-                0, 0, 0, ARMOR_CONFIG.RidgeHelmetConfig.helmetDefense, 0, 0);
+                0, 0, 0, ARMOR_CONFIG.IronRidgeConfig.helmetDurability,
+                0, 0, 0, ARMOR_CONFIG.IronRidgeConfig.helmetDefense, 0, 0);
         ArmorModifier.modifyArmorType(AddonArmorTypes.GREEK_GREAVES,
                 0, ARMOR_CONFIG.GreekGreavesConfig.leggingsDurability, 0, 0,
                 0, ARMOR_CONFIG.GreekGreavesConfig.leggingsDefense, 0, 0, 0, 0);

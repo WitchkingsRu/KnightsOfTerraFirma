@@ -9,6 +9,16 @@
         "#knightsofterrafirma:weapons/lochaberaxe",
         "#knightsofterrafirma:weapons/ranseur",
         "#knightsofterrafirma:weapons/zweihander",
-		"#knightsofterrafirma:weapons/flamebladedsword"
+		"#knightsofterrafirma:weapons/flamebladedsword",
+		"#knightsofterrafirma:weapons/antiquesword",
+		"#knightsofterrafirma:weapons/celticsword",
+		"#knightsofterrafirma:weapons/gladius"
+		"#knightsofterrafirma:weapons/republic_gladius"
+		"#knightsofterrafirma:weapons/spatha"
+		"#knightsofterrafirma:weapons/early_spatha"
+		"#knightsofterrafirma:weapons/rhomphaia"
+		"#knightsofterrafirma:weapons/kopis",
+		"#knightsofterrafirma:weapons/singleedged",
+		"#knightsofterrafirma:weapons/gladiator"
     ]
 }

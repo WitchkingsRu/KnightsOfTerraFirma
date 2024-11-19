@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "tfc:metal/double_sheet/wrought_iron"
+    },
+    "result": {
+        "item": "antiquelegacy:iron_roman_greaves",
+        "nbt": {}
+    },
+    "tier": 3,
+    "rules": [
+        "bend_any",
+        "draw_not_last",
+        "bend_last"
+    ],
+    "apply_forging_bonus": true
+}
