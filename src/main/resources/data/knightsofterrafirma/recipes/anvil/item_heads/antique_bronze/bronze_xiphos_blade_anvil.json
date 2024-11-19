@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/sword_blade/bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:bronze_xiphos_blade",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "hit_any",
-        "bend_second_last",
-        "draw_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sword_blade/bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bronze_xiphos_blade",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "draw_last",
+    "bend_second_last",
+    "hit_any"
+  ]
 }

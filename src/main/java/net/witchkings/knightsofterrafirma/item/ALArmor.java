@@ -38,6 +38,9 @@ public class ALArmor {
         ArmorModifier.modifyArmorType(AddonArmorTypes.BRONZE_MUSCLE_CUIRASS,
                 0, 0, ARMOR_CONFIG.MusculeCuirassConfig.chestplateDurability, 0,
                 0, 0, ARMOR_CONFIG.MusculeCuirassConfig.chestplateDefense, 0, 0, 0);
+        ArmorModifier.modifyArmorType(AddonArmorTypes.LINOTHORAX,
+                0, 0, ARMOR_CONFIG.LinothoraxConfig.chestplateDurability, 0,
+                0, 0, ARMOR_CONFIG.LinothoraxConfig.chestplateDefense, 0, 0, 0);
         ArmorModifier.modifyArmorType(AddonArmorTypes.TINNED_MUSCLE_CUIRASS,
                 0, 0, ARMOR_CONFIG.MusculeCuirassConfig.chestplateDurability, 0,
                 0, 0, ARMOR_CONFIG.MusculeCuirassConfig.chestplateDefense, 0, 0, 0);
@@ -47,6 +50,7 @@ public class ALArmor {
         ArmorModifier.modifyArmorType(AddonArmorTypes.BRONZE_PHRYGIAN_HELMET,
                 0, 0, 0, ARMOR_CONFIG.PhyrigianHelmetConfig.helmetDurability,
                 0, 0, 0, ARMOR_CONFIG.PhyrigianHelmetConfig.helmetDefense, 0, 0);
+
         ArmorModifier.modifyArmorType(AddonArmorTypes.TINNED_PHRYGIAN_HELMET,
                 0, 0, 0, ARMOR_CONFIG.PhyrigianHelmetConfig.helmetDurability,
                 0, 0, 0, ARMOR_CONFIG.PhyrigianHelmetConfig.helmetDefense, 0, 0);

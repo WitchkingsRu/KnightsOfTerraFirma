@@ -1,11 +1,11 @@
 {
     "type": "tfc:heating",
     "ingredient": {
-        "item": "antiquelegacy:bronze_scale_thorax"
+        "item": "antiquelegacy:scale_thorax"
     },
     "result_fluid": {
         "fluid": "tfc:metal/bronze",
-        "amount": 400
+        "amount": 278
     },
     "temperature": 950,
     "use_durability": true

@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_sheet/bismuth_bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:bismuth_bronze_provocator_helm",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "draw_any",
-        "hit_not_last",
-        "bend_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/bismuth_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_provocator_helm",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "hit_not_last",
+    "draw_any"
+  ]
 }

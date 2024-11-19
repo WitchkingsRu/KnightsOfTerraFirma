@@ -1,0 +1,122 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": [
+        {
+            "item": "knightsofterrafirma:black_bronze_attic_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_beotian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_bell_cuirass"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_ridge_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_coolus"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_intercisa"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_melos"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_pilos"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_pilos_closet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_montefortino_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_muscle_cuirass"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_niederbieber_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_phrygian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_squamata"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_roman_parade_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_apulo_corinthian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_chalcidian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_corinthian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_greek_greaves"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_illirian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_murmillo_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_open_attic_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_provocator_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_secutor_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_thracian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_cardiophylax"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_scale_thorax"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_kuban_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_scythian_scale_thorax"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronze_scythian_scale_helmet"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronze_roman_greaves"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronze_celtic_montefortino_helmet"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronze_la_gorge_meillet"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronze_waterloo_helmet"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronze_left_gladiator_shoulder_pad_decoration"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronze_right_gladiator_shoulder_pad_decoration"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronze_left_hand_manika_decoration"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronze_right_hand_manika_decoration"
+        }
+    ],
+    "piercing": 5,
+    "slashing": 3,
+    "crushing": 3
+}

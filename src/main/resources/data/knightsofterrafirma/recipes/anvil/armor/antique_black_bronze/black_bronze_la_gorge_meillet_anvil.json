@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_sheet/black_bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:black_bronze_la_gorge_meillet",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "draw_any",
-        "hit_not_last",
-        "upset_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/black_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_bronze_la_gorge_meillet",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "upset_last",
+    "hit_not_last",
+    "draw_any"
+  ]
 }

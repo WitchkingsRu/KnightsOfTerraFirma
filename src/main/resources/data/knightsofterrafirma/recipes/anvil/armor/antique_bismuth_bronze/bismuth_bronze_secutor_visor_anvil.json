@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/sheet/bismuth_bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:bismuth_bronze_secutor_visor",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "hit_any",
-        "upset_not_last",
-        "punch_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/bismuth_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_secutor_visor",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "upset_not_last",
+    "hit_any"
+  ]
 }

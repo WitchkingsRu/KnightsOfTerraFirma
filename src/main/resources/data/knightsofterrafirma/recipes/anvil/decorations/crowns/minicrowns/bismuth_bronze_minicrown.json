@@ -1,16 +1,15 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/sheet/bismuth_bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:bismuth_bronze_minicrown_decoration"
-    },
-    "tier": 2,
-    "rules": [
-        "bend_third_last",
-        "bend_second_last",
-        "hit_last"
-    ],
-    "apply_forging_bonus": false
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/bismuth_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_minicrown_decoration"
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "bend_second_last",
+    "bend_third_last"
+  ]
 }

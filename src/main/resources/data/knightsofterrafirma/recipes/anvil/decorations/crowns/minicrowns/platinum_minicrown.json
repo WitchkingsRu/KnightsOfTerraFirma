@@ -1,16 +1,15 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "dfc:metal/sheet/platinum"
-    },
-    "result": {
-        "item": "knightsofterrafirma:platinum_minicrown_decoration"
-    },
-    "tier": 1,
-    "rules": [
-        "bend_third_last",
-        "bend_second_last",
-        "hit_last"
-    ],
-    "apply_forging_bonus": false
+  "type": "tfc:anvil",
+  "input": {
+    "item": "dfc:metal/sheet/platinum"
+  },
+  "result": {
+    "item": "knightsofterrafirma:platinum_minicrown_decoration"
+  },
+  "tier": 1,
+  "rules": [
+    "hit_last",
+    "bend_second_last",
+    "bend_third_last"
+  ]
 }

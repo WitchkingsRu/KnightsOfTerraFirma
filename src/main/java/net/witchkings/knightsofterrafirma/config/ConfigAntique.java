@@ -131,6 +131,8 @@ public class ConfigAntique implements ConfigData{
     public SavaHelmetConfig SavaHelmetConfig = new SavaHelmetConfig();
     @CollapsibleObject
     public WaterlooHelmetConfig WaterlooHelmetConfig = new WaterlooHelmetConfig();
+    @CollapsibleObject
+    public LinothoraxConfig LinothoraxConfig = new LinothoraxConfig();
 
     public static class AtticHelmetConfig {
         @RequiresRestart
@@ -843,6 +845,20 @@ public class ConfigAntique implements ConfigData{
         public int chestplateDefense = 4;
 
         public ScythianScaleThoraxConfig() {
+        }
+    }
+
+    public static class LinothoraxConfig {
+        @RequiresRestart
+        public boolean enabled = true;
+        @RequiresRestart
+        public float toughness = 1.25F;
+        @RequiresRestart
+        public int chestplateDurability = 100;
+        @RequiresRestart
+        public int chestplateDefense = 2;
+
+        public LinothoraxConfig() {
         }
     }
 

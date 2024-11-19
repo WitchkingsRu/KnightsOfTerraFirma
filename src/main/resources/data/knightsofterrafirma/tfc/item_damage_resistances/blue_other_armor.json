@@ -1,0 +1,33 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": [
+        {
+            "item": "knightsofterrafirma:blue_steel_gothic_boots"
+        },
+        {
+            "item": "knightsofterrafirma:blue_steel_gothic_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:blue_steel_gothic_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:blue_steel_sallet"
+        },
+        {
+            "item": "knightsofterrafirma:blue_steel_kastenbrust_boots"
+        },
+        {
+            "item": "knightsofterrafirma:blue_steel_kastenbrust_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:blue_steel_kastenbrust_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:blue_steel_grand_bascinet"
+        }
+       
+    ],
+    "piercing": 13,
+    "slashing": 13,
+    "crushing": 16
+}

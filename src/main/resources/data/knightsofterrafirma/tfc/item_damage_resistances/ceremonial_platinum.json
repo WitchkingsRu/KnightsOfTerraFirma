@@ -1,0 +1,18 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "ingredient": [
+    
+    {
+      "item": "knightsofterrafirma:platinum_steel_ceremonialarmet"
+    },
+    {
+      "item": "knightsofterrafirma:platinum_steel_ceremonial_boots"
+    },
+    {
+      "item": "knightsofterrafirma:platinum_steel_ceremonial_chestplate"
+    }
+  ],
+  "piercing": 6.5,
+  "slashing": 9.5,
+  "crushing": 8.5
+}

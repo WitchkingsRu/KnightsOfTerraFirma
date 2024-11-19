@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_ingot/wrought_iron"
-    },
-    "result": {
-        "item": "knightsofterrafirma:iron_rhomphaia_blade",
-        "nbt": {}
-    },
-    "tier": 3,
-    "rules": [
-        "bend_any",
-        "hit_not_last",
-        "draw_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_ingot/wrought_iron"
+  },
+  "result": {
+    "item": "knightsofterrafirma:iron_rhomphaia_blade",
+    "nbt": {}
+  },
+  "tier": 3,
+  "rules": [
+    "draw_last",
+    "hit_not_last",
+    "bend_any"
+  ]
 }

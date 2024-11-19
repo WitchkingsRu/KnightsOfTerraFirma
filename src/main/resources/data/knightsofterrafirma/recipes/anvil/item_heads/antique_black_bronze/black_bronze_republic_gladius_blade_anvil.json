@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "knightsofterrafirma:black_bronze_gladius_blade"
-    },
-    "result": {
-        "item": "knightsofterrafirma:black_bronze_republic_gladius_blade",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "draw_any",
-        "punch_second_last",
-        "hit_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "knightsofterrafirma:black_bronze_gladius_blade"
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_bronze_republic_gladius_blade",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "punch_second_last",
+    "draw_any"
+  ]
 }

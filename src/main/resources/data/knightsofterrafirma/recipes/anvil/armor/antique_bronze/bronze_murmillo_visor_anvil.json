@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/sheet/bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:bronze_murmillo_visor",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "hit_any",
-        "draw_not_last",
-        "shrink_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sheet/bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bronze_murmillo_visor",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "shrink_last",
+    "draw_not_last",
+    "hit_any"
+  ]
 }

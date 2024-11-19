@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_sheet/bronze"
-    },
-    "result": {
-        "item": "antiquelegacy:bronze_ridge_helmet",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "upset_any",
-        "draw_second_last",
-        "hit_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/bronze"
+  },
+  "result": {
+    "item": "antiquelegacy:bronze_ridge_helmet",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "draw_second_last",
+    "upset_any"
+  ]
 }

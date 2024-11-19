@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_sheet/black_bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:black_bronze_celtic_montefortino_helmet",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "draw_any",
-        "upset_second_last",
-        "punch_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/black_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_bronze_celtic_montefortino_helmet",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "punch_last",
+    "upset_second_last",
+    "draw_any"
+  ]
 }

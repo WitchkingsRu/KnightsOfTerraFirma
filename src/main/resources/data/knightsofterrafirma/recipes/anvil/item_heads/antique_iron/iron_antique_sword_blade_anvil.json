@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_ingot/wrought_iron"
-    },
-    "result": {
-        "item": "knightsofterrafirma:iron_antique_sword_blade",
-        "nbt": {}
-    },
-    "tier": 3,
-    "rules": [
-        "bend_any",
-        "draw_not_last",
-        "hit_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_ingot/wrought_iron"
+  },
+  "result": {
+    "item": "knightsofterrafirma:iron_antique_sword_blade",
+    "nbt": {}
+  },
+  "tier": 3,
+  "rules": [
+    "hit_last",
+    "draw_not_last",
+    "bend_any"
+  ]
 }

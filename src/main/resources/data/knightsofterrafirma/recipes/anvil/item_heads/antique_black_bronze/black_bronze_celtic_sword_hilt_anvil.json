@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/ingot/black_bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:black_bronze_celtic_sword_hilt",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "upset_any",
-        "punch_second_last",
-        "draw_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/ingot/black_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:black_bronze_celtic_sword_hilt",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "draw_last",
+    "punch_second_last",
+    "upset_any"
+  ]
 }

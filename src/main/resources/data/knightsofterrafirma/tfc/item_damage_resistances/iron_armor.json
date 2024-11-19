@@ -1,0 +1,134 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": [
+        {
+            "item": "antiquelegacy:bronzed_gallea"
+        },
+        {
+            "item": "antiquelegacy:gallea"
+        },
+        {
+            "item": "antiquelegacy:hamata"
+        },
+        {
+            "item": "antiquelegacy:hamata_optio"
+        },
+        {
+            "item": "antiquelegacy:gilded_gallea"
+        },
+        {
+            "item": "antiquelegacy:golden_ridge_helmet"
+        },
+        {
+            "item": "antiquelegacy:heddernheim_helmet"
+        },
+        {
+            "item": "antiquelegacy:iron_ridge_helmet"
+        },
+        {
+            "item": "antiquelegacy:iron_intercisa"
+        },
+        {
+            "item": "antiquelegacy:iron_melos"
+        },
+        {
+            "item": "antiquelegacy:iron_pilos"
+        },
+        {
+            "item": "antiquelegacy:iron_niederbieber_helmet"
+        },
+        {
+            "item": "antiquelegacy:iron_squamata"
+        },
+        {
+            "item": "antiquelegacy:late_hamata"
+        },
+        {
+            "item": "antiquelegacy:musculata"
+        },
+        {
+            "item": "antiquelegacy:officer_squamata"
+        },
+        {
+            "item": "antiquelegacy:segmentata"
+        },
+        {
+            "item": "antiquelegacy:iron_thorax"
+        },
+        {
+            "item": "antiquelegacy:iron_scythian_scale_helmet"
+        },
+        {
+            "item": "antiquelegacy:iron_roman_greaves"
+        },
+        {
+            "item": "antiquelegacy:agen_port_helmet"
+        },
+        {
+            "item": "antiquelegacy:sava_helmet"
+        },
+		{
+            "item": "antiquelegacy:iron_left_hand_manika_decoration"
+        },
+		{
+            "item": "antiquelegacy:iron_right_hand_manika_decoration"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronzed_gallea"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_hamata"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_hamata_optio"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_heddernheim_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_iron_niederbieber_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_musculata"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_segmentata"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_iron_thorax"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_sava_helmet"
+        },
+		{
+            "item": "knightsofterrafirma:black_bronzed_gallea"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_hamata"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_hamata_optio"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_heddernheim_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_iron_niederbieber_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_musculata"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_segmentata"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_iron_thorax"
+        },
+        {
+            "item": "knightsofterrafirma:black_bronze_sava_helmet"
+        }
+    ],
+    "piercing": 5,
+    "slashing": 4,
+    "crushing": 5
+}

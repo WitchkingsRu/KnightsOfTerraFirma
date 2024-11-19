@@ -9,9 +9,8 @@
   },
   "tier": 2,
   "rules": [
-    "bend_any",
-	"hit_not_last",
-	"shrink_last"
-  ],
-  "apply_forging_bonus": false
+    "shrink_last",
+    "hit_not_last",
+    "bend_any"
+  ]
 }

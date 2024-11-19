@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/double_sheet/bronze"
-    },
-    "result": {
-        "item": "antiquelegacy:waterloo_helmet",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "hit_any",
-        "draw_second_last",
-        "bend_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/double_sheet/bronze"
+  },
+  "result": {
+    "item": "antiquelegacy:waterloo_helmet",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "draw_second_last",
+    "hit_any"
+  ]
 }

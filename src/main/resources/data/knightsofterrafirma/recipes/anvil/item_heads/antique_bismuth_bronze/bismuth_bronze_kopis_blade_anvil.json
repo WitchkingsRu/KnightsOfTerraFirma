@@ -1,17 +1,16 @@
 {
-    "type": "tfc:anvil",
-    "input": {
-        "item": "tfc:metal/sword_blade/bismuth_bronze"
-    },
-    "result": {
-        "item": "knightsofterrafirma:bismuth_bronze_kopis_blade",
-        "nbt": {}
-    },
-    "tier": 2,
-    "rules": [
-        "draw_any",
-        "shrink_not_last",
-        "bend_last"
-    ],
-    "apply_forging_bonus": true
+  "type": "tfc:anvil",
+  "input": {
+    "item": "tfc:metal/sword_blade/bismuth_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_kopis_blade",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "bend_last",
+    "shrink_not_last",
+    "draw_any"
+  ]
 }

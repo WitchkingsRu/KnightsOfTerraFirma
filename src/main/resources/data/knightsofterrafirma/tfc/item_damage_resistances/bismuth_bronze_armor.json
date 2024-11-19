@@ -1,0 +1,122 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": [
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_attic_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_beotian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_bell_cuirass"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_ridge_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_coolus"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_intercisa"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_melos"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_pilos"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_pilos_closet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_montefortino_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_muscle_cuirass"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_niederbieber_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_phrygian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_squamata"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_roman_parade_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_apulo_corinthian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_chalcidian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_corinthian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_greek_greaves"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_illirian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_murmillo_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_open_attic_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_provocator_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_secutor_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_thracian_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_cardiophylax"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_scale_thorax"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_kuban_helmet"
+        },
+        {
+            "item": "knightsofterrafirma:bismuth_bronze_scythian_scale_thorax"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronze_scythian_scale_helmet"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronze_roman_greaves"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronze_celtic_montefortino_helmet"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronze_la_gorge_meillet"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronze_waterloo_helmet"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronze_left_gladiator_shoulder_pad_decoration"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronze_right_gladiator_shoulder_pad_decoration"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronze_left_hand_manika_decoration"
+        },
+		{
+            "item": "knightsofterrafirma:bismuth_bronze_right_hand_manika_decoration"
+        }
+    ],
+    "piercing": 3,
+    "slashing": 3,
+    "crushing": 5
+}

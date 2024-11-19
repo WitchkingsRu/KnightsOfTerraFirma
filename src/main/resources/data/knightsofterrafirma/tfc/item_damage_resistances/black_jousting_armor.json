@@ -1,0 +1,20 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": [    
+	{
+      "item": "knightsofterrafirma:black_steel_jousting_boots"
+    },
+    {
+      "item": "knightsofterrafirma:black_steel_jousting_leggings"
+    },
+    {
+      "item": "knightsofterrafirma:black_steel_jousting_chestplate"
+    },
+    {
+      "item": "knightsofterrafirma:black_steel_stechhelm"
+    }
+    ],
+    "piercing": 18,
+    "slashing": 10,
+    "crushing": 12
+}

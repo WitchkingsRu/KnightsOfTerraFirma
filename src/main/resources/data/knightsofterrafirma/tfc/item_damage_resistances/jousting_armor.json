@@ -12,19 +12,8 @@
     },
     {
       "item": "magistuarmory:jousting_boots"
-    },
-    {
-      "item": "knightsofterrafirma:black_steel_jousting_boots"
-    },
-    {
-      "item": "knightsofterrafirma:black_steel_jousting_leggings"
-    },
-    {
-      "item": "knightsofterrafirma:black_steel_jousting_chestplate"
-    },
-    {
-      "item": "knightsofterrafirma:black_steel_stechhelm"
     }
+
   ],
   "piercing": 10.5,
   "slashing": 9.5,

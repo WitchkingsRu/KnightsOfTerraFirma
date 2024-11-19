@@ -1,0 +1,20 @@
+{
+    "__comment__": "This file was automatically created by mcresources",
+    "ingredient": [
+        {
+            "item": "knightsofterrafirma:platinum_black_steel_knight_boots"
+        },
+        {
+            "item": "knightsofterrafirma:platinum_black_steel_knight_leggings"
+        },
+        {
+            "item": "knightsofterrafirma:platinum_black_steel_knight_chestplate"
+        },
+        {
+            "item": "knightsofterrafirma:platinum_black_steel_armet"
+        }
+    ],
+    "piercing": 14.5,
+    "slashing": 10.5,
+    "crushing": 12.5
+}
