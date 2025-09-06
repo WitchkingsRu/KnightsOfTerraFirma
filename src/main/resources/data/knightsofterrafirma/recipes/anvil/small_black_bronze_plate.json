@@ -1,0 +1,17 @@
+{
+    "type": "tfc:anvil",
+    "input": {
+        "item": "knightsofterrafirma:black_bronze_plate"
+    },
+    "result": {
+        "item": "knightsofterrafirma:small_black_bronze_plate",
+        "count": 7
+    },
+    "tier": 2,
+    "rules": [
+        "hit_third_last",
+        "hit_second_last",
+        "hit_last"
+    ],
+    "apply_forging_bonus": false
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "b": {
+      "item": "knightsofterrafirma:small_bismuth_bronze_plate"
+    }
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_lamellar_rows",
+    "count": 1
+  }
+}
