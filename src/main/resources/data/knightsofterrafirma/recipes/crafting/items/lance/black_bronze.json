@@ -7,7 +7,7 @@
     ],
     "key": {
         "B": {
-            "item": "tfc:metal/ingot/black_bronze"
+            "tag": "forge:ingots/black_bronze"
         },
         "T": {
             "item": "tfc:metal/tuyere/black_bronze"

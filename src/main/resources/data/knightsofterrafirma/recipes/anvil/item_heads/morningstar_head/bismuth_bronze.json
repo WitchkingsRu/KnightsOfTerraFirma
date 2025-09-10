@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/mace_head/bismuth_bronze"
+    "tag": "forge:mace_heads/bismuth_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bismuth_bronze_morningstar_head",

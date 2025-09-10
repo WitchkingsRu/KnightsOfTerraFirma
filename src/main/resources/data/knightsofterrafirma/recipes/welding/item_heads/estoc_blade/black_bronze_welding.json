@@ -1,15 +1,15 @@
 {
-    "type": "knightsofterrafirma:welding",
-    "first_input": {
-        "item": "tfc:metal/sword_blade/black_bronze"
-    },
-    "second_input": {
-        "item": "tfc:metal/knife_blade/black_bronze"
-    },
-    "tier": 2,
-    "result": {
-        "item": "knightsofterrafirma:black_bronze_estoc_blade",
-        "nbt": {}
-    },
-    "combine_forging_bonus": true
+  "type": "knightsofterrafirma:welding",
+  "first_input": {
+    "tag": "forge:sword_heads/black_bronze"
+  },
+  "second_input": {
+    "tag": "forge:knife_heads/black_bronze"
+  },
+  "tier": 2,
+  "result": {
+    "item": "knightsofterrafirma:black_bronze_estoc_blade",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
 }

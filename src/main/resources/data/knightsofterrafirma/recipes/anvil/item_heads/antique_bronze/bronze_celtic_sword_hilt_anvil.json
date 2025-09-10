@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/ingot/bronze"
+    "tag": "forge:ingots/bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bronze_celtic_sword_hilt",

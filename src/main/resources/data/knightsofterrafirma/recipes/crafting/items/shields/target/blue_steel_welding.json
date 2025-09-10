@@ -1,15 +1,15 @@
 {
-    "type": "knightsofterrafirma:welding",
-    "first_input": {
-        "item": "tfc:metal/sheet/blue_steel"
-    },
-    "second_input": {
-        "item": "knightsofterrafirma:blue_steel_shield_brace"
-    },
-    "tier": 6,
-    "result": {
-        "item": "knightsofterrafirma:blue_steel_target",
-        "nbt": {}
-    },
-    "combine_forging_bonus": true
+  "type": "knightsofterrafirma:welding",
+  "first_input": {
+    "tag": "forge:sheets/blue_steel"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:blue_steel_shield_brace"
+  },
+  "tier": 6,
+  "result": {
+    "item": "knightsofterrafirma:blue_steel_target",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
 }

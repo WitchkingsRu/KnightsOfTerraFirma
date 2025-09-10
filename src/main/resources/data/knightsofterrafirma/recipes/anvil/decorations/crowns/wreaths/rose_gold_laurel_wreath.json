@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sheet/rose_gold"
+    "tag": "forge:sheets/rose_gold"
   },
   "result": {
     "item": "knightsofterrafirma:rose_gold_laurel_wreath_decoration"

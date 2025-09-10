@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_sheet/red_steel"
+    "tag": "forge:double_sheets/red_steel"
   },
   "result": {
     "item": "knightsofterrafirma:red_steel_kastenbrust_boots",

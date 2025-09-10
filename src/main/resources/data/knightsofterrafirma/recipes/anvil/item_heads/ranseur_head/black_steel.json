@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/knife_blade/black_steel"
+    "tag": "forge:knife_heads/black_steel"
   },
   "result": {
     "item": "knightsofterrafirma:black_steel_ranseur_head",

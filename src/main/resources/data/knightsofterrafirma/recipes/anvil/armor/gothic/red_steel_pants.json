@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sheet/red_steel"
+    "tag": "forge:sheets/red_steel"
   },
   "result": {
     "item": "knightsofterrafirma:red_steel_gothic_pants",

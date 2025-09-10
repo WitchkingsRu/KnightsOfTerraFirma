@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sheet/black_steel"
+    "tag": "forge:sheets/black_steel"
   },
   "result": {
     "item": "knightsofterrafirma:black_steel_laurel_wreath_decoration"

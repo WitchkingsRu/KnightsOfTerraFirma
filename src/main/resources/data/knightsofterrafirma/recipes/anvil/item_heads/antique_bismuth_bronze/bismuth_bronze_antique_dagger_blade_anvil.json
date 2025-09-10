@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/ingot/bismuth_bronze"
+    "tag": "forge:ingots/bismuth_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bismuth_bronze_antique_dagger_blade",

@@ -1,15 +1,15 @@
 {
-    "type": "knightsofterrafirma:welding",
-    "first_input": {
-        "item": "tfc:metal/double_ingot/copper"
-    },
-    "second_input": {
-        "item": "knightsofterrafirma:copper_shield_brace"
-    },
-    "tier": 1,
-    "result": {
-        "item": "magistuarmory:copper_buckler",
-        "nbt": {}
-    },
-    "combine_forging_bonus": true
+  "type": "knightsofterrafirma:welding",
+  "first_input": {
+    "tag": "forge:double_ingots/copper"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:copper_shield_brace"
+  },
+  "tier": 1,
+  "result": {
+    "item": "magistuarmory:copper_buckler",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
 }

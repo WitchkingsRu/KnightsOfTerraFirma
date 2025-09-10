@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/ingot/steel"
+    "tag": "forge:ingots/steel"
   },
   "result": {
     "item": "knightsofterrafirma:norman_helmet_nose",

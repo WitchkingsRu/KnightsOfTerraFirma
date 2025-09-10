@@ -1,15 +1,15 @@
 {
-    "type": "knightsofterrafirma:welding",
-    "first_input": {
-        "item": "tfc:metal/sheet/copper"
-    },
-    "second_input": {
-        "item": "knightsofterrafirma:copper_shield_brace"
-    },
-    "tier": 1,
-    "result": {
-        "item": "magistuarmory:copper_target",
-        "nbt": {}
-    },
-    "combine_forging_bonus": true
+  "type": "knightsofterrafirma:welding",
+  "first_input": {
+    "tag": "forge:sheets/copper"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:copper_shield_brace"
+  },
+  "tier": 1,
+  "result": {
+    "item": "magistuarmory:copper_target",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
 }

@@ -1,15 +1,15 @@
 {
-    "type": "knightsofterrafirma:welding",
-    "first_input": {
-        "item": "tfc:metal/sheet/bismuth_bronze"
-    },
-    "second_input": {
-        "item": "knightsofterrafirma:bismuth_bronze_shield_brace"
-    },
-    "tier": 2,
-    "result": {
-        "item": "knightsofterrafirma:bismuth_bronze_target",
-        "nbt": {}
-    },
-    "combine_forging_bonus": true
+  "type": "knightsofterrafirma:welding",
+  "first_input": {
+    "tag": "forge:sheets/bismuth_bronze"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:bismuth_bronze_shield_brace"
+  },
+  "tier": 2,
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_target",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
 }

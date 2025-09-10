@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sheet/wrought_iron"
+    "tag": "forge:sheets/wrought_iron"
   },
   "result": {
     "item": "antiquelegacy:iron_right_hand_manika_decoration",

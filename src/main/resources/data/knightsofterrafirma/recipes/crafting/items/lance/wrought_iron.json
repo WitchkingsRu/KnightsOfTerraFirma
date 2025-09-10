@@ -7,7 +7,7 @@
     ],
     "key": {
         "B": {
-            "item": "tfc:metal/ingot/wrought_iron"
+            "tag": "forge:ingots/wrought_iron"
         },
         "T": {
             "item": "tfc:metal/tuyere/wrought_iron"

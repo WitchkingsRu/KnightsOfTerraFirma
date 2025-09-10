@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_ingot/red_steel"
+    "tag": "forge:double_ingots/red_steel"
   },
   "result": {
     "item": "knightsofterrafirma:red_steel_lochaber_axe_blade",

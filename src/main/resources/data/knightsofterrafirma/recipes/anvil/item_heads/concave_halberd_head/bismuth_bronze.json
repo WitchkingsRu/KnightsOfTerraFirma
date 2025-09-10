@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_ingot/bismuth_bronze"
+    "tag": "forge:double_ingots/bismuth_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bismuth_bronze_concave_halberd_head",

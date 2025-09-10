@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_ingot/wrought_iron"
+    "tag": "forge:double_ingots/wrought_iron"
   },
   "result": {
     "item": "knightsofterrafirma:iron_rhomphaia_blade",

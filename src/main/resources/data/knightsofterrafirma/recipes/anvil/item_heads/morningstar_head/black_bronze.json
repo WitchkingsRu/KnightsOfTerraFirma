@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/mace_head/black_bronze"
+    "tag": "forge:mace_heads/black_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:black_bronze_morningstar_head",

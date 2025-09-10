@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_sheet/bismuth_bronze"
+    "tag": "forge:double_sheets/bismuth_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bismuth_bronze_kuban_helmet",

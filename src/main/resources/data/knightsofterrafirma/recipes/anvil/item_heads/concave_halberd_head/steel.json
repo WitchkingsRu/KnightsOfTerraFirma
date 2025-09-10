@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_ingot/steel"
+    "tag": "forge:double_ingots/steel"
   },
   "result": {
     "item": "knightsofterrafirma:steel_concave_halberd_head",

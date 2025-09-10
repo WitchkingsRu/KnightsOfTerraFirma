@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sword_blade/bismuth_bronze"
+    "tag": "forge:sword_heads/bismuth_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bismuth_bronze_katzbalger_blade",

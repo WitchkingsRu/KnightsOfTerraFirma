@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_ingot/black_bronze"
+    "tag": "forge:double_ingots/black_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:black_bronze_gladius_blade",

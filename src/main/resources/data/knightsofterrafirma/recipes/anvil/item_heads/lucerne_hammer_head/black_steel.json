@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_ingot/black_steel"
+    "tag": "forge:double_ingots/black_steel"
   },
   "result": {
     "item": "knightsofterrafirma:black_steel_lucerne_hammer_head",

@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_ingot/copper"
+    "tag": "forge:double_ingots/copper"
   },
   "result": {
     "item": "knightsofterrafirma:copper_lucerne_hammer_head",

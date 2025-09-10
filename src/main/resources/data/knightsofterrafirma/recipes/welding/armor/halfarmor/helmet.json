@@ -4,7 +4,7 @@
     "item": "knightsofterrafirma:halfarmor_helmet_unfinished"
   },
   "second_input": {
-    "item": "tfc:metal/sheet/steel"
+    "tag": "forge:sheets/steel"
   },
   "tier": 4,
   "result": {

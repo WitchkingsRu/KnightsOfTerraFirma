@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sword_blade/bronze"
+    "tag": "forge:sword_heads/bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bronze_xiphos_blade",

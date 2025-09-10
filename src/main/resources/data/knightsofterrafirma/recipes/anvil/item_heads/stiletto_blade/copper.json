@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/knife_blade/copper"
+    "tag": "forge:knife_heads/copper"
   },
   "result": {
     "item": "knightsofterrafirma:copper_stiletto_blade",

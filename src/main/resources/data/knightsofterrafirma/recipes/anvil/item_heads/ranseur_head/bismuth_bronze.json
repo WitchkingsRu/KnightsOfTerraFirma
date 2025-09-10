@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/knife_blade/bismuth_bronze"
+    "tag": "forge:knife_heads/bismuth_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bismuth_bronze_ranseur_head",

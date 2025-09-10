@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sheet/steel"
+    "tag": "forge:sheets/steel"
   },
   "result": {
     "item": "knightsofterrafirma:halfarmor_helmet_unfinished",

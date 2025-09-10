@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/mace_head/wrought_iron"
+    "tag": "forge:mace_heads/wrought_iron"
   },
   "result": {
     "item": "knightsofterrafirma:iron_morningstar_head",

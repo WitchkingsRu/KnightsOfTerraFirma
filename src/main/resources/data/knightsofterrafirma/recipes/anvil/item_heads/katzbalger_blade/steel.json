@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sword_blade/steel"
+    "tag": "forge:sword_heads/steel"
   },
   "result": {
     "item": "knightsofterrafirma:steel_katzbalger_blade",

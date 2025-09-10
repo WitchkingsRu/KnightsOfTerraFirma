@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/mace_head/copper"
+    "tag": "forge:mace_heads/copper"
   },
   "result": {
     "item": "knightsofterrafirma:copper_morningstar_head",

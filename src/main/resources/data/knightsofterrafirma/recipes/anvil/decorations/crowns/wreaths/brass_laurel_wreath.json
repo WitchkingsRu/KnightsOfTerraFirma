@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sheet/brass"
+    "tag": "forge:sheets/brass"
   },
   "result": {
     "item": "knightsofterrafirma:brass_laurel_wreath_decoration"

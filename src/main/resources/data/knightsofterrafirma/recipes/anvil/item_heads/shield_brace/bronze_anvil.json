@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_ingot/bronze"
+    "tag": "forge:double_ingots/bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bronze_shield_brace",

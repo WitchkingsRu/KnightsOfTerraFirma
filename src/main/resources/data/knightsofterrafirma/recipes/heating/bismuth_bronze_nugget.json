@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bismuth_bronze_nugget"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 5
+        "fluid": "gtceu:bismuth_bronze",
+        "amount": 16
     },
     "temperature": 970
 }

@@ -1,15 +1,15 @@
 {
-    "type": "knightsofterrafirma:welding",
-    "first_input": {
-        "item": "tfc:metal/double_ingot/wrought_iron"
-    },
-    "second_input": {
-        "item": "knightsofterrafirma:iron_shield_brace"
-    },
-    "tier": 3,
-    "result": {
-        "item": "magistuarmory:iron_buckler",
-        "nbt": {}
-    },
-    "combine_forging_bonus": true
+  "type": "knightsofterrafirma:welding",
+  "first_input": {
+    "tag": "forge:double_ingots/wrought_iron"
+  },
+  "second_input": {
+    "item": "knightsofterrafirma:iron_shield_brace"
+  },
+  "tier": 3,
+  "result": {
+    "item": "magistuarmory:iron_buckler",
+    "nbt": {}
+  },
+  "combine_forging_bonus": true
 }

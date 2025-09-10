@@ -7,7 +7,7 @@
     ],
     "key": {
         "B": {
-            "item": "tfc:metal/ingot/bismuth_bronze"
+            "tag": "forge:ingots/bismuth_bronze"
         },
         "T": {
             "item": "tfc:metal/tuyere/bismuth_bronze"

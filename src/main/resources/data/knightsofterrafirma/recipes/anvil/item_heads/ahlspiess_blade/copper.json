@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sword_blade/copper"
+    "tag": "forge:sword_heads/copper"
   },
   "result": {
     "item": "knightsofterrafirma:copper_ahlspiess_blade",

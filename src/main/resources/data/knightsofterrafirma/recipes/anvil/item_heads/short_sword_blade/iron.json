@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sword_blade/wrought_iron"
+    "tag": "forge:sword_heads/wrought_iron"
   },
   "result": {
     "item": "knightsofterrafirma:iron_short_sword_blade",

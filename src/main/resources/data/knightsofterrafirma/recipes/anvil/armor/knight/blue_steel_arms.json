@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sheet/blue_steel"
+    "tag": "forge:sheets/blue_steel"
   },
   "result": {
     "item": "knightsofterrafirma:blue_steel_knight_arms",

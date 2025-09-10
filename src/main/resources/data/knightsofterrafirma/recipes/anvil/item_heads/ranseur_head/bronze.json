@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/knife_blade/bronze"
+    "tag": "forge:knife_heads/bronze"
   },
   "result": {
     "item": "knightsofterrafirma:bronze_ranseur_head",

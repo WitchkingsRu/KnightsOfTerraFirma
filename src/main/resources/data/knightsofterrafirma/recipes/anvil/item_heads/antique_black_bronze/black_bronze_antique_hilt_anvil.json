@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/ingot/black_bronze"
+    "tag": "forge:ingots/black_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:black_bronze_antique_hilt",

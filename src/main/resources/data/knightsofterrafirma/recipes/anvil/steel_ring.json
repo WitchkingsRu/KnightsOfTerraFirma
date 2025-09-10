@@ -1,7 +1,7 @@
 {
     "type": "tfc:anvil",
     "input": {
-        "item": "magistuarmory:steel_nugget"
+        "tag": "forge:nuggets/steel"
     },
     "result": {
         "item": "magistuarmory:steel_ring"

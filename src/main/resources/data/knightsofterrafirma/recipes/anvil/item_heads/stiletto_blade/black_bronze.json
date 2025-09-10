@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/knife_blade/black_bronze"
+    "tag": "forge:knife_heads/black_bronze"
   },
   "result": {
     "item": "knightsofterrafirma:black_bronze_stiletto_blade",

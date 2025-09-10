@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/sheet/sterling_silver"
+    "tag": "forge:sheets/sterling_silver"
   },
   "result": {
     "item": "knightsofterrafirma:sterling_silver_laurel_wreath_decoration"

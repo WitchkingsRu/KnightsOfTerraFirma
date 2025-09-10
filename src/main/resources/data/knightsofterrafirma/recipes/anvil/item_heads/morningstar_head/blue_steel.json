@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/mace_head/blue_steel"
+    "tag": "forge:mace_heads/blue_steel"
   },
   "result": {
     "item": "knightsofterrafirma:blue_steel_morningstar_head",

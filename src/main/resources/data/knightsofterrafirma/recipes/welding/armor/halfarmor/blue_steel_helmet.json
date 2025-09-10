@@ -4,7 +4,7 @@
     "item": "knightsofterrafirma:blue_steel_halfarmor_helmet_unfinished"
   },
   "second_input": {
-    "item": "tfc:metal/sheet/blue_steel"
+    "tag": "forge:sheets/blue_steel"
   },
   "tier": 6,
   "result": {

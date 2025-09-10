@@ -1,7 +1,7 @@
 {
   "type": "tfc:anvil",
   "input": {
-    "item": "tfc:metal/double_sheet/steel"
+    "tag": "forge:double_sheets/steel"
   },
   "result": {
     "item": "magistuarmory:xivcenturyknight_boots",

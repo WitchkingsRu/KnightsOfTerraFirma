@@ -7,7 +7,7 @@
     ],
     "key": {
         "B": {
-            "item": "tfc:metal/ingot/copper"
+            "tag": "forge:ingots/copper"
         },
         "T": {
             "item": "tfc:metal/tuyere/copper"
