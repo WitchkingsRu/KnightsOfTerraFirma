@@ -4,14 +4,14 @@
         "item": "knightsofterrafirma:bismuth_bronze_musculata_upper_part"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 200
+        "fluid": "gtceu:bismuth_bronze",
+        "amount": 288
     },
-	"result_item": {
-		"stack": {
-			"item": "tfc:metal/sheet/wrought_iron",
-			"count": 1
-		}
+    "result_item": {
+        "stack": {
+            "item": "tfc:metal/sheet/wrought_iron",
+            "count": 1
+        }
     },
     "temperature": 985,
     "use_durability": true

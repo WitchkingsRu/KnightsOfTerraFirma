@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:chainmail_helmet_unfinished"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 162
+        "fluid": "gtceu:steel",
+        "amount": 233
     },
     "temperature": 1540
 }

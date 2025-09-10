@@ -4,8 +4,8 @@
         "item": "magistuarmory:stechhelm"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 800
+        "fluid": "gtceu:steel",
+        "amount": 1152
     },
     "temperature": 1540
 }

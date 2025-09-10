@@ -4,8 +4,8 @@
         "item": "magistuarmory:platemail_chestplate"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 416
+        "fluid": "gtceu:steel",
+        "amount": 599
     },
     "temperature": 1540,
     "use_durability": true

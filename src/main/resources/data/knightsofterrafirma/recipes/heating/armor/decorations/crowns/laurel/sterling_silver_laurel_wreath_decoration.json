@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:sterling_silver_laurel_wreath_decoration"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/sterling_silver",
-        "amount": 200
+        "fluid": "gtceu:sterling_silver",
+        "amount": 288
     },
     "temperature": 900
 }

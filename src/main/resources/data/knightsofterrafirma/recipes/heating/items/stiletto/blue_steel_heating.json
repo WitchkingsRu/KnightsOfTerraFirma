@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:blue_steel_stiletto"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/blue_steel",
-        "amount": 100
+        "fluid": "gtceu:blue_steel",
+        "amount": 144
     },
     "temperature": 1540,
     "use_durability": true

@@ -4,8 +4,8 @@
         "item": "magistuarmory:chainmail_leggings"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 270
+        "fluid": "gtceu:steel",
+        "amount": 388
     },
     "temperature": 1540,
     "use_durability": true

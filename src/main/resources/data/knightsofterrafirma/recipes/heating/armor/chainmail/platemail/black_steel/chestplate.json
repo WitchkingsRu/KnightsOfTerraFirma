@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_steel_platemail_chestplate"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_steel",
-        "amount": 416
+        "fluid": "gtceu:black_steel",
+        "amount": 599
     },
     "temperature": 1485,
     "use_durability": true

@@ -4,8 +4,8 @@
         "item": "magistuarmory:steel_nugget"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 5
+        "fluid": "gtceu:steel",
+        "amount": 16
     },
     "temperature": 1540
 }

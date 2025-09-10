@@ -4,8 +4,8 @@
         "item": "minecraft:iron_nugget"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 5
+        "fluid": "gtceu:cast_iron",
+        "amount": 16
     },
     "temperature": 1540
 }

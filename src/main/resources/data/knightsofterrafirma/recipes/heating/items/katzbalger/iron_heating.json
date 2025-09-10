@@ -4,8 +4,8 @@
         "item": "magistuarmory:iron_katzbalger"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 200
+        "fluid": "gtceu:iron",
+        "amount": 288
     },
     "temperature": 1585,
     "use_durability": true

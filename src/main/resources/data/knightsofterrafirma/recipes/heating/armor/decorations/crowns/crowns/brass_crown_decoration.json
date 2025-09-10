@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:brass_crown_decoration"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/brass",
-        "amount": 200
+        "fluid": "gtceu:brass",
+        "amount": 288
     },
     "temperature": 930
 }

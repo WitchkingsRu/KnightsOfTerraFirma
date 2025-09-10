@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:red_steel_heavy_war_hammer"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/red_steel",
-        "amount": 300
+        "fluid": "gtceu:red_steel",
+        "amount": 432
     },
     "temperature": 1540,
     "use_durability": true

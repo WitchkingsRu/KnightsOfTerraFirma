@@ -4,8 +4,8 @@
         "item": "antiquelegacy:bell_cuirass"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bronze",
-        "amount": 600
+        "fluid": "gtceu:bronze",
+        "amount": 864
     },
     "temperature": 950,
     "use_durability": true

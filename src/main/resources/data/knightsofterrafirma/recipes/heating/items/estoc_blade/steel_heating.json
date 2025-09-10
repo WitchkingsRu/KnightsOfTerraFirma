@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:steel_estoc_blade"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 300
+        "fluid": "gtceu:steel",
+        "amount": 432
     },
     "temperature": 1540,
     "use_durability": true

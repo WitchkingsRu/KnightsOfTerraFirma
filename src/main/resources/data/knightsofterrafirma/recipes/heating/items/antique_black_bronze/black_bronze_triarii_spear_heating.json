@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_bronze_triarii_spear"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_bronze",
-        "amount": 100
+        "fluid": "gtceu:black_bronze",
+        "amount": 144
     },
     "temperature": 1070,
     "use_durability": true

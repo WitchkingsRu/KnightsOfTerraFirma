@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_bronze_scythian_scale_helmet"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_bronze",
-        "amount": 504
+        "fluid": "gtceu:black_bronze",
+        "amount": 725
     },
     "temperature": 1070,
     "use_durability": true

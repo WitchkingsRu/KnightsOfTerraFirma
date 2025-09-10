@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:red_steel_gothic_leggings"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/red_steel",
-        "amount": 600
+        "fluid": "gtceu:red_steel",
+        "amount": 864
     },
     "temperature": 1540
 }

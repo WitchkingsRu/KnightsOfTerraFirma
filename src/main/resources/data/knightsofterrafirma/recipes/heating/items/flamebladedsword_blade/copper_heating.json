@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:copper_flame_bladed_sword_blade"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/copper",
-        "amount": 400
+        "fluid": "gtceu:copper",
+        "amount": 576
     },
     "temperature": 1080,
     "use_durability": true

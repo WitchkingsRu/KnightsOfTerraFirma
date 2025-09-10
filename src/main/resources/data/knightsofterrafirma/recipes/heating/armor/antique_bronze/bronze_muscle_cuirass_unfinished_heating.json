@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bronze_muscle_cuirass_unfinished"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bronze",
-        "amount": 400
+        "fluid": "gtceu:bronze",
+        "amount": 576
     },
     "temperature": 950,
     "use_durability": true

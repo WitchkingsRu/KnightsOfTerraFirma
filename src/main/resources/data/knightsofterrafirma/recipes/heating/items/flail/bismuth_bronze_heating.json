@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bismuth_bronze_flail"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 206
+        "fluid": "gtceu:bismuth_bronze",
+        "amount": 296
     },
     "temperature": 985,
     "use_durability": true

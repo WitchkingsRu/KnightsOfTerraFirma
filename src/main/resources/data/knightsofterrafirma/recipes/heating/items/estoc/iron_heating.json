@@ -4,8 +4,8 @@
         "item": "magistuarmory:iron_estoc"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 300
+        "fluid": "gtceu:iron",
+        "amount": 432
     },
     "temperature": 1585,
     "use_durability": true

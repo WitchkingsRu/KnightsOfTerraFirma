@@ -4,8 +4,8 @@
         "item": "magistuarmory:steel_ring"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 5
+        "fluid": "gtceu:steel",
+        "amount": 7
     },
     "temperature": 1540
 }

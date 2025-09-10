@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_steel_chainmail_torso"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_steel",
-        "amount": 216
+        "fluid": "gtceu:black_steel",
+        "amount": 311
     },
     "temperature": 1485
 }

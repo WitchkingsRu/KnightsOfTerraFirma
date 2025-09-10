@@ -4,14 +4,14 @@
         "item": "knightsofterrafirma:iron_bismuth_bronze_celtic_sword"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 100
+        "fluid": "gtceu:bismuth_bronze",
+        "amount": 144
     },
-	"result_item": {
-		"stack": {
-			"item": "knightsofterrafirma:iron_celtic_sword_blade",
-			"count": 1
-		}
+    "result_item": {
+        "stack": {
+            "item": "knightsofterrafirma:iron_celtic_sword_blade",
+            "count": 1
+        }
     },
     "temperature": 970,
     "use_durability": true

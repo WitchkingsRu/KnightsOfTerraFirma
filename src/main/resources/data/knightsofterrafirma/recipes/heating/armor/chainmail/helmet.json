@@ -4,8 +4,8 @@
         "item": "magistuarmory:chainmail_helmet"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 216
+        "fluid": "gtceu:steel",
+        "amount": 311
     },
     "temperature": 1540,
     "use_durability": true

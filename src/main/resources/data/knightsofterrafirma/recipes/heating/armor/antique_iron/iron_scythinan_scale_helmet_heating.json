@@ -4,8 +4,8 @@
         "item": "antiquelegacy:iron_scythian_scale_helmet"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 504
+        "fluid": "gtceu:cast_iron",
+        "amount": 725
     },
     "temperature": 1585,
     "use_durability": true

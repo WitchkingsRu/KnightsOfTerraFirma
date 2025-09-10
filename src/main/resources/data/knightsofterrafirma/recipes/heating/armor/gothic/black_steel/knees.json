@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_steel_gothic_knees"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_steel",
-        "amount": 400
+        "fluid": "gtceu:black_steel",
+        "amount": 576
     },
     "temperature": 1485
 }

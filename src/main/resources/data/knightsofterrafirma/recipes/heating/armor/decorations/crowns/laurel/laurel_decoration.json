@@ -4,8 +4,8 @@
         "item": "antiquelegacy:golden_laurel_wreath_decoration"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/gold",
-        "amount": 200
+        "fluid": "gtceu:gold",
+        "amount": 288
     },
     "temperature": 1060
 }

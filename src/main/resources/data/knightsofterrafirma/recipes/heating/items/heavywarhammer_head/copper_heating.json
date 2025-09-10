@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:copper_heavy_war_hammer_head"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/copper",
-        "amount": 300
+        "fluid": "gtceu:copper",
+        "amount": 432
     },
     "temperature": 1080,
     "use_durability": true

@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bismuth_bronze_bastard_sword_blade"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 300
+        "fluid": "gtceu:bismuth_bronze",
+        "amount": 432
     },
     "temperature": 985,
     "use_durability": true

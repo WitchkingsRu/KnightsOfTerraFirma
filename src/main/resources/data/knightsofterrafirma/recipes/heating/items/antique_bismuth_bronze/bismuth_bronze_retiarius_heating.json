@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bismuth_bronze_retiarius"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 200
+        "fluid": "gtceu:bismuth_bronze",
+        "amount": 288
     },
     "temperature": 985,
     "use_durability": true

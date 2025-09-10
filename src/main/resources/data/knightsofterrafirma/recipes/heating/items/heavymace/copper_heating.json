@@ -4,8 +4,8 @@
         "item": "magistuarmory:copper_heavymace"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/copper",
-        "amount": 300
+        "fluid": "gtceu:copper",
+        "amount": 432
     },
     "temperature": 1080,
     "use_durability": true

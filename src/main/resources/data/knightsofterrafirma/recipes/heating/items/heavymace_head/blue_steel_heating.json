@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:blue_steel_heavy_mace_head"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/blue_steel",
-        "amount": 300
+        "fluid": "gtceu:blue_steel",
+        "amount": 432
     },
     "temperature": 1540,
     "use_durability": true

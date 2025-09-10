@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:blue_steel_kastenbrust_chestplate"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/blue_steel",
-        "amount": 800
+        "fluid": "gtceu:blue_steel",
+        "amount": 1152
     },
     "temperature": 1540
 }

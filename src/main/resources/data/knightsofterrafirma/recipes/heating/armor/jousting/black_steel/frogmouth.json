@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_steel_stechhelm"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_steel",
-        "amount": 800
+        "fluid": "gtceu:black_steel",
+        "amount": 1152
     },
     "temperature": 1485
 }

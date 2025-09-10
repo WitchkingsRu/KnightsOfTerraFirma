@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:chainmail_knees"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 108
+        "fluid": "gtceu:steel",
+        "amount": 155
     },
     "temperature": 1540
 }

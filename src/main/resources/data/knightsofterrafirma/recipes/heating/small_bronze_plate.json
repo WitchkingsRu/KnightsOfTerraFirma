@@ -4,8 +4,8 @@
         "item": "antiquelegacy:small_bronze_plate"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bronze",
-        "amount": 14
+        "fluid": "gtceu:bronze",
+        "amount": 20
     },
     "temperature": 950
 }

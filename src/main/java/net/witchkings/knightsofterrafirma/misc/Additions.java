@@ -28,16 +28,14 @@ public class Additions {
 
     @SubscribeEvent
     public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-        if (Platform.isModLoaded("dfc")) {
             if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
                 tabData.getEntries().putAfter(ModdedItems.ROSE_GOLD_TEMPLATE.get().getDefaultInstance(), ModdedItems.PLATINUM_TEMPLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
             }
-        }
+
     }
     @SubscribeEvent
     public static void buildTabContentsModded(BuildCreativeModeTabContentsEvent tabData) {
         if (tabData.getTabKey() == CreativeTab.KOTF_ARMOR.getKey()) {
-            if (Platform.isModLoaded("dfc")) {
                 tabData.getEntries().putAfter(ModelledItems.ROSE_GOLD_STEEL_CEREMONIAL_BOOTS.get().getDefaultInstance(), AdditionalItems.PLATINUM_STEEL_ARMET_WITH_PLUME_SUPPLIER.get(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 tabData.getEntries().putAfter(AdditionalItems.PLATINUM_STEEL_ARMET_WITH_PLUME_SUPPLIER.get(), AdditionalItems.PLATINUM_STEEL_CEREMONIAL_CHESTPLATE.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 tabData.getEntries().putAfter(AdditionalItems.PLATINUM_STEEL_CEREMONIAL_CHESTPLATE.get().getDefaultInstance(), AdditionalItems.PLATINUM_STEEL_CEREMONIAL_BOOTS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
@@ -57,15 +55,11 @@ public class Additions {
                 tabData.getEntries().putAfter(AdditionalItems.REDSTEEL_PLATINUM_KNIGHT_CHESTPLATE.get().getDefaultInstance(), AdditionalItems.REDSTEEL_PLATINUM_KNIGHT_LEGGINGS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 tabData.getEntries().putAfter(AdditionalItems.REDSTEEL_PLATINUM_KNIGHT_LEGGINGS.get().getDefaultInstance(), AdditionalItems.REDSTEEL_PLATINUM_KNIGHT_BOOTS.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
-            }
-
         } else if (tabData.getTabKey() == ARMOR_DECORATIONS_RESOURCE_KEY) {
-            if (Platform.isModLoaded("dfc")) {
                 tabData.getEntries().putAfter(ModelledItems.ROSE_GOLD_CROWN_DECORATION.get().getDefaultInstance(), ModelledItems.PLATINUM_CROWN_DECORATION.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 tabData.getEntries().putAfter(ModelledItems.ROSE_GOLD_MINICROWN_DECORATION.get().getDefaultInstance(), ModelledItems.PLATINUM_MINICROWN_DECORATION.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
                 tabData.getEntries().putAfter(AntiqueItems.ROSE_GOLD_LAUREL_WREATH_DECORATION.get().getDefaultInstance(), AntiqueItems.PLATINUM_LAUREL_WREATH_DECORATION.get().getDefaultInstance(), CreativeModeTab.TabVisibility.PARENT_AND_SEARCH_TABS);
 
-            }
 
         }
     }

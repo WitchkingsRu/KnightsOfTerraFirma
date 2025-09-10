@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_steel_gothic_visor"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_steel",
-        "amount": 200
+        "fluid": "gtceu:black_steel",
+        "amount": 288
     },
     "temperature": 1485
 }

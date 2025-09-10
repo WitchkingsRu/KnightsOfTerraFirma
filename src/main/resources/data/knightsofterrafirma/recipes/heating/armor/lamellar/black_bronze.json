@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_bronze_lamellar_rows"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_bronze",
-        "amount": 84
+        "fluid": "gtceu:black_bronze",
+        "amount": 120
     },
     "temperature": 1070
 }

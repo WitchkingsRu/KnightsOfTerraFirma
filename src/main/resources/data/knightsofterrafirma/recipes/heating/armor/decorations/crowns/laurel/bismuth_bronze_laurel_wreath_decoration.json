@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bismuth_bronze_laurel_wreath_decoration"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 200
+        "fluid": "gtceu:bismuth_bronze",
+        "amount": 288
     },
     "temperature": 985
 }

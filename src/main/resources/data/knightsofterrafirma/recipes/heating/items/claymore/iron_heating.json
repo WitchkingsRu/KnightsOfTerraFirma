@@ -4,8 +4,8 @@
         "item": "magistuarmory:iron_claymore"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 400
+        "fluid": "gtceu:iron",
+        "amount": 576
     },
     "temperature": 1585,
     "use_durability": true

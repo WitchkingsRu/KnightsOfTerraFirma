@@ -4,8 +4,8 @@
         "item": "antiquelegacy:iron_chainmail"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 54
+        "fluid": "gtceu:cast_iron",
+        "amount": 77
     },
     "temperature": 1585
 }

@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:silver_minicrown_decoration"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/silver",
-        "amount": 200
+        "fluid": "gtceu:silver",
+        "amount": 288
     },
     "temperature": 961
 }

@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:halfarmor_helmet_unfinished"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 200
+        "fluid": "gtceu:steel",
+        "amount": 288
     },
     "temperature": 1540
 }

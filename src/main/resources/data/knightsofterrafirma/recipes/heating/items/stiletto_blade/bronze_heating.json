@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bronze_stiletto_blade"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bronze",
-        "amount": 100
+        "fluid": "gtceu:bronze",
+        "amount": 144
     },
     "temperature": 950,
     "use_durability": true

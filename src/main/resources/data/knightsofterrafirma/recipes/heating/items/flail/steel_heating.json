@@ -4,8 +4,8 @@
         "item": "magistuarmory:steel_chainmorgenstern"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 206
+        "fluid": "gtceu:steel",
+        "amount": 296
     },
     "temperature": 1540,
     "use_durability": true

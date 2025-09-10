@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:red_steel_stechhelm"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/red_steel",
-        "amount": 800
+        "fluid": "gtceu:red_steel",
+        "amount": 1152
     },
     "temperature": 1540
 }

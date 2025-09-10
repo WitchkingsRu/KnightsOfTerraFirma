@@ -4,19 +4,19 @@
         "item": "antiquelegacy:iron_niederbieber_helmet"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bronze",
-        "amount": 200
+        "fluid": "gtceu:bronze",
+        "amount": 288
     },
-	"result_item": {
-		"stack": {
-			"item": "tfc:metal/sheet/wrought_iron",
-			"count": 1
-		},
+    "result_item": {
+        "stack": {
+            "item": "tfc:metal/sheet/wrought_iron",
+            "count": 1
+        },
         "modifiers": [
-			{
-				"type": "tfc:copy_heat"
-			}
-		]
+            {
+                "type": "tfc:copy_heat"
+            }
+        ]
     },
     "temperature": 950,
     "use_durability": true

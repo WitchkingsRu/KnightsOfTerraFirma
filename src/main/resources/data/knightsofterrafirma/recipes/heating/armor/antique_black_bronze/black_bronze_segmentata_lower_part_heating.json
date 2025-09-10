@@ -4,14 +4,14 @@
         "item": "knightsofterrafirma:black_bronze_segmentata_lower_part"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_bronze",
-        "amount": 100
+        "fluid": "gtceu:black_bronze",
+        "amount": 144
     },
-	"result_item": {
-		"stack": {
-			"item": "tfc:metal/sheet/wrought_iron",
-			"count": 1
-		}
+    "result_item": {
+        "stack": {
+            "item": "tfc:metal/sheet/wrought_iron",
+            "count": 1
+        }
     },
     "temperature": 1070,
     "use_durability": true

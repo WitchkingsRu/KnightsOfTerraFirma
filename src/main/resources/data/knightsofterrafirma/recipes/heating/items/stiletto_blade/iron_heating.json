@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:iron_stiletto_blade"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 100
+        "fluid": "gtceu:iron",
+        "amount": 144
     },
     "temperature": 1585,
     "use_durability": true

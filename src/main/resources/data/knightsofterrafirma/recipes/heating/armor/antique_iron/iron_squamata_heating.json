@@ -4,8 +4,8 @@
         "item": "antiquelegacy:iron_squamata"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 420
+        "fluid": "gtceu:cast_iron",
+        "amount": 604
     },
     "temperature": 1585,
     "use_durability": true

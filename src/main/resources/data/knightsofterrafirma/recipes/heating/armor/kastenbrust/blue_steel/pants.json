@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:blue_steel_kastenbrust_pants"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/blue_steel",
-        "amount": 200
+        "fluid": "gtceu:blue_steel",
+        "amount": 288
     },
     "temperature": 1540
 }

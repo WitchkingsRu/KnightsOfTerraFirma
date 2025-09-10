@@ -4,8 +4,8 @@
         "item": "magistuarmory:face_helmet"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 470
+        "fluid": "gtceu:steel",
+        "amount": 676
     },
     "temperature": 1540,
     "use_durability": true

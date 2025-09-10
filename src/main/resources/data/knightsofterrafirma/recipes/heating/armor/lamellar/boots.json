@@ -4,8 +4,8 @@
         "item": "magistuarmory:lamellar_boots"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 168
+        "fluid": "gtceu:steel",
+        "amount": 241
     },
     "temperature": 1540
 }

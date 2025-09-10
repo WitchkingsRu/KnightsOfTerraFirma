@@ -4,8 +4,8 @@
         "item": "magistuarmory:lamellar_chestplate"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 672
+        "fluid": "gtceu:steel",
+        "amount": 967
     },
     "temperature": 1540
 }

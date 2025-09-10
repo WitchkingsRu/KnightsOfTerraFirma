@@ -4,14 +4,14 @@
         "item": "knightsofterrafirma:iron_bismuth_bronze_antique_dagger"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 100
+        "fluid": "gtceu:bismuth_bronze",
+        "amount": 144
     },
-	"result_item": {
-		"stack": {
-			"item": "knightsofterrafirma:iron_antique_dagger_blade",
-			"count": 1
-		}
+    "result_item": {
+        "stack": {
+            "item": "knightsofterrafirma:iron_antique_dagger_blade",
+            "count": 1
+        }
     },
     "temperature": 970,
     "use_durability": true

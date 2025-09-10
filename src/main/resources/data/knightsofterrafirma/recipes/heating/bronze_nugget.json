@@ -4,8 +4,8 @@
         "item": "antiquelegacy:bronze_nugget"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bronze",
-        "amount": 5
+        "fluid": "gtceu:bronze",
+        "amount": 16
     },
     "temperature": 950
 }

@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_steel_platemail_leggings"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_steel",
-        "amount": 562
+        "fluid": "gtceu:black_steel",
+        "amount": 809
     },
     "temperature": 1485,
     "use_durability": true

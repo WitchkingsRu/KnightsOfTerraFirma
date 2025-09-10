@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bismuth_bronze_scythian_scale_helmet"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bismuth_bronze",
-        "amount": 504
+        "fluid": "gtceu:bismuth_bronze",
+        "amount": 725
     },
     "temperature": 985,
     "use_durability": true

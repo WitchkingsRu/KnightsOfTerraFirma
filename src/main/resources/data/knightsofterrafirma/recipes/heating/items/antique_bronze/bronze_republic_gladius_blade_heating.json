@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bronze_republic_gladius_blade"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bronze",
-        "amount": 200
+        "fluid": "gtceu:bronze",
+        "amount": 288
     },
     "temperature": 950,
     "use_durability": true

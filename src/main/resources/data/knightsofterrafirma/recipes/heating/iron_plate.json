@@ -4,8 +4,8 @@
         "item": "antiquelegacy:iron_plate"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 100
+        "fluid": "gtceu:cast_iron",
+        "amount": 144
     },
     "temperature": 1585
 }

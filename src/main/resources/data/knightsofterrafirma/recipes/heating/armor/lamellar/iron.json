@@ -4,8 +4,8 @@
         "item": "antiquelegacy:iron_lamellar_rows"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 84
+        "fluid": "gtceu:cast_iron",
+        "amount": 120
     },
     "temperature": 1585
 }

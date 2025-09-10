@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bronze_heavy_mace_head"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bronze",
-        "amount": 300
+        "fluid": "gtceu:bronze",
+        "amount": 432
     },
     "temperature": 950,
     "use_durability": true

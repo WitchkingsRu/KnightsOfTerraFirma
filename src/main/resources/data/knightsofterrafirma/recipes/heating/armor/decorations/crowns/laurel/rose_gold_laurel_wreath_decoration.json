@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:rose_gold_laurel_wreath_decoration"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/rose_gold",
-        "amount": 200
+        "fluid": "gtceu:rose_gold",
+        "amount": 288
     },
     "temperature": 960
 }

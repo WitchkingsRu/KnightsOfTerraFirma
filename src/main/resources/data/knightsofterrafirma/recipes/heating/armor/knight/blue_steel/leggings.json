@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:blue_steel_knight_leggings"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/blue_steel",
-        "amount": 600
+        "fluid": "gtceu:blue_steel",
+        "amount": 864
     },
     "temperature": 1540
 }

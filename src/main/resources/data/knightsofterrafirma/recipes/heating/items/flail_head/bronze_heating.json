@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:bronze_flail_head"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/bronze",
-        "amount": 206
+        "fluid": "gtceu:bronze",
+        "amount": 296
     },
     "temperature": 950,
     "use_durability": true

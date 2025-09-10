@@ -4,8 +4,8 @@
         "item": "magistuarmory:chainmail_horse_armor"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 270
+        "fluid": "gtceu:steel",
+        "amount": 388
     },
     "temperature": 1540
 }

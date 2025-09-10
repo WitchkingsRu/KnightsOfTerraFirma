@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_steel_sallet"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_steel",
-        "amount": 600
+        "fluid": "gtceu:black_steel",
+        "amount": 864
     },
     "temperature": 1485
 }

@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:blue_steel_flail"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/blue_steel",
-        "amount": 206
+        "fluid": "gtceu:blue_steel",
+        "amount": 296
     },
     "temperature": 1540,
     "use_durability": true

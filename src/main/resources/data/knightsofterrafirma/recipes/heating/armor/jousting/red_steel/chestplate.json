@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:red_steel_jousting_chestplate"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/red_steel",
-        "amount": 1000
+        "fluid": "gtceu:red_steel",
+        "amount": 1440
     },
     "temperature": 1540
 }

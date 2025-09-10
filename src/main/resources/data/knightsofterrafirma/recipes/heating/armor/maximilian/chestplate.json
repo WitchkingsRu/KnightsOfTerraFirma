@@ -4,8 +4,8 @@
         "item": "magistuarmory:maximilian_chestplate"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 1000
+        "fluid": "gtceu:steel",
+        "amount": 1440
     },
     "temperature": 1540
 }

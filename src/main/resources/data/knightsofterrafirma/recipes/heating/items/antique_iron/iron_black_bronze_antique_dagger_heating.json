@@ -4,14 +4,14 @@
         "item": "knightsofterrafirma:iron_black_bronze_antique_dagger"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_bronze",
-        "amount": 100
+        "fluid": "gtceu:black_bronze",
+        "amount": 144
     },
-	"result_item": {
-		"stack": {
-			"item": "knightsofterrafirma:iron_antique_dagger_blade",
-			"count": 1
-		}
+    "result_item": {
+        "stack": {
+            "item": "knightsofterrafirma:iron_antique_dagger_blade",
+            "count": 1
+        }
     },
     "temperature": 1070,
     "use_durability": true

@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:red_steel_kastenbrust_knees"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/red_steel",
-        "amount": 400
+        "fluid": "gtceu:red_steel",
+        "amount": 576
     },
     "temperature": 1540
 }

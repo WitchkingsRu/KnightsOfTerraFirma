@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:norman_helmet_nose"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 100
+        "fluid": "gtceu:steel",
+        "amount": 144
     },
     "temperature": 1540
 }

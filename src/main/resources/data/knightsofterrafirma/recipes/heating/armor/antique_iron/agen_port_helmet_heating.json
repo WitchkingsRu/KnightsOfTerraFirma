@@ -4,8 +4,8 @@
         "item": "antiquelegacy:agen_port_helmet"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/cast_iron",
-        "amount": 400
+        "fluid": "gtceu:cast_iron",
+        "amount": 576
     },
     "temperature": 1585,
     "use_durability": true

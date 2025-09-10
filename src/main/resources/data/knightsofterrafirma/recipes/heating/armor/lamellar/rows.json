@@ -4,8 +4,8 @@
         "item": "magistuarmory:lamellar_rows"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 84
+        "fluid": "gtceu:steel",
+        "amount": 120
     },
     "temperature": 1540
 }

@@ -4,8 +4,8 @@
         "item": "magistuarmory:knight_boots"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 400
+        "fluid": "gtceu:steel",
+        "amount": 576
     },
     "temperature": 1540
 }

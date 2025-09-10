@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:copper_guisarme_head"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/copper",
-        "amount": 200
+        "fluid": "gtceu:copper",
+        "amount": 288
     },
     "temperature": 1080,
     "use_durability": true

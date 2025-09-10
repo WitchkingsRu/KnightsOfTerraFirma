@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_steel_flail_head"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_steel",
-        "amount": 206
+        "fluid": "gtceu:black_steel",
+        "amount": 296
     },
     "temperature": 1485,
     "use_durability": true

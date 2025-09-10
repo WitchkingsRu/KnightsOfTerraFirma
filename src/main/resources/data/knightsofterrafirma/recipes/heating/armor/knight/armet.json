@@ -4,8 +4,8 @@
         "item": "magistuarmory:armet"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 600
+        "fluid": "gtceu:steel",
+        "amount": 864
     },
     "temperature": 1540
 }

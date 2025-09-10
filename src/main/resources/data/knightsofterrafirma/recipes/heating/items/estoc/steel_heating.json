@@ -4,8 +4,8 @@
         "item": "magistuarmory:steel_estoc"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/steel",
-        "amount": 300
+        "fluid": "gtceu:steel",
+        "amount": 432
     },
     "temperature": 1540,
     "use_durability": true

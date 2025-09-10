@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:blue_steel_flame_bladed_sword_blade"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/blue_steel",
-        "amount": 400
+        "fluid": "gtceu:blue_steel",
+        "amount": 576
     },
     "temperature": 1540,
     "use_durability": true

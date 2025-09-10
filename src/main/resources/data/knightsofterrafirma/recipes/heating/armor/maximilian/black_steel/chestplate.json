@@ -4,8 +4,8 @@
         "item": "knightsofterrafirma:black_steel_maximilian_chestplate"
     },
     "result_fluid": {
-        "fluid": "tfc:metal/black_steel",
-        "amount": 1000
+        "fluid": "gtceu:black_steel",
+        "amount": 1440
     },
     "temperature": 1485
 }
