@@ -80,15 +80,11 @@ public class KnightsOfTerraFirma {
         if (Platform.isModLoaded("antiquelegacy")) {
             AntiqueTab.register(modEventBus);
         }
-        if (Platform.isModLoaded("dfc")) {
-            AdditionalItems.INSTANCE.init();
-            if (Platform.getEnv() == Dist.CLIENT)
-                ModModel.INSTANCE.init(AdditionalItems.INSTANCE);
+        AdditionalItems.INSTANCE.init();
+        if (Platform.getEnv() == Dist.CLIENT)
+            ModModel.INSTANCE.init(AdditionalItems.INSTANCE);
+        Additions.register(modEventBus);
 
-        }
-        if (Platform.isModLoaded("dfc")) {
-            Additions.register(modEventBus);
-        }
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
