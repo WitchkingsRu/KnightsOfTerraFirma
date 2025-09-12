@@ -7,7 +7,7 @@
     ],
     "key": {
         "T": {
-            "item": "tfc:metal/sheet/bronze"
+            "tag": "forge:ingots/bronze"
         },
         "P": {
             "item": "magistuarmory:wood_roundshield"

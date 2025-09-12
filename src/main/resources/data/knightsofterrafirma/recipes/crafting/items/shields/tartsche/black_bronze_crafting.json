@@ -7,7 +7,7 @@
     ],
     "key": {
         "T": {
-            "item": "tfc:metal/ingot/black_bronze"
+            "tag": "forge:ingots/black_bronze"
         },
         "P": {
             "item": "magistuarmory:wood_tartsche"

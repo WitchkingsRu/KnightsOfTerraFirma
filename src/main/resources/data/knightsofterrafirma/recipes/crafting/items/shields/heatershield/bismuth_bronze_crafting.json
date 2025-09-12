@@ -7,7 +7,7 @@
     ],
     "key": {
         "T": {
-            "item": "tfc:metal/ingot/bismuth_bronze"
+            "tag": "forge:ingots/bismuth_bronze"
         },
         "P": {
             "item": "magistuarmory:wood_heatershield"

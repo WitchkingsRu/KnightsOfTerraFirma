@@ -12,8 +12,8 @@
         "P": {
             "tag": "tfc:lumber"
         },
-		"H": {
-            "item": "tfc:metal/ingot/bismuth_bronze"
+        "H": {
+            "tag": "forge:ingots/bismuth_bronze"
         },
 		"N": {
             "tag": "forge:nuggets/iron"

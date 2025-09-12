@@ -10,8 +10,8 @@
 		"H": {
             "item": "minecraft:leather"
         },
-		"N": {
-            "item": "tfc:metal/double_sheet/bronze"
+        "N": {
+            "tag": "forge:double_sheets/bronze"
         }
     },
     "result": {

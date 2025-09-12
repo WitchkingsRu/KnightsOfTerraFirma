@@ -7,7 +7,7 @@
     ],
     "key": {
         "T": {
-            "item": "tfc:metal/sheet/copper"
+            "tag": "forge:ingots/copper"
         },
         "P": {
             "item": "magistuarmory:wood_roundshield"

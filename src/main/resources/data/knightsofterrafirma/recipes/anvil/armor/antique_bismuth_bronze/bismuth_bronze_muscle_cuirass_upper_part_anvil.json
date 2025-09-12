@@ -1,0 +1,16 @@
+{
+  "type": "tfc:anvil",
+  "input": {
+    "tag": "forge:double_sheets/bismuth_bronze"
+  },
+  "result": {
+    "item": "knightsofterrafirma:bismuth_bronze_muscle_cuirass_upper_part",
+    "nbt": {}
+  },
+  "tier": 2,
+  "rules": [
+    "hit_last",
+    "hit_not_last",
+    "hit_any"
+  ]
+}

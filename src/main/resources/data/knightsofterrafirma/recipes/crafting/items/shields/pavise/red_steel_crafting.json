@@ -7,7 +7,7 @@
     ],
     "key": {
         "T": {
-            "item": "tfc:metal/ingot/red_steel"
+            "tag": "forge:ingots/red_steel"
         },
         "P": {
             "item": "magistuarmory:wood_pavese"

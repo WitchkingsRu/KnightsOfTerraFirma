@@ -11,7 +11,7 @@
             "item": "minecraft:leather"
         },
 		"N": {
-            "item": "tfc:metal/double_sheet/bismuth_bronze"
+            "tag": "forge:double_sheets/bismuth_bronze"
         }
     },
     "result": {

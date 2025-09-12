@@ -12,8 +12,8 @@
         "P": {
             "tag": "tfc:lumber"
         },
-		"H": {
-            "item": "tfc:metal/ingot/black_bronze"
+        "H": {
+            "tag": "forge:ingots/black_bronze"
         },
 		"N": {
             "tag": "forge:rods/black_bronze"
