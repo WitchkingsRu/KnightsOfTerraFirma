@@ -4,7 +4,7 @@ import com.magistuarmory.api.item.ModItemsProvider;
 import com.magistuarmory.item.MedievalShieldItem;
 import com.magistuarmory.item.ModItemTier;
 import com.magistuarmory.item.ModItems;
-import com.magistuarmory.item.ShieldTypes;
+import com.magistuarmory.EpicKnights;
 import com.magistuarmory.item.armor.ArmorTypes;
 import com.magistuarmory.item.armor.DyeableWearableArmorDecorationItem;
 import com.magistuarmory.item.armor.MedievalArmorItem;
@@ -30,16 +30,16 @@ public class ModelledItems extends ModItemsProvider {
     public static final ArrayList<RegistrySupplier<MedievalShieldItem>> listShields = new ArrayList<>();
     public static void shieldRegistry() {
         for (ModItemTier material: Materials) {
-            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_heatershield", "heatershield", new Item.Properties(), material, true, true, ShieldTypes.HEATER_SHIELD));
-            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_target", "target", new Item.Properties(), material, false, true, ShieldTypes.TARGET));
-            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_buckler", "buckler", new Item.Properties(), material, false, true, ShieldTypes.BUCKLER));
-            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_rondache", "rondache", new Item.Properties(), material, false, true, ShieldTypes.RONDACHE));
-            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_tartsche", "tartsche", new Item.Properties(), material, true, true, ShieldTypes.TARTSCHE));
-            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_roundshield", "roundshield", new Item.Properties(), material, true, true, ShieldTypes.ROUND_SHIELD));
-            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_pavese", "pavese", new Item.Properties(), material, true, true, ShieldTypes.PAVISE));
-            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_kiteshield", "kiteshield", new Item.Properties(), material, true, true, ShieldTypes.KITE_SHIELD));
+            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_heatershield", "heatershield", new Item.Properties(), material, true, true, EpicKnights.CONFIG.shields.get("heaterShield")));
+            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_target", "target", new Item.Properties(), material, false, true, EpicKnights.CONFIG.shields.get("target")));
+            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_buckler", "buckler", new Item.Properties(), material, false, true, EpicKnights.CONFIG.shields.get("buckler")));
+            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_rondache", "rondache", new Item.Properties(), material, false, true, EpicKnights.CONFIG.shields.get("rondache")));
+            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_tartsche", "tartsche", new Item.Properties(), material, true, true, EpicKnights.CONFIG.shields.get("tartsche")));
+            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_roundshield", "roundshield", new Item.Properties(), material, true, true, EpicKnights.CONFIG.shields.get("roundShield")));
+            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_pavese", "pavese", new Item.Properties(), material, true, true, EpicKnights.CONFIG.shields.get("pavise")));
+            listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_kiteshield", "kiteshield", new Item.Properties(), material, true, true, EpicKnights.CONFIG.shields.get("kiteShield")));
             if (material != BISMUTH_BRONZE) {
-                listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_ellipticalshield", "ellipticalshield", new Item.Properties(), material, true, true, ShieldTypes.ELLIPTICAL_SHIELD));
+                listShields.add(INSTANCE.addMedievalShieldItem(material.getMaterialName() + "_ellipticalshield", "ellipticalshield", new Item.Properties(), material, true, true, EpicKnights.CONFIG.shields.get("ellipticalShield")));
             }
         }
     }
@@ -548,7 +548,7 @@ public class ModelledItems extends ModItemsProvider {
         add(BLUESTEEL_BARBUTE);
         add(BLUESTEEL_HALFARMOR_CHESTPLATE);
     }};
-    public static final RegistrySupplier<MedievalShieldItem>ELLIPTICAL_SHIELD = INSTANCE.addMedievalShieldItem("bismuth_bronze_ellipticalshield", "ellipticalshield", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, true, true, ShieldTypes.ELLIPTICAL_SHIELD);
+    public static final RegistrySupplier<MedievalShieldItem>ELLIPTICAL_SHIELD = INSTANCE.addMedievalShieldItem("bismuth_bronze_ellipticalshield", "ellipticalshield", new Item.Properties(), ModdedItems.BISMUTH_BRONZE, true, true, EpicKnights.CONFIG.shields.get("ellipticalShield"));
 
     public ModelledItems() {
         super(KnightsOfTerraFirma.MODID);
