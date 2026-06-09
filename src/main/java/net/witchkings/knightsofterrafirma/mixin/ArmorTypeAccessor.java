@@ -6,8 +6,6 @@ import org.spongepowered.asm.mixin.Mutable;
 import org.spongepowered.asm.mixin.gen.Accessor;
 import com.magistuarmory.item.armor.ArmorType; // Replace with the actual package and class for ArmorType
 
-import java.util.EnumMap;
-
 @Mixin(value = ArmorType.class, priority = 10000)
 public interface ArmorTypeAccessor {
 
@@ -29,16 +27,16 @@ public interface ArmorTypeAccessor {
 
 
     @Accessor("durability")
-    EnumMap<ArmorItem.Type, Integer> getDurability();
+    int[] getDurability();
 
     @Mutable
     @Accessor("durability")
-    void setDurability(EnumMap<ArmorItem.Type, Integer> durability);
+    void setDurability(int[] durability);
 
     @Accessor("defenseForSlot")
-    EnumMap<ArmorItem.Type, Integer> getDefenseForSlot();
+    int[] getDefenseForSlot();
 
     @Mutable
     @Accessor("defenseForSlot")
-    void setDefenseForSlot(EnumMap<ArmorItem.Type, Integer> defenseForSlot);
+    void setDefenseForSlot(int[] defenseForSlot);
 }
