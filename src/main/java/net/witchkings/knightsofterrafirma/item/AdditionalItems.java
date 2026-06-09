@@ -4,7 +4,6 @@ import com.magistuarmory.api.item.ModItemsProvider;
 import com.magistuarmory.item.MedievalShieldItem;
 import com.magistuarmory.item.ModItemTier;
 import com.magistuarmory.item.ModItems;
-import com.magistuarmory.item.ShieldTypes;
 import com.magistuarmory.item.armor.ArmorTypes;
 import com.magistuarmory.item.armor.MedievalArmorItem;
 import dev.architectury.event.events.common.EntityEvent;
