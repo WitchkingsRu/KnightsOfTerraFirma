@@ -26,17 +26,60 @@ public interface ArmorTypeAccessor {
     void setKnockbackResistance(float knockbackResistance);
 
 
-    @Accessor("durability")
-    int[] getDurability();
-
+    @Accessor("bootsDurability")
+    int getBootsDurability();
+ 
     @Mutable
-    @Accessor("durability")
-    void setDurability(int[] durability);
-
-    @Accessor("defenseForSlot")
-    int[] getDefenseForSlot();
-
+    @Accessor("bootsDurability")
+    void setBootsDurability(int value);
+ 
+    @Accessor("leggingsDurability")
+    int getLeggingsDurability();
+ 
     @Mutable
-    @Accessor("defenseForSlot")
-    void setDefenseForSlot(int[] defenseForSlot);
+    @Accessor("leggingsDurability")
+    void setLeggingsDurability(int value);
+ 
+    @Accessor("chestplateDurability")
+    int getChestplateDurability();
+ 
+    @Mutable
+    @Accessor("chestplateDurability")
+    void setChestplateDurability(int value);
+ 
+    @Accessor("helmetDurability")
+    int getHelmetDurability();
+ 
+    @Mutable
+    @Accessor("helmetDurability")
+    void setHelmetDurability(int value);
+
+
+    @Accessor("bootsDefense")
+    int getBootsDefense();
+ 
+    @Mutable
+    @Accessor("bootsDefense")
+    void setBootsDefense(int value);
+ 
+    @Accessor("leggingsDefense")
+    int getLeggingsDefense();
+ 
+    @Mutable
+    @Accessor("leggingsDefense")
+    void setLeggingsDefense(int value);
+ 
+    @Accessor("chestplateDefense")
+    int getChestplateDefense();
+ 
+    @Mutable
+    @Accessor("chestplateDefense")
+    void setChestplateDefense(int value);
+ 
+    @Accessor("helmetDefense")
+    int getHelmetDefense();
+ 
+    @Mutable
+    @Accessor("helmetDefense")
+    void setHelmetDefense(int value);
 }
