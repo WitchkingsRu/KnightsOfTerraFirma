@@ -120,11 +120,11 @@ dependencies {
 //    runtimeOnly (fg.deobf("curse.maven:fusion-connected-textures-854949:5129294"))
 //    runtimeOnly fg.deobf("curse.maven:decofirmacraft-1092211:5779684")
 
-    implementation fg.deobf("curse.maven:epic-knights-armor-and-weapons-509041:5780702")
+    implementation fg.deobf("curse.maven:epic-knights-armor-and-weapons-509041:7756534")
     implementation fg.deobf("curse.maven:architectury-api-419699:5137938")
     implementation fg.deobf("curse.maven:cloth-config-348521:4973441") //EK dependencies
 
-    implementation fg.deobf("curse.maven:epic-knights-antique-legacy-1033634:5496564")
+    implementation fg.deobf("curse.maven:epic-knights-antique-legacy-1033634:7665641")
 
     implementation fg.deobf("curse.maven:terrafirmacraft-302973:5571484")
     implementation fg.deobf("curse.maven:patchouli-306770:4966125") //TFC dependencies
