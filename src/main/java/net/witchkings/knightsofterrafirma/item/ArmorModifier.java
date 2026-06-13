@@ -3,7 +3,6 @@ package net.witchkings.knightsofterrafirma.item;
 import com.magistuarmory.item.armor.ArmorType;
 import net.witchkings.knightsofterrafirma.mixin.ArmorTypeAccessor;
 import net.minecraft.world.item.ArmorItem; // Adjust import
-import java.util.EnumMap;
 
 public class ArmorModifier {
     public static void modifyArmorType(ArmorType armorType,
@@ -13,21 +12,17 @@ public class ArmorModifier {
         // Cast to ArmorTypeAccessor to gain access to accessor methods
         ArmorTypeAccessor armorTypeAccessor = (ArmorTypeAccessor) (Object) armorType;
 
-        // Modify the durability EnumMap
-        EnumMap<ArmorItem.Type, Integer> durability = armorTypeAccessor.getDurability();
-        durability.put(ArmorItem.Type.BOOTS, bootsDurability);
-        durability.put(ArmorItem.Type.LEGGINGS, leggingsDurability);
-        durability.put(ArmorItem.Type.CHESTPLATE, chestplateDurability);
-        durability.put(ArmorItem.Type.HELMET, helmetDurability);
-        armorTypeAccessor.setDurability(durability);
+        // Modify the durability For Each Slot
+        armorTypeAccessor.setBootsDurability(bootsDurability);
+        armorTypeAccessor.setLeggingsDurability(leggingsDurability);
+        armorTypeAccessor.setChestplateDurability(chestplateDurability);
+        armorTypeAccessor.setHelmetDurability(helmetDurability);
 
-        // Modify the defenseForSlot EnumMap
-        EnumMap<ArmorItem.Type, Integer> defenseForSlot = armorTypeAccessor.getDefenseForSlot();
-        defenseForSlot.put(ArmorItem.Type.BOOTS, bootsDefense);
-        defenseForSlot.put(ArmorItem.Type.LEGGINGS, leggingsDefense);
-        defenseForSlot.put(ArmorItem.Type.CHESTPLATE, chestplateDefense);
-        defenseForSlot.put(ArmorItem.Type.HELMET, helmetDefense);
-        armorTypeAccessor.setDefenseForSlot(defenseForSlot);
+        // Modify the defense For Each Slot
+        armorTypeAccessor.setBootsDefense(bootsDefense);
+        armorTypeAccessor.setLeggingsDefense(leggingsDefense);
+        armorTypeAccessor.setChestplateDefense(chestplateDefense);
+        armorTypeAccessor.setHelmetDefense(helmetDefense);
 
         armorTypeAccessor.setToughness(toughness);
         armorTypeAccessor.setKnockbackResistance(knockbackResistance);

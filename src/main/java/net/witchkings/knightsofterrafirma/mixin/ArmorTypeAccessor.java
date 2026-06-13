@@ -4,9 +4,7 @@ import net.minecraft.world.item.ArmorItem;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Mutable;
 import org.spongepowered.asm.mixin.gen.Accessor;
-import com.magistuarmory.item.armor.ArmorType; // Replace with the actual package and class for ArmorType
-
-import java.util.EnumMap;
+import com.magistuarmory.item.armor.ArmorType;
 
 @Mixin(value = ArmorType.class, priority = 10000)
 public interface ArmorTypeAccessor {
@@ -28,17 +26,60 @@ public interface ArmorTypeAccessor {
     void setKnockbackResistance(float knockbackResistance);
 
 
-    @Accessor("durability")
-    EnumMap<ArmorItem.Type, Integer> getDurability();
+    @Accessor("bootsDurability")
+    int getBootsDurability();
 
     @Mutable
-    @Accessor("durability")
-    void setDurability(EnumMap<ArmorItem.Type, Integer> durability);
+    @Accessor("bootsDurability")
+    void setBootsDurability(int value);
 
-    @Accessor("defenseForSlot")
-    EnumMap<ArmorItem.Type, Integer> getDefenseForSlot();
+    @Accessor("leggingsDurability")
+    int getLeggingsDurability();
 
     @Mutable
-    @Accessor("defenseForSlot")
-    void setDefenseForSlot(EnumMap<ArmorItem.Type, Integer> defenseForSlot);
+    @Accessor("leggingsDurability")
+    void setLeggingsDurability(int value);
+
+    @Accessor("chestplateDurability")
+    int getChestplateDurability();
+
+    @Mutable
+    @Accessor("chestplateDurability")
+    void setChestplateDurability(int value);
+
+    @Accessor("helmetDurability")
+    int getHelmetDurability();
+
+    @Mutable
+    @Accessor("helmetDurability")
+    void setHelmetDurability(int value);
+
+
+    @Accessor("bootsDefense")
+    int getBootsDefense();
+
+    @Mutable
+    @Accessor("bootsDefense")
+    void setBootsDefense(int value);
+
+    @Accessor("leggingsDefense")
+    int getLeggingsDefense();
+
+    @Mutable
+    @Accessor("leggingsDefense")
+    void setLeggingsDefense(int value);
+
+    @Accessor("chestplateDefense")
+    int getChestplateDefense();
+
+    @Mutable
+    @Accessor("chestplateDefense")
+    void setChestplateDefense(int value);
+
+    @Accessor("helmetDefense")
+    int getHelmetDefense();
+
+    @Mutable
+    @Accessor("helmetDefense")
+    void setHelmetDefense(int value);
 }
